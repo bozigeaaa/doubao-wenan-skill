@@ -1,0 +1,401 @@
+{
+  "schemaVersion": 1,
+  "automationId": "automation-2",
+  "projectRoot": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main",
+  "startedAt": "2026-09-10T09:14:23.845Z",
+  "completedAt": "2026-09-10T09:14:23.903Z",
+  "timeZone": "Asia/Shanghai",
+  "executionMethod": "Node child_process.execFile",
+  "python": "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "commands": [
+    {
+      "action": "check",
+      "startedAt": "2026-09-10T09:14:23.854Z",
+      "completedAt": "2026-09-10T09:14:23.901Z",
+      "exitCode": 0,
+      "stdout": "{\"ready\": true, \"root\": \"D:\\\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\\\wenan-skill-main\", \"python\": \"C:\\\\Users\\\\Windows\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe\", \"today\": \"2026-09-10\"}\r\n",
+      "stderr": "",
+      "output": {
+        "ready": true,
+        "root": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main",
+        "python": "C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "today": "2026-09-10"
+      }
+    },
+    {
+      "action": "due",
+      "startedAt": "2026-09-10T09:14:23.856Z",
+      "completedAt": "2026-09-10T09:14:23.902Z",
+      "exitCode": 0,
+      "stdout": "{\"due\": false, \"date\": \"2026-09-10\", \"reason\": \"already_completed\", \"report\": \"D:\\\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\\\wenan-skill-main\\\\outputs\\\\news\\\\2026-09-10.json\"}\r\n",
+      "stderr": "",
+      "output": {
+        "due": false,
+        "date": "2026-09-10",
+        "reason": "already_completed",
+        "report": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\2026-09-10.json"
+      }
+    }
+  ],
+  "report": {
+    "path": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/2026-09-10.json",
+    "date": "2026-09-10",
+    "runStatus": "completed",
+    "total": 25,
+    "verified": 20,
+    "unconfirmed": 5
+  },
+  "html": {
+    "path": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/daily-news-demo.html",
+    "total": 25,
+    "allItemsContainCheckedAt": true,
+    "allItemsContainVerificationSources": true,
+    "allItemsMatchJson": true,
+    "hasVerificationTimeDisplay": true,
+    "hasVerificationSourcesDisplay": true,
+    "items": [
+      {
+        "id": "001",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.maersk.com/news/articles/2026/09/09/middle-east-operational-update-45",
+        "reviewUrls": [],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "002",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.acwapower.com/en/media-center/latest-news/acwa-led-consortium-reaches-commercial-operation-at-the-red-sea-the-world-s-largest-off-grid-renewable-utilities-system/",
+        "reviewUrls": [],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "003",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.prnewswire.com/news-releases/lida-group-expands-integrated-modular-construction-services-for-large-scale-global-projects-302870989.html",
+        "reviewUrls": [],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "004",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.hapag-lloyd.com/en/services-information/news/2026/08/shipping-from-north-europe-and-mediterranean-sea-to-jeddah--saud.headless.html",
+        "reviewUrls": [
+          [
+            "官方汇总页",
+            "https://www.hapag-lloyd.com/en/services-information/news/2026/03/live-ticker-middle-east-faq.html"
+          ]
+        ],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "005",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.big5constructsaudi.com/big-5-construct-saudi-pathway-to-sustainable-future/",
+        "reviewUrls": [],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "006",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2026/pif-launches-gulf-coast-development-company-to-deliver-an-integrated-coastal-destination-in-al-khafji-in-saudi-arabia-eastern-province/",
+        "reviewUrls": [
+          [
+            "The National同事件报道",
+            "https://www.thenationalnews.com/business/economy/2026/09/07/pif-launches-property-developer-for-al-khafji-coastal-project-near-kuwait/"
+          ]
+        ],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "007",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.spa.gov.sa/N2672410",
+        "reviewUrls": [
+          [
+            "Arab News刊载的SPA全文",
+            "https://www.arabnews.com/business/modon-offers-37m-investment-opportunity-to-develop-15-factories-in-tabuk-3001087"
+          ]
+        ],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "008",
+        "status": "unconfirmed",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.saudigulfprojects.com/2026/09/sabic-agri-nutrients-awards-3-465-billion-epc-contract-samsung-ea-ammonia-urea-project/",
+        "reviewUrls": [
+          [
+            "SABIC Agri-Nutrients新闻栏（未找到对应公告）",
+            "https://www.sabic-agrinutrients.com/en/news"
+          ]
+        ],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "009",
+        "status": "unconfirmed",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.meed.com/qatari-firm-wins-221m-qiddiya-stadium-mep-deal",
+        "reviewUrls": [
+          [
+            "Estithmar新闻栏（未找到同条公告）",
+            "https://www.estithmarholding.com/Home/LatestNewsSection"
+          ],
+          [
+            "ICE转载索引（注明来源MEED）",
+            "https://www.ice.it/it/news/notizie-dal-mondo/308805"
+          ]
+        ],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "010",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.saudigulfprojects.com/2026/09/edarat-secures-us52-7-million-award-from-mis-for-200mw-ai-data-center-project/",
+        "reviewUrls": [
+          [
+            "Argaam同事件报道",
+            "https://www.argaam.com/en/article/articledetail/id/1935122"
+          ]
+        ],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "011",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.saudigulfprojects.com/2026/09/saudi-arabia-qualifies-six-bidders-for-prince-naif-bin-abdulaziz-international-airport-ppp-project/",
+        "reviewUrls": [
+          [
+            "Enterprise完整报道及Matarat发布源链接",
+            "https://enterpriseam.com/ksa/2026/09/09/qassim-airport-redevelopment-narrowed-to-six-bidders/"
+          ]
+        ],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "012",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://paper.cnstock.com/html/2026-09/02/content_2264398.htm",
+        "reviewUrls": [],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "013",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.saudigulfprojects.com/2026/09/garuda-construction-signs-mou-for-development-of-93-storey-landmark-tower-in-jeddah/",
+        "reviewUrls": [
+          [
+            "Capital Market／Business Standard正文",
+            "https://www.business-standard.com/amp/markets/capital-market-news/garuda-construction-hits-the-roof-after-bagging-tower-construction-project-in-saudi-arabia-126090800580_1.html"
+          ]
+        ],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "014",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.saudigulfprojects.com/2026/09/saudis-ministry-of-energy-modon-sign-mou-for-cng-compression-and-distribution-station-in-dammam/",
+        "reviewUrls": [
+          [
+            "Al Eqtisadiah 9月6日报道",
+            "https://www.aleqt.com/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9-%D9%88%D9%85%D8%AF%D9%86-%D8%AA%D8%AA%D8%B9%D8%A7%D9%88%D9%86%D8%A7%D9%86-%D9%84%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A5%D9%85%D8%AF%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D8%BA%D8%A7%D8%B2-%D9%84%D9%84%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D9%8A%D8%A9-13904"
+          ]
+        ],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "015",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.saudigulfprojects.com/2026/09/desert-technologies-and-cts-group-launch-300mw-ai-data-center-venture-in-saudi-arabia/",
+        "reviewUrls": [
+          [
+            "Desert Technologies企业原帖",
+            "https://ae.linkedin.com/posts/desert-technologies_deserttechnologies-ctsdt-aiinfrastructure-activity-7501269682524499968-1UdF"
+          ]
+        ],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "016",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.saudigulfprojects.com/2026/08/saudi-arabia-launches-rfq-for-king-fahd-suburb-boulevard-ppp-project-in-eastern-province/",
+        "reviewUrls": [
+          [
+            "TradeArabia 8月29日完整报道",
+            "https://www.tradearabia.com/News/467073/Saudi-Arabia-launches-RFQs-for-King-Fahd-Suburb-Boulevard-project"
+          ]
+        ],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "017",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=sWywvHyvNpzthTatl%20NJww==",
+        "reviewUrls": [
+          [
+            "原发现渠道TRSEAH（时间字段未采用）",
+            "https://trseah.com.sa/tenders/30168"
+          ]
+        ],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "018",
+        "status": "unconfirmed",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.meed.com/chinese-contractor-wins-nhc-al-fursan-riyadh-deal",
+        "reviewUrls": [],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "019",
+        "status": "unconfirmed",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.meed.com/seven-tenders-dammam-water-park-and-hotel-project",
+        "reviewUrls": [],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "020",
+        "status": "unconfirmed",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.meed.com/consultant-wins-sar-phosphate-rail-project-management",
+        "reviewUrls": [
+          [
+            "ICE译述索引（注明来源MEED）",
+            "https://www.ice.it/it/news/notizie-dal-mondo/308799"
+          ]
+        ],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "021",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.meeza.net/meeza-signs-one-of-the-largest-agreements-in-the-it-sector-worth-over-qar-1-billion/",
+        "reviewUrls": [],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "022",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.saudigulfprojects.com/2026/08/saudi-arabias-1-8-gw-taiba-2-ccgt-project-achieves-first-fire-milestone/",
+        "reviewUrls": [
+          [
+            "EDF Middle East企业原帖",
+            "https://www.linkedin.com/posts/edfmiddleeast_weareedfme-activity-7497652330704723969-OCUP"
+          ]
+        ],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "023",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.saudigulfprojects.com/2026/08/tdp-wins-132kv-high-voltage-cable-contract-for-expo-2030-riyadh-power-infrastructure/",
+        "reviewUrls": [
+          [
+            "TDP公司公开更新（132kV电缆工程）",
+            "https://pk.linkedin.com/company/trading-and-development-partnership"
+          ]
+        ],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "024",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.dubaiholding.com/en/media-hub/press-releases/ahmed-bin-saeed-witnesses-signing-of-dubai-holdings-landmark-aed5-billion-construction-contract",
+        "reviewUrls": [],
+        "jsonHtmlMatch": true
+      },
+      {
+        "id": "025",
+        "status": "verified",
+        "htmlContainsCheckedAt": true,
+        "checkedAtMatches": true,
+        "htmlContainsVerificationSources": true,
+        "sourceUrl": "https://www.hapag-lloyd.com/en/services-information/news/2026/07/shipping-from-indian-subcontinent--pakistan-and-jeddah--saudi-ar.headless.html",
+        "reviewUrls": [],
+        "jsonHtmlMatch": true
+      }
+    ]
+  },
+  "newsFilesUnchanged": true,
+  "sha256Before": {
+    "json": "bb088aebcf8d3fdc4204825296d3d44e6d3b02fe4218b58ef78fd37eabd29dd2",
+    "html": "ed5aa775f13fef8599adc70401eddd8ba45ec6c9487199775299b5eb7facc7eb"
+  },
+  "sha256After": {
+    "json": "bb088aebcf8d3fdc4204825296d3d44e6d3b02fe4218b58ef78fd37eabd29dd2",
+    "html": "ed5aa775f13fef8599adc70401eddd8ba45ec6c9487199775299b5eb7facc7eb"
+  },
+  "networkCollectionPerformed": false,
+  "newsDataModified": false,
+  "automationCreated": false,
+  "passed": true
+}

@@ -1,0 +1,139 @@
+{
+  "windowStart": "2026-09-17T01:24:02.730Z",
+  "startedAt": "2026-09-18T06:01:53.995Z",
+  "completedAt": "2026-09-18T06:14:46.989Z",
+  "categories": [
+    {
+      "name": "工程项目",
+      "checked": [
+        "MEED最新列表及SAR原文",
+        "SaudiGulfProjects首页",
+        "ConstructionWeekSaudi首页与4条相关报道",
+        "Al Akaria、OSUS官方新闻",
+        "MOMAH设施管理会议公告",
+        "q-project、q-project-supplement及专项搜索"
+      ],
+      "result": "新增SFMA会前公告；SAR与Porta后续资格预审留为证据不足。Oxagon铁路与公路同阶段旧报道不重复新增。"
+    },
+    {
+      "name": "营地住宿",
+      "checked": [
+        "q-camp阿语",
+        "q-camp-en英文",
+        "Etimad两页列表",
+        "OSUS及当地媒体"
+      ],
+      "result": "未发现经核验的新营地住宿采购或开工事件；招聘、运输广告与非沙特住宿新闻排除。"
+    },
+    {
+      "name": "产品与材料",
+      "checked": [
+        "q-material英文",
+        "ArabNews商务列表",
+        "SaudiGulfProjects制造业及建设列表"
+      ],
+      "result": "BRKZ融资、铝需求预期及工厂数据为旧条目；厂家宣传、商业预测与不明SBC PDF不能作为新政策或工程事实。"
+    },
+    {
+      "name": "招投标",
+      "checked": [
+        "Etimad Page1/Page2",
+        "q-tender阿语",
+        "MEED SAR、可再生能源与机场原文",
+        "Porta后续预审专项检索",
+        "交易所公告入口及Firecrawl备用",
+        "METenders列表及一条详情备用"
+      ],
+      "result": "Etimad两页各12条且ID完全相同，相关6条上午已收录；不能声称读完24条或平台全部公告。METenders八条描述缺业主/地点与原始日期，详情导向订阅申请，仅作未识别线索日志，不据其更新时间增添新闻。"
+    },
+    {
+      "name": "项目合规",
+      "checked": [
+        "q-compliance阿语",
+        "q-official-compliance指定官方站点",
+        "MOMAH原文"
+      ],
+      "result": "没有新增已核验建设或消防法规；服务页面更新时间不是新政，旧采购法已有9月11日归档。SFMA属于行业活动，不当政策新闻。"
+    },
+    {
+      "name": "航运物流",
+      "checked": [
+        "Maersk新闻及霍尔木兹索引两工具",
+        "Hapag主页及备用",
+        "UKMTO首页和近期事件正文",
+        "SaudiGazette与Dawn原文",
+        "q-shipping、q-trend-review"
+      ],
+      "result": "新增UKMTO136-26及137-26两份正式通报；Trend号单方说法单独保留未通过，与137-26是否同一事件未知，不据记录数宣称有两次独立袭击。Maersk最新仍为48号更新，上午已收录。"
+    }
+  ],
+  "exclusions": [
+    {
+      "candidate": "OSUS Eye开工",
+      "reason": "CBN9月17日与CW9月15日发布/17日更新文字同属开工声明；官网尚无当期公告。未找到17日新阶段，排除本轮窗口之外旧声明的转载。",
+      "evidence": [
+        "c-osus.md",
+        "c-osus-cw.md",
+        "c-osus-official.md",
+        "c-osus-ar.md"
+      ]
+    },
+    {
+      "candidate": "Oxagon400公里货运铁路",
+      "reason": "CW明确引用MEED，9月14日征集/16日截止，与NEWS-20260916-023同阶段；不是独立新进展或独立复核。",
+      "evidence": [
+        "c-rail400.md"
+      ]
+    },
+    {
+      "candidate": "Maharah约6.6965亿里亚尔合同",
+      "reason": "全文为全国国民卫队卫生设施餐饮供给、管理运营服务，不是工程建设、营地住宿或设施维护采购。",
+      "evidence": [
+        "c-maharah.md"
+      ]
+    },
+    {
+      "candidate": "804座清真寺维护",
+      "reason": "原文9月15日，早于本轮常规补漏窗口，未发现新进展。",
+      "evidence": [
+        "c-mosques.md"
+      ]
+    },
+    {
+      "candidate": "SAR阿语复核报道",
+      "reason": "Annahar正文为5月13日，所述5月招标不能证明9月当前阶段。",
+      "evidence": [
+        "c-sar-ar-review.md"
+      ]
+    },
+    {
+      "candidate": "Saudi Build展会推广、BRKZ融资转载、海外无沙特关联项目、普通融资/军事航空/政治消息",
+      "reason": "旧阶段重复、宣传或与本轮工程营地范围无具体关联；不凑新增。"
+    }
+  ],
+  "limitations": [
+    "Google与GoogleNews直读失败，Firecrawl备用亦失败；以实际Firecrawl搜索和直接原站补漏。",
+    "X站内搜索普通抓取失败，Firecrawl不支持；外部site:x.com检索仅取得评论及既有港口统计，不视为站内完整检索。",
+    "MEED正文订阅受限；SAR官网401；Hapag备用仅框架；交易所普通访问拒绝、备用代理错误；均已保留具体请求结果。",
+    "UKMTO普通读取被拦，备用成功取得正文；同工具及同稿多次读取不作独立第二来源。",
+    "午间首批请求复用旧闭包导致两个上午列表文件被下午重读覆盖，已复制到14-00并单独写provenance-note；上午逐条原文和核验JSON未改动。"
+  ],
+  "counts": {
+    "newRecords": 6,
+    "newVerified": 3,
+    "newUnconfirmed": 3,
+    "verificationUpdates": 2,
+    "total": 20,
+    "verified": 15,
+    "unconfirmed": 5
+  },
+  "relatedUncertainClaims": [
+    {
+      "records": [
+        "NEWS-20260918-017",
+        "NEWS-20260918-018"
+      ],
+      "relation": "船名未披露，无法确认是否同一事件；第二条仅保留未证实的具体归属说法，不表示另一独立袭击。"
+    }
+  ]
+}

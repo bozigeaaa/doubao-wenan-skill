@@ -1,0 +1,56 @@
+{
+  "collectionDate": "2026-09-10",
+  "recordedAt": "2026-09-10T09:41:49.430Z",
+  "description": "根据本次实际保存的Scrapling正文读取与Firecrawl检索结果整理；记录整理时间不替代新闻的原核验时间。原始抓取内容保留在本机，公开交付只包含工具记录与原文链接。",
+  "receipts": [
+    {
+      "tool": "scrapling",
+      "captureFile": ".news-output/20260910-acwa.md",
+      "bytes": 13447,
+      "sha256": "2a71037a14b775e26c6ae6c6f5a1895dc3d30a7bef64c110ab0cdee85e8bf3c1",
+      "fileSavedAt": "2026-09-10T07:19:09.929Z"
+    },
+    {
+      "tool": "scrapling",
+      "captureFile": ".news-output/20260910-meed-qiddiya.md",
+      "bytes": 6565,
+      "sha256": "737d9194d35f2318bfb3a0cdfa5ea3b5f11a146e6a79ad48bb40a3cc83d9ad35",
+      "fileSavedAt": "2026-09-10T07:23:57.023Z"
+    },
+    {
+      "tool": "scrapling",
+      "captureFile": ".news-output/20260910-sg-garuda.md",
+      "bytes": 18415,
+      "sha256": "e608fa646de27a65997a557c18251c162149fc277e90be5e9e0c9c398ce79d8b",
+      "fileSavedAt": "2026-09-10T07:27:14.692Z"
+    },
+    {
+      "tool": "firecrawl",
+      "captureFile": ".firecrawl/news-20260910-camps.json",
+      "bytes": 3679,
+      "sha256": "85d4b7cbf4dea5d62cf064c289ba48790297ab1a9c6ce436741b9dec02a6fc11",
+      "fileSavedAt": "2026-09-10T07:18:39.577Z"
+    },
+    {
+      "tool": "firecrawl",
+      "captureFile": ".firecrawl/news-20260910-modular.json",
+      "bytes": 2844,
+      "sha256": "334c929db210686e5861663fc70482da0ec59ab9b3bec4b64553ee46510e9c5f",
+      "fileSavedAt": "2026-09-10T07:20:07.761Z"
+    },
+    {
+      "tool": "firecrawl",
+      "captureFile": ".firecrawl/news-20260910-shipping.json",
+      "bytes": 2881,
+      "sha256": "185cf4fc059e20a096405e3ab2aeb33e2d4a39873025057305606de189cc3db4",
+      "fileSavedAt": "2026-09-10T07:20:06.744Z"
+    },
+    {
+      "tool": "firecrawl",
+      "captureFile": ".firecrawl/news-20260910-procurement.json",
+      "bytes": 4665,
+      "sha256": "61d0893f23559877d255513464abd0ee7d25a32326abf117ccc54a6c333f6bf1",
+      "fileSavedAt": "2026-09-10T07:25:16.030Z"
+    }
+  ]
+}

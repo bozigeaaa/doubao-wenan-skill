@@ -1,0 +1,62 @@
+{
+  "completedAt": "2026-09-21T01:28:50.131Z",
+  "batch": "2026-09-21 09:00",
+  "newCount": 14,
+  "updatedCount": 0,
+  "relocatedCount": 0,
+  "totalVerified": 8,
+  "totalUnconfirmed": 6,
+  "oldArchivesUnchanged": true,
+  "oldArchiveCount": 9,
+  "evidenceFilesPresent": true,
+  "due": [
+    {
+      "due": false,
+      "date": "2026-09-21",
+      "slot": "09:00",
+      "reason": "slot_completed",
+      "report": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\2026-09-21.json"
+    },
+    {
+      "due": true,
+      "date": "2026-09-21",
+      "slot": "14:00",
+      "reason": "slot_missing_or_incomplete"
+    }
+  ],
+  "qa": {
+    "reports": [
+      {
+        "date": "2026-09-19",
+        "total": 1,
+        "verified": 1,
+        "unconfirmed": 0,
+        "proof": true,
+        "copy": true,
+        "actualTimes": true
+      },
+      {
+        "date": "2026-09-20",
+        "total": 10,
+        "verified": 6,
+        "unconfirmed": 4,
+        "proof": true,
+        "copy": true,
+        "actualTimes": true
+      },
+      {
+        "date": "2026-09-21",
+        "total": 3,
+        "verified": 1,
+        "unconfirmed": 2,
+        "proof": true,
+        "copy": true,
+        "actualTimes": true
+      }
+    ],
+    "historyPreserved": true,
+    "desktopMobileOverflow": false,
+    "backToTop": true,
+    "pageErrors": []
+  }
+}

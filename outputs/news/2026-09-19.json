@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-09-19",
+  "collectedAt": "2026-09-22T01:16:35.415Z",
+  "timeZone": "Asia/Shanghai",
+  "window": "9月21日14:00批次：9月21日下午直接进站与六类英阿语检索，窗口从9月19日00:00（北京时间）至当时实际检索时点；中断后于9月22日上午续跑，补做针对19—21日的查询及候选原文核验。未将9月22日当日新闻发现列为本批已完成范围。本档按已核实原文发布日期归入2026-09-19，实际补录于9月22日。",
+  "scope": "覆盖工程项目、营地住宿、产品材料、采购招投标、合规政策、航运物流六类；本档累计1条，已核验1条，证据不足0条。本轮新增0、核验更新0、迁移0；数量不是当日全网新闻总量。",
+  "channels": [
+    [
+      "Google／Google News",
+      "直访及备用均受限",
+      "9月21日Scrapling直访超时，Firecrawl备用亦失败；实际使用关键词搜索补漏，未把搜索工具等同站内访问。"
+    ],
+    [
+      "X",
+      "直访未完成；外部检索成功",
+      "9月21日普通方式连接失败，Firecrawl不支持该入口；9月22日执行针对9月19—21日的外部查询，未将社交摘要当作事实。"
+    ],
+    [
+      "MEED",
+      "最新列表与导语成功，正文订阅受限",
+      "9月21日直接读取最新列表，发现道路报道；两种方式均未读取订阅正文，后追到Etimad公告。"
+    ],
+    [
+      "Etimad",
+      "根列表、第二页与5项详情成功；第三页受限",
+      "9月21日读取根列表及第二页；9月22日读取5项详情和道路打印页。第三页Firecrawl显示无数据，Scrapling访问被拒绝，不能视为已完整覆盖该页。"
+    ],
+    [
+      "SaudiGulfProjects",
+      "首页与候选全文成功",
+      "直接读取9月21日首页和技术许可文章；同阶段钢管、数据中心等上午已收录内容不重复新增。"
+    ],
+    [
+      "Arab News／Saudi Gazette",
+      "备用或普通方式取得业务列表",
+      "9月21日业务列表及住宅报道全文可读；未以旧页眉或刷新日定档。"
+    ],
+    [
+      "SPA",
+      "备用取得新闻列表与原文",
+      "9月21日读取20日公园运维准备、球迷道路说明；公园运维收录，道路介绍无新工程阶段，排除。"
+    ],
+    [
+      "Momah／Balady",
+      "新闻列表成功；住宿页面受限",
+      "Momah备用取得列表，最新相关17日活动已收录；Balady普通方式失败，9月22日Firecrawl备用超时。未据此称无新规。"
+    ],
+    [
+      "Maersk／Hapag-Lloyd",
+      "Maersk原文成功；Hapag列表仅壳层",
+      "核对重箱附加费通知；Qilin调整只涉亚澳，本轮不纳入沙特行业范围。Hapag备用仍未读到所需新闻条目。"
+    ],
+    [
+      "ROSHN",
+      "官方新闻列表及正文成功",
+      "9月22日追到20日初步协议，按文章正文解决列表置顶日期差异；仅收录评估阶段。"
+    ],
+    [
+      "Technip Energies",
+      "官方技术许可稿成功",
+      "9月22日读取21日一手公告，Yahoo同一企业稿仅作辅助追溯，不计独立第二来源。"
+    ],
+    [
+      "Seetao",
+      "候选原文成功，排除旧闻",
+      "9月22日读取9月18日吉达项目转述，事件为9月15日已知工程阶段，不列周末新增。"
+    ]
+  ],
+  "retrievalTools": [
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://www.meed.com/latest",
+        "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-18",
+        "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-19&src=typed_query&f=live",
+        "https://news.google.com/search?q=Saudi%20construction%20when%3A3d&hl=en-US&gl=US&ceid=US%3Aen",
+        "https://www.arabnews.com/business",
+        "https://www.saudigulfprojects.com/",
+        "https://www.spa.gov.sa/en",
+        "https://saudigazette.com.sa/business",
+        "https://www.maersk.com/news/category/advisories",
+        "https://momah.gov.sa/ar/news",
+        "https://www.hapag-lloyd.com/en/services-information/news.html",
+        "https://www.maersk.com/news/articles/2026/09/21/temporary-operational-adjustment-qilin-service",
+        "https://www.meed.com/saudi-arabia-tenders-dariya-afif-road-dualisation",
+        "https://www.arabnews.com/business/pifs-roshn-tmg-saudi-sign-preliminary-deal-for-55k-home-riyadh-project-3002406",
+        "https://www.maersk.com/news/articles/2026/09/21/heavy-load-surcharge-far-east-asia-middle-east-f1w",
+        "https://www.saudigulfprojects.com/2026/09/technip-energies-and-sabic-sign-exclusive-agreement-for-global-licensing-of-ctr-ldpe-technology/",
+        "https://www.spa.gov.sa/en/N2681046",
+        "https://www.spa.gov.sa/en/N2681123",
+        "https://balady.gov.sa/ar/all-products/10543",
+        "https://www.ten.com/en/media/press-releases/technip-energies-announce-strategic-licensing-collaboration-agreement-sabic",
+        "https://www.seetaoa.com/details/278637.html",
+        "https://www.roshn.sa/news-and-events/press-releases/article-139",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=3"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-21/14-00/access-log.json；保留9月21日与9月22日的实际抓取时间；新旧原文分别存放，非重新抓取旧缓存。"
+    },
+    {
+      "tool": "firecrawl",
+      "status": "completed",
+      "entries": [
+        "https://tenders.etimad.sa/",
+        "https://news.google.com/search?q=Saudi%20construction%20when%3A3d&hl=en-US&gl=US&ceid=US%3Aen",
+        "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-18",
+        "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-19&src=typed_query&f=live",
+        "https://www.spa.gov.sa/en",
+        "https://www.arabnews.com/business",
+        "https://momah.gov.sa/ar/news",
+        "Saudi workers accommodation construction camp after:2026-09-18 before:2026-09-22",
+        "Saudi construction infrastructure contract project after:2026-09-18 before:2026-09-22",
+        "Saudi steel building materials prefabricated after:2026-09-18 before:2026-09-22",
+        "السعودية منافسات ترسية عقود after:2026-09-18 before:2026-09-22",
+        "Saudi port shipping carrier operational update after:2026-09-18 before:2026-09-22",
+        "السعودية اشتراطات البناء سكن العمال الدفاع المدني after:2026-09-18 before:2026-09-22",
+        "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-18 before:2026-09-20",
+        "Saudi (construction OR housing OR materials OR tender OR building regulation OR shipping) after:2026-09-18 before:2026-09-20",
+        "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-19 before:2026-09-21",
+        "Saudi (construction OR housing OR materials OR tender OR building regulation OR shipping) after:2026-09-19 before:2026-09-21",
+        "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-20 before:2026-09-22",
+        "Saudi (construction OR housing OR materials OR tender OR building regulation OR shipping) after:2026-09-20 before:2026-09-22",
+        "https://www.meed.com/saudi-arabia-tenders-dariya-afif-road-dualisation",
+        "https://www.hapag-lloyd.com/en/services-information/news.html",
+        "https://www.arabnews.com/business/pifs-roshn-tmg-saudi-sign-preliminary-deal-for-55k-home-riyadh-project-3002406",
+        "https://www.spa.gov.sa/en/N2681046",
+        "https://www.spa.gov.sa/en/N2681123",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2",
+        "site:ten.com \"SABIC\" \"CTR\" \"2026\"",
+        "\"ضريه\" \"عفيف\" \"ازدواج\" \"2026\"",
+        "Technip Energies SABIC CTR licensing September 2026",
+        "ROSHN TMG \"55,000\" \"September\" \"2026\"",
+        "طلعت مصطفى روشن \"سبتمبر\" \"2026\" \"اتفاق\"",
+        "\"Dariya\" \"Afif\" \"2026\" road",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=0MAWUnvnsxRxpflD%20vt47Q==",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=GE0RSff5piAY9M%20MI%20gewg==",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=LTs%20sD%20ysDuEWuwuRwpCpA==",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=HAYyHSRdqlTl*@@**NV9WCfv9w==",
+        "https://uk.finance.yahoo.com/news/technip-energies-announce-strategic-licensing-050000491.html",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=DXTrph*@@**MVUI1PJqMzpRTVQ==",
+        "(site:roshn.sa OR site:talaatmoustafa.com OR site:egx.com.eg) \"ROSHN\" \"2026\"",
+        "https://balady.gov.sa/ar/all-products/10543",
+        "\"Technip Energies\" \"Licensing Collaboration\" \"SABIC\" site:ten.com",
+        "https://www.roshn.sa/press-releases",
+        "Saudi \"September 19, 2026\" (construction OR camp OR materials OR tender OR regulation OR shipping)",
+        "السعودية \"19 سبتمبر 2026\" (مشاريع OR عمال OR مواد OR مناقصة OR اشتراطات OR شحن)",
+        "site:x.com (\"ضرية\" \"عفيف\" OR \"Saudi construction\") after:2026-09-18 before:2026-09-22",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=3",
+        "\"ضرية\" \"عفيف\" \"ازدواج\" \"2026\"",
+        "site:x.com Saudi construction after:2026-09-18 before:2026-09-22",
+        "https://tenders.etimad.sa/Tender/OpenTenderDetailsReportForVisitor?tenderIdString=Ft2MGEZgcFTMU3n4vIVEcg=="
+      ],
+      "evidence": "outputs/news/evidence-2026-09-21/14-00/access-log.json；保留9月21日与9月22日的实际抓取时间；新旧原文分别存放，非重新抓取旧缓存。"
+    }
+  ],
+  "items": [
+    {
+      "id": "001",
+      "category": "航运物流",
+      "tags": [
+        "航运物流",
+        "现场运营"
+      ],
+      "region": "沙特利雅得哈立德国王国际机场附近",
+      "title": "利雅得机场附近9月19日出现火焰与黑烟，现场报道获交叉核对",
+      "original": "Flames and black smoke seen rising near Riyadh airport",
+      "source": "Reuters／MarketScreener；France 24（含AFP现场报道）",
+      "sourceType": "通讯社现场影像与独立现场记者报道",
+      "url": "https://www.marketscreener.com/news/flames-and-black-smoke-seen-rising-near-riyadh-airport-ce785adad18dfe2c",
+      "published": "2026-09-19 12:15 EDT，12:16更新；France 24同日14:53发布、22:31更新（网页未注明时区）",
+      "event": "2026-09-19；机场附近燃料储存区域出现火情的现场报道",
+      "eventLabel": "事件／阶段",
+      "summary": "路透社9月19日发布的现场影像报道显示，利雅得机场附近出现大股黑烟，画面可见疑似储罐后方火焰。France 24同日文章援引法新社现场记者，报道机场附近一处带有阿美标识的燃料罐火灾已被扑灭。核验范围限于两家通讯社共同支撑的火情观察及地点。",
+      "review": "读取路透社转载全文与France 24正文，核对日期、地点、影像描述及AFP记者在场观察。两个工具不作为独立来源计数；独立依据为Reuters影像报道与AFP现场记者。",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "2026-09-21周一实际补录，按原文发布日期归档至2026-09-19",
+      "products": [],
+      "background": "与在沙工程人员出行及机场周边运营安排相关；不是营地采购或供货项目。",
+      "boundary": "未据此认定火灾原因、袭击责任、设施损失或机场当前运行状态；航班延误程度为当日报道，不代表本次采集时仍持续。",
+      "reviewUrls": [
+        [
+          "France 24／AFP现场报道",
+          "https://www.france24.com/en/middle-east/20260919-smoke-flames-seen-near-riyadh-airport-major-flight-disruptions-reported"
+        ]
+      ],
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-21/09-00/c-airport-reuters-fc.md",
+        "outputs/news/evidence-2026-09-21/09-00/c-airport-afp.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-21T01:21:52.608Z",
+        "method": "独立通讯社现场信息交叉核验",
+        "confirmedScope": "路透社9月19日发布的现场影像报道显示，利雅得机场附近出现大股黑烟，画面可见疑似储罐后方火焰。France 24同日文章援引法新社现场记者，报道机场附近一处带有阿美标识的燃料罐火灾已被扑灭。核验范围限于两家通讯社共同支撑的火情观察及地点。",
+        "reason": "读取路透社转载全文与France 24正文，核对日期、地点、影像描述及AFP记者在场观察。两个工具不作为独立来源计数；独立依据为Reuters影像报道与AFP现场记者。",
+        "missing": ""
+      }
+    }
+  ],
+  "run": {
+    "status": "completed",
+    "startedAt": "2026-09-21T06:04:45.037Z",
+    "completedAt": "2026-09-22T01:16:35.415Z",
+    "newCount": 0,
+    "updatedCount": 0,
+    "message": "9月21日下午批次中断，9月22日上午续跑完成候选核验与归档；本档新增0、核验更新0、迁移0。六类及三日已执行英阿语查询与官方/行业入口补漏；Etimad第三页、部分渠道直访与订阅正文仍受限，范围不宣称全量。旧条目未重查，原checkedAt全部保留。"
+  },
+  "backfill": {
+    "sourceDate": "2026-09-22",
+    "performedAt": "2026-09-22T01:16:35.415Z",
+    "basis": "承接9月21日下午周末补查，9月22日续跑归档；原文发布日期为本档日期，核验时间保持实际时间。"
+  },
+  "completedSlots": [],
+  "lastVerifiedAt": "2026-09-21T01:21:52.608Z"
+}

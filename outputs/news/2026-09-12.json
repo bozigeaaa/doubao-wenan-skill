@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-09-12",
+  "collectedAt": "2026-09-14T02:00:01.415Z",
+  "timeZone": "Asia/Shanghai",
+  "window": "2026-09-14手动重新检索，分别覆盖2026-09-12、13、14日至实际采集时点；本页按已核实原文日期归档，旧条目原核验时间保留。",
+  "scope": "工程项目、营地住宿、产品材料、采购招投标、合规政策、航运物流；收录行业信息与逐条未通过线索，不要求全部适配产品。",
+  "channels": [
+    [
+      "Google／Google News",
+      "Google直接搜索页可读；News失败",
+      "Google入口先Scrapling失败，Firecrawl取得搜索页；英文、阿语按12、13、14日检索补漏。"
+    ],
+    [
+      "X",
+      "直接访问失败",
+      "Scrapling失败，Firecrawl不支持；社交搜索索引不代替原文核验。"
+    ],
+    [
+      "MEED",
+      "最新目录可读",
+      "检查latest，最新列示日期11日；订阅正文限制仍存在。"
+    ],
+    [
+      "Etimad",
+      "首页可读；后续分页受限",
+      "新鲜首页仍为13日招标；第2页返回未加载模板，Scrapling返回访问拒绝，不能声称遍历全部招标。"
+    ],
+    [
+      "SPA／Arab News／Argaam",
+      "目录及多篇原文成功",
+      "找到机场设计、道路导改、生态投资、学校进度、建设展会等首轮漏项。"
+    ],
+    [
+      "公司与政府补充核验",
+      "部分受限",
+      "Miahona公告组件无数据，NCP与SCA入口失败，部分媒体拒绝访问。"
+    ],
+    [
+      "检索工具限制",
+      "已切换备用工具",
+      "Firecrawl本轮触发免费额度限制后，使用Scrapling和网页检索继续完成可执行复核。"
+    ]
+  ],
+  "retrievalTools": [
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://www.meed.com/latest",
+        "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-11+before%3A2026-09-15",
+        "https://news.google.com/search?q=Saudi%20construction%20after%3A2026-09-11%20before%3A2026-09-15&hl=en-US&gl=US&ceid=US%3Aen",
+        "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-12%20until%3A2026-09-15&f=live",
+        "https://www.arabnews.com/saudi-arabia",
+        "https://saudigazette.com.sa/saudi-arabia",
+        "https://www.argaam.com/ar",
+        "https://www.spa.gov.sa/en",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2",
+        "https://www.spa.gov.sa/N2674326",
+        "https://www.alarabiya.net/aswaq/companies/2026/09/13/%D8%A7%D9%84%D9%85%D8%A7%D8%AC%D8%AF%D9%8A%D8%A9-%D8%AA%D8%AA%D8%B9%D8%A7%D9%82%D8%AF-%D8%B9%D9%84%D9%89-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-296-%D9%88%D8%AD%D8%AF%D8%A9-%D8%B3%D9%83%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9",
+        "https://www.mubasher.info/news/4671227/-%D9%85%D9%8A%D8%A7%D9%87%D9%86%D8%A7-%D8%AA%D8%AD%D8%B5%D9%84-%D8%B9%D9%84%D9%89-%D9%85%D9%88%D8%A7%D9%81%D9%82%D8%A9-%D9%87%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%AD%D9%88%D8%A7%D8%B0-%D8%B9%D9%84%D9%89-%D8%B4%D8%A7%D8%B3-%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87-/"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-14/recheck-12-14/access-log.json及逐页原文；成功、空页与失败分开记录"
+    },
+    {
+      "tool": "firecrawl",
+      "status": "completed",
+      "entries": [
+        "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-12%20until%3A2026-09-15&f=live",
+        "Saudi construction infrastructure contracts projects after:2026-09-11 before:2026-09-13",
+        "Saudi construction infrastructure contracts projects after:2026-09-13 before:2026-09-15",
+        "Saudi construction infrastructure contracts projects after:2026-09-12 before:2026-09-14",
+        "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-11+before%3A2026-09-15",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1",
+        "السعودية مشاريع بنية تحتية \"13 سبتمبر 2026\"",
+        "السعودية مشاريع بنية تحتية \"12 سبتمبر 2026\"",
+        "السعودية مشاريع بنية تحتية \"14 سبتمبر 2026\"",
+        "https://www.arabnews.com/saudi-arabia",
+        "https://www.argaam.com/ar",
+        "https://www.spa.gov.sa/en",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2",
+        "https://www.arabnews.com/saudi-arabia/133m-investment-push-targets-green-projects-3001567",
+        "https://sca.sa/ar/news",
+        "https://www.spa.gov.sa/en/N2675486",
+        "https://www.spa.gov.sa/en/N2674295",
+        "https://www.arabnews.com/saudi-arabia/kings-college-riyadh-sedra-campus-set-to-open-in-2027-enhancing-education-quality-3001332",
+        "https://ncp.gov.sa/ar/MediaCenter/News/Pages/EOI-JDAMakkah.aspx",
+        "\"الثمامة\" \"سبتمبر\" \"2026\" تطوير",
+        "السعودية اشتراطات تراخيص مقاولين \"سبتمبر 2026\" after:2026-09-11 before:2026-09-15",
+        "Saudi NCVC 103 investment opportunities September 2026",
+        "Saudi ports shipping logistics freight September 12 13 14 2026 after:2026-09-11",
+        "Saudi construction camp accommodation steel cement September 12 13 14 2026 after:2026-09-11",
+        "السعودية حديد أسمنت سكن العمال مخيمات after:2026-09-11 before:2026-09-15",
+        "https://aawsat.com/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/5317805-%D8%AA%D9%88%D9%82%D9%8A%D8%B9-%D8%B9%D9%82%D8%AF-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D9%81%D9%87%D8%AF-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D9%88%D8%B1%D9%81%D8%B9-%D8%B7%D8%A7%D9%82%D8%AA%D9%87-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D8%B9%D8%A7%D8%A8%D9%8A%D8%A9-%D8%A5%D9%84%D9%89-32-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D9%85%D8%B3%D8%A7%D9%81%D8%B1",
+        "site:spa.gov.sa \"الثمامة\" \"سبتمبر\" \"2026\"",
+        "site:spa.gov.sa \"103\" \"2026\" \"الغطاء\"",
+        "site:wsp.com \"Dammam\" \"2026\" September",
+        "site:saudiexchange.sa \"مياهنا\" \"2026-09-13\"",
+        "site:spa.gov.sa \"مطار الملك فهد\" \"سبتمبر\" \"2026\"",
+        "site:saudiexchange.sa \"الماجدية\" \"2026-09-13\"",
+        "https://www.spa.gov.sa/N2674273",
+        "https://www.spa.gov.sa/N2675241",
+        "https://www.spa.gov.sa/N2674811",
+        "https://www.argaam.com/ar/article/articledetail/id/1935911",
+        "https://www.argaam.com/ar/article/articledetail/id/1935914",
+        "site:spa.gov.sa \"14 سبتمبر 2026\" اقتصادي",
+        "\"مياهنا\" \"شاس\" \"سبتمبر\" \"2026\"",
+        "site:spa.gov.sa \"12 سبتمبر 2026\" مشروع",
+        "site:spa.gov.sa \"12 سبتمبر 2026\" اقتصادي",
+        "\"الماجدية\" \"296\" \"سبتمبر\" \"2026\"",
+        "\"الماجدية\" \"185\" \"site:saudiexchange.sa/wps/portal/saudiexchange/newsandreports\"",
+        "https://www.spa.gov.sa/N2674326",
+        "site:spa.gov.sa \"أمانة حائل\" \"12 سبتمبر 2026\"",
+        "https://www.spa.gov.sa/N2674474",
+        "https://www.miahona.com/ar/announcements"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-14/recheck-12-14/access-log.json及逐页原文；成功、空页与失败分开记录"
+    },
+    {
+      "tool": "web-search",
+      "status": "completed",
+      "entries": [
+        "Miahona Shas September 13 2026 no objection",
+        "Almajdiah 185 million September 13 2026 agreement",
+        "https://www.miahona.com/ar/announcements",
+        "https://gulfdays.net/al-majdiah-signs-sar-185m-deal-to-develop-296-residential-units-in-madinah/"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-14/recheck-12-14/web-1.json至web-5.json"
+    }
+  ],
+  "items": [
+    {
+      "category": "工程项目",
+      "published": "2026-09-12",
+      "event": "部长在论坛谈及开发方向；非投运公告",
+      "sourceType": "媒体原文／核验未通过",
+      "source": "Saudi Gazette",
+      "status": "unconfirmed",
+      "title": "待证线索：沙特部长谈与私营部门发展逾14GW算力容量",
+      "original": "Saudi Arabia to develop over 14 GW of computing capacity to accelerate AI growth",
+      "url": "https://saudigazette.com.sa/article/664498/saudi-arabia/saudi-arabia-developing-over-14-gw-of-computing-capacity-to-accelerate-ai-growth",
+      "summary": "Saudi Gazette于9月12日报道，通信与信息技术部长在硅谷论坛谈到与私营部门发展超过14GW算力容量。该表述是开发方向，不能写成已经建成投运、已授标的数据中心项目或发电项目。",
+      "review": "已读Saudi Gazette全文，并检索SPA及阿语报道；补到Al-Jazirah的聚合转载，但未能确认它与英文报道具有独立采写关系，也未取得部长原始讲话或官方公告，因此本轮不通过。证据：computing.md、web-5.json、web-6.json、web-7.json。 归档调整：2026-09-14补录至2026-09-12，原编号NEWS-20260914-013；事实与核验时间未变。",
+      "background": "数字基础设施行业线索；未披露具体工地、采购包或四类产品需求。",
+      "id": "001",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "statusText": "未通过：证据不足",
+      "update": "2026-09-14补录｜按原文发布日期归入2026-09-12",
+      "products": [],
+      "eventLabel": "事件日期",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-14T01:12:29.339Z",
+        "method": "读取原始公告并核对主体、日期与范围",
+        "confirmedScope": "已确认所列媒体发布了这条报道；核心事件证据不足。",
+        "reason": "已读Saudi Gazette全文，并检索SPA及阿语报道；补到Al-Jazirah的聚合转载，但未能确认它与英文报道具有独立采写关系，也未取得部长原始讲话或官方公告，因此本轮不通过。证据：computing.md、web-5.json、web-6.json、web-7.json。",
+        "missing": "部长原始讲话、MCIT／SPA官方公告，或独立来源对14GW含义、时间与阶段的直接确认。"
+      },
+      "previousIds": [
+        "NEWS-20260914-013"
+      ]
+    },
+    {
+      "id": "002",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "published": "2026-09-12",
+      "eventLabel": "项目阶段",
+      "sourceType": "官方原文",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "background": "行业信息；本条未披露公司四类产品的具体采购或供货关系。",
+      "update": "2026-09-14重新检索新增｜按原文发布日期补录至2026-09-12",
+      "title": "沙特通信部长会见英伟达、英特尔及HPE，讨论AI基础设施合作",
+      "original": "Communications Minister Bolsters Strategic Partnerships in AI Infrastructure, Semiconductors During Silicon Valley Visit",
+      "source": "SPA／沙特通信与信息技术部长行程公告",
+      "url": "https://www.spa.gov.sa/en/N2674295",
+      "event": "硅谷访问第四日；合作讨论",
+      "summary": "SPA于9月12日通报，沙特通信与信息技术部长在硅谷与英伟达、英特尔及HPE负责人会谈，讨论HUMAIN的AI基础设施、先进计算及本地AI硬件制造合作。公告披露的是会谈议题，没有宣布新的施工合同、确定投资额或投产时间。",
+      "review": "读取SPA完整原文，核对9月12日13:17沙特时间、参与主体及会谈范围。与14GW报道主题相邻，但该官方原文没有14GW数字，不能用来替该数字背书。证据：recheck-12-14/compute-spa.md。",
+      "boundary": "合作讨论不等于项目授标、工厂开工或新增产能投产。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T02:00:01.415Z",
+        "method": "读取原文并核对日期、主体、项目阶段和事实范围",
+        "confirmedScope": "SPA于9月12日通报，沙特通信与信息技术部长在硅谷与英伟达、英特尔及HPE负责人会谈，讨论HUMAIN的AI基础设施、先进计算及本地AI硬件制造合作。公告披露的是会谈议题，没有宣布新的施工合同、确定投资额或投产时间。",
+        "reason": "读取SPA完整原文，核对9月12日13:17沙特时间、参与主体及会谈范围。与14GW报道主题相邻，但该官方原文没有14GW数字，不能用来替该数字背书。证据：recheck-12-14/compute-spa.md。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "003",
+      "category": "产品材料",
+      "tags": [
+        "产品材料",
+        "行业活动"
+      ],
+      "region": "沙特／吉达",
+      "published": "2026-09-12",
+      "eventLabel": "项目阶段",
+      "sourceType": "官方原文",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "background": "建材、设备和建筑供应链行业活动信息，帮助了解行业渠道；不视为已签订采购合同。",
+      "update": "2026-09-14重新检索新增｜按原文发布日期补录至2026-09-12",
+      "title": "吉达国际建筑展JIBEX将于9月15日至17日举行",
+      "original": "اقتصادي / جدة تستضيف معرض جدة الدولي للبناء \"جيبكس\" في نسخته الرابعة",
+      "source": "SPA",
+      "url": "https://www.spa.gov.sa/N2674474",
+      "event": "2026-09-15至2026-09-17；展会预告",
+      "summary": "SPA于9月12日发布第四届吉达国际建筑展JIBEX预告，展会计划于9月15日至17日在吉达商会所属会展中心举行。公告称将有300多家展商参加，涉及40个投资、商业及工业领域。",
+      "review": "读取SPA阿语原文，核对发布日期、展期、地点和参展规模；规模采用主办信息口径，不代表已实际到场人数。证据：recheck-12-14/jibex-primary.md。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T02:00:01.415Z",
+        "method": "读取原文并核对日期、主体、项目阶段和事实范围",
+        "confirmedScope": "SPA于9月12日发布第四届吉达国际建筑展JIBEX预告，展会计划于9月15日至17日在吉达商会所属会展中心举行。公告称将有300多家展商参加，涉及40个投资、商业及工业领域。",
+        "reason": "读取SPA阿语原文，核对发布日期、展期、地点和参展规模；规模采用主办信息口径，不代表已实际到场人数。证据：recheck-12-14/jibex-primary.md。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "004",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特／利雅得",
+      "published": "2026-09-12",
+      "eventLabel": "项目阶段",
+      "sourceType": "官方原文",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "background": "行业信息；本条未披露公司四类产品的具体采购或供货关系。",
+      "update": "2026-09-14补录复核更新｜官方证据补齐，按原文归入2026-09-12",
+      "title": "利雅得Thumamah路东段桥隧施工，9月12日起实施交通导改",
+      "original": "عام / الهيئة الملكية لمدينة الرياض: تنفيذ جسر ونفق عند طريق الثمامة مع طريق الصحابة",
+      "source": "SPA／利雅得皇家委员会公告",
+      "url": "https://www.spa.gov.sa/N2674273",
+      "event": "2026-09-12起实施导改；桥梁及隧道施工",
+      "summary": "SPA于9月12日通报，Thumamah路东段与Al-Sahabah路交叉口正在建设桥梁及隧道，并自9月12日起将交通导向北侧平行道路，每方向3车道，同时设置沿线建筑服务通道。东段项目长8公里，包括3座桥梁、3条隧道及4个主要交叉口。",
+      "review": "本次找到并读完SPA发布的RCRC公告，确认施工范围和9月12日导改日期，原证据不足状态升级为已核验。官方原文发布日期早于9月13日媒体报道，归档修正至12日。证据：recheck-12-14/thumamah-primary.md。",
+      "previousIds": [
+        "NEWS-20260914-011",
+        "NEWS-20260913-004"
+      ],
+      "reviewUrls": [
+        [
+          "Saudi Gazette原报道",
+          "https://saudigazette.com.sa/article/664522/saudi-arabia/riyadh-activates-traffic-diversion-as-thumamah-road-development-advances"
+        ]
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T02:00:01.415Z",
+        "method": "读取原文并核对日期、主体、项目阶段和事实范围",
+        "confirmedScope": "SPA于9月12日通报，Thumamah路东段与Al-Sahabah路交叉口正在建设桥梁及隧道，并自9月12日起将交通导向北侧平行道路，每方向3车道，同时设置沿线建筑服务通道。东段项目长8公里，包括3座桥梁、3条隧道及4个主要交叉口。",
+        "reason": "本次找到并读完SPA发布的RCRC公告，确认施工范围和9月12日导改日期，原证据不足状态升级为已核验。官方原文发布日期早于9月13日媒体报道，归档修正至12日。证据：recheck-12-14/thumamah-primary.md。",
+        "missing": ""
+      }
+    }
+  ],
+  "run": {
+    "status": "completed",
+    "startedAt": "2026-09-14T01:47:09.710Z",
+    "completedAt": "2026-09-14T02:01:19.658Z",
+    "newCount": 2,
+    "updatedCount": 1,
+    "message": "2026-09-14按12、13、14日重新检索：共新增9条，更新1条；合计22条（17条通过，5条证据不足）。本日新增2条。Etimad后续分页受限；完整性限于本轮可访问范围。"
+  },
+  "completedSlots": [],
+  "lastVerifiedAt": "2026-09-14T02:00:01.415Z",
+  "backfill": {
+    "sourceDate": "2026-09-14",
+    "performedAt": "2026-09-14T02:00:01.415Z",
+    "basis": "已核实原文发布日期；12日道路官方原文修正13日媒体归档"
+  },
+  "runHistory": [
+    {
+      "status": "completed",
+      "startedAt": "2026-09-14T01:00:19.583Z",
+      "completedAt": "2026-09-14T01:15:11.923Z",
+      "newCount": 1,
+      "updatedCount": 0,
+      "message": "本档案由2026-09-14上午实际采集结果补录，共1条；未在2026-09-12执行采集。"
+    }
+  ],
+  "recheckBatch": {
+    "performedAt": "2026-09-14T02:00:01.415Z",
+    "newCount": 9,
+    "updatedCount": 1,
+    "byArchiveDate": {
+      "2026-09-12": {
+        "newCount": 2,
+        "updatedCount": 1,
+        "total": 4
+      },
+      "2026-09-13": {
+        "newCount": 6,
+        "relocatedOut": 1,
+        "total": 9
+      },
+      "2026-09-14": {
+        "newCount": 1,
+        "total": 9
+      }
+    }
+  }
+}

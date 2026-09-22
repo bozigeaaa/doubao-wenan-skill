@@ -1,0 +1,669 @@
+[
+  {
+    "tool": "scrapling",
+    "url": "https://www.meed.com/latest",
+    "at": "2026-09-15T06:04:41.368Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/p0-meed.md",
+    "result": "received",
+    "level": "最新列表"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://tenders.etimad.sa/Tender/AllTendersForVisitor",
+    "at": "2026-09-15T06:04:41.374Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/p0-etimad.md",
+    "result": "received",
+    "level": "招标列表第一页"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-12+before%3A2026-09-16",
+    "at": "2026-09-15T06:04:41.370Z",
+    "result": "failed",
+    "error": "[2026-09-15 14:05:02] WARNING: Proxy 'None' failed (attempt 1) | Retrying in 1 seconds...\r\n",
+    "level": "请求失败，未取得可用内容"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-13&f=live",
+    "at": "2026-09-15T06:04:41.373Z",
+    "result": "failed",
+    "error": "[2026-09-15 14:04:57] WARNING: Attempt 1 failed: Failed to perform, curl: (35) BoringSSL SSL_connect: Connection closed abruptly (SSL_ERROR_SYSCALL; error queue empty) in connection to x.com:443. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.. Retrying in 1 seconds...\r\n",
+    "level": "请求失败，未取得可用内容"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://news.google.com/search?q=Saudi%20construction%20after%3A2026-09-12&hl=en-US&gl=US&ceid=US%3Aen",
+    "at": "2026-09-15T06:04:41.371Z",
+    "result": "failed",
+    "error": "[2026-09-15 14:05:02] WARNING: Proxy 'None' failed (attempt 1) | Retrying in 1 seconds...\r\n",
+    "level": "请求失败，未取得可用内容"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-13&f=live",
+    "at": "2026-09-15T06:05:26.937Z",
+    "result": "failed",
+    "error": "Error: We apologize for the inconvenience but we do not support this site. If you are part of an enterprise and want to have a further conversation about this, please fill out our intake form here: https://fk4bvu0n5qp.typeform.com/to/Ej6oydlg\n",
+    "level": "请求失败，未取得可用内容"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-12+before%3A2026-09-16",
+    "at": "2026-09-15T06:05:26.935Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/p0-google-fallback.md",
+    "result": "received",
+    "level": "搜索结果页"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.arabnews.com/saudi-arabia",
+    "at": "2026-09-15T06:05:38.545Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/arabnews-index.md",
+    "result": "empty",
+    "level": "空页"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://saudigazette.com.sa/saudi-arabia",
+    "at": "2026-09-15T06:05:38.544Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/gazette-index.md",
+    "result": "received",
+    "level": "列表／首页"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.spa.gov.sa/en",
+    "at": "2026-09-15T06:05:38.547Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/spa-index.md",
+    "result": "empty",
+    "level": "空页"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.meed.com/contractors-prepare-bids-for-oxagon-wastewater-plant",
+    "at": "2026-09-15T06:05:55.333Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/oxagon.md",
+    "result": "received",
+    "level": "公开标题及导语；正文订阅受限"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://saudigazette.com.sa/article/664566/saudi-arabia/sr32-billion-joint-venture-agreement-inked-to-develop-and-deliver-riyadh-expo-village",
+    "at": "2026-09-15T06:05:55.335Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/expo-village.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://www.arabnews.com/saudi-arabia",
+    "at": "2026-09-15T06:05:55.331Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/arabnews-fallback.md",
+    "result": "received",
+    "level": "列表／首页"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://www.spa.gov.sa/en",
+    "at": "2026-09-15T06:05:55.329Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/spa-fallback.md",
+    "result": "received",
+    "level": "列表／首页"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "Saudi workers accommodation camp housing after:2026-09-12 before:2026-09-16",
+    "at": "2026-09-15T06:06:17.377Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/search-camps.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "Saudi construction project contract after:2026-09-12 before:2026-09-16",
+    "at": "2026-09-15T06:06:17.374Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/search-projects.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "Saudi construction steel materials modular after:2026-09-12 before:2026-09-16",
+    "at": "2026-09-15T06:06:33.435Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/search-materials.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "السعودية ترسية عقود مشاريع \"14 سبتمبر 2026\"",
+    "at": "2026-09-15T06:06:33.437Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/search-tenders-ar.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "Saudi construction regulation procurement law after:2026-09-12 before:2026-09-16",
+    "at": "2026-09-15T06:06:51.420Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/search-regulation.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "Saudi port shipping Maersk Hapag September 14 15 2026",
+    "at": "2026-09-15T06:06:51.422Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/search-shipping.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.hapag-lloyd.com/en/services-information/news.html",
+    "at": "2026-09-15T06:06:54.250Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/hapag-index.md",
+    "result": "limited",
+    "level": "验证页面，未取得新闻正文"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.maersk.com/news/",
+    "at": "2026-09-15T06:06:54.248Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/maersk-index.md",
+    "result": "received",
+    "level": "列表／首页"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2",
+    "at": "2026-09-15T06:06:54.246Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/etimad-page2.md",
+    "result": "received",
+    "level": "招标列表第二页，部分重叠"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://www.spa.gov.sa/en/N2675809",
+    "at": "2026-09-15T06:06:54.245Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/jazan-units.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "site:expo2030riyadh.sa \"Village\" \"2026\" \"Habib\"",
+    "at": "2026-09-15T06:07:39.595Z",
+    "result": "failed",
+    "error": "ENOENT: no such file or directory, open 'D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-15\\verify-expo.json'",
+    "level": "请求失败，未取得可用内容"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "site:maersk.com \"September\" \"14\" \"2026\" \"Suez\"",
+    "at": "2026-09-15T06:07:39.597Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/verify-suez.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://www.hapag-lloyd.com/en/services-information/news.html",
+    "at": "2026-09-15T06:07:41.718Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/hapag-fallback.md",
+    "result": "limited",
+    "level": "页面框架，未取得新闻列表"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://news.google.com/search?q=Saudi%20construction%20after%3A2026-09-12&hl=en-US&gl=US&ceid=US%3Aen",
+    "at": "2026-09-15T06:07:41.720Z",
+    "result": "failed",
+    "error": "Error: All scraping engines failed to retrieve content from this URL. Engines tried: [fire-engine;chrome-cdp;stealth, fire-engine(retry);chrome-cdp;stealth, pdf, document, image]. This usually happens when: (1) The URL is invalid or the page doesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation.\n",
+    "level": "请求失败，未取得可用内容"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.maersk.com/news/articles/2026/09/14/structural-changes-ae5-ae11-ae12-me2-gemini-services",
+    "at": "2026-09-15T06:08:20.668Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/suez-official.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "\"Expo Village\" \"Al Habib\" \"September 14\"",
+    "at": "2026-09-15T06:08:20.669Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/verify-expo-general.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "\"NEXTCHEM\" \"SABIC\" \"September\" \"2026\"",
+    "at": "2026-09-15T06:08:20.671Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/verify-nextchem.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "\"Oxagon\" \"wastewater\" \"September\" \"2026\"",
+    "at": "2026-09-15T06:08:38.397Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/verify-oxagon.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "\"BRKZ\" \"31 million\" \"2026\"",
+    "at": "2026-09-15T06:08:38.399Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/verify-brkz.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.groupmaire.com/en/newsroom/press-releases/detail/nextchem-maire-has-been-selected-to-provide-the-technology-package-for-sabic-ans-san-7-large-scale-fertilizer-complex-in-saudi-arabia-based-on-its-nx-stami-urea-solution-for-a-total-value-of-125-million/",
+    "at": "2026-09-15T06:08:38.394Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/nextchem-official.md",
+    "result": "limited",
+    "level": "验证页面，未取得正文"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://nz.finance.yahoo.com/news/expo-2030-riyadh-mohammed-al-094200874.html",
+    "at": "2026-09-15T06:08:38.396Z",
+    "result": "failed",
+    "error": "[2026-09-15 14:09:00] WARNING: Proxy 'None' failed (attempt 1) | Retrying in 1 seconds...\r\n",
+    "level": "请求失败，未取得可用内容"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=4SmgYIYNA5wcSNSDW9dbiA==",
+    "at": "2026-09-15T06:09:03.408Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/tender-drainage.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://www.spa.gov.sa/en/N2676499",
+    "at": "2026-09-15T06:09:03.404Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/weather-official.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.okaz.com.sa/local/na/2264566",
+    "at": "2026-09-15T06:09:34.483Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/procurement-okaz.md",
+    "result": "limited",
+    "level": "受限页面，已由备用正文替代"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://www.groupmaire.com/en/newsroom/press-releases/detail/nextchem-maire-has-been-selected-to-provide-the-technology-package-for-sabic-ans-san-7-large-scale-fertilizer-complex-in-saudi-arabia-based-on-its-nx-stami-urea-solution-for-a-total-value-of-125-million/",
+    "at": "2026-09-15T06:09:34.478Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/nextchem-fallback.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://nz.finance.yahoo.com/news/expo-2030-riyadh-mohammed-al-094200874.html",
+    "at": "2026-09-15T06:09:34.480Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/expo-release-fallback.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://markets.businessinsider.com/news/stocks/brkz-secures-31-million-to-scale-ai-enabled-building-materials-procurement-across-saudi-arabia-and-the-gcc-1036542314",
+    "at": "2026-09-15T06:09:34.481Z",
+    "result": "failed",
+    "error": "[2026-09-15 14:09:55] WARNING: Proxy 'None' failed (attempt 1) | Retrying in 1 seconds...\r\n",
+    "level": "请求失败，未取得可用内容"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://www.okaz.com.sa/local/na/2264566",
+    "at": "2026-09-15T06:10:15.085Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/okaz-fallback.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://markets.businessinsider.com/news/stocks/brkz-secures-31-million-to-scale-ai-enabled-building-materials-procurement-across-saudi-arabia-and-the-gcc-1036542314",
+    "at": "2026-09-15T06:10:15.083Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/brkz-fallback.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.saudigulfprojects.com/",
+    "at": "2026-09-15T06:10:50.904Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/saudigulf-index.md",
+    "result": "received",
+    "level": "列表／首页"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=EePkA8OFirXtubR1VkjbRg==",
+    "at": "2026-09-15T06:10:50.900Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/tender-compressor.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=wNMInoU9rzkRuvARGxWX8w==",
+    "at": "2026-09-15T06:10:50.902Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/tender-handrail.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "\"Miahona\" \"Shas\" \"September\" \"2026\"",
+    "at": "2026-09-15T06:11:04.984Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/recheck-miahona.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "السعودية مشاريع بناء موانئ \"15 سبتمبر 2026\"",
+    "at": "2026-09-15T06:11:04.982Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/search-ar15.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://aawsat.com/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/5318197-%D8%A7%D9%84%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%8A%D9%88%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9-%D8%AA%D8%B6%D9%8A%D9%81-%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D9%84%D9%80%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%86%D8%A6-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A8%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-14-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
+    "at": "2026-09-15T06:11:21.726Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/ports-interview.md",
+    "result": "empty",
+    "level": "空页"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=*@@**PnXwEpAPLLIkbRnS*@@**Ucfw==",
+    "at": "2026-09-15T06:11:21.730Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/tender-civil.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://www.spa.gov.sa/en/N2675968",
+    "at": "2026-09-15T06:11:21.728Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/nuclear-official.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.saudigulfprojects.com/2026/09/arabian-drilling-wins-sar-2-billion-five-year-contract-from-slb-for-8-gas-land-rigs/",
+    "at": "2026-09-15T06:12:07.405Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/drilling.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.saudigulfprojects.com/2026/09/riyadh-cement-awards-14-9-million-digital-transformation-contract-to-tianjin-cement-institute/",
+    "at": "2026-09-15T06:12:07.403Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/cement-digital.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.saudigulfprojects.com/2026/09/riyadh-cement-signs-25-year-solar-energy-purchase-agreement-with-samana-energy/",
+    "at": "2026-09-15T06:12:07.401Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/cement-solar.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.saudigulfprojects.com/2026/09/saudi-arabia-identifies-estimated-110-million-tonnes-of-ore-at-jabal-sayid-rare-earth-project/",
+    "at": "2026-09-15T06:12:07.406Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/rareearth.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=9*@@**vsV7V3ND0FWBi23RdQrQ==",
+    "at": "2026-09-15T06:12:07.412Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/tender-curtain.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://aawsat.com/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/5318197-%D8%A7%D9%84%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%8A%D9%88%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9-%D8%AA%D8%B6%D9%8A%D9%81-%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D9%84%D9%80%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%86%D8%A6-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A8%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-14-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
+    "at": "2026-09-15T06:12:07.408Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/ports-fallback.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "\"Riyadh Cement\" \"Tianjin\" \"September 14\" \"2026\"",
+    "at": "2026-09-15T06:12:30.471Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/verify-cement-digital.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "\"Riyadh Cement\" \"Samana\" \"2026\"",
+    "at": "2026-09-15T06:12:30.470Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/verify-cement-solar.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "\"Arabian Drilling\" \"8\" \"SLB\" \"September 14\" \"2026\"",
+    "at": "2026-09-15T06:12:45.553Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/verify-drilling.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "site:saudiexchange.sa \"Riyadh Cement\" \"2026-09-14\"",
+    "at": "2026-09-15T06:12:45.551Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/verify-cement-exchange.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://www.saudiexchange.sa/Resources/fsPdf/28194_3703_2026-09-14_08-27-09_en.pdf",
+    "at": "2026-09-15T06:13:05.336Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/drilling-official.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98127&anCat=1&cs=3092&locale=en",
+    "at": "2026-09-15T06:13:05.334Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/cement-solar-official.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "site:saudiexchange.sa \"Riyadh Cement\" \"Light House\"",
+    "at": "2026-09-15T06:13:16.376Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/verify-digital-exchange.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "site:saudiexchange.sa \"Miahona\" \"2026-09-13\" \"Shas\"",
+    "at": "2026-09-15T06:13:16.378Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/verify-miahona-exchange.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98132&anCat=1&cs=3092&locale=en",
+    "at": "2026-09-15T06:16:57.651Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/cement-digital-official.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "Mawani Al Khumra logistics economic zone September 14 2026",
+    "at": "2026-09-15T06:17:17.623Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/verify-ports.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98131&anCat=1&cs=3092&locale=en",
+    "at": "2026-09-15T06:17:17.621Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/cement-weighing-official.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "site:tenders.etimad.sa بناء صيانة \"2026-09-14\"",
+    "at": "2026-09-15T06:22:08.687Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/etimad-window-backfill.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "site:x.com Saudi construction project September 14 2026",
+    "at": "2026-09-15T06:22:08.689Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/x-public-backfill.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "site:apnews.com \"pipeline\" \"weeks\" \"September 14\" \"2026\"",
+    "at": "2026-09-15T06:22:20.540Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/pipeline-recheck.json",
+    "result": "received",
+    "level": "外部搜索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=3",
+    "at": "2026-09-15T06:22:20.537Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/etimad-page3.md",
+    "result": "received",
+    "level": "招标列表第三页"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://apnews.com/article/yemen-houthis-saudi-shipping-mandeb-8c18d82c109a8ea91347ce53c0096c53",
+    "at": "2026-09-15T06:22:48.968Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/pipeline-ap.md",
+    "result": "empty",
+    "level": "空页"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=zwFA6EZ3WBLp0WuhTfpIGg==",
+    "at": "2026-09-15T06:22:48.972Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/tender-beam.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=yQJJfC9yGOdVxQxv6fuNYg==",
+    "at": "2026-09-15T06:22:48.969Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/tender-resthouse.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://apnews.com/article/yemen-houthis-saudi-shipping-mandeb-8c18d82c109a8ea91347ce53c0096c53",
+    "at": "2026-09-15T06:23:35.872Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/pipeline-ap-fallback.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape fresh",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=H3kNM7ZHB87N%209SrNp4YGw==",
+    "at": "2026-09-15T06:23:35.875Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-15/tender-port-system.md",
+    "result": "received",
+    "level": "原始正文或公告详情"
+  }
+]

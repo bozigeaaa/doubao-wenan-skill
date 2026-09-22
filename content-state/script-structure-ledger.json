@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "workflow_version": "semantic-promise-v3",
+  "workflow_version": "semantic-promise-v4",
   "description": "只记录用户明确确认采用或已经发布的最终文案结构签名；草稿、候选和试稿不得写入。",
   "entry_schema": {
     "script_id": "string",

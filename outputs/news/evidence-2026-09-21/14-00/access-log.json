@@ -1,0 +1,967 @@
+{
+  "requests": [
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p0-meed",
+      "entry": "https://www.meed.com/latest",
+      "at": "2026-09-21T06:04:45.042Z",
+      "completedAt": "2026-09-21T06:04:48.197Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p0-meed.md",
+      "chars": 12164,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\14-00\\p0-meed.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n"
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "p0-etimad",
+      "entry": "https://tenders.etimad.sa/",
+      "at": "2026-09-21T06:04:45.044Z",
+      "completedAt": "2026-09-21T06:04:53.102Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p0-etimad.md",
+      "chars": 9781,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p0-google",
+      "entry": "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-18",
+      "at": "2026-09-21T06:04:45.037Z",
+      "completedAt": "2026-09-21T06:05:10.062Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p0-google.md",
+      "chars": 0,
+      "error": "[2026-09-21 14:05:06] WARNING: Proxy 'None' failed (attempt 1) | Retrying in 1 seconds...\r\n",
+      "stdout": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p0-x",
+      "entry": "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-19&src=typed_query&f=live",
+      "at": "2026-09-21T06:04:45.041Z",
+      "completedAt": "2026-09-21T06:05:10.062Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p0-x.md",
+      "chars": 0,
+      "error": "[2026-09-21 14:05:01] WARNING: Attempt 1 failed: Failed to perform, curl: (35) BoringSSL SSL_connect: Connection closed abruptly (SSL_ERROR_SYSCALL; error queue empty) in connection to x.com:443. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.. Retrying in 1 seconds...\r\n",
+      "stdout": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p0-news",
+      "entry": "https://news.google.com/search?q=Saudi%20construction%20when%3A3d&hl=en-US&gl=US&ceid=US%3Aen",
+      "at": "2026-09-21T06:04:45.039Z",
+      "completedAt": "2026-09-21T06:05:10.062Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p0-news.md",
+      "chars": 0,
+      "error": "[2026-09-21 14:05:06] WARNING: Proxy 'None' failed (attempt 1) | Retrying in 1 seconds...\r\n",
+      "stdout": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p1-arabnews",
+      "entry": "https://www.arabnews.com/business",
+      "at": "2026-09-21T06:05:27.881Z",
+      "completedAt": "2026-09-21T06:05:29.233Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p1-arabnews.md",
+      "chars": 0,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\14-00\\p1-arabnews.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n"
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p1-sgp",
+      "entry": "https://www.saudigulfprojects.com/",
+      "at": "2026-09-21T06:05:27.876Z",
+      "completedAt": "2026-09-21T06:05:29.408Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p1-sgp.md",
+      "chars": 56509,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\14-00\\p1-sgp.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n"
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p1-spa",
+      "entry": "https://www.spa.gov.sa/en",
+      "at": "2026-09-21T06:05:27.879Z",
+      "completedAt": "2026-09-21T06:05:29.476Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p1-spa.md",
+      "chars": 0,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\14-00\\p1-spa.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n"
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p1-gazette",
+      "entry": "https://saudigazette.com.sa/business",
+      "at": "2026-09-21T06:05:27.883Z",
+      "completedAt": "2026-09-21T06:05:29.608Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p1-gazette.md",
+      "chars": 18308,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\14-00\\p1-gazette.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n"
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p2-maersk",
+      "entry": "https://www.maersk.com/news/category/advisories",
+      "at": "2026-09-21T06:05:27.886Z",
+      "completedAt": "2026-09-21T06:05:30.053Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p2-maersk.md",
+      "chars": 2525,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\14-00\\p2-maersk.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n"
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "p0-news-fc",
+      "entry": "https://news.google.com/search?q=Saudi%20construction%20when%3A3d&hl=en-US&gl=US&ceid=US%3Aen",
+      "at": "2026-09-21T06:05:27.875Z",
+      "completedAt": "2026-09-21T06:05:32.880Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p0-news-fc.md",
+      "chars": 0,
+      "error": "Error: All scraping engines failed to retrieve content from this URL. Engines tried: [fire-engine;chrome-cdp;stealth, fire-engine(retry);chrome-cdp;stealth, pdf, document, image]. This usually happens when: (1) The URL is invalid or the page doesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation.\n",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "p0-google-fc",
+      "entry": "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-18",
+      "at": "2026-09-21T06:05:27.873Z",
+      "completedAt": "2026-09-21T06:05:35.346Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p0-google-fc.md",
+      "chars": 0,
+      "error": "Error: All scraping engines failed to retrieve content from this URL. Engines tried: [fire-engine;chrome-cdp;stealth, fire-engine(retry);chrome-cdp;stealth, pdf, document, image]. This usually happens when: (1) The URL is invalid or the page doesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation.\n",
+      "stdout": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p2-momah",
+      "entry": "https://momah.gov.sa/ar/news",
+      "at": "2026-09-21T06:05:27.884Z",
+      "completedAt": "2026-09-21T06:05:52.898Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p2-momah.md",
+      "chars": 0,
+      "error": "Command failed: D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/.news-venv/Scripts/python.exe scripts/news_tools.py get https://momah.gov.sa/ar/news D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p2-momah.md\n",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "p0-x-fc",
+      "entry": "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-19&src=typed_query&f=live",
+      "at": "2026-09-21T06:06:13.954Z",
+      "completedAt": "2026-09-21T06:06:15.188Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p0-x-fc.md",
+      "chars": 0,
+      "error": "Error: We apologize for the inconvenience but we do not support this site. If you are part of an enterprise and want to have a further conversation about this, please fill out our intake form here: https://fk4bvu0n5qp.typeform.com/to/Ej6oydlg\n",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "p1-spa-fc",
+      "entry": "https://www.spa.gov.sa/en",
+      "at": "2026-09-21T06:06:13.956Z",
+      "completedAt": "2026-09-21T06:06:29.655Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p1-spa-fc.md",
+      "chars": 20879,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p2-hapag",
+      "entry": "https://www.hapag-lloyd.com/en/services-information/news.html",
+      "at": "2026-09-21T06:07:41.549Z",
+      "completedAt": "2026-09-21T06:07:43.099Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p2-hapag.md",
+      "chars": 629,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\14-00\\p2-hapag.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n"
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-qilin",
+      "entry": "https://www.maersk.com/news/articles/2026/09/21/temporary-operational-adjustment-qilin-service",
+      "at": "2026-09-21T06:07:41.551Z",
+      "completedAt": "2026-09-21T06:07:43.467Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/c-qilin.md",
+      "chars": 7054,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\14-00\\c-qilin.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n"
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-road",
+      "entry": "https://www.meed.com/saudi-arabia-tenders-dariya-afif-road-dualisation",
+      "at": "2026-09-21T06:07:41.548Z",
+      "completedAt": "2026-09-21T06:07:43.557Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/c-road.md",
+      "chars": 5382,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\14-00\\c-road.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n"
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "p1-arabnews-fc",
+      "entry": "https://www.arabnews.com/business",
+      "at": "2026-09-21T06:07:41.544Z",
+      "completedAt": "2026-09-21T06:07:43.682Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p1-arabnews-fc.md",
+      "chars": 8640,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "p2-momah-fc",
+      "entry": "https://momah.gov.sa/ar/news",
+      "at": "2026-09-21T06:07:41.546Z",
+      "completedAt": "2026-09-21T06:07:47.340Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p2-momah-fc.md",
+      "chars": 182665,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-camps",
+      "entry": "Saudi workers accommodation construction camp after:2026-09-18 before:2026-09-22",
+      "at": "2026-09-21T06:09:01.423Z",
+      "completedAt": "2026-09-21T06:09:03.136Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/s-camps.json",
+      "chars": 2871,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-projects",
+      "entry": "Saudi construction infrastructure contract project after:2026-09-18 before:2026-09-22",
+      "at": "2026-09-21T06:09:01.421Z",
+      "completedAt": "2026-09-21T06:09:03.412Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/s-projects.json",
+      "chars": 3255,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-materials",
+      "entry": "Saudi steel building materials prefabricated after:2026-09-18 before:2026-09-22",
+      "at": "2026-09-21T06:09:03.412Z",
+      "completedAt": "2026-09-21T06:09:05.095Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/s-materials.json",
+      "chars": 3011,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-tenders",
+      "entry": "السعودية منافسات ترسية عقود after:2026-09-18 before:2026-09-22",
+      "at": "2026-09-21T06:09:03.414Z",
+      "completedAt": "2026-09-21T06:09:06.380Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/s-tenders.json",
+      "chars": 10765,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-shipping",
+      "entry": "Saudi port shipping carrier operational update after:2026-09-18 before:2026-09-22",
+      "at": "2026-09-21T06:09:06.382Z",
+      "completedAt": "2026-09-21T06:09:08.445Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/s-shipping.json",
+      "chars": 2987,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-compliance",
+      "entry": "السعودية اشتراطات البناء سكن العمال الدفاع المدني after:2026-09-18 before:2026-09-22",
+      "at": "2026-09-21T06:09:06.380Z",
+      "completedAt": "2026-09-21T06:09:08.600Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/s-compliance.json",
+      "chars": 4882,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-sat-ar",
+      "entry": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-18 before:2026-09-20",
+      "at": "2026-09-21T06:10:20.499Z",
+      "completedAt": "2026-09-21T06:10:21.770Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/s-sat-ar.json",
+      "chars": 3695,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-sat-en",
+      "entry": "Saudi (construction OR housing OR materials OR tender OR building regulation OR shipping) after:2026-09-18 before:2026-09-20",
+      "at": "2026-09-21T06:10:20.497Z",
+      "completedAt": "2026-09-21T06:10:22.612Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/s-sat-en.json",
+      "chars": 3197,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-sun-ar",
+      "entry": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-19 before:2026-09-21",
+      "at": "2026-09-21T06:10:22.614Z",
+      "completedAt": "2026-09-21T06:10:24.083Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/s-sun-ar.json",
+      "chars": 3699,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-sun-en",
+      "entry": "Saudi (construction OR housing OR materials OR tender OR building regulation OR shipping) after:2026-09-19 before:2026-09-21",
+      "at": "2026-09-21T06:10:22.613Z",
+      "completedAt": "2026-09-21T06:10:24.609Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/s-sun-en.json",
+      "chars": 2839,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-mon-ar",
+      "entry": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-20 before:2026-09-22",
+      "at": "2026-09-21T06:10:24.611Z",
+      "completedAt": "2026-09-21T06:10:26.352Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/s-mon-ar.json",
+      "chars": 3857,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-mon-en",
+      "entry": "Saudi (construction OR housing OR materials OR tender OR building regulation OR shipping) after:2026-09-20 before:2026-09-22",
+      "at": "2026-09-21T06:10:24.609Z",
+      "completedAt": "2026-09-21T06:10:26.740Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/s-mon-en.json",
+      "chars": 2721,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-roshn",
+      "entry": "https://www.arabnews.com/business/pifs-roshn-tmg-saudi-sign-preliminary-deal-for-55k-home-riyadh-project-3002406",
+      "at": "2026-09-21T06:11:13.538Z",
+      "completedAt": "2026-09-21T06:11:14.590Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/c-roshn.md",
+      "chars": 0,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\14-00\\c-roshn.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n"
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-hws",
+      "entry": "https://www.maersk.com/news/articles/2026/09/21/heavy-load-surcharge-far-east-asia-middle-east-f1w",
+      "at": "2026-09-21T06:11:13.536Z",
+      "completedAt": "2026-09-21T06:11:14.907Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/c-hws.md",
+      "chars": 7629,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\14-00\\c-hws.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n"
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-sabic",
+      "entry": "https://www.saudigulfprojects.com/2026/09/technip-energies-and-sabic-sign-exclusive-agreement-for-global-licensing-of-ctr-ldpe-technology/",
+      "at": "2026-09-21T06:11:13.540Z",
+      "completedAt": "2026-09-21T06:11:15.174Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/c-sabic.md",
+      "chars": 18356,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\14-00\\c-sabic.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n"
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-parks",
+      "entry": "https://www.spa.gov.sa/en/N2681046",
+      "at": "2026-09-21T06:11:13.542Z",
+      "completedAt": "2026-09-21T06:11:15.681Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/c-parks.md",
+      "chars": 0,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\14-00\\c-parks.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n"
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-rga",
+      "entry": "https://www.spa.gov.sa/en/N2681123",
+      "at": "2026-09-21T06:11:13.545Z",
+      "completedAt": "2026-09-21T06:11:15.702Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/c-rga.md",
+      "chars": 0,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\14-00\\c-rga.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n"
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-road-fc",
+      "entry": "https://www.meed.com/saudi-arabia-tenders-dariya-afif-road-dualisation",
+      "at": "2026-09-21T06:11:13.534Z",
+      "completedAt": "2026-09-21T06:11:16.996Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/c-road-fc.md",
+      "chars": 4655,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "p2-hapag-fc",
+      "entry": "https://www.hapag-lloyd.com/en/services-information/news.html",
+      "at": "2026-09-21T06:11:13.532Z",
+      "completedAt": "2026-09-21T06:11:17.400Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p2-hapag-fc.md",
+      "chars": 3099,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-roshn-fc",
+      "entry": "https://www.arabnews.com/business/pifs-roshn-tmg-saudi-sign-preliminary-deal-for-55k-home-riyadh-project-3002406",
+      "at": "2026-09-21T06:12:08.659Z",
+      "completedAt": "2026-09-21T06:12:11.076Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/c-roshn-fc.md",
+      "chars": 8090,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-parks-fc",
+      "entry": "https://www.spa.gov.sa/en/N2681046",
+      "at": "2026-09-21T06:12:08.661Z",
+      "completedAt": "2026-09-21T06:12:14.504Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/c-parks-fc.md",
+      "chars": 8468,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-rga-fc",
+      "entry": "https://www.spa.gov.sa/en/N2681123",
+      "at": "2026-09-21T06:12:14.505Z",
+      "completedAt": "2026-09-21T06:12:20.145Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/c-rga-fc.md",
+      "chars": 7423,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "p0-etimad-page2",
+      "entry": "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2",
+      "at": "2026-09-21T06:12:14.507Z",
+      "completedAt": "2026-09-21T06:12:25.167Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p0-etimad-page2.md",
+      "chars": 9694,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-sabic-primary",
+      "entry": "site:ten.com \"SABIC\" \"CTR\" \"2026\"",
+      "at": "2026-09-21T06:12:55.049Z",
+      "completedAt": "2026-09-21T06:12:56.589Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/s-sabic-primary.json",
+      "chars": 0,
+      "error": "",
+      "stdout": "No results found.\n"
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-road-primary",
+      "entry": "\"ضريه\" \"عفيف\" \"ازدواج\" \"2026\"",
+      "at": "2026-09-21T06:12:55.047Z",
+      "completedAt": "2026-09-21T06:12:57.148Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/s-road-primary.json",
+      "chars": 2919,
+      "error": "",
+      "stdout": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p2-balady",
+      "entry": "https://balady.gov.sa/ar/all-products/10543",
+      "at": "2026-09-21T06:12:55.051Z",
+      "completedAt": "2026-09-21T06:13:20.060Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/p2-balady.md",
+      "chars": 0,
+      "error": "[2026-09-21 14:13:16] WARNING: Proxy 'None' failed (attempt 1) | Retrying in 1 seconds...\r\n",
+      "stdout": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "primary-sabic",
+      "entry": "Technip Energies SABIC CTR licensing September 2026",
+      "at": "2026-09-22T01:08:06.193Z",
+      "completedAt": "2026-09-22T01:08:08.293Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/primary-sabic.json",
+      "chars": 2501,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "primary-roshn",
+      "entry": "ROSHN TMG \"55,000\" \"September\" \"2026\"",
+      "at": "2026-09-22T01:08:06.190Z",
+      "completedAt": "2026-09-22T01:08:09.149Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/primary-roshn.json",
+      "chars": 3221,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "primary-roshn-ar",
+      "entry": "طلعت مصطفى روشن \"سبتمبر\" \"2026\" \"اتفاق\"",
+      "at": "2026-09-22T01:08:48.645Z",
+      "completedAt": "2026-09-22T01:08:50.379Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/primary-roshn-ar.json",
+      "chars": 4098,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "primary-road",
+      "entry": "\"Dariya\" \"Afif\" \"2026\" road",
+      "at": "2026-09-22T01:08:48.641Z",
+      "completedAt": "2026-09-22T01:08:51.484Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/primary-road.json",
+      "chars": 1880,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "scrape",
+      "name": "tender-1",
+      "entry": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=0MAWUnvnsxRxpflD%20vt47Q==",
+      "at": "2026-09-22T01:09:01.314Z",
+      "completedAt": "2026-09-22T01:09:06.714Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/tender-1.md",
+      "chars": 1971,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "scrape",
+      "name": "tender-0",
+      "entry": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=GE0RSff5piAY9M%20MI%20gewg==",
+      "at": "2026-09-22T01:09:01.312Z",
+      "completedAt": "2026-09-22T01:09:06.915Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/tender-0.md",
+      "chars": 1760,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "scrape",
+      "name": "tender-2",
+      "entry": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=LTs%20sD%20ysDuEWuwuRwpCpA==",
+      "at": "2026-09-22T01:09:06.916Z",
+      "completedAt": "2026-09-22T01:09:12.444Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/tender-2.md",
+      "chars": 1970,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "scrape",
+      "name": "tender-3",
+      "entry": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=HAYyHSRdqlTl*@@**NV9WCfv9w==",
+      "at": "2026-09-22T01:09:06.917Z",
+      "completedAt": "2026-09-22T01:09:13.009Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/tender-3.md",
+      "chars": 1986,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "scrape",
+      "name": "sabic-release",
+      "entry": "https://uk.finance.yahoo.com/news/technip-energies-announce-strategic-licensing-050000491.html",
+      "at": "2026-09-22T01:10:08.872Z",
+      "completedAt": "2026-09-22T01:10:12.133Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/sabic-release.md",
+      "chars": 5908,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "scrape",
+      "name": "tender-4",
+      "entry": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=DXTrph*@@**MVUI1PJqMzpRTVQ==",
+      "at": "2026-09-22T01:10:08.870Z",
+      "completedAt": "2026-09-22T01:10:14.966Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/tender-4.md",
+      "chars": 2027,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "roshn-official",
+      "entry": "(site:roshn.sa OR site:talaatmoustafa.com OR site:egx.com.eg) \"ROSHN\" \"2026\"",
+      "at": "2026-09-22T01:10:14.968Z",
+      "completedAt": "2026-09-22T01:10:17.188Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/roshn-official.json",
+      "chars": 1788,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "scrape",
+      "name": "balady-fallback",
+      "entry": "https://balady.gov.sa/ar/all-products/10543",
+      "at": "2026-09-22T01:10:14.966Z",
+      "completedAt": "2026-09-22T01:11:04.980Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/balady-fallback.md",
+      "chars": 0,
+      "error": "Command failed: C:/Program Files/nodejs/node.exe C:/Users/Windows/AppData/Roaming/npm/node_modules/firecrawl-cli/dist/index.js scrape https://balady.gov.sa/ar/all-products/10543 --only-main-content --max-age 0 -o D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/balady-fallback.md\n"
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "sabic-official",
+      "entry": "\"Technip Energies\" \"Licensing Collaboration\" \"SABIC\" site:ten.com",
+      "at": "2026-09-22T01:11:22.366Z",
+      "completedAt": "2026-09-22T01:11:24.107Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/sabic-official.json",
+      "chars": 816,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "scrape",
+      "name": "roshn-press",
+      "entry": "https://www.roshn.sa/press-releases",
+      "at": "2026-09-22T01:11:22.362Z",
+      "completedAt": "2026-09-22T01:11:26.698Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/roshn-press.md",
+      "chars": 8721,
+      "error": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "sabic-official-body",
+      "entry": "https://www.ten.com/en/media/press-releases/technip-energies-announce-strategic-licensing-collaboration-agreement-sabic",
+      "at": "2026-09-22T01:11:45.504Z",
+      "completedAt": "2026-09-22T01:11:47.303Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/sabic-official-body.md",
+      "chars": 10562,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "sat-specific",
+      "entry": "Saudi \"September 19, 2026\" (construction OR camp OR materials OR tender OR regulation OR shipping)",
+      "at": "2026-09-22T01:11:45.507Z",
+      "completedAt": "2026-09-22T01:11:47.653Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/sat-specific.json",
+      "chars": 3696,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "sat-specific-ar",
+      "entry": "السعودية \"19 سبتمبر 2026\" (مشاريع OR عمال OR مواد OR مناقصة OR اشتراطات OR شحن)",
+      "at": "2026-09-22T01:11:45.508Z",
+      "completedAt": "2026-09-22T01:11:47.785Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/sat-specific-ar.json",
+      "chars": 12505,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "x-road-ar",
+      "entry": "site:x.com (\"ضرية\" \"عفيف\" OR \"Saudi construction\") after:2026-09-18 before:2026-09-22",
+      "at": "2026-09-22T01:12:07.042Z",
+      "completedAt": "2026-09-22T01:12:08.633Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/x-road-ar.json",
+      "chars": 0,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "scrape",
+      "name": "etimad-page3",
+      "entry": "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=3",
+      "at": "2026-09-22T01:12:07.040Z",
+      "completedAt": "2026-09-22T01:12:14.947Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/etimad-page3.md",
+      "chars": 2967,
+      "error": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "seetao-check",
+      "entry": "https://www.seetaoa.com/details/278637.html",
+      "at": "2026-09-22T01:12:14.947Z",
+      "completedAt": "2026-09-22T01:12:15.538Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/seetao-check.md",
+      "chars": 13396,
+      "error": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "roshn-official-body",
+      "entry": "https://www.roshn.sa/news-and-events/press-releases/article-139",
+      "at": "2026-09-22T01:12:26.404Z",
+      "completedAt": "2026-09-22T01:12:31.530Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/roshn-official-body.md",
+      "chars": 8081,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "road-primary-ar",
+      "entry": "\"ضرية\" \"عفيف\" \"ازدواج\" \"2026\"",
+      "at": "2026-09-22T01:12:31.531Z",
+      "completedAt": "2026-09-22T01:12:33.061Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/road-primary-ar.json",
+      "chars": 1917,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "x-external",
+      "entry": "site:x.com Saudi construction after:2026-09-18 before:2026-09-22",
+      "at": "2026-09-22T01:12:31.533Z",
+      "completedAt": "2026-09-22T01:12:33.402Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/x-external.json",
+      "chars": 1849,
+      "error": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "scrape",
+      "name": "road-official",
+      "entry": "https://tenders.etimad.sa/Tender/OpenTenderDetailsReportForVisitor?tenderIdString=Ft2MGEZgcFTMU3n4vIVEcg==",
+      "at": "2026-09-22T01:12:50.500Z",
+      "completedAt": "2026-09-22T01:12:56.005Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/road-official.md",
+      "chars": 1344,
+      "error": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "etimad-page3-alt",
+      "entry": "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=3",
+      "at": "2026-09-22T01:12:56.006Z",
+      "completedAt": "2026-09-22T01:12:58.313Z",
+      "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-21/14-00/resume-2026-09-22/etimad-page3-alt.md",
+      "chars": 340,
+      "error": ""
+    }
+  ],
+  "decisions": {
+    "startedAt": "2026-09-21T06:04:45.037Z",
+    "resumedDate": "2026-09-22",
+    "completedAt": "2026-09-22T01:16:35.415Z",
+    "coverage": {
+      "dates": [
+        "2026-09-19",
+        "2026-09-20",
+        "2026-09-21"
+      ],
+      "categories": [
+        "工程项目",
+        "营地住宿",
+        "产品材料",
+        "采购招投标",
+        "合规政策",
+        "航运物流"
+      ],
+      "basis": "s-sat/sun/mon-en/ar分别按日覆盖六类，六类种子查询横跨三日；直接行业列表与主管部门补漏；续跑补周六限定日期查询。"
+    },
+    "excluded": [
+      [
+        "c-qilin",
+        "亚澳服务调整，未证实与沙特工程物流直接相关"
+      ],
+      [
+        "c-rga-fc",
+        "既有道路网络及球迷出行介绍，未披露新建或采购阶段"
+      ],
+      [
+        "p0-etimad-page2",
+        "软件许可、个人出差住宿、车辆维修与本行业范围不直接相关"
+      ],
+      [
+        "seetao-check",
+        "9月18日转述9月15日同阶段旧闻，不列周末新增"
+      ],
+      [
+        "sat-specific",
+        "目录刷新、一般社交评论、新闻编辑日程不构成新工程事实"
+      ],
+      [
+        "x-external",
+        "摘要及评论不作为已核验工程项目"
+      ],
+      [
+        "s-sabic-primary / x-road-ar",
+        "请求未产生正文，后续更具体搜索取得正常结果"
+      ]
+    ],
+    "unchanged": "原有14条全部沿用，未改变事实、编号或核验时间；其中6条unconfirmed本轮未重查。",
+    "newItems": {
+      "2026-09-19": [],
+      "2026-09-20": [
+        {
+          "id": "011",
+          "title": "塔布克法赫德国王清真寺围墙拆除重建项目开放直接采购",
+          "status": "verified"
+        },
+        {
+          "id": "012",
+          "title": "ROSHN与TMG Saudi签初步协议，评估利雅得超过5.5万套住宅的综合社区",
+          "status": "verified"
+        },
+        {
+          "id": "013",
+          "title": "沙特北部边境省完成130余处公园及休闲场所国庆准备",
+          "status": "verified"
+        }
+      ],
+      "2026-09-21": [
+        {
+          "id": "004",
+          "title": "哈费尔巴廷军事城采购维修材料，合同期20天",
+          "status": "verified"
+        },
+        {
+          "id": "005",
+          "title": "哈克尔海水淡化设施招标空气压缩机维护服务，合同期365天",
+          "status": "verified"
+        },
+        {
+          "id": "006",
+          "title": "吉达阿卜杜勒阿齐兹国王医学城采购电气备件",
+          "status": "verified"
+        },
+        {
+          "id": "007",
+          "title": "吉达阿卜杜勒阿齐兹国王医学城采购电子门维修备件",
+          "status": "verified"
+        },
+        {
+          "id": "008",
+          "title": "马士基公布远东至沙特等地重箱附加费：适用40英尺箱每箱800美元",
+          "status": "verified"
+        },
+        {
+          "id": "009",
+          "title": "Technip Energies与SABIC达成CTR低密度聚乙烯技术全球许可合作",
+          "status": "verified"
+        },
+        {
+          "id": "010",
+          "title": "Dariya—Afif约65公里道路双幅化项目在招，官方页面列10月1日报价截止",
+          "status": "verified"
+        }
+      ]
+    },
+    "limitations": [
+      [
+        "Google／Google News",
+        "直访及备用均受限",
+        "9月21日Scrapling直访超时，Firecrawl备用亦失败；实际使用关键词搜索补漏，未把搜索工具等同站内访问。"
+      ],
+      [
+        "X",
+        "直访未完成；外部检索成功",
+        "9月21日普通方式连接失败，Firecrawl不支持该入口；9月22日执行针对9月19—21日的外部查询，未将社交摘要当作事实。"
+      ],
+      [
+        "MEED",
+        "最新列表与导语成功，正文订阅受限",
+        "9月21日直接读取最新列表，发现道路报道；两种方式均未读取订阅正文，后追到Etimad公告。"
+      ],
+      [
+        "Etimad",
+        "根列表、第二页与5项详情成功；第三页受限",
+        "9月21日读取根列表及第二页；9月22日读取5项详情和道路打印页。第三页Firecrawl显示无数据，Scrapling访问被拒绝，不能视为已完整覆盖该页。"
+      ],
+      [
+        "Momah／Balady",
+        "新闻列表成功；住宿页面受限",
+        "Momah备用取得列表，最新相关17日活动已收录；Balady普通方式失败，9月22日Firecrawl备用超时。未据此称无新规。"
+      ]
+    ]
+  }
+}

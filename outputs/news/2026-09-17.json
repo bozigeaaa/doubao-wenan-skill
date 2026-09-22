@@ -1,0 +1,903 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-09-17",
+  "collectedAt": "2026-09-17T06:18:21.869Z",
+  "timeZone": "Asia/Shanghai",
+  "window": "14:00增量窗口：2026-09-16 09:18（北京时间，上次成功采集前24小时）至本轮实际结束；保留09:00已归档内容。更早原文只用于跨日去重、候选日期与事件阶段核对。",
+  "scope": "以沙特为主，检查工程项目、营地住宿、产品材料、招投标、合规政策、航运物流六类。14:00新增5条，复查更新1条；今日累计17条，14条已核验、3条证据不足。不代表全网全部新闻。",
+  "channels": [
+    [
+      "Google／Google News",
+      "直接访问与Firecrawl备用请求均失败",
+      "已执行英阿语关键词补漏；不宣称完整读取Google入口。"
+    ],
+    [
+      "X",
+      "直接访问失败；Firecrawl不支持；公开索引补漏",
+      "本轮实际搜索公开索引，未取得帖子全文。"
+    ],
+    [
+      "MEED",
+      "真实latest列表可读；Expo及Oxagon正文受限",
+      "Expo旧线索复查仍缺证据；Oxagon新线索单列证据不足。"
+    ],
+    [
+      "Etimad",
+      "第一页12条及第二页6条可读，存在重叠",
+      "新核实5吨设备安装采购；已读详情与打印报告，未穷尽分页。"
+    ],
+    [
+      "Saudi Gazette／Arab News／SaudiGulfProjects",
+      "直接列表及备用读取完成",
+      "与旧档案去重；非工程商务新闻及旧新闻排除。"
+    ],
+    [
+      "Saudi Exchange／Al Akaria",
+      "动态最新10条和相关一手全文可读",
+      "新增钢塔供货与市政接待中心改造；Porta Jeddah重复，医疗餐饮范围不适配。"
+    ],
+    [
+      "Maersk／Hapag-Lloyd／Hellenic Shipping News",
+      "Maersk目录与HSN全文可读；Hapag主备方式均仅框架",
+      "早报第47号通知保留；延布油货报道与旧档同阶段。"
+    ],
+    [
+      "NEOM／Expo官方",
+      "官方背景及新闻列表可读",
+      "未取得两条所报招采事项的一手公告，不能以总体规划替代。"
+    ],
+    [
+      "Asharq Al-Awsat／Argaam",
+      "水泥报道全文可读；对照报告部分公开",
+      "样本范围不同，行业汇总数据仍缺独立复核。"
+    ],
+    [
+      "Deloitte／Umm Al Qura",
+      "政策解读与官报原文可读",
+      "官报正文明确5月15日发布，排除为旧政策。"
+    ]
+  ],
+  "retrievalTools": [
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://www.meed.com/latest-news",
+        "https://news.google.com/search?q=Saudi%20construction%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+        "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-16+before%3A2026-09-18",
+        "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-16&src=typed_query&f=live",
+        "https://www.arabnews.com/business-economy",
+        "https://www.hapag-lloyd.com/en/services-information/news.html",
+        "https://saudigazette.com.sa/saudi-arabia",
+        "https://www.saudigulfprojects.com/",
+        "https://www.meed.com/firms-submit-expo-2030-convention-centre-interest",
+        "https://www.maersk.com/news/",
+        "https://www.expo2030riyadh.sa/en/news-hub",
+        "https://www.meed.com/latest",
+        "https://www.meed.com/neom-tenders-oxagon-highway-contract",
+        "https://www.al-akaria.com/en/al-akaria-signs-package-one-en/",
+        "https://www.emilecon.com/post/tender-announcement-for-permanent-upgrade-of-oxagon-highway-55-in-neom",
+        "https://english.aawsat.com/business/5318873-saudi-cement-companies-balance-investment-gains-demand-prospects",
+        "https://www.hellenicshippingnews.com/saudi-red-sea-oil-shipments-halted-amid-pipeline-damage-war-on-yemen/",
+        "https://www.neom.com/en-us/regions/oxagon",
+        "https://www.deloitte.com/middle-east/en/services/tax/perspectives/saudi-arabia-approves-vacant-real-estate-tax-regulations.html",
+        "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/",
+        "https://www.argaam.com/en/sector-estimates-report-post-result/3/61022",
+        "https://www.uqn.gov.sa/decisions-and-regulations/4000950",
+        "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98188&anCat=1&cs=1831&locale=en",
+        "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98187&anCat=1&cs=1304&locale=en",
+        "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98187&anCat=1&cs=1304&locale=ar",
+        "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98189&anCat=1&cs=9558&locale=en",
+        "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98189&anCat=1&cs=9558&locale=ar"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-17/14-00/access-log.json；各条结果层级与原文文件已保存。"
+    },
+    {
+      "tool": "firecrawl",
+      "status": "completed",
+      "entries": [
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1&PageSize=24&SortDirection=DESC&SortField=PublishDate",
+        "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-16+before%3A2026-09-18",
+        "https://news.google.com/search?q=Saudi%20construction%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+        "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-16&src=typed_query&f=live",
+        "https://www.arabnews.com/business-economy",
+        "https://www.expo2030riyadh.sa/en/news-hub",
+        "https://www.hapag-lloyd.com/en/services-information/news.html",
+        "https://www.meed.com/firms-submit-expo-2030-convention-centre-interest",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2",
+        "https://www.meed.com/neom-tenders-oxagon-highway-contract",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=iRGQKrd6vJ9vCqkfcwhhjQ==",
+        "Saudi construction project contract tender September 17 2026",
+        "Saudi worker accommodation camp modular housing steel construction September 16 17 2026",
+        "السعودية مشاريع ترسية إنشاءات مساكن عمال حديد بعد after:2026-09-15 before:2026-09-18",
+        "Saudi construction project contract after:2026-09-15 before:2026-09-18",
+        "Saudi shipping Dammam Jeddah regulation construction after:2026-09-15 before:2026-09-18",
+        "\"Oxagon\" \"Highway\" \"2026\" tender",
+        "site:x.com (NEOM OR Saudi OR السعودية) (construction OR ترسية OR ميناء) after:2026-09-15 before:2026-09-18",
+        "\"السعودية\" \"سبتمبر 2026\" \"16\" (ترسية OR إنشاء OR بناء OR سكن)",
+        "\"Expo 2030\" \"convention centre\" September 2026",
+        "\"Saudi\" (steel OR cement OR modular OR accommodation) after:2026-09-15 before:2026-09-18 -site:facebook.com -site:instagram.com -site:youtube.com",
+        "Saudi (shipping OR freight OR customs OR construction regulation) after:2026-09-15 before:2026-09-18 -site:facebook.com -site:instagram.com -site:youtube.com -site:richmondbizsense.com",
+        "site:neom.com \"Highway 55\"",
+        "https://english.aawsat.com/business/5318873-saudi-cement-companies-balance-investment-gains-demand-prospects",
+        "https://tenders.etimad.sa/Tender/OpenTenderDetailsReportForVisitor?tenderIdString=iRGQKrd6vJ9vCqkfcwhhjQ==",
+        "\"السعودية\" (\"كود البناء\" OR \"الدفاع المدني\" OR \"رسوم العقارات\") after:2026-09-15 before:2026-09-18 -site:instagram.com -site:facebook.com",
+        "\"Fastmarkets\" \"Saudi\" \"September\" \"2026\" scrap",
+        "Saudi cement companies first half 2026 net profit 1.1 billion 2.4 Yamama 265.39",
+        "site:saudiexchange.sa \"2026-09-17\" (\"Contract\" OR \"construction\" OR \"Agreement\")",
+        "\"السعودية\" \"اللائحة التنفيذية\" \"العقارات الشاغرة\" 2026",
+        "https://www.argaam.com/en/sector-estimates-report-post-result/3/61022",
+        "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-17/14-00/access-log.json；各条结果层级与原文文件已保存。"
+    }
+  ],
+  "items": [
+    {
+      "id": "001",
+      "tags": [
+        "工程项目"
+      ],
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "update": "09:00本轮新增",
+      "category": "工程项目",
+      "region": "吉达",
+      "title": "BAAN启动2600平方米Playocity娱乐项目，预计2027年一季度运营",
+      "original": "BAAN Holding Group Announces the Launch of Construction and Development Works for the \"Playocity\" Entertainment Project in Partnership with Global Brand Hasbro",
+      "source": "Saudi Exchange／BAAN",
+      "sourceType": "上市公司项目公告",
+      "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98170&anCat=1&cs=1820&locale=en",
+      "published": "2026-09-16 15:45:57（原文标时）",
+      "event": "已启动实施；预计2027年第一季度完成并商业运营",
+      "summary": "BAAN宣布在吉达Westfield Center启动Playocity娱乐项目实施，与Hasbro合作，面积约2600平方米。公司预计于2027年第一季度完成并开始商业运营，财务影响预计届时体现。",
+      "review": "已读交易所完整公告，与SaudiGulfProjects报道核对项目、地点、面积和计划时点；不把公司预期写成已完成事实。",
+      "reviewUrls": [
+        [
+          "SaudiGulfProjects",
+          "https://www.saudigulfprojects.com/2026/09/baan-holding-launches-2600-sq-m-family-entertainment-project-with-hasbro-in-jeddah/"
+        ]
+      ],
+      "boundary": "公告未披露工程合同额、施工承包商或营地采购；运营时间是预计。",
+      "background": "商业娱乐空间进入实施阶段；尚无直接临建产品采购证据。",
+      "evidenceFiles": [
+        "baan-primary.md",
+        "baan-sgp.md",
+        "baan-profile.html"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-17T01:16:14.528Z",
+        "method": "读取原始公告并核对日期、主体、范围与阶段",
+        "confirmedScope": "BAAN宣布在吉达Westfield Center启动Playocity娱乐项目实施，与Hasbro合作，面积约2600平方米。公司预计于2027年第一季度完成并开始商业运营，财务影响预计届时体现。",
+        "reason": "已读交易所完整公告，与SaudiGulfProjects报道核对项目、地点、面积和计划时点；不把公司预期写成已完成事实。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "002",
+      "tags": [
+        "营地住宿"
+      ],
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "update": "09:00本轮新增",
+      "category": "营地住宿",
+      "region": "NEOM",
+      "title": "BAAN披露NRC26营地餐饮合同将于9月30日终止",
+      "original": "BAAN Holding Group Company announcement regarding the latest developments concerning the award of a project to Alpha Utilities Contracting Company.",
+      "source": "Saudi Exchange／BAAN",
+      "sourceType": "上市公司合同进展公告",
+      "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98143&anCat=1&cs=1820&locale=en",
+      "published": "2026-09-15 08:56:02（原文标时；本轮补漏）",
+      "event": "2026-09-14收到书面通知；2026-09-30终止生效",
+      "summary": "BAAN披露已收到Alfa Facilities Contracting Company关于NRC26项目餐饮服务合同的终止通知，终止将于9月30日生效，此前仍按合同提供服务。该合同涉及NEOM住宅综合体餐饮；公司明确本次终止仅限NRC26合同，不影响其当前在NEOM其他领域的业务与运营活动。",
+      "review": "从BAAN交易所公告列表追到98143原文，核实收到通知日、生效日、服务性质和排除范围；历史档案中未收录，作为9月15日漏项补入本次日报。",
+      "boundary": "不能据此推断NEOM全部营地关闭、工程停工或BAAN全部业务退出。",
+      "background": "营地配套服务合同的运营变化，不是营地建筑拆除或住宿容量变化。",
+      "evidenceFiles": [
+        "baan-alpha.md",
+        "baan-profile.html"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-17T01:16:14.528Z",
+        "method": "读取原始公告并核对日期、主体、范围与阶段",
+        "confirmedScope": "BAAN披露已收到Alfa Facilities Contracting Company关于NRC26项目餐饮服务合同的终止通知，终止将于9月30日生效，此前仍按合同提供服务。该合同涉及NEOM住宅综合体餐饮；公司明确本次终止仅限NRC26合同，不影响其当前在NEOM其他领域的业务与运营活动。",
+        "reason": "从BAAN交易所公告列表追到98143原文，核实收到通知日、生效日、服务性质和排除范围；历史档案中未收录，作为9月15日漏项补入本次日报。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "003",
+      "tags": [
+        "工程项目"
+      ],
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "update": "09:00本轮新增",
+      "category": "工程项目",
+      "region": "麦地那",
+      "title": "KEC与Al Majdiah签开发备忘录，初步规划约2700套住宅",
+      "original": "Dar Al Majed Real Estate Company Announces the Signing of a Memorandum of Understanding with Knowledge Economic City Company and Capital Hill Financial Company to Develop a Real Estate Project in Madinah",
+      "source": "Saudi Exchange／Al Majdiah",
+      "sourceType": "上市公司备忘录公告",
+      "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98134&anCat=1&cs=4326&locale=en",
+      "published": "2026-09-15 08:03:48（原文标时；9月16日媒体报道后追溯补漏）",
+      "event": "2026-09-14签署备忘录，排他期90天",
+      "summary": "Al Majdiah与Knowledge Economic City、Capital Hill签署备忘录，拟通过封闭式房地产基金开发麦地那约9.7万平方米用地，初步规划约2700套住宅及约8000平方米可出租商业面积。初步总成本约28亿里亚尔，不含基金费用及相关成本；项目仍待尽调、审批、最终设计和正式协议。",
+      "review": "MEED仅公开导语，已追到交易所98134全文核对；数量、成本与基金结构均为初步安排。与此前Mashraf 296套住宅项目为不同事项。",
+      "reviewUrls": [
+        [
+          "MEED公开导语",
+          "https://www.meed.com/medinas-kec-signs-another-real-estate-development-deal"
+        ]
+      ],
+      "boundary": "备忘录不等于施工授标或开工；实施性商业义务须待正式协议，公告列明的约束条款除外。",
+      "background": "大型综合住宅开发处于合作与尽调阶段，可跟踪正式投资和工程采购。",
+      "evidenceFiles": [
+        "kec-primary.md",
+        "kec-meed-fallback.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-17T01:16:14.528Z",
+        "method": "读取原始公告并核对日期、主体、范围与阶段",
+        "confirmedScope": "Al Majdiah与Knowledge Economic City、Capital Hill签署备忘录，拟通过封闭式房地产基金开发麦地那约9.7万平方米用地，初步规划约2700套住宅及约8000平方米可出租商业面积。初步总成本约28亿里亚尔，不含基金费用及相关成本；项目仍待尽调、审批、最终设计和正式协议。",
+        "reason": "MEED仅公开导语，已追到交易所98134全文核对；数量、成本与基金结构均为初步安排。与此前Mashraf 296套住宅项目为不同事项。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "004",
+      "tags": [
+        "航运物流"
+      ],
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "update": "09:00本轮新增",
+      "category": "航运物流",
+      "region": "达曼／朱拜勒",
+      "title": "马士基调整达曼、朱拜勒20英尺空箱退箱费，9月17日起列为免费",
+      "original": "Middle East Operational Update 47",
+      "source": "Maersk",
+      "sourceType": "船公司官方服务通知",
+      "url": "https://www.maersk.com/news/articles/2026/09/16/middle-east-operational-update-47",
+      "published": "2026-09-16",
+      "event": "2026-09-17起适用通知所列DRP费用",
+      "summary": "马士基第47号中东运营通知的有限接收退箱费用表，将达曼、朱拜勒20英尺空箱DRP列为免费，自9月17日起生效；40英尺及20／40英尺冷藏箱同列免费。对照已存第46号通知，20英尺项原列1000美元。实际退箱仍须按交货单指定地点、场站当时接收状态或更新指令执行。",
+      "review": "已读第47号全文及其链接的空箱专门通知，并与9月14日存档的第46号表格比较。识别出20英尺DRP的实质变化；未把未变化的干货订舱规则另计新事件。",
+      "reviewUrls": [
+        [
+          "空箱退箱专门通知",
+          "https://www.maersk.com/news/articles/2026/03/17/hormuz-closure-empty-returns-suspension-update-march"
+        ]
+      ],
+      "relatedId": "2026-09-14/001",
+      "boundary": "免费只对应表中DRP退箱费，不能扩展为海运费、拖车费、滞箱滞港费全免，也不代表全部货类恢复订舱。",
+      "background": "涉及使用马士基箱设备的进口交付及还箱成本；本条不确认任何具体产品订单。",
+      "shipping": [
+        [
+          "船公司",
+          "Maersk"
+        ],
+        [
+          "地点",
+          "达曼、朱拜勒"
+        ],
+        [
+          "费用",
+          "有限接收退箱表的DRP；按箱计"
+        ],
+        [
+          "生效日",
+          "2026-09-17"
+        ],
+        [
+          "执行条件",
+          "按DO、场站实际接收状态及船公司更新指令"
+        ]
+      ],
+      "evidenceFiles": [
+        "maersk-update47.md",
+        "maersk-empty.md",
+        "maersk46-comparison.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-17T01:16:14.528Z",
+        "method": "读取原始公告并核对日期、主体、范围与阶段",
+        "confirmedScope": "马士基第47号中东运营通知的有限接收退箱费用表，将达曼、朱拜勒20英尺空箱DRP列为免费，自9月17日起生效；40英尺及20／40英尺冷藏箱同列免费。对照已存第46号通知，20英尺项原列1000美元。实际退箱仍须按交货单指定地点、场站当时接收状态或更新指令执行。",
+        "reason": "已读第47号全文及其链接的空箱专门通知，并与9月14日存档的第46号表格比较。识别出20英尺DRP的实质变化；未把未变化的干货订舱规则另计新事件。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "005",
+      "tags": [
+        "项目合规"
+      ],
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "update": "09:00本轮新增",
+      "category": "项目合规",
+      "region": "沙特全国",
+      "title": "沙特央行上调两项政策利率25个基点，回购利率升至4.50%",
+      "original": "SAMA Decision on Repo and Reverse Repo Rates",
+      "source": "Saudi Central Bank（SAMA）",
+      "sourceType": "央行官方决定",
+      "url": "https://www.sama.gov.sa/en-US/MediaCenter/News/Pages/news-1169.aspx",
+      "published": "2026-09-16 21:15（原文标时）",
+      "event": "2026-09-16公布政策利率决定",
+      "summary": "沙特央行宣布将回购利率上调25个基点至4.50%，逆回购利率上调25个基点至4.00%。公告说明此举依据其维护货币稳定的职责。",
+      "review": "已读央行新闻原文，复核发布日期、加息幅度与两项最终利率，并对照Saudi Gazette当日报道。",
+      "reviewUrls": [
+        [
+          "Saudi Gazette",
+          "https://saudigazette.com.sa/article/664633/saudi-arabia/saudi-arabia-raises-repo-and-reverse-repo-rates-by-25-basis-points"
+        ]
+      ],
+      "boundary": "宏观融资背景；不等于所有工程贷款、供应商账期或项目报价自动同步调整。",
+      "background": "为有融资需求的项目提供政策背景，不作个别贷款成本或投资回报预测。",
+      "evidenceFiles": [
+        "sama-official.md",
+        "sama-rates.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-17T01:16:14.528Z",
+        "method": "读取原始公告并核对日期、主体、范围与阶段",
+        "confirmedScope": "沙特央行宣布将回购利率上调25个基点至4.50%，逆回购利率上调25个基点至4.00%。公告说明此举依据其维护货币稳定的职责。",
+        "reason": "已读央行新闻原文，复核发布日期、加息幅度与两项最终利率，并对照Saudi Gazette当日报道。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "006",
+      "tags": [
+        "招投标"
+      ],
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "update": "09:00本轮新增",
+      "category": "招投标",
+      "region": "Al Wadi’ah（الوديعة）",
+      "title": "Al Wadi’ah临时建筑供货安装公开招标，合同期60天",
+      "original": "توريد وتركيب برتبلات للوحدات الأمامية بالوديعة",
+      "source": "Etimad",
+      "sourceType": "政府采购公开列表及基本详情",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=XcM4gSTAM8wipCOIVeZ8hw==",
+      "published": "2026-09-16（公开列表发布日期）",
+      "event": "采购发布；2026-10-04 09:59截止（平台原文标时）",
+      "summary": "沙特陆军在Etimad发布Al Wadi’ah单位临时建筑供货及安装公开招标，参考编号260939006640，合同期60天，投标截止日为10月4日。",
+      "review": "Scrapling返回访问限制后，已用Firecrawl读取详情，并与公开列表逐项核对名称、参考号、发布日、采购方式、合同期限及截标日；未购买招标文件。",
+      "reviewUrls": [
+        [
+          "Etimad公开列表",
+          "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2&PageSize=24&SortDirection=DESC&SortField=PublishDate"
+        ]
+      ],
+      "boundary": "برتبلات为公告中的便携式建筑称谓；公开基本信息未给数量、结构形式或型号，不能直接等同于特定打包箱。2000里亚尔是文件费，不是合同额。",
+      "background": "与临时建筑供应有关；具体是否适配打包箱须按技术规格判断。",
+      "evidenceFiles": [
+        "wadi-portables-fallback.md",
+        "etimad-page2.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-17T01:16:14.528Z",
+        "method": "读取原始公告并核对日期、主体、范围与阶段",
+        "confirmedScope": "沙特陆军在Etimad发布Al Wadi’ah单位临时建筑供货及安装公开招标，参考编号260939006640，合同期60天，投标截止日为10月4日。",
+        "reason": "Scrapling返回访问限制后，已用Firecrawl读取详情，并与公开列表逐项核对名称、参考号、发布日、采购方式、合同期限及截标日；未购买招标文件。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "007",
+      "tags": [
+        "招投标"
+      ],
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "update": "09:00本轮新增",
+      "category": "招投标",
+      "region": "Rumah（رماح）",
+      "title": "Rumah野外公园接待营地整修采购，9月20日截标",
+      "original": "اعادة تأهيل مخيمات الضيافة بالمنتزة البري برماح",
+      "source": "Etimad",
+      "sourceType": "政府采购公开列表及基本详情",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=DPwypbIxrSlYGe4U6m4sGA==",
+      "published": "2026-09-16（公开列表发布日期）",
+      "event": "采购发布；2026-09-20 09:59截止（平台原文标时）",
+      "summary": "沙特防空部队发布Rumah野外公园接待营地整修直接采购，参考编号260939006235、采购号A1447/0074，合同期15天；公开列表列示9月20日截标。",
+      "review": "Scrapling返回访问限制后，已用Firecrawl读取详情，并与公开列表逐项核对名称、参考号、发布日、采购方式、合同期限及截标日；未购买招标文件。",
+      "reviewUrls": [
+        [
+          "Etimad公开列表",
+          "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1&PageSize=24&SortDirection=DESC&SortField=PublishDate"
+        ]
+      ],
+      "boundary": "接待营地不等于工人营地；未披露新增住宿单元、卫浴或箱房数量。200里亚尔是文件费。",
+      "background": "营地设施整修采购；缺少分项清单，暂不指定产品适配。",
+      "evidenceFiles": [
+        "tender-camp-fallback.md",
+        "p0-etimad.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-17T01:16:14.528Z",
+        "method": "读取原始公告并核对日期、主体、范围与阶段",
+        "confirmedScope": "沙特防空部队发布Rumah野外公园接待营地整修直接采购，参考编号260939006235、采购号A1447/0074，合同期15天；公开列表列示9月20日截标。",
+        "reason": "Scrapling返回访问限制后，已用Firecrawl读取详情，并与公开列表逐项核对名称、参考号、发布日、采购方式、合同期限及截标日；未购买招标文件。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "008",
+      "tags": [
+        "招投标"
+      ],
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "update": "09:00本轮新增",
+      "category": "招投标",
+      "region": "沙特（公开基本信息未列具体城市）",
+      "title": "阿卜杜拉国王防空学院采购窗式冷气机，合同期15天",
+      "original": "توريد مكيفات نوع شباك بارد لزوم كلية الملك عبدالله للدفاع الجوي",
+      "source": "Etimad",
+      "sourceType": "政府采购公开列表及基本详情",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=dVqeamyZtNTQAz7f%20HSjzQ==",
+      "published": "2026-09-16（公开列表发布日期）",
+      "event": "采购发布；2026-10-02 09:59截止（平台原文标时）",
+      "summary": "阿卜杜拉国王防空学院发布窗式制冷空调直接采购，参考编号260939005920、采购号T144700019，合同期15天；公开列表列示10月2日截标。",
+      "review": "Scrapling返回访问限制后，已用Firecrawl读取详情，并与公开列表逐项核对名称、参考号、发布日、采购方式、合同期限及截标日；未购买招标文件。",
+      "reviewUrls": [
+        [
+          "Etimad公开列表",
+          "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1&PageSize=24&SortDirection=DESC&SortField=PublishDate"
+        ]
+      ],
+      "boundary": "仅确认窗式制冷空调采购，未确认数量、制冷量或安装范围；文件费200里亚尔不是采购预算。",
+      "background": "公共设施空调配套需求，不强行关联公司四类产品。",
+      "evidenceFiles": [
+        "tender-ac-fallback.md",
+        "p0-etimad.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-17T01:16:14.528Z",
+        "method": "读取原始公告并核对日期、主体、范围与阶段",
+        "confirmedScope": "阿卜杜拉国王防空学院发布窗式制冷空调直接采购，参考编号260939005920、采购号T144700019，合同期15天；公开列表列示10月2日截标。",
+        "reason": "Scrapling返回访问限制后，已用Firecrawl读取详情，并与公开列表逐项核对名称、参考号、发布日、采购方式、合同期限及截标日；未购买招标文件。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "009",
+      "tags": [
+        "招投标"
+      ],
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "update": "09:00本轮新增",
+      "category": "招投标",
+      "region": "利雅得",
+      "title": "利雅得普通法院附楼改造及空调工程监理招标，服务期12个月",
+      "original": "الإشراف على التأهيل والتكييف للمبنى الإضافي بالمحكمة العامة بمدينة الرياض – مبنى إمام الدعوة العلمي سابقاً",
+      "source": "Etimad",
+      "sourceType": "政府采购公开列表及基本详情",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=8MLIRtwkK6TImHhNlbzdeQ==",
+      "published": "2026-09-16（公开列表发布日期）",
+      "event": "采购发布；2026-10-02 09:59截止（平台原文标时）",
+      "summary": "司法部发布利雅得普通法院附楼改造及空调工程监理公开招标，参考编号260939005087，合同期12个月。范围包含监督跟进、工程接收、图纸与材料审核及报告，投标截止日为10月2日。",
+      "review": "Scrapling返回访问限制后，已用Firecrawl读取详情，并与公开列表逐项核对名称、参考号、发布日、采购方式、合同期限及截标日；未购买招标文件。",
+      "reviewUrls": [
+        [
+          "Etimad公开列表",
+          "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2&PageSize=24&SortDirection=DESC&SortField=PublishDate"
+        ]
+      ],
+      "boundary": "本次采购是监理咨询服务，不是整栋建筑施工授标；1000里亚尔为文件费。",
+      "background": "公共建筑改造的专业服务采购，可区分施工与监理责任。",
+      "evidenceFiles": [
+        "court-supervision-fallback.md",
+        "etimad-page2.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-17T01:16:14.528Z",
+        "method": "读取原始公告并核对日期、主体、范围与阶段",
+        "confirmedScope": "司法部发布利雅得普通法院附楼改造及空调工程监理公开招标，参考编号260939005087，合同期12个月。范围包含监督跟进、工程接收、图纸与材料审核及报告，投标截止日为10月2日。",
+        "reason": "Scrapling返回访问限制后，已用Firecrawl读取详情，并与公开列表逐项核对名称、参考号、发布日、采购方式、合同期限及截标日；未购买招标文件。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "010",
+      "tags": [
+        "招投标"
+      ],
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "update": "09:00本轮新增",
+      "category": "招投标",
+      "region": "卡西姆",
+      "title": "卡西姆上诉法院建筑维护与清洁招标，服务期36个月",
+      "original": "صيانة ونظافة مبنى محكمة الاستئناف بمنطقة القصيم",
+      "source": "Etimad",
+      "sourceType": "政府采购公开列表及基本详情",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=gzBP%20Nsp7zADIHCRf8tjig==",
+      "published": "2026-09-16（公开列表发布日期）",
+      "event": "采购发布；2026-10-02 09:59截止（平台原文标时）",
+      "summary": "司法部发布卡西姆上诉法院建筑维护与清洁公开招标，参考编号260839010271、采购号2026/68，合同期36个月；投标截止日为10月2日。",
+      "review": "Scrapling返回访问限制后，已用Firecrawl读取详情，并与公开列表逐项核对名称、参考号、发布日、采购方式、合同期限及截标日；未购买招标文件。",
+      "reviewUrls": [
+        [
+          "Etimad公开列表",
+          "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2&PageSize=24&SortDirection=DESC&SortField=PublishDate"
+        ]
+      ],
+      "boundary": "运营维护及清洁服务，不能写成新法院建设或扩建；文件费1000里亚尔不是合同总价。",
+      "background": "公共设施持续运营服务采购，没有直接建材或临建型号清单。",
+      "evidenceFiles": [
+        "court-maintenance-fallback.md",
+        "etimad-page2.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-17T01:16:14.528Z",
+        "method": "读取原始公告并核对日期、主体、范围与阶段",
+        "confirmedScope": "司法部发布卡西姆上诉法院建筑维护与清洁公开招标，参考编号260839010271、采购号2026/68，合同期36个月；投标截止日为10月2日。",
+        "reason": "Scrapling返回访问限制后，已用Firecrawl读取详情，并与公开列表逐项核对名称、参考号、发布日、采购方式、合同期限及截标日；未购买招标文件。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "011",
+      "tags": [
+        "招投标"
+      ],
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "update": "09:00本轮新增",
+      "category": "招投标",
+      "region": "Al Lith（الليث）",
+      "title": "Al Lith医院所属健康中心采购供水与污水清运服务，期限12个月",
+      "original": "توريد مياه و صرف صحي كسح للمراكز الصحية التابعة لمستشفى الليث العام",
+      "source": "Etimad",
+      "sourceType": "政府采购公开列表及基本详情",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=7cj2BYjq69mqrnDloO1NGg==",
+      "published": "2026-09-16（公开列表发布日期）",
+      "event": "采购发布；2026-10-02 09:59截止（平台原文标时）",
+      "summary": "吉达第一医疗集群为Al Lith总医院所属健康中心发布供水与污水抽排清运公开招标，参考编号260939006673，合同期12个月；投标截止日为10月2日。",
+      "review": "Scrapling返回访问限制后，已用Firecrawl读取详情，并与公开列表逐项核对名称、参考号、发布日、采购方式、合同期限及截标日；未购买招标文件。",
+      "reviewUrls": [
+        [
+          "Etimad公开列表",
+          "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2&PageSize=24&SortDirection=DESC&SortField=PublishDate"
+        ]
+      ],
+      "boundary": "采购供水与抽排清运服务，未披露新建污水厂、管网或移动卫浴；文件费500里亚尔不是工程投资额。",
+      "background": "公共设施给排水运营配套；不由服务采购推断卫浴设备需求。",
+      "evidenceFiles": [
+        "laith-water-fallback.md",
+        "etimad-page2.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-17T01:16:14.528Z",
+        "method": "读取原始公告并核对日期、主体、范围与阶段",
+        "confirmedScope": "吉达第一医疗集群为Al Lith总医院所属健康中心发布供水与污水抽排清运公开招标，参考编号260939006673，合同期12个月；投标截止日为10月2日。",
+        "reason": "Scrapling返回访问限制后，已用Firecrawl读取详情，并与公开列表逐项核对名称、参考号、发布日、采购方式、合同期限及截标日；未购买招标文件。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "012",
+      "tags": [
+        "招投标"
+      ],
+      "eventLabel": "事件／阶段",
+      "status": "unconfirmed",
+      "statusText": "证据不足",
+      "products": [],
+      "update": "14:00核验更新：仍为证据不足",
+      "category": "招投标",
+      "region": "利雅得",
+      "title": "待证线索：媒体称承包商已提交世博会会议中心项目意向",
+      "original": "Contractors submit Expo 2030 convention centre interest",
+      "source": "MEED",
+      "sourceType": "专业媒体公开标题与导语；正文订阅受限",
+      "url": "https://www.meed.com/firms-submit-expo-2030-convention-centre-interest",
+      "published": "2026-09-16",
+      "event": "媒体所称意向提交阶段；具体提交日未取得",
+      "summary": "MEED于9月16日刊出承包商提交Expo 2030会议中心项目意向的报道，公开导语称设施位于展区Collaboration District入口。正文受订阅限制，本轮未取得可验证提交方、范围及时间的业主采购公告。",
+      "review": "14:00批次重新读取MEED原链接，Scrapling及Firecrawl均仅取得标题、日期和导语；Firecrawl读取Expo官方新闻中心，最新可读公告为9月13日Expo Village合作，与本条会议中心不同。公开关键词补查未取得该会议中心EOI原始采购公告。",
+      "reviewUrls": [
+        [
+          "Expo 2030官方新闻中心",
+          "https://www.expo2030riyadh.sa/en/news-hub"
+        ]
+      ],
+      "boundary": "不写成正式投标完成、施工授标或开工；与Expo Village为不同标的。",
+      "background": "潜在工程采购线索，未通过本轮真实性复核，默认不进入可选已核验新闻。",
+      "evidenceFiles": [
+        "expo-meed.md",
+        "expo-fallback.md",
+        "expo-primary-find.json",
+        "expo-hub-fallback.md",
+        "14-00/expo-recheck.md",
+        "14-00/expo-meed-fallback.md",
+        "14-00/expo-hub-fallback.md",
+        "14-00/search-expo-recheck.json"
+      ],
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-17T06:17:15.829Z",
+        "method": "重新读取媒体原文与官方新闻目录，并检索同一标的公开采购依据",
+        "confirmedScope": "已确认该媒体公开标题、发布日期和导语；尚不能确认所报招采进展。",
+        "reason": "14:00批次重新读取MEED原链接，Scrapling及Firecrawl均仅取得标题、日期和导语；Firecrawl读取Expo官方新闻中心，最新可读公告为9月13日Expo Village合作，与本条会议中心不同。公开关键词补查未取得该会议中心EOI原始采购公告。",
+        "missing": "缺业主该会议中心采购公告或可独立复核的提交时间、参与方及招采范围；MEED完整正文受限。"
+      }
+    },
+    {
+      "id": "013",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "工程设施"
+      ],
+      "region": "沙特／Sharurah采购单位",
+      "title": "Sharurah发布5吨桥式起重设备安装招标，合同期60天",
+      "original": "تركيب وتأسيس ونش علوي حمولة 5 طن لورشة هيكل المدراعات",
+      "source": "Etimad",
+      "sourceType": "政府采购平台公开列表、详情与打印报告",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=iRGQKrd6vJ9vCqkfcwhhjQ==",
+      "published": "2026-09-17（Etimad列表）",
+      "event": "公开招标；2026-10-04截标，详情合同期60天",
+      "summary": "Etimad发布陆军Sharurah设施运维部门的5吨桥式起重设备安装及配套基础工作招标，用于装甲车辆车体车间。参考号260939006862；详情页列明合同期60天，公开列表及打印报告均显示10月4日为提交截止日。",
+      "review": "已核对政府平台列表、详情及打印报告的名称、参考号、主体、合同期和截标日。列表与详情显示文件费800，打印页显示300，存在口径冲突，本条不采纳文件费金额。",
+      "boundary": "仅确认公开招标及公告范围；未取得技术文件、授标结果或开工证明。打印页执行地点仅写沙特境内，不补写具体工地地址；文件费不是项目金额。",
+      "background": "公共设施机械安装采购线索；不推导为营地建设或东方骆驼可供货机会。",
+      "products": [],
+      "status": "verified",
+      "statusText": "已核验",
+      "evidenceFiles": [
+        "14-00/p0-etimad.md",
+        "14-00/crane-detail.md",
+        "14-00/crane-report.md"
+      ],
+      "reviewUrls": [
+        [
+          "Etimad公开打印报告",
+          "https://tenders.etimad.sa/Tender/OpenTenderDetailsReportForVisitor?tenderIdString=iRGQKrd6vJ9vCqkfcwhhjQ=="
+        ]
+      ],
+      "eventLabel": "事件／阶段",
+      "update": "14:00本轮新增",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-17T06:17:15.829Z",
+        "method": "读取一手公告并逐项核对日期、主体、范围、数字和阶段",
+        "confirmedScope": "Etimad发布陆军Sharurah设施运维部门的5吨桥式起重设备安装及配套基础工作招标，用于装甲车辆车体车间。参考号260939006862；详情页列明合同期60天，公开列表及打印报告均显示10月4日为提交截止日。",
+        "reason": "已核对政府平台列表、详情及打印报告的名称、参考号、主体、合同期和截标日。列表与详情显示文件费800，打印页显示300，存在口径冲突，本条不采纳文件费金额。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "014",
+      "category": "产品材料",
+      "tags": [
+        "产品材料",
+        "工程项目"
+      ],
+      "region": "沙特西部地区",
+      "title": "Al Yamamah Steel签1.031亿里亚尔钢塔供货合同，2027年2月起供货",
+      "original": "Al Yamamah Steel Industries Co. Announces Contract Sign Off for supplying steel towers with Branch of National Power Construction Corporation Limited",
+      "source": "Saudi Exchange／Al Yamamah Steel",
+      "sourceType": "上市公司一手公告，英文与阿文对读",
+      "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98187&anCat=1&cs=1304&locale=en",
+      "published": "2026-09-17 08:45:55（交易所页面）",
+      "event": "2026-09-16签约；2027年2月开始供货；合同期一年",
+      "summary": "Al Yamamah Steel公告，与National Power Construction Corporation Limited分公司签署103,135,032里亚尔钢塔供货合同，用于沙特西部380千伏输电线路项目。合同于9月16日签署，期限一年，公司明确供货从2027年2月开始。",
+      "review": "已直接读取交易所当日公告英阿两版，逐项核对签约主体、金额、380千伏用途、一年期限和2027年2月供货起点；两种语言属于同一公司公告。",
+      "boundary": "金额是否含增值税未披露；仅为钢塔供货合同，不等于整条输电线EPC金额、已交货或竣工。",
+      "background": "反映电网建设对应的钢结构供货安排；钢塔不等于薄壁轻钢房屋，不强行关联公司产品。",
+      "products": [],
+      "status": "verified",
+      "statusText": "已核验",
+      "evidenceFiles": [
+        "14-00/exchange-fallback.md",
+        "14-00/steel-towers-primary.md",
+        "14-00/steel-towers-ar.md"
+      ],
+      "reviewUrls": [
+        [
+          "同一公告阿文版",
+          "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98187&anCat=1&cs=1304&locale=ar"
+        ]
+      ],
+      "eventLabel": "事件／阶段",
+      "update": "14:00本轮新增",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-17T06:17:15.829Z",
+        "method": "读取一手公告并逐项核对日期、主体、范围、数字和阶段",
+        "confirmedScope": "Al Yamamah Steel公告，与National Power Construction Corporation Limited分公司签署103,135,032里亚尔钢塔供货合同，用于沙特西部380千伏输电线路项目。合同于9月16日签署，期限一年，公司明确供货从2027年2月开始。",
+        "reason": "已直接读取交易所当日公告英阿两版，逐项核对签约主体、金额、380千伏用途、一年期限和2027年2月供货起点；两种语言属于同一公司公告。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "015",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "招投标"
+      ],
+      "region": "Khamis Mushait（海米斯穆谢特）",
+      "title": "Alqemam获市政服务中心改造项目授标，含税约209.9万里亚尔",
+      "original": "Alqemam for Computer Systems Co. Announces Contract Award with Khamis Mushait Municipality.",
+      "source": "Saudi Exchange／Alqemam",
+      "sourceType": "上市公司一手授标公告，英文与阿文对读",
+      "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98189&anCat=1&cs=9558&locale=en",
+      "published": "2026-09-17 09:10:50（交易所页面）",
+      "event": "2026-09-16授标；公告项目期12个月",
+      "summary": "Alqemam公告获Khamis Mushait市政府公众服务及客户接待中心改造项目授标。公告金额为2,098,750里亚尔，含增值税，项目期12个月；授标日期为9月16日，次日披露。",
+      "review": "已阅读交易所原始公告英阿两版，核对采购方、服务中心改造标的、含税金额、期限与授标日。公告未展开各专业施工或设备分项。",
+      "boundary": "当前确认到授标阶段，不扩写为已签约开工；未披露具体土建、装修或信息系统分项，不自行推导材料采购清单。",
+      "background": "市政公共服务设施改造与采购进度线索；具体供货机会仍需技术范围，不强配产品。",
+      "products": [],
+      "status": "verified",
+      "statusText": "已核验",
+      "evidenceFiles": [
+        "14-00/exchange-fallback.md",
+        "14-00/alqemam-detail.md",
+        "14-00/alqemam-ar.md"
+      ],
+      "reviewUrls": [
+        [
+          "同一公告阿文版",
+          "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98189&anCat=1&cs=9558&locale=ar"
+        ]
+      ],
+      "eventLabel": "事件／阶段",
+      "update": "14:00本轮新增",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-17T06:17:15.829Z",
+        "method": "读取一手公告并逐项核对日期、主体、范围、数字和阶段",
+        "confirmedScope": "Alqemam公告获Khamis Mushait市政府公众服务及客户接待中心改造项目授标。公告金额为2,098,750里亚尔，含增值税，项目期12个月；授标日期为9月16日，次日披露。",
+        "reason": "已阅读交易所原始公告英阿两版，核对采购方、服务中心改造标的、含税金额、期限与授标日。公告未展开各专业施工或设备分项。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "016",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "工程项目"
+      ],
+      "region": "NEOM／Oxagon",
+      "title": "待证线索：MEED称NEOM推出Oxagon 55号公路永久升级招标",
+      "original": "Neom tenders Oxagon highway contract",
+      "source": "MEED",
+      "sourceType": "专业媒体公开标题及导语；正文订阅受限",
+      "url": "https://www.meed.com/neom-tenders-oxagon-highway-contract",
+      "published": "2026-09-17",
+      "event": "媒体所称招标阶段；业主发布时间及截止日未取得",
+      "summary": "MEED于9月17日报道NEOM推出Oxagon公路合同招标，公开导语称范围为55号公路永久升级。已取得报道日期和公开导语，但未取得完整正文或业主同一采购包公告，所报招标阶段尚未通过复核。",
+      "review": "已用Scrapling和Firecrawl实际读取原文，两者均遇订阅正文限制。另检索NEOM官方及公开网页，并读取NEOM Oxagon介绍；介绍不含本次采购。Emilecon候选链接实际返回无关物业博客，无法作交叉证据；其他命中为旧EOI或项目背景。",
+      "boundary": "不将旧意向征集、既有道路工程或Oxagon总体开发介绍作为本次招标证明；不写成已授标或施工启动。",
+      "background": "潜在道路工程采购线索；仍缺关键招采证据，默认不进入已核验列表。",
+      "products": [],
+      "status": "unconfirmed",
+      "statusText": "证据不足",
+      "evidenceFiles": [
+        "14-00/oxagon-highway.md",
+        "14-00/oxagon-fallback.md",
+        "14-00/search-oxagon.json",
+        "14-00/search-oxagon-primary.json",
+        "14-00/neom-primary-context.md",
+        "14-00/oxagon-alternative.md"
+      ],
+      "reviewUrls": [
+        [
+          "NEOM Oxagon官方背景（非招标证明）",
+          "https://www.neom.com/en-us/regions/oxagon"
+        ]
+      ],
+      "eventLabel": "事件／阶段",
+      "update": "14:00本轮新增",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-17T06:17:15.829Z",
+        "method": "读取候选原文并执行官方或独立来源替代核验",
+        "confirmedScope": "确认原文标题、发布日期及所述内容；缺口中的实质性结论未通过复核。",
+        "reason": "已用Scrapling和Firecrawl实际读取原文，两者均遇订阅正文限制。另检索NEOM官方及公开网页，并读取NEOM Oxagon介绍；介绍不含本次采购。Emilecon候选链接实际返回无关物业博客，无法作交叉证据；其他命中为旧EOI或项目背景。",
+        "missing": "缺同一采购包的业主公告、可复核的招标时间及工作范围；MEED完整正文受订阅限制。"
+      }
+    },
+    {
+      "id": "017",
+      "category": "产品材料",
+      "tags": [
+        "产品材料",
+        "行业观察"
+      ],
+      "region": "沙特",
+      "title": "待证行业数据：沙特水泥半年利润汇总尚缺同口径明细",
+      "original": "Saudi Cement Companies Balance Investment Gains, Demand Prospects",
+      "source": "Asharq Al-Awsat",
+      "sourceType": "媒体行业数据汇总及具名受访者分析",
+      "url": "https://english.aawsat.com/business/5318873-saudi-cement-companies-balance-investment-gains-demand-prospects",
+      "published": "2026-09-16 08:38（原文；页面未标时区）",
+      "event": "回顾2026年上半年及第二季度经营数据，非新增施工订单",
+      "summary": "该报道分析沙特上市水泥企业上半年盈利，称行业合计净利润约11亿里亚尔、同比下降2.4%，并讨论投资收益、资产处置和区域成本差异。原文已读到，但本轮未取得全部样本与同口径原始财报汇总，不能把报道数字或受访者归因直接作为已核验行业结论。",
+      "review": "Scrapling空页后已用Firecrawl取得原文；公开检索并读取Argaam的第二季度对照报告，该文明确只统计研究机构覆盖企业，公开部分报5.137亿里亚尔，且完整表格订阅受限。其样本与本条不能确认相同，不作为支持或否定本条合计数据的依据。",
+      "boundary": "区分企业利润、非经常收益与水泥销量；受访者对成本和需求的解释属于观点，不能推导出当期建材涨价或具体工程开工。",
+      "background": "可作材料市场观察线索；整体数字及归因未完成独立复核，默认不进入已核验新闻。",
+      "products": [],
+      "status": "unconfirmed",
+      "statusText": "证据不足",
+      "evidenceFiles": [
+        "14-00/cement-fallback.md",
+        "14-00/search-cement-verify.json",
+        "14-00/cement-crosscheck-fallback.md"
+      ],
+      "reviewUrls": [
+        [
+          "Argaam对照报告（样本口径不同，正文受限）",
+          "https://www.argaam.com/en/sector-estimates-report-post-result/3/61022"
+        ]
+      ],
+      "eventLabel": "事件／阶段",
+      "update": "14:00本轮新增",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-17T06:17:15.829Z",
+        "method": "读取候选原文并执行官方或独立来源替代核验",
+        "confirmedScope": "确认原文标题、发布日期及所述内容；缺口中的实质性结论未通过复核。",
+        "reason": "Scrapling空页后已用Firecrawl取得原文；公开检索并读取Argaam的第二季度对照报告，该文明确只统计研究机构覆盖企业，公开部分报5.137亿里亚尔，且完整表格订阅受限。其样本与本条不能确认相同，不作为支持或否定本条合计数据的依据。",
+        "missing": "缺本条水泥企业样本清单及同口径上半年、第二季度原始财报加总；尚不能独立验证行业合计和同比口径。"
+      }
+    }
+  ],
+  "run": {
+    "status": "completed",
+    "slot": "14:00",
+    "startedAt": "2026-09-17T06:05:20.155Z",
+    "completedAt": "2026-09-17T06:18:21.869Z",
+    "newCount": 5,
+    "updatedCount": 1,
+    "message": "14:00增量完成：新增5条（3条已核验、2条证据不足），复查1条仍为证据不足；累计17条（14条已核验、3条证据不足）。双工具、六类范围、跨日去重及访问限制已留档。"
+  },
+  "completedSlots": [
+    "09:00",
+    "14:00"
+  ],
+  "lastVerifiedAt": "2026-09-17T06:17:15.829Z"
+}

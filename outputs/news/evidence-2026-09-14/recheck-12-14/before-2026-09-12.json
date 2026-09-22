@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-09-12",
+  "collectedAt": "2026-09-14T01:15:11.922Z",
+  "timeZone": "Asia/Shanghai",
+  "window": "本页归档2026-09-12发布的新闻；于2026-09-14上午实际检索、核验并补录，保留原核验时间。",
+  "scope": "周末新闻按原文发布日期归档。收集范围与检索凭据来自2026-09-14上午批次，核验未通过的线索仍完整保留。",
+  "channels": [
+    [
+      "Google／Google News",
+      "直接访问失败或验证页",
+      "Scrapling直接检查失败；Firecrawl补读为验证页，另用Firecrawl搜索和网页工具补漏。"
+    ],
+    [
+      "X",
+      "直接访问失败",
+      "Scrapling连接失败，Firecrawl不支持该入口；社交索引不代替原始证据。"
+    ],
+    [
+      "MEED",
+      "主页及标题导语可读",
+      "实际检查最新列表及麦加地铁、杜拉PMC原文；付费正文仍受限。"
+    ],
+    [
+      "Etimad",
+      "列表及3条相关详情成功",
+      "读取9月13日列表和3条道路、排水、水务检修官方招标详情。"
+    ],
+    [
+      "官方公报／船公司",
+      "原文成功",
+      "Umm Al-Qura法规决定、Maersk第46号通知及OCR费率公告。"
+    ],
+    [
+      "媒体与官方补充核验",
+      "部分成功",
+      "Saudi Gazette、The Loadstar、Lloyd’s List转载、Reuters转载；RCRC拒绝，SPA直读为空后使用官方索引。"
+    ],
+    [
+      "六类范围覆盖",
+      "均实际检索",
+      "英阿语覆盖工程、住宿、材料、采购、政策及航运；旧闻、广告和无新增阶段的回顾排除，详见证据记录。"
+    ]
+  ],
+  "retrievalTools": [
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://www.meed.com/",
+        "https://www.google.com/search?q=Saudi+construction+September+2026&tbs=qdr:w",
+        "https://x.com/search?q=Saudi%20construction&f=live",
+        "https://news.google.com/search?q=Saudi%20construction%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+        "https://saudigazette.com.sa/article/664522/saudi-arabia/riyadh-activates-traffic-diversion-as-thumamah-road-development-advances",
+        "https://www.maersk.com/news/articles/2026/09/11/emergency-ocr-surcharge-world-to-bahrain-qatar-kuwait-iraq",
+        "https://www.maersk.com/news/articles/2026/09/11/middle-east-operational-update-46",
+        "https://www.meed.com/saudi-arabia-sets-october-deadline-for-mecca-metro-design",
+        "https://www.voxelmatters.com/artificial-engineering-3d-prints-adrena-buildings-in-saudi-arabia/",
+        "https://www.maersk.com/news/articles/2026/03/11/maersk-operations-through-strait-of-hormuz",
+        "https://theloadstar.com/cyber-attack-halts-operations-at-malaysias-tanjung-pelepas-port/",
+        "https://mykn.kuehne-nagel.com/news/article/cyber-attack-disrupts-operations-at-malaysias",
+        "https://www.uqn.gov.sa/",
+        "https://www.tbsnews.net/worldbiz/middle-east/saudis-shut-down-oil-pipeline-houthis-tighten-grip-red-sea-shipping-1540231",
+        "https://www.rcrc.gov.sa/",
+        "https://www.uqn.gov.sa/decisions-and-regulations/4001830",
+        "https://saudigazette.com.sa/article/664498/saudi-arabia/saudi-arabia-developing-over-14-gw-of-computing-capacity-to-accelerate-ai-growth",
+        "https://attaqa.net/2026/09/11/%D8%AD%D9%82%D9%84-%D8%A7%D9%84%D8%AF%D8%B1%D8%A9-%D8%A7%D9%84%D8%BA%D8%A7%D8%B2%D9%8A-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/",
+        "https://www.uqn.gov.sa/decisions-and-regulations/4001817",
+        "https://www.uqn.gov.sa/decisions-and-regulations/4001808",
+        "https://www.spa.gov.sa/en/N2674017",
+        "https://www.meed.com/firms-submit-pmc-bids-for-dorra-gas-field-project"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-14/access-log.json及对应md、search与arabic结果文件"
+    },
+    {
+      "tool": "firecrawl",
+      "status": "completed",
+      "entries": [
+        "https://x.com/search?q=Saudi%20construction&f=live",
+        "https://www.google.com/search?q=Saudi+construction+September+2026&tbs=qdr:w",
+        "https://tenders.etimad.sa/",
+        "Saudi workers accommodation camp modular building after:2026-09-10",
+        "Saudi construction project contract awarded September 2026 after:2026-09-10",
+        "Saudi shipping port Maersk Hapag September 2026 after:2026-09-10",
+        "Saudi building regulations procurement law September 2026 after:2026-09-10",
+        "Saudi construction materials steel cement factory after:2026-09-10",
+        "Saudi tender prequalification September 2026 after:2026-09-10",
+        "https://www.maersk.com/news/",
+        "https://www.saudigazette.com.sa/",
+        "موانئ السعودية خدمات شحن سبتمبر after:2026-09-10",
+        "السعودية مشاريع ترسية عقود إنشاء سبتمبر 2026 after:2026-09-10",
+        "السعودية أنظمة اشتراطات البناء مشتريات حكومية after:2026-09-10",
+        "السعودية سكن عمال مباني جاهزة مصانع حديد أسمنت after:2026-09-10",
+        "Al Durra project management retender September 2026 Khafji Joint Operations",
+        "مترو مكة أكتوبر 2026 تصميم سبتمبر",
+        "Saudi oil pipeline attack September 13 2026 Reuters ministry energy",
+        "Tanjung Pelepas cyber attack September 2026 restored port operations",
+        "Thumamah Road diversion September 13 2026 RCRC",
+        "ADRENA Artificial Engineering 3D printed Red Sea Global September 2026",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=oY4HtPQRYhDtiU*@@**BaLF6Lg==",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=8LCvFCn*@@**9w%20wfeIU%20xL7YQ==",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=KYGfD2U5Sk8V6pFVSteGMQ=="
+      ],
+      "evidence": "outputs/news/evidence-2026-09-14/access-log.json及对应md、search与arabic结果文件"
+    },
+    {
+      "tool": "web-search",
+      "status": "completed",
+      "entries": [
+        "Thumamah Road diversion RCRC September 2026",
+        "Mecca metro design October deadline 2026",
+        "Saudi East West pipeline September 2026 SPA",
+        "Saudi road transport deadline February 27 2027",
+        "Saudi 14 GW computing capacity Al-Swaha September 2026",
+        "Tanjung Pelepas cyber attack recovery September 2026"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-14/web-1.json至web-8.json；包含实际结果和访问限制。"
+    }
+  ],
+  "items": [
+    {
+      "category": "工程项目",
+      "published": "2026-09-12",
+      "event": "部长在论坛谈及开发方向；非投运公告",
+      "sourceType": "媒体原文／核验未通过",
+      "source": "Saudi Gazette",
+      "status": "unconfirmed",
+      "title": "待证线索：沙特部长谈与私营部门发展逾14GW算力容量",
+      "original": "Saudi Arabia to develop over 14 GW of computing capacity to accelerate AI growth",
+      "url": "https://saudigazette.com.sa/article/664498/saudi-arabia/saudi-arabia-developing-over-14-gw-of-computing-capacity-to-accelerate-ai-growth",
+      "summary": "Saudi Gazette于9月12日报道，通信与信息技术部长在硅谷论坛谈到与私营部门发展超过14GW算力容量。该表述是开发方向，不能写成已经建成投运、已授标的数据中心项目或发电项目。",
+      "review": "已读Saudi Gazette全文，并检索SPA及阿语报道；补到Al-Jazirah的聚合转载，但未能确认它与英文报道具有独立采写关系，也未取得部长原始讲话或官方公告，因此本轮不通过。证据：computing.md、web-5.json、web-6.json、web-7.json。 归档调整：2026-09-14补录至2026-09-12，原编号NEWS-20260914-013；事实与核验时间未变。",
+      "background": "数字基础设施行业线索；未披露具体工地、采购包或四类产品需求。",
+      "id": "001",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "statusText": "未通过：证据不足",
+      "update": "2026-09-14补录｜按原文发布日期归入2026-09-12",
+      "products": [],
+      "eventLabel": "事件日期",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-14T01:12:29.339Z",
+        "method": "读取原始公告并核对主体、日期与范围",
+        "confirmedScope": "已确认所列媒体发布了这条报道；核心事件证据不足。",
+        "reason": "已读Saudi Gazette全文，并检索SPA及阿语报道；补到Al-Jazirah的聚合转载，但未能确认它与英文报道具有独立采写关系，也未取得部长原始讲话或官方公告，因此本轮不通过。证据：computing.md、web-5.json、web-6.json、web-7.json。",
+        "missing": "部长原始讲话、MCIT／SPA官方公告，或独立来源对14GW含义、时间与阶段的直接确认。"
+      },
+      "previousIds": [
+        "NEWS-20260914-013"
+      ]
+    }
+  ],
+  "run": {
+    "status": "completed",
+    "startedAt": "2026-09-14T01:00:19.583Z",
+    "completedAt": "2026-09-14T01:15:11.923Z",
+    "newCount": 1,
+    "updatedCount": 0,
+    "message": "本档案由2026-09-14上午实际采集结果补录，共1条；未在2026-09-12执行采集。"
+  },
+  "completedSlots": [],
+  "lastVerifiedAt": "2026-09-14T01:12:29.339Z",
+  "backfill": {
+    "sourceDate": "2026-09-14",
+    "performedAt": "2026-09-14T01:27:36.621Z",
+    "basis": "原文已核实的发布日期"
+  }
+}

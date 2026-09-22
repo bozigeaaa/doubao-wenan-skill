@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-09-10T07:38:09.307Z",
+  "cards": 25,
+  "dateOptions": 15,
+  "sourceLinks": 25,
+  "verified": 6,
+  "pending": 16,
+  "partial": 3,
+  "checks": [
+    "four product filters",
+    "status filter",
+    "NEWS ID search",
+    "empty date",
+    "mobile width",
+    "no browser errors"
+  ],
+  "html": "daily-news-2026-09-10.html"
+}

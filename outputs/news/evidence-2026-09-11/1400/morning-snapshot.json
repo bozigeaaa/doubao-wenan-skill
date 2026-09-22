@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-09-11",
+  "collectedAt": "2026-09-11T01:12:02.785Z",
+  "timeZone": "Asia/Shanghai",
+  "window": "增量检索2026-09-09 15:36（北京时间）至本轮采集；向前追溯关联公告完成核验。",
+  "scope": "沙特工程项目、营地住宿、产品材料、采购招投标、合规政策与相关航运物流。昨日未变化条目留在9月10日归档；本页记录新增与本轮实际复查项。",
+  "channels": [
+    [
+      "Google／Google News",
+      "直接访问失败；外部检索补漏",
+      "Scrapling连接超时；Firecrawl英阿文关键词检索取得结果。"
+    ],
+    [
+      "X",
+      "直接访问失败",
+      "TLS连接失败；搜索命中社交线索不作为独立证据。"
+    ],
+    [
+      "MEED",
+      "主页和部分正文成功",
+      "部分原文仅有标题导语；按条目保留证据缺口。"
+    ],
+    [
+      "Etimad",
+      "受限／部分读取",
+      "普通请求被拒；Firecrawl读取搜索界面但未返回条目，补充定向搜索未取得新增公告。"
+    ],
+    [
+      "官方披露",
+      "已读取",
+      "Saudi Exchange、Umm Al-Qura、Estithmar及Huawei原文。"
+    ],
+    [
+      "船公司",
+      "已读取",
+      "Maersk、Hapag-Lloyd入口与具体通知。"
+    ]
+  ],
+  "retrievalTools": [
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://news.google.com/",
+        "https://www.google.com/",
+        "https://x.com/",
+        "https://www.meed.com/",
+        "https://tenders.etimad.sa/"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-11/p0-3.md；access-log.json记录其余入口失败。"
+    },
+    {
+      "tool": "firecrawl",
+      "status": "completed",
+      "entries": [
+        "Saudi construction infrastructure contract awarded September 10 2026",
+        "Saudi workers accommodation camp modular building construction September 2026",
+        "Saudi construction materials steel cement September 10 2026",
+        "Saudi tender procurement prequalification September 10 2026",
+        "Saudi building fire safety regulation September 2026",
+        "Saudi port shipping operational update September 10 2026",
+        "السعودية مشاريع ترسية عقود سبتمبر 2026",
+        "منافسات سكن عمال مواد بناء سبتمبر 2026",
+        "Saudi government contracting rules September 10 2026 official",
+        "Estithmar Elegancia Qiddiya stadium contract September 2026",
+        "Saudi Riyadh airport sewage plant contractor September 10 2026",
+        "Saudi King Saud Air Base tender September 10 2026",
+        "site:hapag-lloyd.com September 2026 Saudi Arabia",
+        "site:tenders.etimad.sa سكن عمال سباكة سبتمبر 2026",
+        "site:uqn.gov.sa \"المنافسات والمشتريات\" \"1448\"",
+        "site:mof.gov.sa \"المنافسات\" \"2026\" \"سبتمبر\"",
+        "Safari \"King Salman\" \"sewage\" 2026",
+        "\"King Saud Air Base\" \"October\" 2026 tender",
+        "\"Aramco\" \"September 10, 2026\" tender",
+        "\"NHC\" \"Al-Fursan\" \"September\" \"2026\"",
+        "\"Seven\" \"Dammam\" \"water park\" \"2026\"",
+        "\"China Airport Construction\" \"Al-Ruba\"",
+        "\"中国航空港\" \"沙特\" \"2026\"",
+        "\"Aramco\" \"CRPO 176\" \"September\"",
+        "site:maersk.com/news/articles/2026/09 \"Middle East Operational\"",
+        "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98073&anCat=1&cs=2020&locale=ar",
+        "https://www.estithmarholding.com/media/read/263",
+        "https://www.meed.com/riyadh-rewrites-government-contracting-rules",
+        "https://www.meed.com/contractor-selected-for-riyadh-airport-sewage-plant",
+        "https://www.meed.com/saudi-arabia-tenders-next-phase-of-king-saud-air-base",
+        "https://www.hapag-lloyd.com/zh/services-information/news/2026/09/shipping-with-our-se3-service--here-s-a-rotation-update.html",
+        "https://www.maersk.com/news/articles/2026/09/09/middle-east-operational-update-45",
+        "https://tenders.etimad.sa/",
+        "https://www.saudigulfprojects.com/",
+        "https://www.uqn.gov.sa/decisions-and-regulations/4001762",
+        "https://www.uqn.gov.sa/decisions-and-regulations/4001760",
+        "https://www.huawei.com/en/news/2026/9/lampsite-tawal-saudi",
+        "https://www.meed.com/aramco-nears-decision-on-key-offshore-tender",
+        "https://www.meed.com/chinese-contractor-wins-nhc-al-fursan-riyadh-deal",
+        "https://www.meed.com/seven-tenders-dammam-water-park-and-hotel-project",
+        "https://www.hapag-lloyd.com/en/services-information/news.html",
+        "https://www.maersk.com/news/"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-11/access-log.json及search、公告md证据文件。"
+    }
+  ],
+  "items": [
+    {
+      "id": "001",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "published": "2026-09-10",
+      "event": "2026-09-09 董事会批准",
+      "eventLabel": "事件日期",
+      "sourceType": "上市公司交易所披露",
+      "status": "verified",
+      "statusText": "官方原文已核验",
+      "update": "核验更新：未通过→已核验",
+      "products": [],
+      "background": "工程行业信息；公告未披露四类产品的采购需求，不据此推导供货机会。",
+      "title": "SABIC批准第七套氨尿素项目投资，向三星E&A授予EPC合同",
+      "original": "إعلان شركة سابك للمغذيات الزراعية عن آخر التطورات لمشروعها السابع لإنتاج الأمونيا واليوريا وصدور قرار الاستثمار النهائي وترسية عقد المشروع.",
+      "source": "SABIC Agri-Nutrients／Saudi Exchange",
+      "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98073&anCat=1&cs=2020&locale=ar",
+      "summary": "公司9月10日披露，董事会于9月9日批准第七套氨尿素项目最终投资决定，并向Samsung E&A授予约34.65亿美元的工程、采购及施工合同。公司预计2026年第四季度开始施工、2030年第四季度完成并商业投产；这些时间仍为计划。",
+      "review": "已读Saudi Exchange阿拉伯语公告全文，核对董事会日期、EPC承包商、金额与计划阶段。补足9月10日日报008缺失的一手披露。",
+      "relatedId": "2026-09-10/008",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-11T01:10:56.013Z",
+        "method": "直接读取一手公告正文",
+        "confirmedScope": "公司9月10日披露，董事会于9月9日批准第七套氨尿素项目最终投资决定，并向Samsung E&A授予约34.65亿美元的工程、采购及施工合同。公司预计2026年第四季度开始施工、2030年第四季度完成并商业投产；这些时间仍为计划。",
+        "reason": "已读Saudi Exchange阿拉伯语公告全文，核对董事会日期、EPC承包商、金额与计划阶段。补足9月10日日报008缺失的一手披露。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "002",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "published": "2026-09-10",
+      "event": "具体事件日未披露",
+      "eventLabel": "事件日期",
+      "sourceType": "企业官方公告",
+      "status": "verified",
+      "statusText": "官方原文已核验",
+      "update": "核验更新：未通过→已核验",
+      "products": [],
+      "background": "工程行业信息；公告未披露四类产品的采购需求，不据此推导供货机会。",
+      "title": "Elegancia获奇迪亚体育场8.29亿里亚尔机械系统工程包",
+      "original": "Estithmar Holding Q.P.S.C Announces Elegancia Arabia Trading Secures SAR 829 Million Contract for Qiddiya’s Prince Mohammed Bin Salman Stadium",
+      "source": "Estithmar Holding",
+      "url": "https://www.estithmarholding.com/media/read/263",
+      "summary": "Estithmar Holding宣布Elegancia Arabia Trading获得奇迪亚穆罕默德·本·萨勒曼体育场机械工程包，合同额8.29亿里亚尔，由Elegancia Electromechanical Services实施，范围包括暖通、公共卫生、消防和楼宇管理系统。公告计划工期为2026年9月至2030年5月。",
+      "review": "已读集团9月10日正式公告。原文明确为Mechanical Package，不能扩大为全部机械、电气及管道总包；以原始公告修正昨日MEED标题线索。",
+      "relatedId": "2026-09-10/009",
+      "boundary": "预计参与员工人数不等于已确定营地或临建采购；未披露东方骆驼参与。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-11T01:10:56.013Z",
+        "method": "直接读取一手公告正文",
+        "confirmedScope": "Estithmar Holding宣布Elegancia Arabia Trading获得奇迪亚穆罕默德·本·萨勒曼体育场机械工程包，合同额8.29亿里亚尔，由Elegancia Electromechanical Services实施，范围包括暖通、公共卫生、消防和楼宇管理系统。公告计划工期为2026年9月至2030年5月。",
+        "reason": "已读集团9月10日正式公告。原文明确为Mechanical Package，不能扩大为全部机械、电气及管道总包；以原始公告修正昨日MEED标题线索。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "003",
+      "category": "项目合规",
+      "tags": [
+        "项目合规"
+      ],
+      "region": "沙特",
+      "published": "2026-09-04",
+      "event": "官方发布后满120天生效",
+      "eventLabel": "生效条件",
+      "sourceType": "官方法规原文",
+      "status": "verified",
+      "statusText": "官方原文已核验",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "政府项目采购方式与制度切换信息，具体招标仍需核对适用法律、实施细则及项目文件。",
+      "title": "沙特公布新版政府采购法，明确发布120天后生效",
+      "original": "نظام المنافسات والمشتريات الحكومية",
+      "source": "Umm Al-Qura 官方公报",
+      "url": "https://www.uqn.gov.sa/decisions-and-regulations/4001762",
+      "summary": "官方公报9月4日发布新版政府招标与采购法。原文规定，估算金额不超过100万里亚尔可适用其列明的直接采购情形，并优先考虑本地中小企业；新法在公报发布后满120天生效。不能将新门槛直接写成当前已适用。",
+      "review": "读取官方公报正文，核对直接采购条款和第一百零一条生效规定；MEED 9月10日报道用于发现线索，最终表述以官方原文为准。",
+      "reviewUrls": [
+        [
+          "MEED报道",
+          "https://www.meed.com/riyadh-rewrites-government-contracting-rules"
+        ]
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-11T01:10:56.013Z",
+        "method": "直接读取一手公告正文",
+        "confirmedScope": "官方公报9月4日发布新版政府招标与采购法。原文规定，估算金额不超过100万里亚尔可适用其列明的直接采购情形，并优先考虑本地中小企业；新法在公报发布后满120天生效。不能将新门槛直接写成当前已适用。",
+        "reason": "读取官方公报正文，核对直接采购条款和第一百零一条生效规定；MEED 9月10日报道用于发现线索，最终表述以官方原文为准。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "004",
+      "category": "航运物流",
+      "tags": [
+        "航运物流"
+      ],
+      "region": "沙特",
+      "published": "2026-09-09",
+      "event": "2026-09-26 起调整",
+      "eventLabel": "生效日期",
+      "sourceType": "船公司官方通知",
+      "status": "verified",
+      "statusText": "官方原文已核验",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "供使用该具体航线的采购和物流人员核对船期；未确认具体产品订单，因此不强制关联产品。",
+      "title": "赫伯罗特SE3航线调整东向挂靠，9月26日起增加塞拉莱",
+      "original": "Shipping from the Mediterranean Sea to the Middle East? Here's an update for our SE3 service",
+      "source": "Hapag-Lloyd",
+      "url": "https://www.hapag-lloyd.com/zh/services-information/news/2026/09/shipping-with-our-se3-service--here-s-a-rotation-update.html",
+      "summary": "赫伯罗特公告称，SE3服务自9月26日起调整东向航线，新增阿曼塞拉莱挂靠。公布的完整轮转仍包含吉达；首班为Morten Maersk 638E，预计9月26日抵达塞拉莱。该通知没有宣布所有货类恢复订舱。",
+      "review": "已读取船公司9月9日原文，核对航向、港口、首航船名航次及ETA。预计到港不等于承诺到场。",
+      "shipping": [
+        [
+          "船公司／服务",
+          "Hapag-Lloyd SE3"
+        ],
+        [
+          "航向",
+          "地中海向东；完整轮转含吉达"
+        ],
+        [
+          "新增挂靠",
+          "Salalah，Oman"
+        ],
+        [
+          "生效／首航",
+          "2026-09-26；Morten Maersk 638E预计抵塞拉莱"
+        ],
+        [
+          "货类／费用",
+          "本通知未给出各货类接受范围及新增收费，不能推导为一律接货或费用不变"
+        ]
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-11T01:10:56.013Z",
+        "method": "直接读取一手公告正文",
+        "confirmedScope": "赫伯罗特公告称，SE3服务自9月26日起调整东向航线，新增阿曼塞拉莱挂靠。公布的完整轮转仍包含吉达；首班为Morten Maersk 638E，预计9月26日抵达塞拉莱。该通知没有宣布所有货类恢复订舱。",
+        "reason": "已读取船公司9月9日原文，核对航向、港口、首航船名航次及ETA。预计到港不等于承诺到场。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "005",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "published": "2026-09-10",
+      "event": "2026-09-10 公告披露签约",
+      "eventLabel": "事件日期",
+      "sourceType": "企业官方公告",
+      "status": "verified",
+      "statusText": "官方原文已核验",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "工程行业信息；公告未披露四类产品的采购需求，不据此推导供货机会。",
+      "title": "TAWAL与华为签署沙特楼宇室内网络合作协议",
+      "original": "TAWAL And Huawei Sign Indoor Building Solutions Partnership Agreement to Jointly Expand Digital Indoor Networks for Saudi Arabia",
+      "source": "Huawei",
+      "url": "https://www.huawei.com/en/news/2026/9/lampsite-tawal-saudi",
+      "summary": "华为9月10日公告宣布与TAWAL签署室内楼宇解决方案合作协议，合作内容覆盖室内网络产品、市场拓展、投标、方案和交付。现有公告属于合作框架，没有公布具体楼宇项目的施工授标金额。",
+      "review": "直接读取华为官方公告，确认签约主体与合作范围；不采纳宣传性效率结论，也不将公告提及的监管背景扩写成法规解释。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-11T01:10:56.013Z",
+        "method": "直接读取一手公告正文",
+        "confirmedScope": "华为9月10日公告宣布与TAWAL签署室内楼宇解决方案合作协议，合作内容覆盖室内网络产品、市场拓展、投标、方案和交付。现有公告属于合作框架，没有公布具体楼宇项目的施工授标金额。",
+        "reason": "直接读取华为官方公告，确认签约主体与合作范围；不采纳宣传性效率结论，也不将公告提及的监管背景扩写成法规解释。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "006",
+      "category": "航运物流",
+      "tags": [
+        "航运物流"
+      ],
+      "region": "中东／沙特东西海岸",
+      "published": "2026-09-09",
+      "event": "2026-09-09 更新",
+      "eventLabel": "事件日期",
+      "sourceType": "船公司官方通知",
+      "status": "verified",
+      "statusText": "官方正文已核对",
+      "update": "原文复查：核心内容未变",
+      "products": [
+        [
+          "打包箱",
+          "条件适配：仅限实际使用马士基相关服务进口该产品或其部件的订单。港口、货类与境内运输条件共同影响到场安排；沙特本地现货不自动受到相同影响。"
+        ],
+        [
+          "移动卫浴",
+          "条件适配：仅限实际使用马士基相关服务进口该产品或其部件的订单。港口、货类与境内运输条件共同影响到场安排；沙特本地现货不自动受到相同影响。"
+        ],
+        [
+          "五金",
+          "条件适配：仅限实际使用马士基相关服务进口该产品或其部件的订单。港口、货类与境内运输条件共同影响到场安排；沙特本地现货不自动受到相同影响。"
+        ],
+        [
+          "薄壁轻钢",
+          "条件适配：仅限实际使用马士基相关服务进口该产品或其部件的订单。港口、货类与境内运输条件共同影响到场安排；沙特本地现货不自动受到相同影响。"
+        ]
+      ],
+      "background": "沿用昨日已建立的条件适配，未增加产品性能或本地库存主张。",
+      "source": "Maersk",
+      "review": "本轮重新读取马士基Update 45的干货订舱表和陆运段落，并检查新闻入口及后续通知检索；本次未找到更晚编号通知。核心干货港口限制与昨日记录一致。",
+      "boundary": "不能概括为沙特全部港口关闭或全部船公司停运；超限货、危险品和冷藏货不能套用普通干货规则。",
+      "title": "马士基更新中东订舱安排：沙特东西岸港口适用条件不同",
+      "original": "Middle East Operational Update 45",
+      "url": "https://www.maersk.com/news/articles/2026/09/09/middle-east-operational-update-45",
+      "summary": "9月9日通知显示，普通干货往返达曼、朱拜勒的订舱暂停；吉达和阿卜杜拉国王港仍接受相应干货订舱。通知同时列出吉达港至利雅得、达曼的沙特境内承运人拖车方案，服务仍受运力可用性约束。不同货类另有规则。",
+      "shipping": [
+        [
+          "运输方式",
+          "集装箱海运＋沙特境内陆运"
+        ],
+        [
+          "适用范围",
+          "马士基本通知列明的港口、货类与服务"
+        ],
+        [
+          "时效",
+          "未提供统一到场承诺"
+        ],
+        [
+          "费用",
+          "不把其他货类的费用套用于普通干货"
+        ]
+      ],
+      "relatedId": "2026-09-10/001",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-11T01:10:56.013Z",
+        "method": "直接读取一手公告正文",
+        "confirmedScope": "9月9日通知显示，普通干货往返达曼、朱拜勒的订舱暂停；吉达和阿卜杜拉国王港仍接受相应干货订舱。通知同时列出吉达港至利雅得、达曼的沙特境内承运人拖车方案，服务仍受运力可用性约束。不同货类另有规则。",
+        "reason": "本轮重新读取马士基Update 45的干货订舱表和陆运段落，并检查新闻入口及后续通知检索；本次未找到更晚编号通知。核心干货港口限制与昨日记录一致。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "007",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "published": "2026-09-10",
+      "event": "具体事件日未披露",
+      "eventLabel": "事件日期",
+      "sourceType": "专业媒体报道／核验未通过",
+      "status": "unconfirmed",
+      "statusText": "未通过：证据不足",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为行业线索；未通过事实核验，不能直接用于标题或口播。",
+      "source": "MEED",
+      "title": "MEED线索：利雅得萨勒曼国王机场污水厂合同有新进展",
+      "original": "Contractor wins Riyadh airport sewage plant deal",
+      "url": "https://www.meed.com/contractor-selected-for-riyadh-airport-sewage-plant",
+      "summary": "MEED于9月10日发布机场污水厂合同报道；公开导语提及9.2万立方米/日的拟建处理规模。承包商及正式授标范围尚未取得独立佐证。",
+      "review": "直接读取MEED原页，正文受订阅限制；检索机场、Safari及污水厂关键词，结果主要回到MEED同源摘要，其他命中为不同项目。",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-11T01:12:02.784Z",
+        "method": "原文阅读与外部定向补查",
+        "confirmedScope": "MEED于9月10日发布机场污水厂合同报道；公开导语提及9.2万立方米/日的拟建处理规模。承包商及正式授标范围尚未取得独立佐证。",
+        "reason": "直接读取MEED原页，正文受订阅限制；检索机场、Safari及污水厂关键词，结果主要回到MEED同源摘要，其他命中为不同项目。",
+        "missing": "业主或承包商正式授标公告，或独立可靠报道中的合同主体及范围。"
+      }
+    },
+    {
+      "id": "008",
+      "category": "招投标",
+      "tags": [
+        "招投标"
+      ],
+      "region": "沙特",
+      "published": "2026-09-10",
+      "event": "具体事件日未披露",
+      "eventLabel": "事件日期",
+      "sourceType": "专业媒体报道／核验未通过",
+      "status": "unconfirmed",
+      "statusText": "未通过：证据不足",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为行业线索；未通过事实核验，不能直接用于标题或口播。",
+      "source": "MEED",
+      "title": "MEED线索：沙特King Saud空军基地下一阶段工程招标",
+      "original": "Saudi Arabia tenders next phase of King Saud Air Base",
+      "url": "https://www.meed.com/saudi-arabia-tenders-next-phase-of-king-saud-air-base",
+      "summary": "MEED于9月10日发布下一阶段工程招标标题，公开导语称项目期三年；本轮没有核实招标文件及提交截止日期。",
+      "review": "直接读取MEED原页并补查项目英文名、月份和招标词；结果主要为MEED同源页面或无关旧新闻。未把搜索摘要中的日期作为已确认投标截止日。",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-11T01:12:02.784Z",
+        "method": "原文阅读与外部定向补查",
+        "confirmedScope": "MEED于9月10日发布下一阶段工程招标标题，公开导语称项目期三年；本轮没有核实招标文件及提交截止日期。",
+        "reason": "直接读取MEED原页并补查项目英文名、月份和招标词；结果主要为MEED同源页面或无关旧新闻。未把搜索摘要中的日期作为已确认投标截止日。",
+        "missing": "公开招标文件或业主公告，需确认工程范围、招标阶段与截止日期。"
+      }
+    },
+    {
+      "id": "009",
+      "category": "招投标",
+      "tags": [
+        "招投标"
+      ],
+      "region": "沙特",
+      "published": "2026-09-10",
+      "event": "具体事件日未披露",
+      "eventLabel": "事件日期",
+      "sourceType": "专业媒体报道／核验未通过",
+      "status": "unconfirmed",
+      "statusText": "未通过：证据不足",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为行业线索；未通过事实核验，不能直接用于标题或口播。",
+      "source": "MEED",
+      "title": "MEED线索：Aramco海上CRPO 176招标决策进展",
+      "original": "Aramco nears decision on key offshore tender",
+      "url": "https://www.meed.com/aramco-nears-decision-on-key-offshore-tender",
+      "summary": "MEED的9月10日标题称一项海上招标接近决策，公开导语关联CRPO 176。该标题不是正式授标公告。",
+      "review": "已读MEED公开导语；另检索Aramco及CRPO 176，结果多为此前发标消息或MEED同源报道，未找到可佐证本次决策状态的新公告。",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-11T01:12:02.784Z",
+        "method": "原文阅读与外部定向补查",
+        "confirmedScope": "MEED的9月10日标题称一项海上招标接近决策，公开导语关联CRPO 176。该标题不是正式授标公告。",
+        "reason": "已读MEED公开导语；另检索Aramco及CRPO 176，结果多为此前发标消息或MEED同源报道，未找到可佐证本次决策状态的新公告。",
+        "missing": "当前评标或授标状态的业主公告或独立报道，不能以历史发标新闻确认本次进展。"
+      }
+    },
+    {
+      "id": "010",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "published": "2026-09-10",
+      "event": "具体事件日未披露",
+      "eventLabel": "事件日期",
+      "sourceType": "专业媒体报道／核验未通过",
+      "status": "unconfirmed",
+      "statusText": "未通过：证据不足",
+      "update": "核验更新：已取得正文，仍缺独立佐证",
+      "products": [],
+      "background": "保留为行业线索；未通过事实核验，不能直接用于标题或口播。",
+      "source": "MEED",
+      "title": "MEED报道CACC获NHC利雅得Al-Ruba住宅工程，独立佐证不足",
+      "original": "Chinese contractor wins NHC Al-Fursan Riyadh deal",
+      "url": "https://www.meed.com/chinese-contractor-wins-nhc-al-fursan-riyadh-deal",
+      "summary": "本轮读到MEED完整报道：其称China Airport Construction Group取得NHC在利雅得Al-Fursan内的Al-Ruba住宅工程。关键授标事实仍缺业主或承包商公告及独立复核。",
+      "review": "本轮从原标题线索进一步读到正文，新增承包商与子项目名称；按CACC英文全称、Al-Ruba及中文航空港关键词补查，结果仍以MEED同源内容为主，未通过独立复核。",
+      "relatedId": "2026-09-10/018",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-11T01:12:02.784Z",
+        "method": "原文阅读与外部定向补查",
+        "confirmedScope": "本轮读到MEED完整报道：其称China Airport Construction Group取得NHC在利雅得Al-Fursan内的Al-Ruba住宅工程。关键授标事实仍缺业主或承包商公告及独立复核。",
+        "reason": "本轮从原标题线索进一步读到正文，新增承包商与子项目名称；按CACC英文全称、Al-Ruba及中文航空港关键词补查，结果仍以MEED同源内容为主，未通过独立复核。",
+        "missing": "NHC或承包商公告，或独立可靠来源确认该项最新授标。"
+      }
+    },
+    {
+      "id": "011",
+      "category": "招投标",
+      "tags": [
+        "招投标"
+      ],
+      "region": "沙特",
+      "published": "2026-09-10",
+      "event": "具体事件日未披露",
+      "eventLabel": "事件日期",
+      "sourceType": "专业媒体报道／核验未通过",
+      "status": "unconfirmed",
+      "statusText": "未通过：证据不足",
+      "update": "原文复查：证据缺口未变",
+      "products": [],
+      "background": "保留为行业线索；未通过事实核验，不能直接用于标题或口播。",
+      "source": "MEED",
+      "title": "MEED线索：SEVEN达曼水上乐园与酒店项目招标",
+      "original": "Seven tenders Dammam water park and hotel project",
+      "url": "https://www.meed.com/seven-tenders-dammam-water-park-and-hotel-project",
+      "summary": "MEED9月10日标题称SEVEN对达曼水上乐园和酒店项目发标。现有公开内容不足以确认本轮招标范围与日程。",
+      "review": "重新读取原页，仍只有标题导语；外部检索命中7月入围名单报道，与9月招标阶段不同，不能替代最新公告。",
+      "relatedId": "2026-09-10/019",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-11T01:12:02.784Z",
+        "method": "原文阅读与外部定向补查",
+        "confirmedScope": "MEED9月10日标题称SEVEN对达曼水上乐园和酒店项目发标。现有公开内容不足以确认本轮招标范围与日程。",
+        "reason": "重新读取原页，仍只有标题导语；外部检索命中7月入围名单报道，与9月招标阶段不同，不能替代最新公告。",
+        "missing": "SEVEN正式招标文件或独立来源对9月发标阶段、范围及日程的确认。"
+      }
+    }
+  ],
+  "run": {
+    "status": "completed",
+    "slot": "09:00",
+    "startedAt": "2026-09-11T01:03:36.979Z",
+    "completedAt": "2026-09-11T01:12:02.785Z",
+    "newCount": 6,
+    "updatedCount": 3,
+    "message": "六类范围已检索；6条新收录、3条核验更新、2条复查无实质变化。共11条，6条通过、5条证据不足。Google和X直接访问失败，Etimad未取得新条目；相关招投标通过公开替代检索补查。"
+  },
+  "completedSlots": [
+    "09:00"
+  ],
+  "lastVerifiedAt": "2026-09-11T01:12:02.784Z"
+}

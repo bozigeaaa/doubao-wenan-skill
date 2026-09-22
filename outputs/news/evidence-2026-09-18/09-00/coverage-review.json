@@ -1,0 +1,143 @@
+{
+  "checkedAt": "2026-09-18T01:23:02.155Z",
+  "categories": [
+    {
+      "name": "工程项目",
+      "coveredBy": [
+        "p0-meed",
+        "p1-sgp",
+        "s-project-camp",
+        "s-x-public",
+        "c-kaden-maaal-fallback"
+      ],
+      "result": "Kaden企业开发计划及工业许可统计已核验；两条MEED新线索证据不足；旧项目去重"
+    },
+    {
+      "name": "营地住宿",
+      "coveredBy": [
+        "s-six-en",
+        "s-six-ar",
+        "s-project-camp",
+        "s-camp-materials",
+        "c-kaden-maaal-fallback",
+        "c-weather-official"
+      ],
+      "result": "已检查营地/工人住宿/模块化关键词和企业采访；无独立新增营地授标，保留运营环境及服务体系信息"
+    },
+    {
+      "name": "产品材料",
+      "coveredBy": [
+        "s-camp-materials",
+        "c-aluminium-fallback",
+        "c-reuters-aluminium-fallback",
+        "c-tender5",
+        "c-tender6"
+      ],
+      "result": "铝需求预测按企业观点收录，空调配件公告按基本范围核验，不用常设商品页面冒充新新闻"
+    },
+    {
+      "name": "采购招投标",
+      "coveredBy": [
+        "p0-etimad",
+        "p0-etimad-page2",
+        "c-tender1",
+        "c-tender2",
+        "c-tender3",
+        "c-tender4",
+        "c-tender5",
+        "c-tender6"
+      ],
+      "result": "12条不同公开公告中6项工程相关，均读取基本详情；第2页重复，未穷尽分页"
+    },
+    {
+      "name": "合规政策",
+      "coveredBy": [
+        "s-compliance-logistics",
+        "s-six-ar",
+        "c-weather-official"
+      ],
+      "result": "本轮未取得新的工程审批/消防条文；常设许可服务页面和军事安全警报未作为新建筑法规，民防天气提醒按预警收录"
+    },
+    {
+      "name": "航运物流",
+      "coveredBy": [
+        "p2-maersk",
+        "p2-hapag-fallback",
+        "c-maersk48",
+        "c-maersk47-compare",
+        "c-port-gastat-fallback",
+        "c-freight-reuters-fallback"
+      ],
+      "result": "核实马士基In-Gauge变化与2025年港口进出口统计；Hapag仅框架，不声称已读列表"
+    }
+  ],
+  "exclusions": [
+    {
+      "event": "BRKZ融资3100万美元",
+      "decision": "旧事件转载不重复收录",
+      "evidence": "c-brkz.md",
+      "related": "2026-09-15-005"
+    },
+    {
+      "event": "BAAN Playocity、KEC备忘录、钢塔供货、市政服务中心改造",
+      "decision": "此前日报已有同一事件阶段，本轮目录和补漏无可确认新阶段"
+    },
+    {
+      "event": "霍巴尔1.55公里道路改造",
+      "decision": "9月16日社交帖与8月13日报导同工程范围，未确认新阶段，排除旧闻重发",
+      "evidence": [
+        "c-khobar-x.md",
+        "c-khobar-alyawm-fallback.md"
+      ]
+    },
+    {
+      "event": "路透中国至美东即期运价报道",
+      "decision": "全文主要为中国至美国东岸航线；沙特管道背景为已收录事件，无新的沙特具体货物运输条件，本轮不单列",
+      "evidence": "c-freight-reuters-fallback.md"
+    },
+    {
+      "event": "Saudi Build、INDEX展商推广、Kaden以外混合社交项目简讯",
+      "decision": "展商推广或无具体可追溯新项目阶段，不据此推断临建采购"
+    },
+    {
+      "event": "招聘、常设法规服务页、老钢厂文章和常设商品页",
+      "decision": "搜索刷新日期不是新闻发布日，未呈现新政策或新事件，排除"
+    },
+    {
+      "event": "9月3日SPA天气预报",
+      "decision": "实际正文预测9月5日至9日，不用于本轮9月22日预警核验",
+      "evidence": "c-weather-spa-fallback.md"
+    },
+    {
+      "event": "Etimad其余6项",
+      "decision": "化学品、一般设备油滤、IT许可、打印墨盒、内部沟通平台等不属本轮工程范围；不将安全软件当消防或将沟通平台BIM当建筑建模"
+    },
+    {
+      "event": "Etimad第2页",
+      "decision": "实际返回与第1页相同12条，去重处理，不声称已覆盖24条",
+      "evidence": "p0-etimad-page2.md"
+    },
+    {
+      "event": "sppc.com.sa",
+      "decision": "页面属于Saudi Printing and Packaging Company，非电力采购业主，排除同缩写误命中",
+      "evidence": "p2-sppc.md"
+    },
+    {
+      "event": "MEED Diriyah可持续性评论及阿联酋、阿曼项目",
+      "decision": "评论无本轮新项目阶段，境外项目无已确认沙特业务关联，未当作新沙特项目"
+    },
+    {
+      "event": "宏观政治、军售和一般商务报道",
+      "decision": "未发现本轮新增且可核实的工程或营地具体影响，不扩写为行业后果"
+    }
+  ],
+  "limitations": [
+    "Google与Google News入口主备方式均失败，关键词补漏不能代替直接读取。",
+    "X搜索页失败，但Firecrawl成功取得三个具体公开帖；不是全部X不可用。",
+    "MEED两篇正文仍受订阅限制；仅公开标题、摘要和其他来源不足以核实其本次招标节点。",
+    "Etimad请求两页实际同12条，本轮未穷尽全部采购。",
+    "Saudi Exchange动态目录主备失败；外部检索补漏没有取得新的有效本轮公告。",
+    "Hapag-Lloyd主备方式只取得筛选框架。"
+  ],
+  "complete": true
+}

@@ -1,0 +1,141 @@
+Internal Error ()
+citeturn81view0 [wordlim: 200] Source: open({"ref_id":"https://www.argaam.com/en/article/articledetail/id/1935122","lineno":null}); Total lines: 1
+--------------------------------------------------------------------------------
+Qassim airport redevelopment narrowed to six bidders - KSA (https://enterpriseam.com/ksa/2026/09/09/qassim-airport-redevelopment-narrowed-to-six-bidders/)
+citeturn81view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://enterpriseam.com/ksa/2026/09/09/qassim-airport-redevelopment-narrowed-to-six-bidders/","lineno":470}); Total lines: 604
+L299:         * cite101†Spotlight L300:   * cite102†Data L301:     *       *         * Back
+L302:         * cite102†View all L303:         * cite103†GDP L304:         * cite104†Inflation L317:   * cite116†Archives L318:   * cite117†Lifestyle L319:   * cite118†Calendar L320: Close
+L321: 
+L322: cite126†Image†ent.news L323: 
+L324:   * cite2†Image†ent.news Saudi Edition
+L325:     * Countries
+L326:     * cite3†MENA+ Edition L327:     * cite4†Egypt Edition L328:     * cite5†UAE Edition L329:     * Industries
+L330:     * cite6†Logistics (MENA) L331: 
+L332: * * *
+L333: 
+L334:     * cite7†Signature Series L335: 
+L336: [Input: ]Search
+L337:   * cite8†Business L338:     *       *         * Back
+L339:         * cite8†View all L340:         * cite9†IPO L341:         * cite10†M&A L342:         * cite11†Debt L343:         * cite12†Macro + economy L344:   * cite13†Regulation L345:     *       *         * Back
+L346:         * cite13†View all L347:         * Authorities
+L348:         * cite14†Regulation L349:         * cite15†Legislation L350:         * cite16†Tax + customs L351:       *         * State institutions
+L352:         * cite17†Tadawul L353:         * cite18†Nomu L354:         * cite19†Capital Markets Authority L355:         * cite20†Public Investment Fund L356:         * cite21†SMEs Authority L357:         * cite22†Courts L358:       *         * cite23†Government L359:         * cite24†Royal court L360:         * cite25†Council of Ministers L361:         * cite26†Public policy L362:         * cite27†Diplomacy L363:   * cite28†Gigaprojects L364:     *       *         * Back
+L365:         * cite28†View all L366:         * cite29†NEOM L367:         * cite30†AlUla L368:         * cite31†Diriyah Gate L369:         * cite32†Jeddah Central L370:         * cite33†King Salman Park L371:         * cite34†Masar L372:         * cite35†The Mukaab L373:         * cite36†Qiddiya L374:   * cite37†Companies L375:     *       *         * Back
+L376:         * cite37†View all L377:         * cite38†By industry L378:         * cite39†All Companies L379:         * cite40†Startup watch L380:         * cite41†Earnings Watch L381:   * cite42†Industries L382:     *       *         * Back
+L383:         * cite42†View all L384:         * cite43†Agriculture L385:         * cite44†Automotive L386:         * cite45†Banking L387:         * cite46†Basic materialsBasic materials industry L388:         * cite47†Capital markets L389:         * cite48†Climate L390:         * cite49†Commodities L391:         * cite50†Construction L392:         * cite51†E-Commerce L393:         * cite52†Education L394:       *         * cite53†Entertainment + media L395:         * cite54†Energy L396:         * cite55†Finance L397:         * cite56†Fintech L398:         * cite57†Food L399:         * cite58†Healthcare L400:         * cite59†Infrastructure L401:         * cite60†Hospitality + tourism L402:         * cite61†Law L403:         * cite62†Manufacturing L404:       *         * cite63†MicrofinanceMicrofinance industry L405:         * cite64†Mining L406:         * cite65†Oil + gas L407:         * cite66†Petrochemicals L408:         * cite67†Private Equity L409:         * cite68†Real Estate L410:         * cite69†SMEs L411:         * cite70†Sports L412:         * cite71†Tech L413:       *         * cite72†Telecoms L414:         * cite73†Trade + logistics L415:         * cite74†Transport L416:   * cite75†Regions L417:     *       *         * Back
+L418:         * cite75†View all L419:         * cite76†Riyadh L420:         * cite77†Mecca L421:         * cite78†Eastern province L422:         * cite79†Madinah L423:         * cite80†Al Baha L424:         * cite81†Al Jawf L425:         * cite82†Northern Border L426:         * cite83†Qassim L427:         * cite84†Hail L428:         * cite85†Tabuk L429:       *         * cite86†'Aseer L430:         * cite87†Jizan L431:         * cite88†Najran L432:         * cite89†Yanbu L433:         * cite90†King Abdullah Economic City L434:         * cite91†Knowledge Economic City L435:         * cite92†Jazan Economic City L436:         * cite93†Prince Abdulaziz Bin Mosaed Economic City L437:   * cite94†Newsmakers L438:     *       *         * Back
+L439:         * cite94†View all L440:         * cite95†My Morning Routine L441:         * cite96†MOVES L442:         * cite97†coffee-with L443:         * cite98†Kudos L444:   * cite99†Explainers L445:     *       *         * Back
+L446:         * cite99†View all L447:         * cite100†EnterpriseAM explains L448:         * cite101†Spotlight L449:   * cite102†Data L450:     *       *         * Back
+L451:         * cite102†View all L452:         * cite103†GDP L453:         * cite104†Inflation L454:         * cite105†PMI L455:         * cite106†Balance of payment L456:         * cite107†Trade balance L457:         * cite108†Growth projections L458:         * cite109†Purchasing managers’ index L459:         * cite110†Tourism L460:         * cite111†Insurance L461:         * cite112†Point of sale L462:       *         * cite68†Real estate L463:         * cite113†Fintech L464:         * cite114†Islamic finance L465:         * cite115†Brokerage L466:   * cite116†Archives L467:   * cite117†Lifestyle L468:   * cite118†Calendar L469: cite127†ALSO ON OUR RADAR L470: # Qassim airport redevelopment narrowed to six bidders
+L471: 
+L472: by Saudi Edition September 9, 2026September 9, 2026
+L473: 
+L474:   *   *   *   *   * cite128†Read Full Issue L475: 
+L476: cite129†Image†i0.wp.com L477: 
+L478: Six groups vie for Qassim airport
+L479: Six bidders have qualified to compete for the redevelopment of Prince Naif Bin Abdulaziz International Airport in Qassim, the Civil Aviation Holding Company (Matarat) cite130†said on X†x.com . The project covers a new passenger terminal and upgrades to runways, taxiways, aprons, and other airside infrastructure, to be built under a design-finance-construct-operate-maintain-transfer model. Of the cite131†89 companies that initially expressed interest, six consortia made the shortlist.
+L480: The shortlist: Turkey’s YDA Insaat with Safari Group, Bahrain’s Lamar Holding, and France’s Egis; Saudi Arabia’s Ports Projects Management & Development with Algihaz Holding; Mada International Holding with Turkey’s TAV Airports; Namaya International Investment with Oman Airports, AlBawani Capital, and the UAE’s Tanama; Vision Invest with Asyad Holding and Ireland’s Daa International; and India’s GMR Airports.
+L481: The wider push: Tendering is also underway for the new Taif International Airport, planned for 2.5 mn passengers by 2030 and built to handle demand through 2055. Both Qassim and Taif were awarded as PPP projects back in 2017, but those agreements stalled during Saudi Arabia’s aviation-sector restructuring, so this is the second time around for both, according to cite132†Meed†www.meed.com .
+L482: 
+L483: Amaala adds another resort
+L484: Nammos Resort Amaala is now open at Triple Bay, adding 110 hotel rooms and 20 private residences to the Red Sea destination, according to a cite133†press release†www.redseaglobal.com . The resort includes a private-island Nammos Beach Club, a Nammos Spa, restaurants, and family facilities.
+L485: Why it matters: Nammos brings Amaala another step closer to operating as a full destination. Six resorts are now open, with three more expected to complete cite134†Amaala’s first phase in the coming months, filling out the hospitality, wellness, and marine offering Red Sea Global has been building around Triple Bay. We reached out for comment but had no response by publication.
+L486: 
+L487: Tasnee buys time on debt
+L488: Tasnee has rescheduled an SAR 2 bn financing facility with Banque Saudi Fransi, extending the repayment profile to better match the company’s cashflows, according to a cite135†Tadawul disclosure†www.saudiexchange.sa . The facility, originally signed in January 2019, has been fully rescheduled with a seven-year tenor, unchanged from the original term. The financing is backed by promissory notes.
+L489: Why it matters: The rescheduling is another step in Tasnee’s broader balance-sheet cleanup. Tasnee sold Al Rowad for SAR 684 mn to cite136†exit plastics conversion and redirect capital toward debt reduction. An SAR 889 mn cite137†net loss†www.saudiexchange.sa in 1H, versus SAR 830 mn in net income a year earlier, has added to the pressure. The rescheduling gives Tasnee more room to manage its debt while it refocuses on upstream petrochemicals.
+L490: 
+L491: FlyNow plots Saudi eVTOL plant
+L492: FlyNow Arabia plans to build a mass-production facility in Saudi Arabia, following the relocation of its headquarters to Riyadh, CEO Yvonne Winter told Asharq Business (cite138†watch, runtime 3:18†asharqbusiness.com ). The eVTOL maker is developing the plant with support from the General Authority of Civil Aviation and recently signed MoUs covering c. 700 aircraft for various uses.
+L493: The timeline: FlyNow expects to start cargo and firefighting services after a roughly two-year pilot phase, then launch air taxi services by 2030, timed to Expo. The rollout runs in sequence: testing first, then logistics and firefighting, then passenger transport.
+L494: REMEMBER- FlyNow announced its expansion plan in 2025, including setting up an cite139†eCopters production facility and introducing the Kingdom’s cite140†first flying taxi†enterprise.news . It also ran sandbox flights last year with local and international partners to demonstrate safe eVTOL integration in low-altitude airspace.
+L495: 
+L496: Gaia closes pre-seed round
+L497: AI startup Gaia raised USD 1.5 mn in a pre-seed funding round led by Seedra Ventures, the company said in a cite141†statement†www.linkedin.com . The funding will support the company’s team and continued development of the platform as it works with Saudi enterprises to apply AI to operational use cases.
+L498: About the company: Gaia, founded by Badr Al Malluh cite142†(LinkedIn)†sa.linkedin.com and Mohammad Rababah cite143†(LinkedIn)†sa.linkedin.com , aims to bring together the fragmented knowledge that sits across companies’ emails, documents, CRMs, ERPs, internal systems, and employees, and turn it into a more accessible source of business intelligence, according to cite144†Seedra Ventures†www.linkedin.com .
+L499: 
+L500: Epson to establish regional HQ in Riyadh
+L501: Japanese tech firm Epson plans to open its Middle East and North Africa regional headquarters in Riyadh, Regional Director Hossam Al Zogheir tells cite145†Asharq Al Awsat†aawsat.com . The firm plans to expand its operations in the Kingdom, targeting education, healthcare, and entertainment, and will use this new office to link regional operations with its R&D centers in Japan.
+L502: Epson also has its eyes on potential ventures in Saudi Arabia’s financial services, tourism and hospitality, retail, and government sectors, alongside digital infrastructure and smart-city projects.
+L503: Tags:
+L504: 
+L505: cite146†ALSO ON OUR RADAR cite147†FlyNow cite148†Tasnee L506: ### Related
+L507: 
+L508: [Input: ][Button: Search]
+L509: 
+L510: * * *
+L511: 
+L512: ## More From Enterprise
+L513: 
+L514: * * *
+L515: 
+L516: ## IPO
+L517: 
+L518: cite149†  L519: 
+L520: ## cite150†Pricing review meets foreign inflow push L521: 
+L522: * * *
+L523: 
+L524: ## M&A
+L525: 
+L526: cite10†  L527: 
+L528: ## cite151†Acwa Power-led consortium brings world's largest off-grid renewable utility system online at Red Sea L529: 
+L530: * * *
+L531: 
+L532: ## cite152†Debt L533: 
+L534: cite153†  L535: 
+L536: ## cite154†Houthis attack energy facilities + civilian locations L537: ## Business leaders spend their mornings with us.
+L538: 
+L539: Get EnterpriseAM — the daily newsletter now available in English and Arabic formats.
+L540: 
+L541: cite155†Subscribe L542: 
+L543: * * *
+L544: 
+L545: ## More from Enterprise
+L546: 
+L547: * * *
+L548: 
+L549: ## Banking
+L550: 
+L551: cite45†  L552: 
+L553: ## cite156†Public-sector borrowing outpaces private credit at Saudi banks L554: 
+L555: Net foreign assets edged up in July as commercial banks…
+L556: 
+L557: * * *
+L558: 
+L559: ## Finance
+L560: 
+L561: cite55†  L562: ## cite157†Nvidia targets USD 500 bn in third-party financing to fuel AI data center boom L563: 
+L564: The chipmaker is teaming up with Wall Street giants to…
+L565: 
+L566: * * *
+L567: 
+L568: ## Capital Markets
+L569: 
+L570: cite47†  L571: 
+L572: ## cite158†Tadawul wants Chinese money in Saudi equities, debt, and listings L573: 
+L574: The 49% foreign ownership ceiling is the limit on how…
+L575: 
+L576: * * *
+L577: 
+L578: ## Fintech
+L579: 
+L580: cite56†  L581: ## cite159†My Morning Routine: Fadi Al Awami, founder of The Consultation Center L582: 
+L583: On the move from banking to advisory, the fintech-versus-banks question,…
+L584: 
+L585: © 2026 Enterprise Ventures LLC cite160†View important tax notices. L586: 
+L587: Queue
+L588: 
+L589: Now Playing
+L590: 
+L591: Now Playing
+L592: 
+L593: 00:00
+L594: 
+L595: 00:00
+L596: 
+L597: [Input] [Input]
+L598: 
+L599: ### Sign in
+L600: 
+L601: Email address [Input: Your email address] [Input] [Input] cite125†Terms of Service L602: 
+L603: #### Check your email! We've sent you a magic link to sign in.

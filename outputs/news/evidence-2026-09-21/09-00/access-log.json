@@ -1,0 +1,2704 @@
+{
+  "runDate": "2026-09-21",
+  "slot": "09:00",
+  "startedAt": "2026-09-21T01:03:30.135Z",
+  "entries": [
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p0-meed",
+      "entry": "https://www.meed.com/latest-news",
+      "at": "2026-09-21T01:03:30.158Z",
+      "completedAt": "2026-09-21T01:03:32.762Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/p0-meed.md",
+      "chars": 15571,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\p0-meed.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "listing",
+      "result": "取得列表；是否为目标日期须看逐篇正文",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p0-x",
+      "entry": "https://x.com/search?q=Saudi%20construction&src=typed_query&f=live",
+      "at": "2026-09-21T01:03:30.157Z",
+      "completedAt": "2026-09-21T01:03:33.203Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/p0-x.md",
+      "chars": 0,
+      "error": "[2026-09-21 09:03:31] WARNING: Attempt 1 failed: Failed to perform, curl: (35) Recv failure: Connection was reset. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.. Retrying in 1 seconds...\r\n[2026-09-21 09:03:32] WARNING: Attempt 2 failed: Failed to perform, curl: (35) Recv failure: Connection was reset. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.. Retrying in 1 seconds...\r\n[2026-09-21 09:03:33] ERROR: Failed after 3 attempts: Failed to perform, curl: (35) Recv failure: Connection was reset. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.\r\nTraceback (most recent call last):\r\n  File \"D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\.news-venv\\Lib\\site-packages\\curl_cffi\\requests\\session.py\", line 827, in _request_once\r\n    c.perform()\r\n  File \"D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\.news-venv\\Lib\\site-packages\\curl_cffi\\curl.py\", line 594, in perform\r\n    self._check_error(ret, \"perform\")\r\n  File \"D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\.news-venv\\Lib\\site-packages\\curl_cffi\\curl.py\", line 320, in _check_error\r\n    raise error\r\ncurl_cffi.curl.CurlError: Failed to perform, curl: (35) Recv failure: Connection was reset. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\.news-venv\\Scripts\\scrapling.exe\\__main__.py\", line 7, in <module>\r\n  File \"D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\.news-venv\\",
+      "stdout": "",
+      "contentLevel": "failed",
+      "result": "failed",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "p0-etimad",
+      "entry": "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1&PageSize=24",
+      "at": "2026-09-21T01:03:30.160Z",
+      "completedAt": "2026-09-21T01:03:36.667Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/p0-etimad.md",
+      "chars": 3031,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "blocked_or_shell",
+      "result": "blocked_or_shell",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p0-google",
+      "entry": "https://www.google.com/search?q=Saudi+construction+September+2026",
+      "at": "2026-09-21T01:03:30.153Z",
+      "completedAt": "2026-09-21T01:03:58.171Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/p0-google.md",
+      "chars": 0,
+      "error": "[2026-09-21 09:03:52] WARNING: Proxy 'None' failed (attempt 1) | Retrying in 1 seconds...\r\n",
+      "stdout": "",
+      "contentLevel": "failed",
+      "result": "failed",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p0-googlenews",
+      "entry": "https://news.google.com/search?q=Saudi%20construction%20when%3A4d&hl=en-US&gl=US&ceid=US%3Aen",
+      "at": "2026-09-21T01:03:30.155Z",
+      "completedAt": "2026-09-21T01:03:58.171Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/p0-googlenews.md",
+      "chars": 0,
+      "error": "[2026-09-21 09:03:52] WARNING: Proxy 'None' failed (attempt 1) | Retrying in 1 seconds...\r\n",
+      "stdout": "",
+      "contentLevel": "failed",
+      "result": "failed",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p1-gazette",
+      "entry": "https://saudigazette.com.sa/",
+      "at": "2026-09-21T01:04:29.906Z",
+      "completedAt": "2026-09-21T01:04:31.261Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/p1-gazette.md",
+      "chars": 32848,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\p1-gazette.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "listing",
+      "result": "取得列表；是否为目标日期须看逐篇正文",
+      "notes": "首页含旧日期，不作为本轮发布日期依据"
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p1-maersk",
+      "entry": "https://www.maersk.com/news/",
+      "at": "2026-09-21T01:04:29.912Z",
+      "completedAt": "2026-09-21T01:04:31.533Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/p1-maersk.md",
+      "chars": 7523,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\p1-maersk.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "listing",
+      "result": "取得列表；是否为目标日期须看逐篇正文",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p1-arabnews",
+      "entry": "https://www.arabnews.com/cat/business-economy",
+      "at": "2026-09-21T01:04:29.910Z",
+      "completedAt": "2026-09-21T01:04:31.784Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/p1-arabnews.md",
+      "chars": 0,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\p1-arabnews.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "empty",
+      "result": "empty",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p0-etimad-direct",
+      "entry": "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1&PageSize=24",
+      "at": "2026-09-21T01:04:29.918Z",
+      "completedAt": "2026-09-21T01:04:31.867Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/p0-etimad-direct.md",
+      "chars": 340,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\p0-etimad-direct.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "blocked_or_shell",
+      "result": "blocked_or_shell",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p1-hapag",
+      "entry": "https://www.hapag-lloyd.com/en/services-information/news.html",
+      "at": "2026-09-21T01:04:29.916Z",
+      "completedAt": "2026-09-21T01:04:32.731Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/p1-hapag.md",
+      "chars": 629,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\p1-hapag.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "blocked_or_shell",
+      "result": "blocked_or_shell",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "fallback-googlenews",
+      "entry": "https://news.google.com/search?q=Saudi%20construction%20when%3A4d&hl=en-US&gl=US&ceid=US%3Aen",
+      "at": "2026-09-21T01:04:29.905Z",
+      "completedAt": "2026-09-21T01:04:34.302Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/fallback-googlenews.md",
+      "chars": 0,
+      "error": "Error: All scraping engines failed to retrieve content from this URL. Engines tried: [index, index;documents, fire-engine;chrome-cdp;stealth, fire-engine(retry);chrome-cdp;stealth, pdf, document, image]. This usually happens when: (1) The URL is invalid or the page doesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation.\n",
+      "stdout": "",
+      "contentLevel": "failed",
+      "result": "failed",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "fallback-google",
+      "entry": "https://www.google.com/search?q=Saudi+construction+September+2026",
+      "at": "2026-09-21T01:04:29.903Z",
+      "completedAt": "2026-09-21T01:04:45.110Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/fallback-google.md",
+      "chars": 0,
+      "error": "Error: All scraping engines failed to retrieve content from this URL. Engines tried: [index, index;documents, fire-engine;chrome-cdp;stealth, fire-engine(retry);chrome-cdp;stealth, pdf, document, image]. This usually happens when: (1) The URL is invalid or the page doesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation.\n",
+      "stdout": "",
+      "contentLevel": "failed",
+      "result": "failed",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "fallback-x",
+      "entry": "https://x.com/search?q=Saudi%20construction&src=typed_query&f=live",
+      "at": "2026-09-21T01:05:02.023Z",
+      "completedAt": "2026-09-21T01:05:03.327Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/fallback-x.md",
+      "chars": 0,
+      "error": "Error: We apologize for the inconvenience but we do not support this site. If you are part of an enterprise and want to have a further conversation about this, please fill out our intake form here: https://fk4bvu0n5qp.typeform.com/to/Ej6oydlg\n",
+      "stdout": "",
+      "contentLevel": "failed",
+      "result": "failed",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p1-sgp",
+      "entry": "https://www.saudigulfprojects.com/",
+      "at": "2026-09-21T01:05:02.028Z",
+      "completedAt": "2026-09-21T01:05:03.585Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/p1-sgp.md",
+      "chars": 57161,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\p1-sgp.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "listing",
+      "result": "取得列表；是否为目标日期须看逐篇正文",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p1-spa",
+      "entry": "https://www.spa.gov.sa/en",
+      "at": "2026-09-21T01:05:02.027Z",
+      "completedAt": "2026-09-21T01:05:03.631Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/p1-spa.md",
+      "chars": 0,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\p1-spa.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "empty",
+      "result": "empty",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "p0-meed-correct",
+      "entry": "https://www.meed.com/latest",
+      "at": "2026-09-21T01:05:02.030Z",
+      "completedAt": "2026-09-21T01:05:04.243Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/p0-meed-correct.md",
+      "chars": 12394,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\p0-meed-correct.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "listing",
+      "result": "取得列表；是否为目标日期须看逐篇正文",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "fallback-arabnews",
+      "entry": "https://www.arabnews.com/cat/business-economy",
+      "at": "2026-09-21T01:05:02.025Z",
+      "completedAt": "2026-09-21T01:05:07.770Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/fallback-arabnews.md",
+      "chars": 40986,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "listing",
+      "result": "取得列表；是否为目标日期须看逐篇正文",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-camps",
+      "entry": "Saudi workers accommodation construction camp housing after:2026-09-18 before:2026-09-22",
+      "at": "2026-09-21T01:05:19.604Z",
+      "completedAt": "2026-09-21T01:05:21.332Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-camps.json",
+      "chars": 3030,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-projects",
+      "entry": "Saudi Arabia construction infrastructure project tender awarded after:2026-09-18 before:2026-09-22",
+      "at": "2026-09-21T01:05:19.602Z",
+      "completedAt": "2026-09-21T01:05:21.749Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-projects.json",
+      "chars": 3032,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-materials",
+      "entry": "Saudi modular prefabricated steel construction materials after:2026-09-18 before:2026-09-22",
+      "at": "2026-09-21T01:05:32.792Z",
+      "completedAt": "2026-09-21T01:05:34.660Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-materials.json",
+      "chars": 3027,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-tenders",
+      "entry": "Saudi tender procurement prequalification awarded contract after:2026-09-18 before:2026-09-22",
+      "at": "2026-09-21T01:05:32.795Z",
+      "completedAt": "2026-09-21T01:05:35.138Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-tenders.json",
+      "chars": 9471,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-sgp3",
+      "entry": "https://www.saudigulfprojects.com/2026/09/humain-mis-250mw-ai-data-center-agreement-sar-8-77-billion/",
+      "at": "2026-09-21T01:05:46.729Z",
+      "completedAt": "2026-09-21T01:05:47.994Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-sgp3.md",
+      "chars": 19853,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-sgp3.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-sgp1",
+      "entry": "https://www.saudigulfprojects.com/2026/09/group-five-pipe-saudi-secures-72-million-saudi-aramco-contract/",
+      "at": "2026-09-21T01:05:46.726Z",
+      "completedAt": "2026-09-21T01:05:48.042Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-sgp1.md",
+      "chars": 17214,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-sgp1.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-sgp0",
+      "entry": "https://www.saudigulfprojects.com/2026/09/asas-makeen-awards-sar-315-million-contract-for-riyadh-projects/",
+      "at": "2026-09-21T01:05:46.724Z",
+      "completedAt": "2026-09-21T01:05:48.046Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-sgp0.md",
+      "chars": 18632,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-sgp0.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-sgp2",
+      "entry": "https://www.saudigulfprojects.com/2026/09/east-pipes-signs-205-million-steel-pipe-supply-contract-with-aramco/",
+      "at": "2026-09-21T01:05:46.727Z",
+      "completedAt": "2026-09-21T01:05:48.098Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-sgp2.md",
+      "chars": 16986,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-sgp2.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-compliance",
+      "entry": "Saudi building construction fire safety regulation after:2026-09-18 before:2026-09-22",
+      "at": "2026-09-21T01:05:46.721Z",
+      "completedAt": "2026-09-21T01:05:48.626Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-compliance.json",
+      "chars": 3038,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-shipping",
+      "entry": "Saudi port shipping Maersk Hapag operational update after:2026-09-18 before:2026-09-22",
+      "at": "2026-09-21T01:05:46.723Z",
+      "completedAt": "2026-09-21T01:05:48.788Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-shipping.json",
+      "chars": 3173,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "fallback-spa",
+      "entry": "https://www.spa.gov.sa/en",
+      "at": "2026-09-21T01:06:09.433Z",
+      "completedAt": "2026-09-21T01:06:11.207Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/fallback-spa.md",
+      "chars": 28859,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "listing",
+      "result": "取得列表；是否为目标日期须看逐篇正文",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "fallback-hapag",
+      "entry": "https://www.hapag-lloyd.com/en/services-information/news.html",
+      "at": "2026-09-21T01:06:09.435Z",
+      "completedAt": "2026-09-21T01:06:12.944Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/fallback-hapag.md",
+      "chars": 3099,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "blocked_or_shell",
+      "result": "blocked_or_shell",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-sat-ar",
+      "entry": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-18 before:2026-09-20",
+      "at": "2026-09-21T01:06:36.649Z",
+      "completedAt": "2026-09-21T01:06:38.562Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-ar.json",
+      "chars": 3695,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-sat-en",
+      "entry": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-18 before:2026-09-20",
+      "at": "2026-09-21T01:06:36.647Z",
+      "completedAt": "2026-09-21T01:06:38.734Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-en.json",
+      "chars": 3039,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-sun-en",
+      "entry": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-19 before:2026-09-21",
+      "at": "2026-09-21T01:06:38.734Z",
+      "completedAt": "2026-09-21T01:06:40.784Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sun-en.json",
+      "chars": 3060,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-sun-ar",
+      "entry": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-19 before:2026-09-21",
+      "at": "2026-09-21T01:06:38.736Z",
+      "completedAt": "2026-09-21T01:06:40.962Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sun-ar.json",
+      "chars": 3335,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-mon-en",
+      "entry": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-20 before:2026-09-22",
+      "at": "2026-09-21T01:06:40.962Z",
+      "completedAt": "2026-09-21T01:06:42.835Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-mon-en.json",
+      "chars": 3103,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-mon-ar",
+      "entry": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-20 before:2026-09-22",
+      "at": "2026-09-21T01:06:40.964Z",
+      "completedAt": "2026-09-21T01:06:42.916Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-mon-ar.json",
+      "chars": 3201,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-contracts",
+      "entry": "\"Asas Makeen\" \"315\" \"2026\"",
+      "at": "2026-09-21T01:07:08.841Z",
+      "completedAt": "2026-09-21T01:07:10.429Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-contracts.json",
+      "chars": 2987,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-pipes",
+      "entry": "\"East Pipes\" \"771\" \"2026\"",
+      "at": "2026-09-21T01:07:08.843Z",
+      "completedAt": "2026-09-21T01:07:10.472Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-pipes.json",
+      "chars": 2915,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-mis",
+      "entry": "\"MIS\" \"HUMAIN\" \"September 20, 2026\"",
+      "at": "2026-09-21T01:07:10.472Z",
+      "completedAt": "2026-09-21T01:07:12.329Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-mis.json",
+      "chars": 3041,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-group",
+      "entry": "\"Group Five\" \"270.58\" \"2026\"",
+      "at": "2026-09-21T01:07:10.474Z",
+      "completedAt": "2026-09-21T01:07:12.562Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-group.json",
+      "chars": 2593,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-sat-news",
+      "entry": "Saudi \"September 19, 2026\" (construction OR project OR housing OR port)",
+      "at": "2026-09-21T01:07:12.562Z",
+      "completedAt": "2026-09-21T01:07:13.691Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-news.json",
+      "chars": 0,
+      "error": "Error: Request failed with status code 429\n",
+      "stdout": "",
+      "contentLevel": "failed",
+      "result": "failed",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-sat-ar2",
+      "entry": "السعودية \"19 سبتمبر 2026\" (مشاريع OR سكن OR ميناء OR إنشاءات)",
+      "at": "2026-09-21T01:07:12.564Z",
+      "completedAt": "2026-09-21T01:07:13.717Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-ar2.json",
+      "chars": 0,
+      "error": "Error: Request failed with status code 429\n",
+      "stdout": "",
+      "contentLevel": "failed",
+      "result": "failed",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "etimad-root",
+      "entry": "https://tenders.etimad.sa/",
+      "at": "2026-09-21T01:07:13.717Z",
+      "completedAt": "2026-09-21T01:07:15.122Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/etimad-root.md",
+      "chars": 340,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\etimad-root.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "blocked_or_shell",
+      "result": "blocked_or_shell",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "sgp-archive21",
+      "entry": "https://www.saudigulfprojects.com/2026/09/21/",
+      "at": "2026-09-21T01:07:13.723Z",
+      "completedAt": "2026-09-21T01:07:15.282Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/sgp-archive21.md",
+      "chars": 18374,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\sgp-archive21.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "listing",
+      "result": "取得列表；是否为目标日期须看逐篇正文",
+      "notes": "日期归档未按路径返回，实际为首页或404推荐列表"
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "sgp-archive19",
+      "entry": "https://www.saudigulfprojects.com/2026/09/19/",
+      "at": "2026-09-21T01:07:13.720Z",
+      "completedAt": "2026-09-21T01:07:15.641Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/sgp-archive19.md",
+      "chars": 57161,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\sgp-archive19.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "listing",
+      "result": "取得列表；是否为目标日期须看逐篇正文",
+      "notes": "日期归档未按路径返回，实际为首页或404推荐列表"
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "sgp-archive20",
+      "entry": "https://www.saudigulfprojects.com/2026/09/20/",
+      "at": "2026-09-21T01:07:13.722Z",
+      "completedAt": "2026-09-21T01:07:15.687Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/sgp-archive20.md",
+      "chars": 57161,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\sgp-archive20.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "listing",
+      "result": "取得列表；是否为目标日期须看逐篇正文",
+      "notes": "日期归档未按路径返回，实际为首页或404推荐列表"
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "maersk-advisories",
+      "entry": "https://www.maersk.com/news/category/advisories",
+      "at": "2026-09-21T01:07:39.802Z",
+      "completedAt": "2026-09-21T01:07:41.019Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/maersk-advisories.md",
+      "chars": 2525,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\maersk-advisories.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "listing",
+      "result": "取得列表；是否为目标日期须看逐篇正文",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-koc",
+      "entry": "https://www.saudigulfprojects.com/2026/09/indias-megha-engineering-secures-us379-million-koc-contract-for-gc-25-and-gc-30-facilities/",
+      "at": "2026-09-21T01:07:39.806Z",
+      "completedAt": "2026-09-21T01:07:41.148Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-koc.md",
+      "chars": 20020,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-koc.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-terminal",
+      "entry": "https://www.worldcargonews.com/automation/2026/09/can-neom-terminal-1-ramp-up-fast-enough-to-capture-hormuz-driven-cargo/",
+      "at": "2026-09-21T01:07:39.804Z",
+      "completedAt": "2026-09-21T01:07:41.254Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-terminal.md",
+      "chars": 15014,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-terminal.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "public_lede_subscription_limited",
+      "result": "public_lede_subscription_limited",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "ref-pipes",
+      "entry": "https://www.argaam.com/en/article/articledetail/id/1937711?amp",
+      "at": "2026-09-21T01:07:39.797Z",
+      "completedAt": "2026-09-21T01:07:41.341Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/ref-pipes.md",
+      "chars": 0,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\ref-pipes.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "empty",
+      "result": "empty",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "ref-group",
+      "entry": "https://www.argaam.com/en/article/articledetail/id/1937721",
+      "at": "2026-09-21T01:07:39.799Z",
+      "completedAt": "2026-09-21T01:07:41.368Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/ref-group.md",
+      "chars": 0,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\ref-group.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "empty",
+      "result": "empty",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "ref-asas",
+      "entry": "https://www.argaam.com/en/article/articledetail/id/1937356",
+      "at": "2026-09-21T01:07:39.795Z",
+      "completedAt": "2026-09-21T01:07:42.212Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/ref-asas.md",
+      "chars": 0,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\ref-asas.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "empty",
+      "result": "empty",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "mis-official",
+      "entry": "https://www.mis.com.sa/investor-relations/company-announcements/",
+      "at": "2026-09-21T01:07:39.800Z",
+      "completedAt": "2026-09-21T01:07:42.665Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/mis-official.md",
+      "chars": 6661,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\mis-official.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "blocked_or_shell",
+      "result": "blocked_or_shell",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "sgp-construct",
+      "entry": "https://www.saudigulfprojects.com/category/construction/",
+      "at": "2026-09-21T01:08:22.433Z",
+      "completedAt": "2026-09-21T01:08:23.620Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/sgp-construct.md",
+      "chars": 22728,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\sgp-construct.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "listing",
+      "result": "取得列表；是否为目标日期须看逐篇正文",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "maersk-typhoon",
+      "entry": "https://www.maersk.com/news/articles/2026/09/18/east-asia-typhoon-season-update-2",
+      "at": "2026-09-21T01:08:22.435Z",
+      "completedAt": "2026-09-21T01:08:23.658Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/maersk-typhoon.md",
+      "chars": 7221,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\maersk-typhoon.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "maersk-hormuz",
+      "entry": "https://www.maersk.com/news/articles/2026/03/11/maersk-operations-through-strait-of-hormuz",
+      "at": "2026-09-21T01:08:22.437Z",
+      "completedAt": "2026-09-21T01:08:24.726Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/maersk-hormuz.md",
+      "chars": 6591,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\maersk-hormuz.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "ref-pipes-fc",
+      "entry": "https://www.argaam.com/en/article/articledetail/id/1937711?amp",
+      "at": "2026-09-21T01:08:22.432Z",
+      "completedAt": "2026-09-21T01:08:25.590Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/ref-pipes-fc.md",
+      "chars": 3730,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "ref-asas-fc",
+      "entry": "https://www.argaam.com/en/article/articledetail/id/1937356",
+      "at": "2026-09-21T01:08:22.430Z",
+      "completedAt": "2026-09-21T01:08:28.243Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/ref-asas-fc.md",
+      "chars": 37396,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-airport-reuters",
+      "entry": "https://www.marketscreener.com/news/flames-and-black-smoke-seen-rising-near-riyadh-airport-ce785adad18dfe2c",
+      "at": "2026-09-21T01:09:04.760Z",
+      "completedAt": "2026-09-21T01:09:05.788Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-airport-reuters.md",
+      "chars": 302,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-airport-reuters.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "blocked_or_shell",
+      "result": "blocked_or_shell",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-airport-afp",
+      "entry": "https://www.france24.com/en/middle-east/20260919-smoke-flames-seen-near-riyadh-airport-major-flight-disruptions-reported",
+      "at": "2026-09-21T01:09:04.762Z",
+      "completedAt": "2026-09-21T01:09:05.984Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-airport-afp.md",
+      "chars": 17716,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-airport-afp.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-tarout",
+      "entry": "https://www.spa.gov.sa/en/N2681202",
+      "at": "2026-09-21T01:09:04.764Z",
+      "completedAt": "2026-09-21T01:09:06.126Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-tarout.md",
+      "chars": 0,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-tarout.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "empty",
+      "result": "empty",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "mis-official-fc",
+      "entry": "https://www.mis.com.sa/investor-relations/company-announcements/",
+      "at": "2026-09-21T01:09:04.759Z",
+      "completedAt": "2026-09-21T01:09:07.877Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/mis-official-fc.md",
+      "chars": 1877,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "blocked_or_shell",
+      "result": "blocked_or_shell",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "ref-group-fc",
+      "entry": "https://www.argaam.com/en/article/articledetail/id/1937721?amp",
+      "at": "2026-09-21T01:09:04.756Z",
+      "completedAt": "2026-09-21T01:09:07.911Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/ref-group-fc.md",
+      "chars": 3601,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-mis-argaam",
+      "entry": "https://www.argaam.com/en/article/articledetail/id/1937727?amp",
+      "at": "2026-09-21T01:09:38.770Z",
+      "completedAt": "2026-09-21T01:09:39.956Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-mis-argaam.md",
+      "chars": 0,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-mis-argaam.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "empty",
+      "result": "empty",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-permits",
+      "entry": "https://www.argaam.com/en/article/articledetail/id/1937867",
+      "at": "2026-09-21T01:09:38.767Z",
+      "completedAt": "2026-09-21T01:09:39.983Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-permits.md",
+      "chars": 0,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-permits.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "empty",
+      "result": "empty",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-wadi",
+      "entry": "https://www.saudigulfprojects.com/2026/09/cosmo-developments-launches-aed-6-billion-the-wadi-mixed-use-project-on-yas-island/",
+      "at": "2026-09-21T01:09:38.768Z",
+      "completedAt": "2026-09-21T01:09:40.095Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-wadi.md",
+      "chars": 18869,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-wadi.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "etimad-root-fc",
+      "entry": "https://tenders.etimad.sa/",
+      "at": "2026-09-21T01:09:38.762Z",
+      "completedAt": "2026-09-21T01:09:40.715Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/etimad-root-fc.md",
+      "chars": 9878,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "listing",
+      "result": "取得列表；是否为目标日期须看逐篇正文",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "exchange-list",
+      "entry": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements?locale=en",
+      "at": "2026-09-21T01:09:38.764Z",
+      "completedAt": "2026-09-21T01:09:41.750Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/exchange-list.md",
+      "chars": 0,
+      "error": "Error: All scraping engines failed to retrieve content from this URL. Engines tried: [index, index;documents, fire-engine;chrome-cdp;stealth, fire-engine(retry);chrome-cdp;stealth, pdf, document, image]. This usually happens when: (1) The URL is invalid or the page doesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation.\n",
+      "stdout": "",
+      "contentLevel": "failed",
+      "result": "failed",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-pif",
+      "entry": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2026/pif-launches-tawrid-to-provide-supply-chain-financing-products-in-saudi-arabia/",
+      "at": "2026-09-21T01:09:38.766Z",
+      "completedAt": "2026-09-21T01:09:42.267Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-pif.md",
+      "chars": 926,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-pif.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "blocked_or_shell",
+      "result": "blocked_or_shell",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-tarout-fc",
+      "entry": "https://www.spa.gov.sa/en/N2681202",
+      "at": "2026-09-21T01:10:07.710Z",
+      "completedAt": "2026-09-21T01:10:09.402Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-tarout-fc.md",
+      "chars": 9088,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-mis-fc",
+      "entry": "https://www.argaam.com/en/article/articledetail/id/1937727?amp",
+      "at": "2026-09-21T01:10:07.712Z",
+      "completedAt": "2026-09-21T01:10:10.831Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-mis-fc.md",
+      "chars": 4810,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-permits-sg",
+      "entry": "https://saudigazette.com.sa/business",
+      "at": "2026-09-21T01:11:00.900Z",
+      "completedAt": "2026-09-21T01:11:02.139Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-permits-sg.md",
+      "chars": 18575,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-permits-sg.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-official-pipes",
+      "entry": "\"East Pipes\" \"771\" \"saudiexchange\"",
+      "at": "2026-09-21T01:11:00.888Z",
+      "completedAt": "2026-09-21T01:11:02.838Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-official-pipes.json",
+      "chars": 3190,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "exchange-direct",
+      "entry": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements?locale=en",
+      "at": "2026-09-21T01:11:00.893Z",
+      "completedAt": "2026-09-21T01:11:03.017Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/exchange-direct.md",
+      "chars": 297,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\exchange-direct.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "blocked_or_shell",
+      "result": "blocked_or_shell",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "momah-news",
+      "entry": "https://momah.gov.sa/ar/news",
+      "at": "2026-09-21T01:11:00.896Z",
+      "completedAt": "2026-09-21T01:11:03.802Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/momah-news.md",
+      "chars": 13370,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\momah-news.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "listing",
+      "result": "取得列表；是否为目标日期须看逐篇正文",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-official-mis",
+      "entry": "\"HUMAIN\" \"689\" \"2026\" \"saudiexchange\"",
+      "at": "2026-09-21T01:11:00.891Z",
+      "completedAt": "2026-09-21T01:11:04.169Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-official-mis.json",
+      "chars": 3201,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "balady-collective",
+      "entry": "https://balady.gov.sa/ar/all-products/10543",
+      "at": "2026-09-21T01:11:00.898Z",
+      "completedAt": "2026-09-21T01:11:28.909Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/balady-collective.md",
+      "chars": 0,
+      "error": "[2026-09-21 09:11:22] WARNING: Proxy 'None' failed (attempt 1) | Retrying in 1 seconds...\r\n",
+      "stdout": "",
+      "contentLevel": "failed",
+      "result": "failed",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-tender4",
+      "entry": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=VupofNGBgx1rH6e0sxXtLA==",
+      "at": "2026-09-21T01:12:01.348Z",
+      "completedAt": "2026-09-21T01:12:02.803Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-tender4.md",
+      "chars": 340,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-tender4.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "blocked_or_shell",
+      "result": "blocked_or_shell",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-tender3",
+      "entry": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=tLhPQ4MxC7DZTOchYNOolw==",
+      "at": "2026-09-21T01:12:01.346Z",
+      "completedAt": "2026-09-21T01:12:02.877Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-tender3.md",
+      "chars": 340,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-tender3.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "blocked_or_shell",
+      "result": "blocked_or_shell",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-tender2",
+      "entry": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=fIY0FEOu1gqyr17NWPoe7g==",
+      "at": "2026-09-21T01:12:01.342Z",
+      "completedAt": "2026-09-21T01:12:02.895Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-tender2.md",
+      "chars": 340,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-tender2.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "blocked_or_shell",
+      "result": "blocked_or_shell",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-pif-fc",
+      "entry": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2026/pif-launches-tawrid-to-provide-supply-chain-financing-products-in-saudi-arabia/",
+      "at": "2026-09-21T01:12:01.335Z",
+      "completedAt": "2026-09-21T01:12:03.029Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-pif-fc.md",
+      "chars": 8246,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-tender1",
+      "entry": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=KstXque*@@**dmefKFUWigKsMQ==",
+      "at": "2026-09-21T01:12:01.339Z",
+      "completedAt": "2026-09-21T01:12:03.187Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-tender1.md",
+      "chars": 340,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-tender1.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "blocked_or_shell",
+      "result": "blocked_or_shell",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-gri",
+      "entry": "https://container-mag.com/update/20260919-hapag-lloyd-adds-fourth-us-1-000-gri-on-isc-north-america-trade-since-may",
+      "at": "2026-09-21T01:12:01.350Z",
+      "completedAt": "2026-09-21T01:12:04.420Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-gri.md",
+      "chars": 7498,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-gri.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "balady-collective-fc",
+      "entry": "https://balady.gov.sa/ar/all-products/10543",
+      "at": "2026-09-21T01:12:01.337Z",
+      "completedAt": "2026-09-21T01:12:35.270Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/balady-collective-fc.md",
+      "chars": 0,
+      "error": "Error: The URL failed to load in the browser with error code \"ERR_TUNNEL_CONNECTION_FAILED\". Firecrawl encountered an internal proxy error while establishing the tunnel. This is an internal Firecrawl proxy error. Please retry or contact support.\n",
+      "stdout": "",
+      "contentLevel": "failed",
+      "result": "failed",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-tender1-fc",
+      "entry": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=KstXque*@@**dmefKFUWigKsMQ==",
+      "at": "2026-09-21T01:12:52.478Z",
+      "completedAt": "2026-09-21T01:13:00.472Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-tender1-fc.md",
+      "chars": 2189,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-tender2-fc",
+      "entry": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=fIY0FEOu1gqyr17NWPoe7g==",
+      "at": "2026-09-21T01:12:52.481Z",
+      "completedAt": "2026-09-21T01:13:00.796Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-tender2-fc.md",
+      "chars": 2178,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-tender4-fc",
+      "entry": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=VupofNGBgx1rH6e0sxXtLA==",
+      "at": "2026-09-21T01:13:11.545Z",
+      "completedAt": "2026-09-21T01:13:17.376Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-tender4-fc.md",
+      "chars": 2325,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-tender3-fc",
+      "entry": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=tLhPQ4MxC7DZTOchYNOolw==",
+      "at": "2026-09-21T01:13:11.543Z",
+      "completedAt": "2026-09-21T01:13:20.020Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-tender3-fc.md",
+      "chars": 2402,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-permits-fc",
+      "entry": "https://www.argaam.com/en/article/articledetail/id/1937867?amp",
+      "at": "2026-09-21T01:13:30.521Z",
+      "completedAt": "2026-09-21T01:13:33.914Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-permits-fc.md",
+      "chars": 4036,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "etimad-page2",
+      "entry": "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2",
+      "at": "2026-09-21T01:13:30.519Z",
+      "completedAt": "2026-09-21T01:13:40.624Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/etimad-page2.md",
+      "chars": 6913,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "listing",
+      "result": "取得列表；是否为目标日期须看逐篇正文",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-hapag-final",
+      "entry": "site:hapag-lloyd.com \"2026\" \"October 15\" \"GRI\"",
+      "at": "2026-09-21T01:16:32.729Z",
+      "completedAt": "2026-09-21T01:16:34.375Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-hapag-final.json",
+      "chars": 3334,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-airport-reuters-fc",
+      "entry": "https://www.marketscreener.com/news/flames-and-black-smoke-seen-rising-near-riyadh-airport-ce785adad18dfe2c",
+      "at": "2026-09-21T01:16:32.727Z",
+      "completedAt": "2026-09-21T01:16:35.676Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-airport-reuters-fc.md",
+      "chars": 14059,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-permits-primary",
+      "entry": "site:stats.gov.sa \"2026\" \"يوليو\" \"البناء\"",
+      "at": "2026-09-21T01:16:47.002Z",
+      "completedAt": "2026-09-21T01:16:48.671Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-permits-primary.json",
+      "chars": 2579,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-contracts-primary",
+      "entry": "site:saudiexchange.sa \"20-09-2026\" \"771\"",
+      "at": "2026-09-21T01:16:47.004Z",
+      "completedAt": "2026-09-21T01:16:48.724Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-contracts-primary.json",
+      "chars": 0,
+      "error": "",
+      "stdout": "No results found.\n",
+      "contentLevel": "search_no_results",
+      "result": "search_no_results",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-hapag-original",
+      "entry": "https://www.hapag-lloyd.com/en/services-information/news/2026/09/shipping-from-indian-subcontinent--pakistan---middle-east-to-us-.headless.html",
+      "at": "2026-09-21T01:16:47.001Z",
+      "completedAt": "2026-09-21T01:16:48.796Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-hapag-original.md",
+      "chars": 629,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-hapag-original.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "blocked_or_shell",
+      "result": "blocked_or_shell",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-sat-camps-final",
+      "entry": "Saudi worker camp accommodation building fire safety regulation after:2026-09-18 before:2026-09-20",
+      "at": "2026-09-21T01:16:59.129Z",
+      "completedAt": "2026-09-21T01:17:00.870Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-camps-final.json",
+      "chars": 2921,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-hapag-original-fc",
+      "entry": "https://www.hapag-lloyd.com/en/services-information/news/2026/09/shipping-from-indian-subcontinent--pakistan---middle-east-to-us-.headless.html",
+      "at": "2026-09-21T01:16:59.127Z",
+      "completedAt": "2026-09-21T01:17:01.967Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-hapag-original-fc.md",
+      "chars": 2745,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-final-sat-material-tender",
+      "entry": "السعودية حديد مواد بناء منافسات ترسية after:2026-09-18 before:2026-09-20",
+      "at": "2026-09-21T01:17:29.891Z",
+      "completedAt": "2026-09-21T01:17:31.470Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sat-material-tender.json",
+      "chars": 3241,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-final-sat-ship",
+      "entry": "Saudi shipping port logistics after:2026-09-18 before:2026-09-20",
+      "at": "2026-09-21T01:17:29.894Z",
+      "completedAt": "2026-09-21T01:17:32.140Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sat-ship.json",
+      "chars": 3027,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-final-sun-camp-compliance",
+      "entry": "السعودية سكن العمال اشتراطات البناء الدفاع المدني after:2026-09-19 before:2026-09-21",
+      "at": "2026-09-21T01:17:32.141Z",
+      "completedAt": "2026-09-21T01:17:33.913Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sun-camp-compliance.json",
+      "chars": 4215,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-final-sun-shipping",
+      "entry": "Saudi port shipping logistics after:2026-09-19 before:2026-09-21",
+      "at": "2026-09-21T01:17:32.143Z",
+      "completedAt": "2026-09-21T01:17:34.042Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sun-shipping.json",
+      "chars": 2656,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-final-mon-projects-tenders",
+      "entry": "السعودية مشاريع بناء عقود منافسات after:2026-09-20 before:2026-09-22",
+      "at": "2026-09-21T01:17:34.042Z",
+      "completedAt": "2026-09-21T01:17:35.984Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-projects-tenders.json",
+      "chars": 3433,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-final-mon-camp-compliance",
+      "entry": "Saudi worker accommodation construction safety regulation after:2026-09-20 before:2026-09-22",
+      "at": "2026-09-21T01:17:34.045Z",
+      "completedAt": "2026-09-21T01:17:36.096Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-camp-compliance.json",
+      "chars": 3107,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-final-mon-materials-shipping",
+      "entry": "السعودية مواد البناء الحديد الشحن الموانئ after:2026-09-20 before:2026-09-22",
+      "at": "2026-09-21T01:17:36.096Z",
+      "completedAt": "2026-09-21T01:17:38.014Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-materials-shipping.json",
+      "chars": 4099,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-final-overlap-all",
+      "entry": "Saudi construction housing material tender regulation shipping after:2026-09-17 before:2026-09-19",
+      "at": "2026-09-21T01:17:36.098Z",
+      "completedAt": "2026-09-21T01:17:38.658Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-overlap-all.json",
+      "chars": 2918,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-mawani-port",
+      "entry": "\"Saudi Ports Authority\" \"1.46bn\" \"2026\"",
+      "at": "2026-09-21T01:17:59.140Z",
+      "completedAt": "2026-09-21T01:18:00.727Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-mawani-port.json",
+      "chars": 2038,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-fortress",
+      "entry": "\"Fortress Arena\" \"MCC\" \"2026\"",
+      "at": "2026-09-21T01:17:59.138Z",
+      "completedAt": "2026-09-21T01:18:00.897Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-fortress.json",
+      "chars": 2750,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-hrsd-guide",
+      "entry": "https://www.hrsd.gov.sa/knowledge-centre/decisions-and-regulations/regulation-and-procedures/%D8%AF%D9%84%D9%8A%D9%84-%D8%AA%D9%88%D8%B7%D9%8A%D9%86-%D8%B9%D9%82%D9%88%D8%AF-%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84-%D9%88%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9",
+      "at": "2026-09-21T01:17:59.136Z",
+      "completedAt": "2026-09-21T01:18:11.687Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-hrsd-guide.md",
+      "chars": 0,
+      "error": "[2026-09-21 09:18:09] WARNING: Attempt 1 failed: Failed to perform, curl: (6) Could not resolve host: www.hrsd.gov.sa. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.. Retrying in 1 seconds...\r\n[2026-09-21 09:18:10] WARNING: Attempt 2 failed: Failed to perform, curl: (6) Could not resolve host: www.hrsd.gov.sa. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.. Retrying in 1 seconds...\r\n[2026-09-21 09:18:11] ERROR: Failed after 3 attempts: Failed to perform, curl: (6) Could not resolve host: www.hrsd.gov.sa. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.\r\nTraceback (most recent call last):\r\n  File \"D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\.news-venv\\Lib\\site-packages\\curl_cffi\\requests\\session.py\", line 827, in _request_once\r\n    c.perform()\r\n  File \"D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\.news-venv\\Lib\\site-packages\\curl_cffi\\curl.py\", line 594, in perform\r\n    self._check_error(ret, \"perform\")\r\n  File \"D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\.news-venv\\Lib\\site-packages\\curl_cffi\\curl.py\", line 320, in _check_error\r\n    raise error\r\ncurl_cffi.curl.CurlError: Failed to perform, curl: (6) Could not resolve host: www.hrsd.gov.sa. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nTraceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\.news-venv\\Scripts\\scrapling.exe\\__main__.py\", line 7, in <module>\r\n  File \"D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-",
+      "stdout": "",
+      "contentLevel": "failed",
+      "result": "failed",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "c-fortress",
+      "entry": "https://www.constructionweeksaudi.com/news/mcc-qiddiya-esports-arena-contract",
+      "at": "2026-09-21T01:18:20.463Z",
+      "completedAt": "2026-09-21T01:18:21.565Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-fortress.md",
+      "chars": 43,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\c-fortress.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "blocked_or_shell",
+      "result": "blocked_or_shell",
+      "notes": ""
+    },
+    {
+      "tool": "scrapling",
+      "operation": "scrapling",
+      "name": "list-arab-logistics",
+      "entry": "https://www.arabnews.com/tag/logistics",
+      "at": "2026-09-21T01:18:20.466Z",
+      "completedAt": "2026-09-21T01:18:21.632Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/list-arab-logistics.md",
+      "chars": 0,
+      "error": "",
+      "stdout": "Extraction command completed: D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\evidence-2026-09-21\\09-00\\list-arab-logistics.md\r\nRead the file to verify the content. This does not establish news validity or product fit.\r\n",
+      "contentLevel": "empty",
+      "result": "empty",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-hrsd-guide-fc",
+      "entry": "https://www.hrsd.gov.sa/knowledge-centre/decisions-and-regulations/regulation-and-procedures/%D8%AF%D9%84%D9%8A%D9%84-%D8%AA%D9%88%D8%B7%D9%8A%D9%86-%D8%B9%D9%82%D9%88%D8%AF-%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84-%D9%88%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9",
+      "at": "2026-09-21T01:18:20.462Z",
+      "completedAt": "2026-09-21T01:18:28.904Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-hrsd-guide-fc.md",
+      "chars": 11185,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "list-arab-logistics-fc",
+      "entry": "https://www.arabnews.com/tag/logistics",
+      "at": "2026-09-21T01:18:41.215Z",
+      "completedAt": "2026-09-21T01:18:42.546Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/list-arab-logistics-fc.md",
+      "chars": 8274,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "listing",
+      "result": "取得列表；是否为目标日期须看逐篇正文",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-fortress-fc",
+      "entry": "https://www.constructionweeksaudi.com/news/mcc-qiddiya-esports-arena-contract",
+      "at": "2026-09-21T01:18:41.213Z",
+      "completedAt": "2026-09-21T01:18:44.923Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-fortress-fc.md",
+      "chars": 4401,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-fortress-primary",
+      "entry": "\"Qiddiya\" \"Fortress\" \"MCC\" contract September 2026 site:qiddiya.com OR site:mcc.com.cn OR site:meed.com",
+      "at": "2026-09-21T01:18:57.434Z",
+      "completedAt": "2026-09-21T01:18:59.002Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-fortress-primary.json",
+      "chars": 0,
+      "error": "",
+      "stdout": "No results found.\n",
+      "contentLevel": "search_no_results",
+      "result": "search_no_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-arab-port",
+      "entry": "https://www.arabnews.com/tourism-transport/saudi-ports-authority-146bn-invested-during-regional-crisis-3001765",
+      "at": "2026-09-21T01:18:57.433Z",
+      "completedAt": "2026-09-21T01:19:00.005Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-arab-port.md",
+      "chars": 8243,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "article",
+      "result": "取得正文并审阅适用范围",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "search",
+      "name": "s-terminal-primary",
+      "entry": "site:neom.com \"Terminal 1\" \"2026\" September",
+      "at": "2026-09-21T01:19:29.978Z",
+      "completedAt": "2026-09-21T01:19:32.137Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-terminal-primary.json",
+      "chars": 1457,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "search_results",
+      "result": "search_results",
+      "notes": ""
+    },
+    {
+      "tool": "firecrawl",
+      "operation": "firecrawl",
+      "name": "c-terminal-fc",
+      "entry": "https://www.worldcargonews.com/automation/2026/09/can-neom-terminal-1-ramp-up-fast-enough-to-capture-hormuz-driven-cargo/",
+      "at": "2026-09-21T01:19:29.976Z",
+      "completedAt": "2026-09-21T01:19:33.202Z",
+      "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/c-terminal-fc.md",
+      "chars": 9462,
+      "error": "",
+      "stdout": "",
+      "contentLevel": "public_lede_subscription_limited",
+      "result": "public_lede_subscription_limited",
+      "notes": ""
+    }
+  ],
+  "coverage": [
+    {
+      "date": "2026-09-19",
+      "performedAt": "2026-09-21T01:25:36.430Z",
+      "categories": [
+        {
+          "category": "工程项目",
+          "queries": [
+            {
+              "query": "Saudi Arabia construction infrastructure project tender awarded after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-projects.json",
+              "completedAt": "2026-09-21T01:05:21.749Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-en.json",
+              "completedAt": "2026-09-21T01:06:38.734Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-ar.json",
+              "completedAt": "2026-09-21T01:06:38.562Z"
+            },
+            {
+              "query": "Saudi worker camp accommodation building fire safety regulation after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-camps-final.json",
+              "completedAt": "2026-09-21T01:17:00.870Z"
+            },
+            {
+              "query": "السعودية حديد مواد بناء منافسات ترسية after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sat-material-tender.json",
+              "completedAt": "2026-09-21T01:17:31.470Z"
+            },
+            {
+              "query": "Saudi shipping port logistics after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sat-ship.json",
+              "completedAt": "2026-09-21T01:17:32.140Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        },
+        {
+          "category": "营地住宿",
+          "queries": [
+            {
+              "query": "Saudi workers accommodation construction camp housing after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-camps.json",
+              "completedAt": "2026-09-21T01:05:21.332Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-en.json",
+              "completedAt": "2026-09-21T01:06:38.734Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-ar.json",
+              "completedAt": "2026-09-21T01:06:38.562Z"
+            },
+            {
+              "query": "Saudi worker camp accommodation building fire safety regulation after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-camps-final.json",
+              "completedAt": "2026-09-21T01:17:00.870Z"
+            },
+            {
+              "query": "السعودية حديد مواد بناء منافسات ترسية after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sat-material-tender.json",
+              "completedAt": "2026-09-21T01:17:31.470Z"
+            },
+            {
+              "query": "Saudi shipping port logistics after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sat-ship.json",
+              "completedAt": "2026-09-21T01:17:32.140Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        },
+        {
+          "category": "产品材料",
+          "queries": [
+            {
+              "query": "Saudi modular prefabricated steel construction materials after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-materials.json",
+              "completedAt": "2026-09-21T01:05:34.660Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-en.json",
+              "completedAt": "2026-09-21T01:06:38.734Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-ar.json",
+              "completedAt": "2026-09-21T01:06:38.562Z"
+            },
+            {
+              "query": "Saudi worker camp accommodation building fire safety regulation after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-camps-final.json",
+              "completedAt": "2026-09-21T01:17:00.870Z"
+            },
+            {
+              "query": "السعودية حديد مواد بناء منافسات ترسية after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sat-material-tender.json",
+              "completedAt": "2026-09-21T01:17:31.470Z"
+            },
+            {
+              "query": "Saudi shipping port logistics after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sat-ship.json",
+              "completedAt": "2026-09-21T01:17:32.140Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        },
+        {
+          "category": "采购招投标",
+          "queries": [
+            {
+              "query": "Saudi tender procurement prequalification awarded contract after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-tenders.json",
+              "completedAt": "2026-09-21T01:05:35.138Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-en.json",
+              "completedAt": "2026-09-21T01:06:38.734Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-ar.json",
+              "completedAt": "2026-09-21T01:06:38.562Z"
+            },
+            {
+              "query": "Saudi worker camp accommodation building fire safety regulation after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-camps-final.json",
+              "completedAt": "2026-09-21T01:17:00.870Z"
+            },
+            {
+              "query": "السعودية حديد مواد بناء منافسات ترسية after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sat-material-tender.json",
+              "completedAt": "2026-09-21T01:17:31.470Z"
+            },
+            {
+              "query": "Saudi shipping port logistics after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sat-ship.json",
+              "completedAt": "2026-09-21T01:17:32.140Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        },
+        {
+          "category": "合规政策",
+          "queries": [
+            {
+              "query": "Saudi building construction fire safety regulation after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-compliance.json",
+              "completedAt": "2026-09-21T01:05:48.626Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-en.json",
+              "completedAt": "2026-09-21T01:06:38.734Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-ar.json",
+              "completedAt": "2026-09-21T01:06:38.562Z"
+            },
+            {
+              "query": "Saudi worker camp accommodation building fire safety regulation after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-camps-final.json",
+              "completedAt": "2026-09-21T01:17:00.870Z"
+            },
+            {
+              "query": "السعودية حديد مواد بناء منافسات ترسية after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sat-material-tender.json",
+              "completedAt": "2026-09-21T01:17:31.470Z"
+            },
+            {
+              "query": "Saudi shipping port logistics after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sat-ship.json",
+              "completedAt": "2026-09-21T01:17:32.140Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        },
+        {
+          "category": "航运物流",
+          "queries": [
+            {
+              "query": "Saudi port shipping Maersk Hapag operational update after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-shipping.json",
+              "completedAt": "2026-09-21T01:05:48.788Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-en.json",
+              "completedAt": "2026-09-21T01:06:38.734Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-ar.json",
+              "completedAt": "2026-09-21T01:06:38.562Z"
+            },
+            {
+              "query": "Saudi worker camp accommodation building fire safety regulation after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sat-camps-final.json",
+              "completedAt": "2026-09-21T01:17:00.870Z"
+            },
+            {
+              "query": "السعودية حديد مواد بناء منافسات ترسية after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sat-material-tender.json",
+              "completedAt": "2026-09-21T01:17:31.470Z"
+            },
+            {
+              "query": "Saudi shipping port logistics after:2026-09-18 before:2026-09-20",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sat-ship.json",
+              "completedAt": "2026-09-21T01:17:32.140Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        }
+      ],
+      "outcome": "收录1条现场火情报道；赫伯GRI是16日旧通知，其他营地及合规结果多为迪拜规则、旧页面或营销内容，未发现可采纳的本日新发布。"
+    },
+    {
+      "date": "2026-09-20",
+      "performedAt": "2026-09-21T01:25:36.430Z",
+      "categories": [
+        {
+          "category": "工程项目",
+          "queries": [
+            {
+              "query": "Saudi Arabia construction infrastructure project tender awarded after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-projects.json",
+              "completedAt": "2026-09-21T01:05:21.749Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sun-en.json",
+              "completedAt": "2026-09-21T01:06:40.784Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sun-ar.json",
+              "completedAt": "2026-09-21T01:06:40.962Z"
+            },
+            {
+              "query": "السعودية سكن العمال اشتراطات البناء الدفاع المدني after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sun-camp-compliance.json",
+              "completedAt": "2026-09-21T01:17:33.913Z"
+            },
+            {
+              "query": "Saudi port shipping logistics after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sun-shipping.json",
+              "completedAt": "2026-09-21T01:17:34.042Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        },
+        {
+          "category": "营地住宿",
+          "queries": [
+            {
+              "query": "Saudi workers accommodation construction camp housing after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-camps.json",
+              "completedAt": "2026-09-21T01:05:21.332Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sun-en.json",
+              "completedAt": "2026-09-21T01:06:40.784Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sun-ar.json",
+              "completedAt": "2026-09-21T01:06:40.962Z"
+            },
+            {
+              "query": "السعودية سكن العمال اشتراطات البناء الدفاع المدني after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sun-camp-compliance.json",
+              "completedAt": "2026-09-21T01:17:33.913Z"
+            },
+            {
+              "query": "Saudi port shipping logistics after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sun-shipping.json",
+              "completedAt": "2026-09-21T01:17:34.042Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        },
+        {
+          "category": "产品材料",
+          "queries": [
+            {
+              "query": "Saudi modular prefabricated steel construction materials after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-materials.json",
+              "completedAt": "2026-09-21T01:05:34.660Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sun-en.json",
+              "completedAt": "2026-09-21T01:06:40.784Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sun-ar.json",
+              "completedAt": "2026-09-21T01:06:40.962Z"
+            },
+            {
+              "query": "السعودية سكن العمال اشتراطات البناء الدفاع المدني after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sun-camp-compliance.json",
+              "completedAt": "2026-09-21T01:17:33.913Z"
+            },
+            {
+              "query": "Saudi port shipping logistics after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sun-shipping.json",
+              "completedAt": "2026-09-21T01:17:34.042Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        },
+        {
+          "category": "采购招投标",
+          "queries": [
+            {
+              "query": "Saudi tender procurement prequalification awarded contract after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-tenders.json",
+              "completedAt": "2026-09-21T01:05:35.138Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sun-en.json",
+              "completedAt": "2026-09-21T01:06:40.784Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sun-ar.json",
+              "completedAt": "2026-09-21T01:06:40.962Z"
+            },
+            {
+              "query": "السعودية سكن العمال اشتراطات البناء الدفاع المدني after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sun-camp-compliance.json",
+              "completedAt": "2026-09-21T01:17:33.913Z"
+            },
+            {
+              "query": "Saudi port shipping logistics after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sun-shipping.json",
+              "completedAt": "2026-09-21T01:17:34.042Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        },
+        {
+          "category": "合规政策",
+          "queries": [
+            {
+              "query": "Saudi building construction fire safety regulation after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-compliance.json",
+              "completedAt": "2026-09-21T01:05:48.626Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sun-en.json",
+              "completedAt": "2026-09-21T01:06:40.784Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sun-ar.json",
+              "completedAt": "2026-09-21T01:06:40.962Z"
+            },
+            {
+              "query": "السعودية سكن العمال اشتراطات البناء الدفاع المدني after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sun-camp-compliance.json",
+              "completedAt": "2026-09-21T01:17:33.913Z"
+            },
+            {
+              "query": "Saudi port shipping logistics after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sun-shipping.json",
+              "completedAt": "2026-09-21T01:17:34.042Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        },
+        {
+          "category": "航运物流",
+          "queries": [
+            {
+              "query": "Saudi port shipping Maersk Hapag operational update after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-shipping.json",
+              "completedAt": "2026-09-21T01:05:48.788Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sun-en.json",
+              "completedAt": "2026-09-21T01:06:40.784Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-sun-ar.json",
+              "completedAt": "2026-09-21T01:06:40.962Z"
+            },
+            {
+              "query": "السعودية سكن العمال اشتراطات البناء الدفاع المدني after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sun-camp-compliance.json",
+              "completedAt": "2026-09-21T01:17:33.913Z"
+            },
+            {
+              "query": "Saudi port shipping logistics after:2026-09-19 before:2026-09-21",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-sun-shipping.json",
+              "completedAt": "2026-09-21T01:17:34.042Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        }
+      ],
+      "outcome": "收录10条：4采购、PIF、环境合作已核验；3合同和许可统计缺原公告／原表。"
+    },
+    {
+      "date": "2026-09-21",
+      "performedAt": "2026-09-21T01:25:36.430Z",
+      "categories": [
+        {
+          "category": "工程项目",
+          "queries": [
+            {
+              "query": "Saudi Arabia construction infrastructure project tender awarded after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-projects.json",
+              "completedAt": "2026-09-21T01:05:21.749Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-mon-en.json",
+              "completedAt": "2026-09-21T01:06:42.835Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-mon-ar.json",
+              "completedAt": "2026-09-21T01:06:42.916Z"
+            },
+            {
+              "query": "السعودية مشاريع بناء عقود منافسات after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-projects-tenders.json",
+              "completedAt": "2026-09-21T01:17:35.984Z"
+            },
+            {
+              "query": "Saudi worker accommodation construction safety regulation after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-camp-compliance.json",
+              "completedAt": "2026-09-21T01:17:36.096Z"
+            },
+            {
+              "query": "السعودية مواد البناء الحديد الشحن الموانئ after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-materials-shipping.json",
+              "completedAt": "2026-09-21T01:17:38.014Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        },
+        {
+          "category": "营地住宿",
+          "queries": [
+            {
+              "query": "Saudi workers accommodation construction camp housing after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-camps.json",
+              "completedAt": "2026-09-21T01:05:21.332Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-mon-en.json",
+              "completedAt": "2026-09-21T01:06:42.835Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-mon-ar.json",
+              "completedAt": "2026-09-21T01:06:42.916Z"
+            },
+            {
+              "query": "السعودية مشاريع بناء عقود منافسات after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-projects-tenders.json",
+              "completedAt": "2026-09-21T01:17:35.984Z"
+            },
+            {
+              "query": "Saudi worker accommodation construction safety regulation after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-camp-compliance.json",
+              "completedAt": "2026-09-21T01:17:36.096Z"
+            },
+            {
+              "query": "السعودية مواد البناء الحديد الشحن الموانئ after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-materials-shipping.json",
+              "completedAt": "2026-09-21T01:17:38.014Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        },
+        {
+          "category": "产品材料",
+          "queries": [
+            {
+              "query": "Saudi modular prefabricated steel construction materials after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-materials.json",
+              "completedAt": "2026-09-21T01:05:34.660Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-mon-en.json",
+              "completedAt": "2026-09-21T01:06:42.835Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-mon-ar.json",
+              "completedAt": "2026-09-21T01:06:42.916Z"
+            },
+            {
+              "query": "السعودية مشاريع بناء عقود منافسات after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-projects-tenders.json",
+              "completedAt": "2026-09-21T01:17:35.984Z"
+            },
+            {
+              "query": "Saudi worker accommodation construction safety regulation after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-camp-compliance.json",
+              "completedAt": "2026-09-21T01:17:36.096Z"
+            },
+            {
+              "query": "السعودية مواد البناء الحديد الشحن الموانئ after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-materials-shipping.json",
+              "completedAt": "2026-09-21T01:17:38.014Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        },
+        {
+          "category": "采购招投标",
+          "queries": [
+            {
+              "query": "Saudi tender procurement prequalification awarded contract after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-tenders.json",
+              "completedAt": "2026-09-21T01:05:35.138Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-mon-en.json",
+              "completedAt": "2026-09-21T01:06:42.835Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-mon-ar.json",
+              "completedAt": "2026-09-21T01:06:42.916Z"
+            },
+            {
+              "query": "السعودية مشاريع بناء عقود منافسات after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-projects-tenders.json",
+              "completedAt": "2026-09-21T01:17:35.984Z"
+            },
+            {
+              "query": "Saudi worker accommodation construction safety regulation after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-camp-compliance.json",
+              "completedAt": "2026-09-21T01:17:36.096Z"
+            },
+            {
+              "query": "السعودية مواد البناء الحديد الشحن الموانئ after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-materials-shipping.json",
+              "completedAt": "2026-09-21T01:17:38.014Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        },
+        {
+          "category": "合规政策",
+          "queries": [
+            {
+              "query": "Saudi building construction fire safety regulation after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-compliance.json",
+              "completedAt": "2026-09-21T01:05:48.626Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-mon-en.json",
+              "completedAt": "2026-09-21T01:06:42.835Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-mon-ar.json",
+              "completedAt": "2026-09-21T01:06:42.916Z"
+            },
+            {
+              "query": "السعودية مشاريع بناء عقود منافسات after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-projects-tenders.json",
+              "completedAt": "2026-09-21T01:17:35.984Z"
+            },
+            {
+              "query": "Saudi worker accommodation construction safety regulation after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-camp-compliance.json",
+              "completedAt": "2026-09-21T01:17:36.096Z"
+            },
+            {
+              "query": "السعودية مواد البناء الحديد الشحن الموانئ after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-materials-shipping.json",
+              "completedAt": "2026-09-21T01:17:38.014Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        },
+        {
+          "category": "航运物流",
+          "queries": [
+            {
+              "query": "Saudi port shipping Maersk Hapag operational update after:2026-09-18 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-shipping.json",
+              "completedAt": "2026-09-21T01:05:48.788Z"
+            },
+            {
+              "query": "Saudi (construction OR accommodation OR materials OR tender OR regulation OR shipping) after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-mon-en.json",
+              "completedAt": "2026-09-21T01:06:42.835Z"
+            },
+            {
+              "query": "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-mon-ar.json",
+              "completedAt": "2026-09-21T01:06:42.916Z"
+            },
+            {
+              "query": "السعودية مشاريع بناء عقود منافسات after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-projects-tenders.json",
+              "completedAt": "2026-09-21T01:17:35.984Z"
+            },
+            {
+              "query": "Saudi worker accommodation construction safety regulation after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-camp-compliance.json",
+              "completedAt": "2026-09-21T01:17:36.096Z"
+            },
+            {
+              "query": "السعودية مواد البناء الحديد الشحن الموانئ after:2026-09-20 before:2026-09-22",
+              "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-21/09-00/s-final-mon-materials-shipping.json",
+              "completedAt": "2026-09-21T01:17:38.014Z"
+            }
+          ],
+          "sharedLists": [
+            "p0-meed-correct",
+            "p1-sgp",
+            "sgp-construct",
+            "etimad-root-fc",
+            "etimad-page2",
+            "momah-news",
+            "fallback-spa",
+            "maersk-advisories"
+          ],
+          "basis": "六类跨日关键词分别执行，叠加各日英文／阿语日期查询；列表可同时用于多日期类别发现，逐篇原文日期决定归档。日期过滤并不保证搜索结果属于该日，均已排除网页刷新日期和无关结果。"
+        }
+      ],
+      "outcome": "未取得21日新发布且可核验的事件；今天新收录3条17—18日补漏消息。不是声称21日没有新闻。"
+    }
+  ],
+  "decisions": [
+    {
+      "candidate": "Hapag GRI/GRA",
+      "result": "excluded_old",
+      "reason": "官方发布日期2026-09-16；周六Container Management为转述，无新阶段，早于常规补漏窗口。",
+      "evidence": [
+        "outputs/news/evidence-2026-09-21/09-00/c-gri.md",
+        "outputs/news/evidence-2026-09-21/09-00/c-hapag-original-fc.md"
+      ]
+    },
+    {
+      "candidate": "Fortress Arena MCC",
+      "result": "excluded_duplicate",
+      "relatedId": "NEWS-20260916-024",
+      "reason": "Construction Week Saudi 17日文章明确据MEED；社交平台周末再发，无新阶段。",
+      "evidence": [
+        "outputs/news/evidence-2026-09-21/09-00/c-fortress-fc.md"
+      ]
+    },
+    {
+      "candidate": "Saudi ports SR5.5bn",
+      "result": "excluded_old",
+      "relatedId": "NEWS-20260915-010",
+      "reason": "Arab News正文原发布日期15日，并转引Al-Eqtisadiah；社媒和分类刷新不构成周末新闻。",
+      "evidence": [
+        "outputs/news/evidence-2026-09-21/09-00/c-arab-port.md"
+      ]
+    },
+    {
+      "candidate": "HRSD运营维护本地化指南",
+      "result": "excluded_old",
+      "reason": "原页面公布及执行日期2019-12-24；相关2026年条目也早于本轮窗口，非新规。",
+      "evidence": [
+        "outputs/news/evidence-2026-09-21/09-00/c-hrsd-guide-fc.md"
+      ]
+    },
+    {
+      "candidate": "Cosmo THE WADI与Kuwait MEIL",
+      "result": "excluded_scope",
+      "reason": "阿联酋房地产项目及科威特油田工程，本轮未建立对沙特工程／营地业务的直接影响；WADI较早WAM原文18日，科威特8月已报道批准阶段，不能凭周末转述断言新授标。",
+      "evidence": [
+        "outputs/news/evidence-2026-09-21/09-00/c-wadi.md",
+        "outputs/news/evidence-2026-09-21/09-00/c-koc.md"
+      ]
+    },
+    {
+      "candidate": "Momah设施管理展",
+      "result": "excluded_duplicate",
+      "relatedId": "NEWS-20260918-019",
+      "reason": "17日公告已在18日收录；20日页脚更新时间不作新发布。",
+      "evidence": [
+        "outputs/news/evidence-2026-09-21/09-00/momah-news.md"
+      ]
+    },
+    {
+      "candidate": "Etimad无关采购",
+      "result": "excluded_scope",
+      "reason": "IT许可、传真墨盒、知识门户、数据分析支持、医疗保险咨询和行政文档迁移不在本次工程及配套行业范围。",
+      "evidence": [
+        "outputs/news/evidence-2026-09-21/09-00/etimad-root-fc.md",
+        "outputs/news/evidence-2026-09-21/09-00/etimad-page2.md"
+      ]
+    },
+    {
+      "candidate": "营地住宿与合规搜索结果",
+      "result": "excluded_scope_or_old",
+      "reason": "迪拜工人住宿社交转发不是沙特新规；供应商常青内容、招聘和美国孕期工作安排不是本轮沙特营地新事件。",
+      "evidence": [
+        "outputs/news/evidence-2026-09-21/09-00/s-camps.json",
+        "outputs/news/evidence-2026-09-21/09-00/s-sat-camps-final.json",
+        "outputs/news/evidence-2026-09-21/09-00/s-final-mon-camp-compliance.json"
+      ]
+    }
+  ],
+  "limitations": [
+    [
+      "Google／Google News",
+      "直访及备用均失败",
+      "Scrapling超时后已执行Firecrawl备用抓取；以Firecrawl关键词搜索及公开原文补漏，不能视为已完整读取站内新闻。"
+    ],
+    [
+      "X",
+      "站内直访受限",
+      "普通访问连接失败，Firecrawl不支持该搜索入口；英阿语外部检索与公开来源补漏。"
+    ],
+    [
+      "MEED",
+      "最新列表成功",
+      "直接读取/latest与/latest-news，核对最新列表日期；已收录的铁路、电竞场馆等相同阶段不重复新增。"
+    ],
+    [
+      "Etimad",
+      "公开根列表、第二页及4条详情成功",
+      "PageSize=24入口只返回筛选壳；改用根列表与第二页，跨页去重后读取相关采购详情；其他为软件、墨盒等无关采购，不作行业新闻。"
+    ],
+    [
+      "SaudiGulfProjects",
+      "首页及建设分类成功；日期归档不可靠",
+      "19日、20日归档返回与首页相同内容，21日入口为404及推荐列表；不按归档地址推定发布日期，逐篇确认。"
+    ],
+    [
+      "Arab News／Saudi Gazette",
+      "部分普通抓取失败；备用取得列表",
+      "Arab News原分类入口实际返回首页，另直接读物流分类及文章；Saudi Gazette首页含旧日期，改读业务列表，日期以文章正文为准。"
+    ],
+    [
+      "SPA／PIF",
+      "备用取得官方原文",
+      "核对实际新闻稿日期与正文范围；读到塔鲁特岛环境合作披露及Tawrid启动信息。"
+    ],
+    [
+      "Momah／Balady／HRSD",
+      "部分成功、部分受限",
+      "Momah新闻列表最新相关活动已于18日收录；Balady集体住宿页面及Firecrawl备用均失败。HRSD备用取得运营维护本地化指南，原发布日2019年，非周末新规。"
+    ],
+    [
+      "Saudi Exchange／MIS",
+      "公告入口受限或仅导航",
+      "两工具及关键词追索均未取得本次合同原公告；相关媒体转述保留证据不足。"
+    ],
+    [
+      "Maersk／Hapag-Lloyd",
+      "Maersk原文成功；Hapag列表受限、具体通知备用成功",
+      "马士基18日东亚台风更新为新阶段；赫伯16日GRI通知在周六被转述，不计周六新消息。"
+    ],
+    [
+      "Reuters／France 24",
+      "取得全文",
+      "路透转载页普通访问受限后备用成功，与AFP记者现场描述互核火情观察。"
+    ],
+    [
+      "WorldCargo News",
+      "公开导语可读；正文订阅受限",
+      "两工具均止于订阅提示，官方检索未找到对应最新启用安排；保留证据不足。"
+    ]
+  ]
+}

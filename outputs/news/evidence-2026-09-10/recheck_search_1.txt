@@ -1,0 +1,467 @@
+Saudi Arabia’s NWC taps Saudi-Chinese partnership for $348 million wastewater treatment contract – Smart Water Magazine (https://smartwatermagazine.com/news/smart-water-magazine/saudi-arabias-nwc-taps-saudi-chinese-partnership-for-348-million-wastewater-treatment-contract)
+citeturn68search0 [wordlim: 200] Published: last week; Crawled: last week; The 15-year contract covers the rehabilitation, operation and maintenance of nine treatment plants across four northern regions, with combined capacity exceeding 337,000 cubic metres daily. ... 2 September 2026 1 min read ... A partnership between Saudi company Armada and China’s Zhangzhou United Waters has been selected by Saudi Arabia’s National Water Company (NWC) to take over the rehabilitation, operation and maintenance of nine sewage treatment plants in 4 regions under the company’s Northern Cluster.
+# Saudi Arabia’s NWC taps Saudi-Chinese partnership for $348 million wastewater treatment contract
+
+The 15-year contract covers the rehabilitation, operation and maintenance of nine treatment plants across four northern regions, with combined capacity exceeding 337,000 cubic metres daily.
+
+Image: Cristina Novo
+
+Written byCristina Novo
+
+2 September 2026 1 min read
+
+Follow us on Google Discover
+
+Image: Saudi Arabia’s NWC taps Saudi-Chinese partnership for $348 million wastewater treatment contractCredit: Saudi Press Agency.
+
+Share
+
+A partnership between Saudi company Armada and China’s Zhangzhou United Waters has been selected by Saudi Arabia’s National Water Company (NWC) to take over the rehabilitation, operation and maintenance of nine sewage treatment plants in 4 regions under the company’s Northern Cluster. The contract, valued at more than SAR 1.3 billion (about $348 million), runs for 15 years and marks the tenth contract signed under NWC’s long term operation and maintenance (LTOM) programme.
+
+Nine facilities are involved, spread across the Unaizah, Al-Bukairiyah, Al-Muznib, Al-Ras, Hail 1, Hail 2, Baqa’a, Sakaka and Turaif areas, with combined treatment capacity above 337,000 cubic metres per day. The signing took place at NWC’s Riyadh headquarters, bringing together NWC chief executive Dr Fuad Al-Shikhmubarak, Armada executive director Jamaan Al-Jamaan and Liu Meng, chief executive of Zhangzhou United Waters.
+
+Under the terms agreed, treatment services will be billed at SAR 0.69 per cubic metre, close to $0.18. For NWC, the arrangement is one piece of a wider effort to draw private investment into upgrading and running water and wastewater assets that already exist, while pushing for gains in efficiency, environmental performance and long term reliability.
+
+This is not an isolated move. NWC now counts eight completed LTOM contracts for sewage treatment plants, and the company has said 51 more plants, representing close to 888,000 cubic metres of daily capacity, are due to go to tender within the year.
+
+The programme forms part of Saudi Arabia’s National Water Strategy, a policy framework built around expanding private sector involvement in water services. NWC has described the LTOM model as a channel for attracting both domestic and foreign capital, bringing in newer technologies, and passing technical know-how to the Saudi workforce through lasting partnerships with private operators active in the sector.
+
+Image: Cristina Novo
+
+Written byCristina Novo--------------------------------------------------------------------------------
+CTS Group and Desert Technologies form Saudi AI data centre joint venture – Technology news and insights in the Middle East, South Asia, and Africa (https://meatechwatch.com/2026/09/04/cts-group-and-desert-technologies-form-saudi-ai-data-centre-joint-venture/)
+citeturn68search1 [wordlim: 200] Published: 6 days ago; Crawled: 6 days ago; Friday, 4 September 2026 ... Switzerland-based CTS Group and Saudi clean energy and smart infrastructure company Desert Technologies have formed a new joint venture, CTS-DT, to develop AI-optimised data centre infrastructure in Saudi Arabia, with an initial annual capacity target of 300 MW and plans to scale to 1.2 GW per year.The partnership was announced on the sidelines of LEAP 2026 in Riyadh and will focus on the design, development, construction and manufacturing of data centre solutions for artificial intelligence and high-performance computing workloads.
+Friday, 4 September 2026
+
+# CTS Group and Desert Technologies form Saudi AI data centre joint venture
+
+Editor3 seconds ago04 mins
+
+Image
+
+Switzerland-based CTS Group and Saudi clean energy and smart infrastructure company Desert Technologies have formed a new joint venture, CTS-DT, to develop AI-optimised data centre infrastructure in Saudi Arabia, with an initial annual capacity target of 300 MW and plans to scale to 1.2 GW per year.
+
+The partnership was announced on the sidelines of LEAP 2026 in Riyadh and will focus on the design, development, construction and manufacturing of data centre solutions for artificial intelligence and high-performance computing workloads.
+
+The agreement was signed by Desert Technologies CEO Khalid Ahmed Sharbatly and CTS Group CEO Philippe Schelfhout.
+
+## Joint venture targets 1.2 GW annual capacity
+
+CTS-DT will initially target 300 MW of annual capacity in Saudi Arabia before gradually scaling to 1.2 GW per year.
+
+The company plans to establish an industrial and technology platform in the Kingdom to serve rising demand for AI computing infrastructure and broader digital infrastructure.
+
+Its initial scope will include the design, development and construction of large-scale AI data centres, supported by local manufacturing and engineering capabilities.
+
+The planned infrastructure will be designed around the performance, reliability, flexibility and energy-efficiency requirements associated with AI and high-performance computing.
+
+## Saudi Arabia to serve as regional expansion base
+
+The joint venture also plans to use Saudi Arabia as a base for expansion into Middle Eastern and African markets.
+
+That gives the project a broader regional ambition beyond domestic data centre demand.
+
+Desert Technologies said the partnership is intended not only to support Saudi AI infrastructure requirements, but also to contribute to the development, localisation and eventual export of data centre technologies and infrastructure from the Kingdom.
+
+The source did not disclose project locations, investment values, construction timelines or the specific number of data centre sites planned.
+
+## Local manufacturing forms core part of strategy
+
+A significant element of the partnership is its focus on localisation.
+
+CTS-DT plans to build advanced manufacturing and engineering capabilities in Saudi Arabia, while developing national expertise in areas supporting data centre construction and the wider digital economy.
+
+This could include transferring technical knowledge associated with data centre design, modular infrastructure, power systems, cooling and other supporting technologies, although the companies did not specify which components will be manufactured locally.
+
+The localisation strategy aligns with Saudi Arabia’s broader efforts to attract technology investment and build domestic industrial capabilities around strategic digital infrastructure.
+
+## AI workloads drive infrastructure requirements
+
+AI data centres differ from conventional enterprise facilities because they often need much higher power density, more advanced cooling systems and specialised infrastructure capable of supporting large GPU and accelerator clusters.
+
+CTS-DT said its planned facilities will be optimised specifically for artificial intelligence and high-performance computing applications.
+
+## Why this matters
+
+The scale of the CTS-DT target makes the partnership notable within Saudi Arabia’s rapidly expanding AI infrastructure market.
+
+An initial 300 MW annual capacity is already significant, while a pathway toward 1.2 GW per year would position the venture around hyperscale levels of infrastructure development if those targets are realised.
+
+The localisation element is equally important. Saudi Arabia is not only trying to attract data centre capacity, but increasingly to build domestic capabilities around the engineering, manufacturing and operation of AI infrastructure.
+
+## Editor’s note
+
+The most strategically important part of this announcement is the combination of scale and localisation.
+
+Many AI infrastructure projects in the region focus primarily on adding computing capacity. CTS-DT is also proposing to build an industrial platform around that capacity, potentially giving Saudi Arabia a role in manufacturing and engineering parts of the data centre value chain.
+
+The next milestones to watch will be specific project sites, secured power capacity, investment commitments, customer agreements and evidence that local manufacturing actually moves from ambition into production. Those factors will determine whether CTS-DT becomes a major regional AI infrastructure platform or remains primarily a development framework.--------------------------------------------------------------------------------
+Joint Water leads long-term operation contract for Saudi sewage treatment plant--Seetao (https://www.seetaoe.com/details/277237.html)
+citeturn68search2 [wordlim: 200] Published: 5 days ago; Crawled: 5 days ago; Joint Water leads long-term operation contract for Saudi sewage treatment plant ... On September 1, 2026, a 15 year operation and maintenance contract was officially signed at the headquarters of Riyadh National Water Company in Saudi Arabia.Jiangsu United Water, as the leading party, has partnered with Saudi Armada Holding to acquire the long-term operation rights of nine sewage treatment plants in northern Saudi Arabia, with a contract amount of 348 million US dollars. ... NWC has completed the signing of eight contracts under this plan, aimed at attracting private sector investment in the restoration and operation of existing water assets.
+
+Middle East
+
+Joint Water leads long-term operation contract for Saudi sewage treatment plant
+
+Seetao 2026-09-05 10:11
+
+  * Chinese funded water companies are shifting from construction to operation when going global, helping to upgrade green infrastructure
+
+Image
+
+Reading this article requires
+
+7 Minute
+
+On September 1, 2026, a 15 year operation and maintenance contract was officially signed at the headquarters of Riyadh National Water Company in Saudi Arabia. Jiangsu United Water, as the leading party, has partnered with Saudi Armada Holding to acquire the long-term operation rights of nine sewage treatment plants in northern Saudi Arabia, with a contract amount of 348 million US dollars. This is the first contract led by a Chinese enterprise in Saudi Arabia's LTOM plan, and also marks a key leap for China's water industry to go global from completion to long-term roots.
+
+Image
+
+Building a three-dimensional layout for the Northern Ninth Factory
+
+The project covers nine sewage treatment plants in the four provinces of Hail, Kassim, Jiaof, and the northern border, involving nine towns including Unaza, Bukeriya, and Hail, with a total treatment capacity of 337800 cubic meters per day. --------------------------------------------------------------------------------
+‏#deserttechnologies #cts_dt #aiinfrastructure #datacenters #leap26 #saudivision2030 #تكنولوجيات_الصحراء #مراكز_البيانات #الذكاء_الاصطناعي #البنية_التحتية_الرقمية #ليب26 #رؤية_السعودية_2030‏ | ‏Desert Technologies‏ (https://ae.linkedin.com/posts/desert-technologies_deserttechnologies-ctsdt-aiinfrastructure-activity-7501269682524499968-1UdF)
+citeturn68search3 [wordlim: 200] Crawled: 5 days ago; Yesterday, a new partnership has been announced at LEAP 2026 between Desert Technologies and CTS Group, the Swiss data center design-and-build company, to launch their joint venture, CTS–DT.
+
+# منشور ‏Desert Technologies‏ ‏‏
+
+Desert Technologies
+
+‏٥٧٬٣١٣‏ ‏متابع‏
+
+‏٢٣‏ ساعة تم التحرير
+
+Yesterday, a new partnership has been announced at LEAP 2026 between Desert Technologies and CTS Group, the Swiss data center design-and-build company, to launch their joint venture, CTS–DT. With an initial annual capacity of 300 MW, progressively scaling to 1.2 GW, CTS–DT has been established to develop advanced AI data centers, localize technologies and build national capabilities, in support of Saudi Arabia’s digital ambitions. #DesertTechnologies #CTS_DT #AIInfrastructure #DataCenters #LEAP26 #SaudiVision2030 أُعلن بالأمس خلال مؤتمر ليب 2026 عن شراكةٍ جديدةٍ بين شركة تكنولوجيات الصحراء ومجموعة «CTS» السويسرية المتخصصة في تصميم وبناء مراكز البيانات، لإطلاق شركة «CTS–DT» المشتركة. تأسست «CTS–DT» بقدرةٍ سنويةٍ أوليةٍ تبلغ 300 ميجاواط، مع خطةٍ للتوسع تدريجيًا إلى 1.2 جيجاواط، بهدف تطوير مراكز بيانات متقدمة ومهيأة للذكاء الاصطناعي، وتوطين التقنيات، وبناء القدرات الوطنية، دعمًا لطموحات المملكة الرقمية. #تكنولوجيات_الصحراء #مراكز_البيانات #الذكاء_الاصطناعي #البنية_التحتية_الرقمية #ليب26 #رؤية_السعودية_2030
+
+وزارة الاتصالات وتقنية المعلومات،Ministry of Communications and Information Technology
+
+‏٤٠٣٬٠٥٥‏ ‏متابع‏
+
+‏١‏ يوم
+
+At #LEAP26, global CTS Group and Saudi company Desert Technologies announce a partnership to localize core component manufacturing and data center design and construction, and establish specialized facilities to produce and export integrated power modules, leveraging Saudi talent and expertise to global standards.
+
+
+Image
+
+‏٥٧٬٣١٣‏ ‏متابع‏
+
+مشاهدة الملف الشخصي متابعة
+--------------------------------------------------------------------------------
+Garuda Construction hits the roof after bagging tower construction project in Saudi Arabia | Capital Market News - Business Standard (https://www.business-standard.com/amp/markets/capital-market-news/garuda-construction-hits-the-roof-after-bagging-tower-construction-project-in-saudi-arabia-126090800580_1.html)
+citeturn68search4 [wordlim: 200] Published: 2 days ago; Crawled: 2 days ago; Last Updated : Sep 08 2026 | 1:18 PM IST ... Garuda Construction and Engineering was locked in 5% upper circuit at Rs 187.95 after the company's subsidiary Dream City Builders has secured a contract for building 93-storey landmark tower in Jeddah, Kingdom of Saudi Arabia.
+
+# Garuda Construction hits the roof after bagging tower construction project in Saudi Arabia
+
+## 
+
+Image: Garuda Construction hits the roof after bagging tower construction project in Saudi Arabia
+
+Last Updated : Sep 08 2026 | 1:18 PM IST
+
+Add as Preferred source
+
+Garuda Construction and Engineering was locked in 5% upper circuit at Rs 187.95 after the company's subsidiary Dream City Builders has secured a contract for building 93-storey landmark tower in Jeddah, Kingdom of Saudi Arabia.
+
+In a regulatory filing made post market hours yesterday, the company stated that Dream City Builders has entered into a memorandum of understanding (MoU) with Almasarat Company in connection with the proposed construction and development of a 93-storey tower in Jeddah, Kingdom of Saudi Arabia.
+
+Envisioned as a 360-degree twisting tower, the development is proposed to feature panoramic sea views, a five-star hotel comprising approximately 350 rooms across the lower 14 floors, and a diamond-shaped rooftop restaurant on the 93rd floor.
+
+Dream City Builders is expected to undertake the complete engineering, procurement and construction (EPC) scope for the project, including construction, finishing and handover.
+
+The project area is 1,53,451 square metres and the expected project duration is approximately five years from commencement. The project has an estimated revenue potential of Rs 1,800 crore.
+
+Garuda Construction and Engineering specializes in turnkey EPC solutions and has expertise in residential, commercial, infrastructure, and renewable energy projects.
+
+The company's consolidated net profit jumped 48.36% to Rs 41.54 crore on a 40.12% rise in revenue to Rs 175.38 crore in Q1 FY27 as compared with Q1 FY26.
+
+Powered by Capital Market - Live News
+
+Disclaimer: No Business Standard Journalist was involved in creation of this content
+
+First Published: Sep 08 2026 | 1:18 PM IST--------------------------------------------------------------------------------
+Garuda Construction shares surge after subsidiary signs MoU for 93-storey Jeddah tower · Business Upturn (https://businessupturn.com/finance/stock-market/garuda-construction-shares-surge-after-subsidiary-signs-mou-for-93-storey-jeddah-tower/)
+citeturn68search5 [wordlim: 200] Published: 2 days ago; Crawled: 2 days ago; 4 min read·Published on Sep 8, 2026 · 9:20 AM IST ... Garuda Construction and Engineering shares jumped more than 7% during early trading on Tuesday after its wholly owned subsidiary signed a Memorandum of Understanding for the proposed construction of a 93-storey landmark tower in Jeddah, Saudi Arabia. ... In an exchange filing, Garuda Construction said Dream City Builders, formerly known as Garuda Arabia, entered into an MoU with Almasarat Company Limited for the proposed construction and development of a landmark tower in Jeddah.
+
+# Garuda Construction shares surge after subsidiary signs MoU for 93-storey Jeddah tower
+
+By Aman Shukla
+
+4 min read·Published on Sep 8, 2026 · 9:20 AM IST
+
+Image: Garuda Construction shares surge after subsidiary signs MoU for 93-storey Jeddah tower
+
+Garuda Construction and Engineering shares jumped more than 7% during early trading on Tuesday after its wholly owned subsidiary signed a Memorandum of Understanding for the proposed construction of a 93-storey landmark tower in Jeddah, Saudi Arabia.
+
+The stock climbed as high as ₹191.89, representing a gain of approximately 7.4% from its previous closing price of ₹178.63. As of 9:19 am, the counter had recorded a trading volume of 5,48,713 shares.
+
+Garuda Construction shares opened at ₹183, which was also the stock’s intraday low at the time. Its 52-week trading range stood between ₹130 and ₹249.30.
+
+## Subsidiary signs MoU with Almasarat Company
+
+In an exchange filing, Garuda Construction said Dream City Builders, formerly known as Garuda Arabia, entered into an MoU with Almasarat Company Limited for the proposed construction and development of a landmark tower in Jeddah.
+--------------------------------------------------------------------------------
+شركة Desert Technologies ومجموعة CTS السويسرية تؤسسان مشروعًا مشتركًا لتطوير مراكز بيانات الذكاء الاصطناعي في السعودية » صحيفة جدة 24 (https://jeddah24.net/technology/0209/79986/)
+citeturn68search6 [wordlim: 200] Published: last week; Crawled: last week; أعلنت شركة Desert Technologies (DT)، المتخصصة في الطاقة النظيفة والبنية التحتية الذكية بالمملكة، اليوم عن توقيع اتفاقية مشروع مشترك مع مجموعة CTS Group السويسرية، الرائدة عالميًا في تصميم وتطوير مراكز البيانات عالية الأداء. ... تم توقيع الاتفاقية في الرياض على هامش النسخة الخامسة من الفعالية التكنولوجية العالمية LEAP 2026، التي أقيمت تحت شعار “Into New Worlds” بمركز الرياض للمعارض والمؤتمرات في ملهم.
+
+# شركة Desert Technologies ومجموعة CTS السويسرية تؤسسان مشروعًا مشتركًا لتطوير مراكز بيانات الذكاء الاصطناعي في السعودية
+
+02/09/2026 21:02 راشد سلطان
+
+تكنولوجياImage: شركة Desert Technologies ومجموعة CTS السويسرية تؤسسان مشروعًا مشتركًا لتطوير مراكز بيانات الذكاء الاصطناعي في السعودية
+
+## تشكيل المشروع المشترك
+
+أعلنت شركة Desert Technologies (DT)، المتخصصة في الطاقة النظيفة والبنية التحتية الذكية بالمملكة، اليوم عن توقيع اتفاقية مشروع مشترك مع مجموعة CTS Group السويسرية، الرائدة عالميًا في تصميم وتطوير مراكز البيانات عالية الأداء. تهدف الاتفاقية إلى إنشاء شركة جديدة تحمل الاسم CTS-DT.
+
+## الأهداف والقدرة الإنتاجية
+
+ستركز الشركة الجديدة على تطوير وإنتاج حلول متقدمة لمراكز البيانات مُحسّنة لتطبيقات الذكاء الاصطناعي، وتخدم أسواق السعودية والشرق الأوسط وأفريقيا. تستهدف CTS-DT في مرحلتها الأولى قدرة إنتاجية سنوية تبلغ 300 ميجاواط (MW) داخل السعودية، مع خطة لتوسيع هذه القدرة تدريجيًا لتصل إلى 1.2 جيجاواط (GW) سنويًا. يهدف المشروع إلى دعم نمو قطاع مراكز البيانات وتلبية الطلب المتزايد على قدرات الحوسبة المرتبطة بالذكاء الاصطناعي، مع تعزيز المحتوى المحلي ونقل التقنيات والخبرات المتقدمة إلى السوق السعودية.
+
+## تفاصيل التوقيت والتصريحات
+
+تم توقيع الاتفاقية في الرياض على هامش النسخة الخامسة من الفعالية التكنولوجية العالمية LEAP 2026، التي أقيمت تحت شعار “Into New Worlds” بمركز الرياض للمعارض والمؤتمرات في ملهم. --------------------------------------------------------------------------------
+Sino-Saudi Win $348M 15-Year Saudi WWTP O&M Deal--Seetao (https://www.seetaoe.com/details/276940.html)
+citeturn68search7 [wordlim: 200] Published: last week; Crawled: last week; On September 1, 2026, Fuad Sheikh Mubarak, CEO of Saudi Arabian National Water Company, Jaman Jarman, Director of Armada Company, and Liu Meng, CEO of Jiangsu United Water, officially signed the contract for the restoration and operation of nine sewage treatment plants in the northern region for the next 15 years. ... They are the 10th package of NWC's long-term operation and maintenance plan, and also the 8th existing sewage plant operation and maintenance contract awarded by NWC so far. ... According to the announcement, the expected total revenue for the 15 year operation period is 1.3056 billion riyals, approximately 2.366 billion yuan, which is 100% owned by the joint venture project company between United Water and Armada.
+
+Sino-Saudi Win $348M 15-Year Saudi WWTP O&M Deal
+
+Seetao 2026-09-02 17:03
+
+  * Marking the transition of Chinese water companies from overseas engineering to full cycle operational services
+  * Provide win-win samples for Saudi Arabia's national water strategy and the internationalization of Chinese enterprises
+
+Reading this article requires
+
+10 Minute
+
+In the signing hall of the Riyadh headquarters, a contract binds 9 old sewage plants on the barren land of northern Saudi Arabia and a water company in Jiangsu, China to the same ship. On September 1, 2026, Fuad Sheikh Mubarak, CEO of Saudi Arabian National Water Company, Jaman Jarman, Director of Armada Company, and Liu Meng, CEO of Jiangsu United Water, officially signed the contract for the restoration and operation of nine sewage treatment plants in the northern region for the next 15 years. The total contract price exceeds 1.3 billion Saudi riyals, approximately 348 million US dollars, and the processing service fee is 0.69 riyals per cubic meter.
+
+Image
+
+Nine Factory Packaging and Custody
+
+These assets are scattered Unaizah、Al-Bukairiyah、Al-Muznib、Al-Ras、Hail 1、Hail 2、Baqa'a、Sakaka And Turaif, spanning four provinces and eight cities including Hail, Qassim, Al Jouf, and Northern Borders, with a total design capacity of 337800 cubic meters per day. They are the 10th package of NWC's long-term operation and maintenance plan, and also the 8th existing sewage plant operation and maintenance contract awarded by NWC so far.
+
+It is no longer a turnkey project in terms of mode. In the first three years, without stopping production for repair, upgrading processes, equipment, and pipeline networks, and replenishing sludge drying lines; The last 12 years, together with the first 3 years, are counted as 15 years of full cycle operation, and the effluent, sludge, and environmental performance are all in accordance with Saudi Arabia's national standards. How to collect money? Capacity income covers capital investment and fixed costs, output income corresponds to variable water costs, plus contingency income to cover unexpected expenses. --------------------------------------------------------------------------------
+Garuda Construction : BSE Corporate Filings & Announcements (https://trendlyne.com/latest-news/BSE-Announcements/2696416/GARUDA/garuda-construction-and-engineering-ltd/)
+citeturn68search8 [wordlim: 200] Published: 3 days ago; Crawled: yesterday; The Company informed the stock exchanges about MOU between Dream City Builders with Almasarat Company Limited. ... The detailed disclosures as required under Regulation 30 of the SEBI Listing Regulations read with SEBI Master Circular HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026 is enclosed as Annexure A; b) The Annual General Meeting ('AGM') of the Company will be held on Wednesday, September 30, 2026, at 11:00 A.M. ... ###### Garuda Construction and Engineering Ltd - 544271 - Clarification With Regards To Announcement Dated 14.08.2026
+Garuda Construction and Engineering Ltd.
+
+NSE: GARUDA | BSE: 544271
+
+Strong Performer, Under Radar
+
+Download real time
+
+Execution Run-rate
+
+Ask AI about Garuda Construction
+
+183.61 4.98 (2.79%)
+
+###### 26.35% Fall from 52W High
+
+12.7M
+
+NSE+BSE Volume
+
+###### High volume today
+
+NSE 08 Sep, 2026 3:31 PM (IST)
+
+# Garuda Construction Corporate Filings & Announcements
+
+## Latest corporate announcements and filings from Garuda Construction on BSE
+
+Search Inside the pdf :
+
+[Input] [Input] [Input] [Input: Search text inside Corporate Announcements ]
+
+Garuda Construction and Engineering Ltd.
+
+07 Sep 2026, 06:46PM
+
+183.61
+
+2.79%
+
+Company Update
+
+###### Garuda Construction and Engineering Ltd - 544271 - Announcement under Regulation 30 (LODR)-Newspaper Publication
+
+BSE India
+
+Please find enclosed Newspaper Advertisement
+
+pdf
+
+Alert
+
+Garuda Construction and Engineering Ltd.
+
+07 Sep 2026, 03:51PM
+
+183.61
+
+2.79%
+
+Company Update
+
+###### Garuda Construction and Engineering Ltd - 544271 - Intimation Regarding Signing Of Memorandum Of Understanding
+
+BSE India
+
+The Company informed the stock exchanges about MOU between Dream City Builders with Almasarat Company Limited.
+
+pdf
+
+Alert
+
+Garuda Construction and Engineering Ltd.
+
+05 Sep 2026
+
+183.61
+
+2.79%
+
+Corp. Note
+
+###### Garuda Construction and Engineering Ltd - 544271 - Reg. 34 (1) Annual Report.
+
+BSE India
+
+Please find enclosed Annual Report of the Company for FY 2025-2026.
+
+pdf
+
+Alert
+
+Garuda Construction and Engineering Ltd.
+
+05 Sep 2026
+
+183.61
+
+2.79%
+
+AGM
+
+###### Garuda Construction and Engineering Ltd - 544271 - Submission Of Notice Of The 16Th Annual General …
+
+BSE India
+
+Please find enclosed herewith the Notice of the 16th Annual General Meeting and same is also available on the Company''s Website.
+
+pdf
+
+Alert
+
+Garuda Construction and Engineering Ltd.
+
+05 Sep 2026
+
+183.61
+
+2.79%
+
+Company Update
+
+###### Garuda Construction and Engineering Ltd - 544271 - Announcement under Regulation 30 (LODR)-Newspaper Publication
+
+BSE India
+
+Pursuant to Regulation 30 and 47 read with Schedule III Part A of SEBI (Listing Obligation and Disclosure Requirement) Regulation, 2015, Information regarding 16th Annual General Meeting to be held on Wednesday, September 30, 2026 at 11.00 a.m., in this regard, published in the following newspapers dated September 5, 2026. 1. Free Press - English 2. Navshakti - Marathi
+
+pdf
+
+Alert
+
+Garuda Construction and Engineering Ltd.
+
+04 Sep 2026
+
+183.61
+
+2.79%
+
+Company Update
+
+###### Garuda Construction and Engineering Ltd - 544271 - Announcement under Regulation 30 (LODR)-Change in Management
+
+BSE India
+
+Appointment of M/s. Ketan Vyas & Company, Company Secretaries, as the Secretarial Auditors of the Company for a term of five consecutive years commencing from financial year 2026-2027 till financial year 2030-31, subject to the approval of the shareholders at the ensuring Annual General Meeting.
+
+pdf
+
+Alert
+
+Garuda Construction and Engineering Ltd.
+
+04 Sep 2026
+
+183.61
+
+2.79%
+
+Corp. Note
+
+###### Garuda Construction and Engineering Ltd - 544271 - Board Meeting Outcome for Outcome Of Board Meeting …
+
+BSE India
+
+Board Meeting held today i.e., inter-alia, has approved the following: - a) Appointment of Ms. Ketan Vyas & Company, Company Secretaries, as the Secretarial Auditors of the Company for a term of five consecutive years commencing from financial year 2026-2027 till financial year 2030-2031, subject to the approval of the shareholders at the ensuing Annual General Meeting. The detailed disclosures as required under Regulation 30 of the SEBI Listing Regulations read with SEBI Master Circular HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated January 30, 2026 is enclosed as Annexure A; b) The Annual General Meeting ('AGM') of the Company will be held on Wednesday, September 30, 2026, at 11:00 A.M. IST through Video Conferencing (''VC'') or Other Audio Visual Means (OAVM''). --------------------------------------------------------------------------------
+#armadaholding #unitedwater #nwc #waterinfrastructure #environmentalsustainability #saudiarabia | Mohamed BEN LADEN | 21 comments (https://www.linkedin.com/posts/mohamed-ben-laden-b5b9b099_armadaholding-unitedwater-nwc-activity-7501183746977464321-FzsT)
+citeturn68search9 [wordlim: 200] Crawled: 5 days ago; Valued at SAR 1.3 billion, the 15-year contract covers the rehabilitation, operation, and maintenance of nine environmental treatment plants, with a combined design capacity of more than 337,000 cubic meters per day. ... #ArmadaHolding #UnitedWater #NWC #WaterInfrastructure #EnvironmentalSustainability #SaudiArabia
+
+# Mohamed BEN LADEN’s Post
+
+Mohamed BEN LADEN
+
+1d
+
+We are proud to announce that United Water–Armada Holding Consortium has signed LTOM 10, the tenth package of the Long-Term Operation and Maintenance Contract.  Valued at SAR 1.3 billion, the 15-year contract covers the rehabilitation, operation, and maintenance of nine environmental treatment plants, with a combined design capacity of more than 337,000 cubic meters per day.  This significant milestone reflects our commitment to supporting the objectives of the National Water Strategy by investing in the rehabilitation of strategic water assets, enhancing operational efficiency, and advancing environmental sustainability.  We extend our sincere appreciation to the National Water Company (NWC), under the leadership of Dr Fuad Alshikhmubarak, and to all NWC executives and teams for their trust, support, and collaboration in making this achievement possible.  Armada Holding | أرمادا القابضة remains committed to contributing to the Kingdom’s water sector and supporting a more sustainable future.  #ArmadaHolding #UnitedWater #NWC #WaterInfrastructure #EnvironmentalSustainability #SaudiArabia
+
+Dr.Hussam Saad 1d
+
+Congratulations on this strategic milestone Mohamed BEN LADEN. The LTOM 10 model - SAR 1.3B over 15 years for 9 environmental plants is a powerful blueprint for long-term asset value. We are deploying a similar long-term O&M and TOT approach in the defense & UAV sector under the GAMI framework. Inspiring to see the National Water Strategy advancing with such solid Sino-Saudi partnerships. Well done to the teams at National Water Company - NWC , Armada Holding and United Water under the leadership of Dr. Fuad Alshikhmubarak. #GAMI #Vision2030 #LTOM #OandM #SinoSaudi
+
+Like
+
+Sivakumar Sivasubramaniyan 13h
+
+Congratulations on this landmark achievement. A 15-year commitment of this magnitude reflects strategic foresight and a clear focus on operational excellence, resilient infrastructure, and environmental stewardship. --------------------------------------------------------------------------------
+Desert Technologies And Swiss CTS Group Establish“CTS-DT” To Develop AI Data Centers With An Initial Annual Capacity Of 300 MW In Saudi Arabia (https://menafn.com/1111611928/Desert-Technologies-And-Swiss-CTS-Group-EstablishCTS-DT-To-Develop-AI-Data-Centers-With-An-Initial-Annual-Capacity-Of-300-MW-In-Saudi-Arabia)
+citeturn68search10 [wordlim: 200] Published: last week; Crawled: last week; (MENAFN- Mid-East Info) Riyadh, Saudi Arabia – September 2^{nd}, 2026Desert Technologies (DT), a Saudi company specializing in clean energy and smart infrastructure, announced today the signing of a joint venture agreement with Swiss-based CTS Group, a global specialist in the design and development of high-performance data centers, to establish a new company, CTS-DT. ... Sharbatly also highlighted the significance of LEAP 2026 being held in Riyadh, describing the event as a global platform that brings together technology, AI, investment, and innovation sectors and provides an effective environment for building partnerships and launching high-impact projects.
+
+# Desert Technologies And Swiss CTS Group Establish“CTS-DT” To Develop AI Data Centers With An Initial Annual Capacity Of 300 MW In Saudi Arabia
+
+Date
+
+2026-09-02 08:01:17
+
+(MENAFN- Mid-East Info) Riyadh, Saudi Arabia – September 2^{nd}, 2026
+
+Desert Technologies (DT), a Saudi company specializing in clean energy and smart infrastructure, announced today the signing of a joint venture agreement with Swiss-based CTS Group, a global specialist in the design and development of high-performance data centers, to establish a new company, CTS-DT.
+
+The new joint venture will focus on developing and manufacturing advanced data center solutions optimized for artificial intelligence (AI) applications, serving markets across Saudi Arabia, the Middle East, and Africa.
+
+CTS-DT will initially target an annual production capacity of 300 megawatts (MW) in Saudi Arabia, with plans to progressively scale this capacity to 1.2 gigawatts (GW) per year. The initiative is designed to support the continued growth of the data center sector and address rising demand for AI-related computing capacity, while strengthening local content and transferring advanced technologies and expertise to the Saudi market.
+--------------------------------------------------------------------------------
+CTS-DT : nouvelle coentreprise pour l'infrastructure de centres de données IA en Arabie saoudite | LEAP 2026 - Actualités et statistiques - IndexBox (https://www.indexbox.io/fr/blog/cts-group-and-desert-technologies-launch-cts-dt-for-ai-data-centres-in-saudi-arabia/)
+citeturn68search11 [wordlim: 200] Published: last week; Crawled: 5 days ago; Image: CTS Group et Desert Technologies lancent CTS-DT pour les centres de données IA en Arabie saoudite ... L'annonce a été faite en marge du LEAP 2026, un événement technologique mondial organisé à Riyad.
+
+Image: CTS Group et Desert Technologies lancent CTS-DT pour les centres de données IA en Arabie saoudite
+
+3 sept. 2026
+
+# CTS Group et Desert Technologies lancent CTS-DT pour les centres de données IA en Arabie saoudite
+
+La société suisse CTS Group, spécialisée dans la conception et le développement de centres de données, s'est associée à Desert Technologies, entreprise saoudienne spécialisée dans l'énergie propre et les infrastructures intelligentes, pour créer CTS-DT, une nouvelle coentreprise dédiée aux infrastructures avancées de centres de données pour l'IA en Arabie saoudite. L'annonce a été faite en marge du LEAP 2026, un événement technologique mondial organisé à Riyad.
+
+CTS-DT visera initialement une capacité annuelle de 300 mégawatts en Arabie saoudite, avec des plans pour atteindre 1,2 gigawatt par an. La coentreprise se concentrera sur la conception, le développement, la construction et la fabrication de solutions de centres de données optimisées pour l'intelligence artificielle et le calcul haute performance.
+--------------------------------------------------------------------------------
+SWPC profile (https://www.swpc.sa/wp-content/uploads/2026/02/SWPC-profile-ar.pdf)
+citeturn68search12 [wordlim: 200] Published: 6 months ago; Crawled: 6 months ago; <tr><td>محطة بريدة 2</td><td>150</td><td>2024</td><td>الف م3/ اليوم</td></tr> ... <tr><td>محطة الدمام</td><td>120</td><td>2026</td><td>الف م3/ اليوم</td></tr> ... في الأسفل مفتاح مراحل التنفيذ بألوان: مرحلة التخطيط، مرحلة الطرح، مرحلة التنفيذ، مرحلة التشغيل.

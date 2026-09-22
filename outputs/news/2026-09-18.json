@@ -1,0 +1,1075 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-09-18",
+  "collectedAt": "2026-09-18T06:14:46.990Z",
+  "timeZone": "Asia/Shanghai",
+  "window": "14:00增量批次：从2026-09-17 09:24（北京时间，上次成功采集前24小时）补漏至本轮实际结束。沿用上午编号与已核验事实，未重查条目保留原核验时间；更早报道仅用于追溯和去重。",
+  "scope": "以沙特工程与营地为主，完成工程项目、营地住宿、产品材料、采购招投标、合规政策、航运物流六类检查。下午新增6条记录（3条已核验、3条证据不足），核验更新2条；今日累计20条（15条已核验、5条证据不足）。017与018可能为同一事件的不同说法，关联未确认，记录数不等于独立袭击次数。",
+  "channels": [
+    [
+      "Google／Google News",
+      "直访及备用失败",
+      "Scrapling超时、Firecrawl抓取失败；使用独立关键词搜索及原文来源补漏。"
+    ],
+    [
+      "X",
+      "站内受限；外部检索已执行",
+      "普通访问失败、Firecrawl不支持站内搜索；site:x.com结果为评论及已收录统计。"
+    ],
+    [
+      "MEED",
+      "最新列表成功；正文订阅受限",
+      "新增SAR设计审查线索；新能源和机场重读后仍证据不足。"
+    ],
+    [
+      "Etimad",
+      "公开列表成功；分页返回重复",
+      "第1/2页分别实际12条、相同ID，相关条目上午已收录。"
+    ],
+    [
+      "沙特当地及工程媒体",
+      "列表／正文已读取",
+      "Saudi Gazette、Arab News、SaudiGulfProjects、CW、CBN及Ajel；同源转载和旧阶段已排除。"
+    ],
+    [
+      "官方及项目方",
+      "部分成功、部分受限",
+      "MOMAH公告、Al Akaria及OSUS官网可读；SAR401，交易所拒绝访问且备用代理失败。"
+    ],
+    [
+      "航运与海事",
+      "UKMTO正文成功；部分框架受限",
+      "Maersk最新48号为上午旧条目；Hapag无正文列表；UKMTO备用取得136/137通报。"
+    ],
+    [
+      "Firecrawl关键词补漏",
+      "成功",
+      "英文、阿语、官方站点及项目专项搜索；检索摘要不作为已核验正文。"
+    ]
+  ],
+  "retrievalTools": [
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://www.meed.com/latest",
+        "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-17&src=typed_query&f=live",
+        "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-17",
+        "https://news.google.com/search?q=Saudi%20construction%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+        "https://www.arabnews.com/business-economy",
+        "https://saudigazette.com.sa/",
+        "https://www.meed.com/sar-tenders-design-review-consultancy-for-gcc-rail-link",
+        "https://www.saudigulfprojects.com/",
+        "https://www.hapag-lloyd.com/en/services-information/news.html",
+        "https://www.maersk.com/news/",
+        "https://www.meed.com/contractors-prepare-riyadh-airport-aviation-complex-bids",
+        "https://www.meed.com/developers-submit-bids-for-saudi-round-7-solar-and-wind-ipps",
+        "https://www.sar.com.sa/",
+        "https://www.maersk.com/news/articles/2026/03/11/maersk-operations-through-strait-of-hormuz",
+        "https://saudigazette.com.sa/article/664660/world/iran-says-it-struck-togo-flagged-tanker-in-strait-of-hormuz",
+        "https://www.ukmto.org/",
+        "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements?locale=en",
+        "https://ajel.sa/economy/hv5k5934t",
+        "https://metenders.com/Partners/Sourcegulf/Projects.asp",
+        "https://www.ukmto.org/recent-incidents",
+        "https://www.dawn.com/news/2030798/iran-says-struck-oil-tanker-in-strait-of-hormuz",
+        "https://ajel.sa/local/benm49g83",
+        "https://www.METenders.com/RequestInfo.asp?TID=1278334",
+        "https://momah.gov.sa/ar/news/alahd-almqbl-alryad-tstdyf",
+        "https://www.annahar.com/economy/309655/%D8%B3%D9%83%D8%A9-%D8%AD%D8%AF%D9%8A%D8%AF-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC-%D9%86%D8%B5%D9%81-%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D9%85%D9%86%D8%AC%D8%B2-%D9%88%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84-%D9%85%D9%82%D8%B1%D8%B1-%D8%A8%D9%86%D9%87%D8%A7%D9%8A%D8%A9-2030",
+        "https://www.constructionweeksaudi.com/",
+        "https://www.cbnme.com/news/osus-breaks-ground-on-osus-eye-project-the-10-minute-city/",
+        "https://osus.com.sa/en/news/",
+        "https://al-akaria.com/",
+        "https://osus.com.sa/news/",
+        "https://www.al-akaria.com/media/"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-18/14-00/access-log.json；requests.jsonl及对应原文／查询结果文件"
+    },
+    {
+      "tool": "firecrawl",
+      "status": "completed",
+      "entries": [
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1&PageSize=24",
+        "https://news.google.com/search?q=Saudi%20construction%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+        "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-17",
+        "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-17&src=typed_query&f=live",
+        "https://www.arabnews.com/business-economy",
+        "https://www.meed.com/sar-tenders-design-review-consultancy-for-gcc-rail-link",
+        "https://www.hapag-lloyd.com/en/services-information/news.html",
+        "السعودية سكن العمال مساكن إنشاءات عقود after:2026-09-17 before:2026-09-19",
+        "Saudi construction infrastructure project tender September 18 2026 after:2026-09-17 before:2026-09-19",
+        "السعودية اشتراطات البناء الدفاع المدني سكن عمال after:2026-09-16 before:2026-09-19",
+        "Saudi steel cement modular construction materials after:2026-09-16 before:2026-09-19",
+        "السعودية ترسية منافسات مشاريع \"سبتمبر\" \"2026\" after:2026-09-16 before:2026-09-19",
+        "Saudi port shipping September 18 2026 Hormuz Trend tanker",
+        "https://www.sar.com.sa/",
+        "https://www.ukmto.org/",
+        "https://www.maersk.com/news/articles/2026/03/11/maersk-operations-through-strait-of-hormuz",
+        "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements?locale=en",
+        "\"SAR\" \"design review\" \"2026\" \"GCC\"",
+        "\"Trend\" tanker \"September 18\" \"2026\"",
+        "https://www.meed.com/contractors-prepare-riyadh-airport-aviation-complex-bids",
+        "https://www.meed.com/developers-submit-bids-for-saudi-round-7-solar-and-wind-ipps",
+        "https://www.dawn.com/news/2030798/iran-says-struck-oil-tanker-in-strait-of-hormuz",
+        "https://www.ukmto.org/recent-incidents",
+        "site:balady.gov.sa OR site:momah.gov.sa OR site:sca.sa OR site:998.gov.sa \"2026\" after:2026-09-16 before:2026-09-19",
+        "Saudi workers accommodation camp housing construction September 2026 after:2026-09-16 before:2026-09-19",
+        "\"Royal Aviation Village\" \"September\" \"2026\"",
+        "\"SPPC\" \"round seven\" bids September 2026",
+        "\"سار\" \"الخليجي\" \"مراجعة\" \"2026\"",
+        "https://www.METenders.com/RequestInfo.asp?TID=1278334",
+        "site:x.com السعودية مشاريع بناء موانئ after:2026-09-17 before:2026-09-19",
+        "\"Saudi\" \"construction\" \"September 17, 2026\"",
+        "\"OSUS\" \"10-Minute City\" \"2026\"",
+        "https://www.constructionweeksaudi.com/",
+        "OSUS Eye commencement construction September 17 2026 site:osus.com.sa OR site:x.com OR site:osus.sa",
+        "https://www.constructionweeksaudi.com/news/neom-oxagon-400km-freight-rail-link",
+        "https://www.constructionweeksaudi.com/projects/al-akaria-jeddah-construction-packages",
+        "https://www.constructionweeksaudi.com/partner-content/osus-eye-construction-10-minute-city",
+        "\"Al Akaria\" \"October 4\" \"2026\"",
+        "\"العقارية\" \"بورتا\" \"تأهيل\"",
+        "\"Porta Jeddah\" prequalification September 2026",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2&PageSize=24"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-18/14-00/access-log.json；requests.jsonl及对应原文／查询结果文件"
+    }
+  ],
+  "items": [
+    {
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "沿用09:00已收录记录；未重查的原核验时间保持不变",
+      "products": [],
+      "eventLabel": "事件／阶段",
+      "id": "001",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "工程项目"
+      ],
+      "region": "沙特西部地区（采购单位所属区域）",
+      "title": "防空部队工程部门建筑局部整修采购，合同期30天",
+      "original": "ترميم لبعض اقسام مبنى فرع الادارة الهندسية والاشغال بالمعهد",
+      "source": "Etimad",
+      "sourceType": "政府采购公开列表及基本详情",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=5ijzZED8ahsKN2fheHhxKw==",
+      "published": "2026-09-17（公开列表发布日期）",
+      "event": "采购发布；2026-09-22 09:59截止（平台原文标时）",
+      "summary": "沙特防空部队西部地区工程与工程事务部门发布院内工程部门建筑部分区域整修直接采购，参考编号260939007322，合同期30天，投标截止日为2026-09-22。",
+      "review": "本轮读取Etimad公开列表与对应基本详情，核对公告名称、参考编号、采购方式、采购单位、合同期限、发布日期和截标日；未购买招标文件。",
+      "reviewUrls": [
+        [
+          "Etimad公开列表",
+          "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1&PageSize=24"
+        ]
+      ],
+      "boundary": "公告处于采购阶段，未确认授标或开工；合同期限不等于已经完成。公开摘要未给完整工程量或配件清单，文件费不是合同金额。",
+      "background": "建筑及设施维护采购信息，未披露打包箱、移动卫浴或薄壁轻钢的具体使用要求。",
+      "evidenceFiles": [
+        "09-00/p0-etimad.md",
+        "09-00/c-tender1.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-18T01:21:52.657Z",
+        "method": "官方采购列表与基本详情字段互核",
+        "confirmedScope": "沙特防空部队西部地区工程与工程事务部门发布院内工程部门建筑部分区域整修直接采购，参考编号260939007322，合同期30天，投标截止日为2026-09-22。",
+        "reason": "本轮读取Etimad公开列表与对应基本详情，核对公告名称、参考编号、采购方式、采购单位、合同期限、发布日期和截标日；未购买招标文件。",
+        "missing": ""
+      }
+    },
+    {
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "沿用09:00已收录记录；未重查的原核验时间保持不变",
+      "products": [],
+      "eventLabel": "事件／阶段",
+      "id": "002",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "工程项目"
+      ],
+      "region": "北部边境省Tal’at Al Temyat",
+      "title": "Tal’at Al Temyat接待楼及附属设施维护招标，合同期30天",
+      "original": "صيانة وتأهيل مبنى الضيافة ومرافقه",
+      "source": "Etimad",
+      "sourceType": "政府采购公开列表及基本详情",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=C80Ta1eIx1Syy1SN*@@**ffLNA==",
+      "published": "2026-09-17（公开列表发布日期）",
+      "event": "采购发布；2026-10-03 09:59截止（平台原文标时）",
+      "summary": "北部边境省Tal’at Al Temyat市政机构发布接待楼及附属设施的维护和整修公开招标，参考编号260939007005，合同期30天，投标截止日为2026-10-03。",
+      "review": "本轮读取Etimad公开列表与对应基本详情，核对公告名称、参考编号、采购方式、采购单位、合同期限、发布日期和截标日；未购买招标文件。",
+      "reviewUrls": [
+        [
+          "Etimad公开列表",
+          "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1&PageSize=24"
+        ]
+      ],
+      "boundary": "公告处于采购阶段，未确认授标或开工；合同期限不等于已经完成。公开摘要未给完整工程量或配件清单，文件费不是合同金额。",
+      "background": "建筑及设施维护采购信息，未披露打包箱、移动卫浴或薄壁轻钢的具体使用要求。",
+      "evidenceFiles": [
+        "09-00/p0-etimad.md",
+        "09-00/c-tender2.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-18T01:21:52.657Z",
+        "method": "官方采购列表与基本详情字段互核",
+        "confirmedScope": "北部边境省Tal’at Al Temyat市政机构发布接待楼及附属设施的维护和整修公开招标，参考编号260939007005，合同期30天，投标截止日为2026-10-03。",
+        "reason": "本轮读取Etimad公开列表与对应基本详情，核对公告名称、参考编号、采购方式、采购单位、合同期限、发布日期和截标日；未购买招标文件。",
+        "missing": ""
+      }
+    },
+    {
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "沿用09:00已收录记录；未重查的原核验时间保持不变",
+      "products": [],
+      "eventLabel": "事件／阶段",
+      "id": "003",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "工程项目"
+      ],
+      "region": "Najran省Sharurah",
+      "title": "Sharurah装甲车辆遮棚工程公开招标，合同期90天",
+      "original": "إنشاء بوائك مدرعات اللواء الرابع بقوة شرورة",
+      "source": "Etimad",
+      "sourceType": "政府采购公开列表及基本详情",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=2grOR3iTjNX8iqkQn6c7bQ==",
+      "published": "2026-09-17（公开列表发布日期）",
+      "event": "采购发布；2026-10-04 09:59截止（平台原文标时）",
+      "summary": "沙特陆军Sharurah军事设施运维部门发布第4旅装甲车辆遮棚建设公开招标，参考编号260939006863，合同期90天，投标截止日为2026-10-04。",
+      "review": "本轮读取Etimad公开列表与对应基本详情，核对公告名称、参考编号、采购方式、采购单位、合同期限、发布日期和截标日；未购买招标文件。",
+      "reviewUrls": [
+        [
+          "Etimad公开列表",
+          "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1&PageSize=24"
+        ]
+      ],
+      "boundary": "公告处于采购阶段，未确认授标或开工；合同期限不等于已经完成。公开摘要未给完整工程量或配件清单，文件费不是合同金额。",
+      "background": "遮棚工程信息；不能由车辆遮棚推定采用薄壁轻钢房屋体系。",
+      "evidenceFiles": [
+        "09-00/p0-etimad.md",
+        "09-00/c-tender3.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-18T01:21:52.657Z",
+        "method": "官方采购列表与基本详情字段互核",
+        "confirmedScope": "沙特陆军Sharurah军事设施运维部门发布第4旅装甲车辆遮棚建设公开招标，参考编号260939006863，合同期90天，投标截止日为2026-10-04。",
+        "reason": "本轮读取Etimad公开列表与对应基本详情，核对公告名称、参考编号、采购方式、采购单位、合同期限、发布日期和截标日；未购买招标文件。",
+        "missing": ""
+      }
+    },
+    {
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "沿用09:00已收录记录；未重查的原核验时间保持不变",
+      "products": [],
+      "eventLabel": "事件／阶段",
+      "id": "004",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "设施维护"
+      ],
+      "region": "吉达",
+      "title": "吉达医疗城及住宅区卫生中心电梯维护招标，合同期532天",
+      "original": "صيانة شاملة مع قطع الغيار لمصاعد متنوعة بمدينة الملك عبدالعزيز الطبية بجدة ومركز صحي إسكان جدة التابعة للشؤون الصحية بوزارة الحرس الوطني",
+      "source": "Etimad",
+      "sourceType": "政府采购公开列表及基本详情",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=T8mhQfb7aXw9VEPtR7uMoA==",
+      "published": "2026-09-17（公开列表发布日期）",
+      "event": "采购发布；2026-10-03 09:59截止（平台原文标时）",
+      "summary": "沙特国民卫队卫生事务部门发布吉达阿卜杜勒阿齐兹国王医疗城及吉达住宅区卫生中心的多品牌电梯全面维护，包含配件公开招标，参考编号260739000633，合同期532天，投标截止日为2026-10-03。",
+      "review": "本轮读取Etimad公开列表与对应基本详情，核对公告名称、参考编号、采购方式、采购单位、合同期限、发布日期和截标日；未购买招标文件。",
+      "reviewUrls": [
+        [
+          "Etimad公开列表",
+          "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1&PageSize=24"
+        ]
+      ],
+      "boundary": "公告处于采购阶段，未确认授标或开工；合同期限不等于已经完成。公开摘要未给完整工程量或配件清单，文件费不是合同金额。",
+      "background": "建筑及设施维护采购信息，未披露打包箱、移动卫浴或薄壁轻钢的具体使用要求。",
+      "evidenceFiles": [
+        "09-00/p0-etimad.md",
+        "09-00/c-tender4.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-18T01:21:52.657Z",
+        "method": "官方采购列表与基本详情字段互核",
+        "confirmedScope": "沙特国民卫队卫生事务部门发布吉达阿卜杜勒阿齐兹国王医疗城及吉达住宅区卫生中心的多品牌电梯全面维护，包含配件公开招标，参考编号260739000633，合同期532天，投标截止日为2026-10-03。",
+        "reason": "本轮读取Etimad公开列表与对应基本详情，核对公告名称、参考编号、采购方式、采购单位、合同期限、发布日期和截标日；未购买招标文件。",
+        "missing": ""
+      }
+    },
+    {
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "沿用09:00已收录记录；未重查的原核验时间保持不变",
+      "products": [],
+      "eventLabel": "事件／阶段",
+      "id": "005",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "设施维护"
+      ],
+      "region": "东部省",
+      "title": "东部省培训单位空调配件供货招标，合同期60天",
+      "original": "توريد قطع غيار التكييف للوحدات التدريبية بالمنطقة الشرقية",
+      "source": "Etimad",
+      "sourceType": "政府采购公开列表及基本详情",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=N1FehDepauEBbufkaBTjxQ==",
+      "published": "2026-09-17（公开列表发布日期）",
+      "event": "采购发布；2026-10-03 09:59截止（平台原文标时）",
+      "summary": "沙特技术和职业培训总机构（TVTC）发布东部省培训单位的空调配件供应公开招标，参考编号260839003786，合同期60天，投标截止日为2026-10-03。",
+      "review": "本轮读取Etimad公开列表与对应基本详情，核对公告名称、参考编号、采购方式、采购单位、合同期限、发布日期和截标日；未购买招标文件。",
+      "reviewUrls": [
+        [
+          "Etimad公开列表",
+          "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1&PageSize=24"
+        ]
+      ],
+      "boundary": "公告处于采购阶段，未确认授标或开工；合同期限不等于已经完成。公开摘要未给完整工程量或配件清单，文件费不是合同金额。",
+      "background": "空调维护配件供应信息；未取得明细，不直接匹配具体五金型号。",
+      "evidenceFiles": [
+        "09-00/p0-etimad.md",
+        "09-00/c-tender5.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-18T01:21:52.657Z",
+        "method": "官方采购列表与基本详情字段互核",
+        "confirmedScope": "沙特技术和职业培训总机构（TVTC）发布东部省培训单位的空调配件供应公开招标，参考编号260839003786，合同期60天，投标截止日为2026-10-03。",
+        "reason": "本轮读取Etimad公开列表与对应基本详情，核对公告名称、参考编号、采购方式、采购单位、合同期限、发布日期和截标日；未购买招标文件。",
+        "missing": ""
+      }
+    },
+    {
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "沿用09:00已收录记录；未重查的原核验时间保持不变",
+      "products": [],
+      "eventLabel": "事件／阶段",
+      "id": "006",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "设施维护"
+      ],
+      "region": "麦加地区",
+      "title": "麦加地区培训单位空调配件供货招标，合同期60天",
+      "original": "توريد قطع غيار التكييف للوحدات التدريبية بمنطقة مكة المكرمة",
+      "source": "Etimad",
+      "sourceType": "政府采购公开列表及基本详情",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=ACC8lJEWFN6K3oRNRJfejQ==",
+      "published": "2026-09-17（公开列表发布日期）",
+      "event": "采购发布；2026-10-03 09:59截止（平台原文标时）",
+      "summary": "沙特技术和职业培训总机构（TVTC）发布麦加地区培训单位的空调配件供应公开招标，参考编号260839003787，合同期60天，投标截止日为2026-10-03。",
+      "review": "本轮读取Etimad公开列表与对应基本详情，核对公告名称、参考编号、采购方式、采购单位、合同期限、发布日期和截标日；未购买招标文件。",
+      "reviewUrls": [
+        [
+          "Etimad公开列表",
+          "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1&PageSize=24"
+        ]
+      ],
+      "boundary": "公告处于采购阶段，未确认授标或开工；合同期限不等于已经完成。公开摘要未给完整工程量或配件清单，文件费不是合同金额。",
+      "background": "空调维护配件供应信息；未取得明细，不直接匹配具体五金型号。",
+      "evidenceFiles": [
+        "09-00/p0-etimad.md",
+        "09-00/c-tender6.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-18T01:21:52.657Z",
+        "method": "官方采购列表与基本详情字段互核",
+        "confirmedScope": "沙特技术和职业培训总机构（TVTC）发布麦加地区培训单位的空调配件供应公开招标，参考编号260839003787，合同期60天，投标截止日为2026-10-03。",
+        "reason": "本轮读取Etimad公开列表与对应基本详情，核对公告名称、参考编号、采购方式、采购单位、合同期限、发布日期和截标日；未购买招标文件。",
+        "missing": ""
+      }
+    },
+    {
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "沿用09:00已收录记录；未重查的原核验时间保持不变",
+      "products": [],
+      "eventLabel": "事件／阶段",
+      "id": "007",
+      "category": "航运物流",
+      "tags": [
+        "航运物流",
+        "订舱"
+      ],
+      "region": "沙特达曼、朱拜勒",
+      "title": "马士基第48号通知：达曼和朱拜勒In-Gauge货类恢复接受订舱",
+      "original": "Middle East Operational Update 48",
+      "source": "Maersk",
+      "sourceType": "船公司一手运营通知",
+      "url": "https://www.maersk.com/news/articles/2026/09/17/middle-east-operational-update-48",
+      "published": "2026-09-17",
+      "event": "第48号运营通知发布；该货类条目未单列独立生效时刻",
+      "summary": "马士基9月17日第48号中东运营通知将达曼和朱拜勒列入In-Gauge货类接受订舱的港口。对照9月16日第47号通知，这两个港口在该货类中此前列为暂停订舱；第48号该行仍暂停往返伊拉克订舱。",
+      "review": "本轮重新读取第47和第48号官方全文，逐行比较Cargo Booking表；确认沙特两个港口的变化位于In-Gauge行。退空箱费用等沿用条目不重复作为新事件。",
+      "reviewUrls": [
+        [
+          "第47号通知",
+          "https://www.maersk.com/news/articles/2026/09/16/middle-east-operational-update-47"
+        ]
+      ],
+      "boundary": "In-Gauge是原文货类，不能扩大为所有普通干货、超限货、危险品或冷藏货均恢复，也不能据此保证具体船期或放行。",
+      "background": "影响该货类经沙特东部港口的订舱判断；未取得具体产品的装载尺寸和船公司货类认定，本条不自动匹配某种房屋产品。",
+      "relatedId": "NEWS-20260917-004",
+      "shipping": [
+        [
+          "船公司",
+          "Maersk"
+        ],
+        [
+          "货类",
+          "仅Cargo Booking表In-Gauge行"
+        ],
+        [
+          "港口／航向",
+          "往返Dammam、Al Jubail；不是全部中东航线"
+        ],
+        [
+          "生效条件",
+          "9月17日第48号通知所列状态；局势变化时可能调整"
+        ],
+        [
+          "费用口径",
+          "本项未公布统一运价或费用减免"
+        ]
+      ],
+      "evidenceFiles": [
+        "09-00/c-maersk48.md",
+        "09-00/c-maersk47-compare.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-18T01:21:52.657Z",
+        "method": "追溯原始发布内容并核对时间、主体、范围和阶段",
+        "confirmedScope": "马士基9月17日第48号中东运营通知将达曼和朱拜勒列入In-Gauge货类接受订舱的港口。对照9月16日第47号通知，这两个港口在该货类中此前列为暂停订舱；第48号该行仍暂停往返伊拉克订舱。",
+        "reason": "本轮重新读取第47和第48号官方全文，逐行比较Cargo Booking表；确认沙特两个港口的变化位于In-Gauge行。退空箱费用等沿用条目不重复作为新事件。",
+        "missing": ""
+      }
+    },
+    {
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "沿用09:00已收录记录；未重查的原核验时间保持不变",
+      "products": [
+        [
+          "打包箱",
+          "预警覆盖地区的使用场景可结合产品屋顶角部排水口、角柱内落水管解释雨水排出路径；不能由排水构造推出抗洪或永不渗漏。"
+        ]
+      ],
+      "eventLabel": "事件／阶段",
+      "id": "008",
+      "category": "项目现场与营地",
+      "tags": [
+        "项目现场与营地",
+        "天气预警"
+      ],
+      "region": "麦加、吉赞、阿西尔、巴哈、麦地那、纳季兰部分地区",
+      "title": "沙特民防发布雷雨提醒，部分地区降雨预计持续至9月22日",
+      "original": "بيئي / الدفاع المدني يدعو إلى أخذ الحيطة والحذر مع استمرار هطول الأمطار الرعدية على بعض مناطق المملكة حتى يوم الثلاثاء المقبل",
+      "source": "Saudi Press Agency（SPA）",
+      "sourceType": "官方通讯社发布民防及气象部门信息",
+      "url": "https://www.spa.gov.sa/N2679371",
+      "published": "2026-09-17 21:36（来源原文标时）",
+      "event": "雷雨预警时段延续至2026-09-22；具体地区强度不同",
+      "summary": "SPA于9月17日报道，民防总局根据国家气象中心信息提醒，部分地区雷雨预计持续至下周二。麦加部分县以及吉赞、阿西尔、巴哈可能出现中到大雨，并伴随山洪、冰雹和下沉气流；麦地那和纳季兰部分地区为小到中雨。",
+      "review": "先读Saudi Gazette，再读阿语报道并追到SPA当日官方通报。采用后发官方通报的地区和强度口径；搜索命中的9月3日SPA旧预报已排除。",
+      "reviewUrls": [
+        [
+          "Saudi Gazette",
+          "https://saudigazette.com.sa/article/664644/saudi-arabia/heavy-rain-flash-floods-forecast-across-parts-of-saudi-arabia-through-tuesday"
+        ],
+        [
+          "Alweeam",
+          "https://www.alweeam.com.sa/1295309/2026/%D8%AD%D8%AA%D9%89-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D8%A7%D8%A1-%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A-%D9%8A%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%A7/"
+        ]
+      ],
+      "boundary": "这是特定地区、特定时段的预警，未确认任何工程停工、营地受灾或人员损失；不把预报写成已发生灾情。",
+      "background": "与现场及营地的降雨暴露有关；产品构造依据用户已核验的《拼装房屋产品介绍.md》，不暗示公司服务过新闻涉及项目。",
+      "evidenceFiles": [
+        "09-00/c-weather-official.md",
+        "09-00/c-weather.md",
+        "09-00/c-weather-alweeam.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-18T01:21:52.657Z",
+        "method": "追溯原始发布内容并核对时间、主体、范围和阶段",
+        "confirmedScope": "SPA于9月17日报道，民防总局根据国家气象中心信息提醒，部分地区雷雨预计持续至下周二。麦加部分县以及吉赞、阿西尔、巴哈可能出现中到大雨，并伴随山洪、冰雹和下沉气流；麦地那和纳季兰部分地区为小到中雨。",
+        "reason": "先读Saudi Gazette，再读阿语报道并追到SPA当日官方通报。采用后发官方通报的地区和强度口径；搜索命中的9月3日SPA旧预报已排除。",
+        "missing": ""
+      }
+    },
+    {
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "沿用09:00已收录记录；未重查的原核验时间保持不变",
+      "products": [],
+      "eventLabel": "事件／阶段",
+      "id": "009",
+      "category": "航运物流",
+      "tags": [
+        "航运物流",
+        "行业统计"
+      ],
+      "region": "沙特各港口",
+      "title": "沙特统计局发布2025年海运数据，进出口货量合计超过3.41亿吨",
+      "original": "\"الإحصاء\": الصادرات والواردات عبر موانئ المملكة تتجاوز 341 مليون طن خلال عام 2025م",
+      "source": "GASTAT",
+      "sourceType": "沙特统计局一手统计发布",
+      "url": "https://www.stats.gov.sa/ar/w/news/216",
+      "published": "2026-09-17",
+      "event": "统计期为2025年，2026-09-17发布",
+      "summary": "沙特统计局2025年海运统计披露，港口出口货量为2.272亿吨、同比增长2.1%；进口为1.143亿吨、同比增长5.0%。达曼阿卜杜勒阿齐兹国王港进口货量3920万吨，居统计中的首位。",
+      "review": "从Saudi Gazette及Okaz追到统计局首页和9月17日原始公告，核对统计年度、进出口分类、吨位与同比。正文同时有其他不同口径货量，不将其混合相加或改称同一吞吐量指标。",
+      "reviewUrls": [
+        [
+          "Saudi Gazette",
+          "https://saudigazette.com.sa/article/664642/saudi-arabia/saudi-port-container-traffic-surges-529-as-cargo-exceeds-341-million-tons"
+        ],
+        [
+          "Okaz",
+          "https://www.okaz.com.sa/ampArticle/2266409"
+        ]
+      ],
+      "boundary": "年度统计不能证明2026年9月港口实时畅通、当前舱位或货物交付时间。本条仅采用官方公告直接给出的进出口口径，不使用尚未核到表格定义的52.9%集装箱增幅。",
+      "background": "提供沙特港口进出口分布的历史背景，不直接推出新增临建采购。",
+      "evidenceFiles": [
+        "09-00/c-port-gastat-fallback.md",
+        "09-00/c-ports.md",
+        "09-00/c-ports-okaz-fallback.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-18T01:21:52.657Z",
+        "method": "追溯原始发布内容并核对时间、主体、范围和阶段",
+        "confirmedScope": "沙特统计局2025年海运统计披露，港口出口货量为2.272亿吨、同比增长2.1%；进口为1.143亿吨、同比增长5.0%。达曼阿卜杜勒阿齐兹国王港进口货量3920万吨，居统计中的首位。",
+        "reason": "从Saudi Gazette及Okaz追到统计局首页和9月17日原始公告，核对统计年度、进出口分类、吨位与同比。正文同时有其他不同口径货量，不将其混合相加或改称同一吞吐量指标。",
+        "missing": ""
+      }
+    },
+    {
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "沿用09:00已收录记录；未重查的原核验时间保持不变",
+      "products": [],
+      "eventLabel": "事件／阶段",
+      "id": "010",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "工业发展"
+      ],
+      "region": "沙特",
+      "title": "沙特工业部门披露：2026年5月新发268项工业许可，149家工厂投产",
+      "original": "Saudi Arabia issues 268 industrial licenses as 149 factories begin production",
+      "source": "Arab News／工业部发言人公开声明",
+      "sourceType": "媒体报道与官方发言人原始公开消息",
+      "url": "https://www.arabnews.com/business/saudi-arabia-issues-268-industrial-licenses-as-149-factories-begin-production-3002109",
+      "published": "2026-09-17（Arab News原文；发言人帖文11:32:53 UTC）",
+      "event": "统计期为2026年5月，并非9月新增项目",
+      "summary": "沙特工业和矿产资源部门发言人9月17日公开消息称，2026年5月发出268项新工业许可，149家工厂在当月开始生产。两组数字分别对应许可和投产，不代表268家工厂全部开工或投产。",
+      "review": "读取Arab News和Ajel正文，确认统计期为5月；再经Firecrawl取得报道指向的发言人原始X帖，核对268、149及月份。媒体转载不计为两个独立官方来源。",
+      "reviewUrls": [
+        [
+          "部门发言人原始帖文",
+          "https://x.com/Jarrah_4/status/2100548544587305178"
+        ],
+        [
+          "Ajel",
+          "https://ajel.sa/economy/dydjqocge"
+        ]
+      ],
+      "boundary": "只确认部门发布的月度许可／投产统计；未取得具体项目地址、厂房结构、营地或配套采购名单。",
+      "background": "工业项目活动背景；不能将月度许可数量换算为临建或宿舍订单。",
+      "evidenceFiles": [
+        "09-00/c-factories-fallback.md",
+        "09-00/c-factories-x-fallback.md",
+        "09-00/c-factories-ajel.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-18T01:21:52.657Z",
+        "method": "追溯原始发布内容并核对时间、主体、范围和阶段",
+        "confirmedScope": "沙特工业和矿产资源部门发言人9月17日公开消息称，2026年5月发出268项新工业许可，149家工厂在当月开始生产。两组数字分别对应许可和投产，不代表268家工厂全部开工或投产。",
+        "reason": "读取Arab News和Ajel正文，确认统计期为5月；再经Firecrawl取得报道指向的发言人原始X帖，核对268、149及月份。媒体转载不计为两个独立官方来源。",
+        "missing": ""
+      }
+    },
+    {
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "沿用09:00已收录记录；未重查的原核验时间保持不变",
+      "products": [],
+      "eventLabel": "事件／阶段",
+      "id": "011",
+      "category": "产品材料",
+      "tags": [
+        "产品材料",
+        "铝材"
+      ],
+      "region": "沙特市场；采访地点为布达佩斯",
+      "title": "Maaden高管预测：沙特2030年铝年需求或达160万至180万吨",
+      "original": "Saudi aluminum demand projected to reach 1.8m tonnes annually by 2030",
+      "source": "Reuters／Arab News",
+      "sourceType": "路透一手采访及后续报道",
+      "url": "https://www.arabnews.com/mining/fifa-world-cup-2034-will-help-drive-saudi-aluminum-demand-up-80-3002065",
+      "published": "2026-09-17（Arab News）；路透原文日期2026-09-16",
+      "event": "2026-09-16采访；预测期至2030年",
+      "summary": "路透9月16日采访Maaden铝业务高管Ahmad Al-Alshaikh。他预计，沙特铝年需求到2030年可能达到160万至180万吨，而其所述当前水平约为100万吨。这里核实的是该高管公开作出的市场预测。",
+      "review": "读取Arab News完整报道并追到其链接的路透阿语原始采访，确认人物、采访日、160万至180万吨区间及预测性质；未把转载作为独立第二项预测。",
+      "reviewUrls": [
+        [
+          "路透原始采访",
+          "https://www.reuters.com/ar/business/DYMQMZTE7ZOZVLE2PAJBZU7QGE-2026-09-16/"
+        ]
+      ],
+      "boundary": "预测不是已经实现的需求或公司订单；不能从铝需求推出镀锌钢、薄壁轻钢或打包箱价格必涨。",
+      "background": "建材需求预期观察，未与四类产品形成直接选型依据。",
+      "evidenceFiles": [
+        "09-00/c-aluminium-fallback.md",
+        "09-00/c-reuters-aluminium-fallback.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-18T01:21:52.657Z",
+        "method": "追溯原始发布内容并核对时间、主体、范围和阶段",
+        "confirmedScope": "路透9月16日采访Maaden铝业务高管Ahmad Al-Alshaikh。他预计，沙特铝年需求到2030年可能达到160万至180万吨，而其所述当前水平约为100万吨。这里核实的是该高管公开作出的市场预测。",
+        "reason": "读取Arab News完整报道并追到其链接的路透阿语原始采访，确认人物、采访日、160万至180万吨区间及预测性质；未把转载作为独立第二项预测。",
+        "missing": ""
+      }
+    },
+    {
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "沿用09:00已收录记录；未重查的原核验时间保持不变",
+      "products": [],
+      "eventLabel": "事件／阶段",
+      "id": "012",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "航运物流",
+        "营地住宿"
+      ],
+      "region": "吉达、达曼、麦地那",
+      "title": "Kaden高管披露三地物流园开发计划，运营目标集中在2027年",
+      "original": "\"كادن\" تضاعف استثماراتها إلى 20 مليار ريال خلال 5 أعوام",
+      "source": "Maaal",
+      "sourceType": "企业负责人问答采访原文",
+      "url": "https://maaal.com/news/details/%D9%83%D8%A7%D8%AF%D9%86-%D8%AA%D8%B6%D8%A7%D8%B9%D9%81-%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1%D8%A7%D8%AA%D9%87%D8%A7/",
+      "published": "2026-09-17",
+      "event": "企业在2026年沙特仓储物流展期间披露开发进展与目标",
+      "summary": "Kaden首席执行官Mohammed Abdullah Al-Othman在Maaal问答采访中称，公司在吉达、达曼和麦地那推进物流园项目：吉达目标2027年下半年运营，达曼一期目标2027年上半年运营，麦地那项目目标2027年底完成运营。采访同时将工人住宿与轻工业、仓储列为物流服务体系的组成部分。",
+      "review": "从SaudiProject公开帖追到9月17日Maaal具名问答采访，逐段核对城市、开发状态与目标时点。仅按高管披露和目标表述，不采用标题中的投资总额推定新合同，也不将三个不同口径面积简单相加。",
+      "reviewUrls": [
+        [
+          "发现线索：SaudiProject帖文",
+          "https://x.com/SaudiProject/status/2100283111468581358"
+        ]
+      ],
+      "boundary": "这是企业公开披露的开发计划，非已投运确认。工人住宿为其业务体系描述，未证明每个园区已发布宿舍采购；无公司供货或参与依据。",
+      "background": "物流园设施与服务规划信息；具体建筑体系、采购清单及住宿配置未披露，本轮不强行匹配产品。",
+      "evidenceFiles": [
+        "09-00/c-kaden-maaal-fallback.md",
+        "09-00/c-kaden-x.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-18T01:21:52.657Z",
+        "method": "追溯原始发布内容并核对时间、主体、范围和阶段",
+        "confirmedScope": "Kaden首席执行官Mohammed Abdullah Al-Othman在Maaal问答采访中称，公司在吉达、达曼和麦地那推进物流园项目：吉达目标2027年下半年运营，达曼一期目标2027年上半年运营，麦地那项目目标2027年底完成运营。采访同时将工人住宿与轻工业、仓储列为物流服务体系的组成部分。",
+        "reason": "从SaudiProject公开帖追到9月17日Maaal具名问答采访，逐段核对城市、开发状态与目标时点。仅按高管披露和目标表述，不采用标题中的投资总额推定新合同，也不将三个不同口径面积简单相加。",
+        "missing": ""
+      }
+    },
+    {
+      "status": "unconfirmed",
+      "statusText": "证据不足",
+      "update": "14:00核验更新；证据不足状态未改变",
+      "products": [],
+      "eventLabel": "事件／阶段",
+      "id": "013",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "新能源",
+        "招投标"
+      ],
+      "region": "沙特",
+      "title": "待证线索：MEED称开发商已提交沙特第七轮风电与光伏项目投标",
+      "original": "Developers bid for Saudi Arabia’s seventh solar and wind IPP round",
+      "source": "MEED",
+      "sourceType": "专业媒体公开标题及摘要；正文受订阅限制",
+      "url": "https://www.meed.com/developers-submit-bids-for-saudi-round-7-solar-and-wind-ipps",
+      "published": "2026-09-17",
+      "event": "据报提交投标；实际提交日、名单与本轮状态未独立确认",
+      "summary": "可确认MEED于9月17日刊出该报道，公开摘要称第七轮涉及六个项目、合计5300MW。当前只确认报道标题与摘要的存在，不能据此认定投标名单、收标结果或授标。",
+      "review": "14:00重新用Scrapling与Firecrawl读取MEED原页，仍只有9月17日标题、摘要和订阅提示；重新检索SPPC第七轮项目，取得的公开线索仍为旧资格预审、招标及延期信息，未取得此次实际收标的一手公告。",
+      "boundary": "不可将资格预审、提交投标、授标或开工混为一谈；5300MW为公开摘要所述规模，本轮未独立核实全部项目明细。",
+      "background": "新能源工程招采线索；关键阶段尚未通过，不进入已核验新闻或产品适配。",
+      "evidenceFiles": [
+        "09-00/c-meed-renewable.md",
+        "09-00/c-meed-renewable-fallback.md",
+        "09-00/s-renewable.json",
+        "09-00/s-sppc-official.json",
+        "09-00/s-sppc-ar.json",
+        "14-00/review013.md",
+        "14-00/review013-fallback.md",
+        "14-00/q-review013.json"
+      ],
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-18T06:13:23.302Z",
+        "method": "本轮双工具重读原页，并重新检索当前进展与一手公告",
+        "confirmedScope": "可确认MEED于9月17日刊出该报道，公开摘要称第七轮涉及六个项目、合计5300MW。当前只确认报道标题与摘要的存在，不能据此认定投标名单、收标结果或授标。",
+        "reason": "14:00重新用Scrapling与Firecrawl读取MEED原页，仍只有9月17日标题、摘要和订阅提示；重新检索SPPC第七轮项目，取得的公开线索仍为旧资格预审、招标及延期信息，未取得此次实际收标的一手公告。",
+        "missing": "缺少本次实际收标公告、投标名单或独立可靠来源对9月进展的复核。"
+      }
+    },
+    {
+      "status": "unconfirmed",
+      "statusText": "证据不足",
+      "update": "14:00核验更新；证据不足状态未改变",
+      "products": [],
+      "eventLabel": "事件／阶段",
+      "id": "014",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "机场",
+        "招投标"
+      ],
+      "region": "利雅得萨勒曼国王国际机场规划区",
+      "title": "待证线索：利雅得机场Royal Aviation Village据报进入投标准备阶段",
+      "original": "Contractors prepare Riyadh airport aviation complex bids",
+      "source": "MEED",
+      "sourceType": "专业媒体标题及摘要；公开补充报道",
+      "url": "https://www.meed.com/contractors-prepare-riyadh-airport-aviation-complex-bids",
+      "published": "2026-09-17",
+      "event": "据报准备投标；当前招标节点未获业主公告确认",
+      "summary": "MEED的9月17日公开摘要将Saudi Royal Aviation Village置于利雅得萨勒曼国王国际机场总规划内。另读Construction Review报道，但未找到能证实本次投标阶段、合同金额及开工时间的一手公告。",
+      "review": "14:00重新用Scrapling与Firecrawl读取MEED原页，仍只有9月17日标题、摘要和订阅提示；专项检索仍指向同一MEED报道及上午已读的Construction Review转述，没有新增可证明本次备标阶段的独立来源。",
+      "reviewUrls": [
+        [
+          "Construction Review",
+          "https://constructionreviewonline.com/king-salman-international-airport-advances-with-2-5bn-royal-aviation-village-project-bids/"
+        ],
+        [
+          "KSIA官网",
+          "https://www.ksia.sa/"
+        ],
+        [
+          "KSIA新闻列表",
+          "https://www.ksia.sa/news.html"
+        ]
+      ],
+      "boundary": "机场总体规划不能证明该合同已经招标、授标或开工；不采信未经补证的25亿美元及2027年开工说法。",
+      "background": "机场项目进展线索，暂不作为确定采购机会或产品适配依据。",
+      "evidenceFiles": [
+        "09-00/c-meed-airport.md",
+        "09-00/c-meed-airport-fallback.md",
+        "09-00/c-airport-review-fallback.md",
+        "09-00/p2-ksia-fallback.md",
+        "09-00/p2-ksia-news-fallback.md",
+        "14-00/review014.md",
+        "14-00/review014-fallback.md",
+        "14-00/q-review014.json"
+      ],
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-18T06:13:23.302Z",
+        "method": "本轮双工具重读原页，并重新检索当前进展与一手公告",
+        "confirmedScope": "MEED的9月17日公开摘要将Saudi Royal Aviation Village置于利雅得萨勒曼国王国际机场总规划内。另读Construction Review报道，但未找到能证实本次投标阶段、合同金额及开工时间的一手公告。",
+        "reason": "14:00重新用Scrapling与Firecrawl读取MEED原页，仍只有9月17日标题、摘要和订阅提示；专项检索仍指向同一MEED报道及上午已读的Construction Review转述，没有新增可证明本次备标阶段的独立来源。",
+        "missing": "缺少业主对该航空园本次招标阶段的公告，以及可独立追溯的合同范围、投标时点。"
+      }
+    },
+    {
+      "id": "015",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "工程项目",
+        "铁路"
+      ],
+      "region": "沙特海湾铁路段",
+      "title": "待证线索：MEED报道沙特海湾铁路设计审查招标，当前阶段尚未确认",
+      "original": "SAR tenders design review consultancy for GCC rail link",
+      "source": "MEED",
+      "sourceType": "专业媒体公开标题与摘要；正文受订阅限制",
+      "url": "https://www.meed.com/sar-tenders-design-review-consultancy-for-gcc-rail-link",
+      "published": "2026-09-18（报道标示日期）",
+      "event": "本次招标时间与是否为新一轮程序未核实",
+      "summary": "MEED于9月18日刊出设计审查咨询招标报道，公开摘要提到沙特境内约672公里铁路。公开信息不足以确认本次招标的具体日期、截止时间及其与既有招标的关系。",
+      "review": "Scrapling与Firecrawl均只取得MEED标题、日期、摘要及订阅提示。SAR官网经两种工具均返回401；英文及阿语补查找到Annahar于5月13日转述的同类招标，不能作为9月新进展的独立证明。",
+      "boundary": "Annahar所述5月7日招标、6月30日截止属于旧阶段，不移用到9月报道。不能认定铁路已授标、已开工或产生营地采购。",
+      "background": "铁路咨询采购线索；当前进展和阶段关系仍缺证据。",
+      "reviewUrls": [
+        [
+          "Annahar旧报道，仅用于日期排除",
+          "https://www.annahar.com/economy/309655/%D8%B3%D9%83%D8%A9-%D8%AD%D8%AF%D9%8A%D8%AF-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC-%D9%86%D8%B5%D9%81-%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D9%85%D9%86%D8%AC%D8%B2-%D9%88%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84-%D9%85%D9%82%D8%B1%D8%B1-%D8%A8%D9%86%D9%87%D8%A7%D9%8A%D8%A9-2030"
+        ]
+      ],
+      "evidenceFiles": [
+        "14-00/c-sar.md",
+        "14-00/c-sar-fallback.md",
+        "14-00/p1-sar.md",
+        "14-00/p1-sar-fallback.md",
+        "14-00/q-sar-review.json",
+        "14-00/q-sar-ar.json",
+        "14-00/c-sar-ar-review.md"
+      ],
+      "status": "unconfirmed",
+      "statusText": "证据不足",
+      "products": [],
+      "update": "14:00本轮新增",
+      "eventLabel": "事件／阶段",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-18T06:13:23.302Z",
+        "method": "读取原始公告或报道并追溯一手来源，核对日期、主体、范围及阶段",
+        "confirmedScope": "MEED于9月18日刊出设计审查咨询招标报道，公开摘要提到沙特境内约672公里铁路。公开信息不足以确认本次招标的具体日期、截止时间及其与既有招标的关系。",
+        "reason": "Scrapling与Firecrawl均只取得MEED标题、日期、摘要及订阅提示。SAR官网经两种工具均返回401；英文及阿语补查找到Annahar于5月13日转述的同类招标，不能作为9月新进展的独立证明。",
+        "missing": "缺少可确认本次招标及日期的一手公告，或独立可靠来源；无法排除与5月既有招标的阶段重复。"
+      }
+    },
+    {
+      "id": "016",
+      "category": "航运物流",
+      "tags": [
+        "航运物流",
+        "海事安全"
+      ],
+      "region": "也门亚丁以东75海里",
+      "title": "UKMTO通报：一艘西行油轮在亚丁以东遭小艇追逐并试图拦截",
+      "original": "UKMTO WARNING 136-26 — Suspicious Activity",
+      "source": "UKMTO",
+      "sourceType": "英国海上贸易行动办公室官方海事通报",
+      "url": "https://www.ukmto.org/recent-incidents#56550e80-c696-49f0-9026-2b8d7f978981",
+      "published": "2026-09-17（官方列表日期）",
+      "event": "2026-09-17 13:59 UTC（通报标示事件时间）",
+      "summary": "UKMTO第136-26号通报记载，一艘向西航行的油轮在亚丁以东75海里报告遭小艇追逐并试图拦截。当局仍在调查，UKMTO提醒船舶谨慎航行并报告可疑活动。",
+      "review": "普通读取被验证页阻挡后，Firecrawl取得UKMTO首页及近期事件页面完整对应通报；核对编号、日期、坐标相对位置、航向和事件描述，并与近15天档案去重。",
+      "boundary": "通报属于可疑活动，未确认船名、国籍、被劫持、袭击归属、沙特货物受损或特定船公司航线停运。",
+      "background": "亚丁湾是通往红海的海运通道之一；用于物流风险跟踪，不据此推导具体货运延误或涨价。",
+      "evidenceFiles": [
+        "14-00/p1-ukmto-fallback.md",
+        "14-00/c-ukmto-recent-fallback.md"
+      ],
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "update": "14:00本轮新增",
+      "eventLabel": "事件／阶段",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-18T06:13:23.302Z",
+        "method": "读取原始公告或报道并追溯一手来源，核对日期、主体、范围及阶段",
+        "confirmedScope": "UKMTO第136-26号通报记载，一艘向西航行的油轮在亚丁以东75海里报告遭小艇追逐并试图拦截。当局仍在调查，UKMTO提醒船舶谨慎航行并报告可疑活动。",
+        "reason": "普通读取被验证页阻挡后，Firecrawl取得UKMTO首页及近期事件页面完整对应通报；核对编号、日期、坐标相对位置、航向和事件描述，并与近15天档案去重。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "017",
+      "category": "航运物流",
+      "tags": [
+        "航运物流",
+        "海事安全"
+      ],
+      "region": "霍尔木兹海峡，阿曼哈萨卜东北16海里",
+      "title": "UKMTO发布霍尔木兹海峡安全事件通报，称船员安全",
+      "original": "UKMTO WARNING 137-26 — ATTACK",
+      "source": "UKMTO",
+      "sourceType": "英国海上贸易行动办公室官方海事通报",
+      "url": "https://www.ukmto.org/recent-incidents#abb2f9ad-bed3-4b69-98c1-2527fa4e4244",
+      "published": "2026-09-17（通报签发日期）",
+      "event": "事件报告日期和时间均标示TBC，未披露确切发生时间",
+      "summary": "UKMTO第137-26号通报称，收到关于霍尔木兹海峡、哈萨卜东北16海里安全事件的报告。船员据报安全，通报发布时尚未确认环境影响，当局正在调查。",
+      "review": "Firecrawl在普通抓取受阻后读取官方首页与近期事件正文；以正文137-26为编号，保留报告时间TBC和环境影响尚未确认的表述，不采用页面卡片异常编号28082035。",
+      "boundary": "官方未披露船名、袭击方或具体受损方式；不能将本通报自动认定为媒体所称Trend号事件。船员安全不等于船舶无损或航道已恢复安全。",
+      "background": "涉及沙特东部港口对外航路的区域安全信息；不代表已确认沙特港口停运。",
+      "evidenceFiles": [
+        "14-00/p1-ukmto-fallback.md",
+        "14-00/c-ukmto-recent-fallback.md"
+      ],
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "update": "14:00本轮新增",
+      "eventLabel": "事件／阶段",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-18T06:13:23.302Z",
+        "method": "读取原始公告或报道并追溯一手来源，核对日期、主体、范围及阶段",
+        "confirmedScope": "UKMTO第137-26号通报称，收到关于霍尔木兹海峡、哈萨卜东北16海里安全事件的报告。船员据报安全，通报发布时尚未确认环境影响，当局正在调查。",
+        "reason": "Firecrawl在普通抓取受阻后读取官方首页与近期事件正文；以正文137-26为编号，保留报告时间TBC和环境影响尚未确认的表述，不采用页面卡片异常编号28082035。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "018",
+      "category": "航运物流",
+      "tags": [
+        "航运物流",
+        "未独立证实的单方说法"
+      ],
+      "region": "霍尔木兹海峡",
+      "title": "待证线索：伊方称Trend号油轮遇袭，船舶身份及事件细节未获独立确认",
+      "original": "Iran says it struck Togo-flagged tanker in Strait of Hormuz",
+      "source": "Saudi Gazette；Dawn／AFP",
+      "sourceType": "媒体转述伊方声明；两篇均回到同一声明",
+      "url": "https://saudigazette.com.sa/article/664660/world/iran-says-it-struck-togo-flagged-tanker-in-strait-of-hormuz",
+      "published": "2026-09-18 08:14（Saudi Gazette原文标时，未标时区）",
+      "event": "媒体转述9月17日声明；确切事件时间未独立确认",
+      "summary": "Saudi Gazette及Dawn转述伊朗革命卫队说法，称悬挂多哥旗的Trend号油轮在霍尔木兹海峡被击中并起火。当前可确认这些媒体发布了该说法，无法独立确认船舶身份、遇袭细节、货物或船员状况。",
+      "review": "已读Saudi Gazette全文、Dawn的AFP转述，并查UKMTO官方近期事件。Dawn与Gazette均援引同一伊方声明，不能算两份独立证据。UKMTO137-26没有船名，不能用于确认Trend身份或认定两则消息就是同一事件。",
+      "boundary": "与NEWS-20260918-017的事件关联尚未确定；不得据此声称两艘船分别遇袭，也不能断言全部航道封锁或沙特工程断供。",
+      "background": "保留未通过的具体船舶遇袭说法，供后续与官方通报核对；不进入默认已核验列表。",
+      "reviewUrls": [
+        [
+          "Dawn转述AFP",
+          "https://www.dawn.com/news/2030798/iran-says-struck-oil-tanker-in-strait-of-hormuz"
+        ],
+        [
+          "UKMTO近期事件，未披露对应船名",
+          "https://www.ukmto.org/recent-incidents"
+        ]
+      ],
+      "evidenceFiles": [
+        "14-00/c-tanker.md",
+        "14-00/c-tanker-dawn-fallback.md",
+        "14-00/q-trend-review.json",
+        "14-00/c-ukmto-recent-fallback.md"
+      ],
+      "status": "unconfirmed",
+      "statusText": "证据不足",
+      "products": [],
+      "update": "14:00本轮新增",
+      "eventLabel": "事件／阶段",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-18T06:13:23.302Z",
+        "method": "读取原始公告或报道并追溯一手来源，核对日期、主体、范围及阶段",
+        "confirmedScope": "Saudi Gazette及Dawn转述伊朗革命卫队说法，称悬挂多哥旗的Trend号油轮在霍尔木兹海峡被击中并起火。当前可确认这些媒体发布了该说法，无法独立确认船舶身份、遇袭细节、货物或船员状况。",
+        "reason": "已读Saudi Gazette全文、Dawn的AFP转述，并查UKMTO官方近期事件。Dawn与Gazette均援引同一伊方声明，不能算两份独立证据。UKMTO137-26没有船名，不能用于确认Trend身份或认定两则消息就是同一事件。",
+        "missing": "缺少船东、船旗国或独立海事机构对Trend号身份及本次事件的确认；与137-26通报的对应关系不明。"
+      }
+    },
+    {
+      "id": "019",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "设施管理",
+        "行业活动"
+      ],
+      "region": "沙特利雅得",
+      "title": "沙特官方预告：设施管理国际会议及展览将于9月20日至22日在利雅得举行",
+      "original": "الأحد المقبل.. الرياض تستضيف النسخة الثالثة من المؤتمر والمعرض الدولي لإدارة المرافق",
+      "source": "沙特市政与住房部（MOMAH）",
+      "sourceType": "主管部门官方新闻公告",
+      "url": "https://momah.gov.sa/ar/news/alahd-almqbl-alryad-tstdyf",
+      "published": "2026-09-17（正文发布日期）",
+      "event": "计划于2026-09-20至2026-09-22举行，当前为会前公告",
+      "summary": "市政与住房部公告，第三届SFMA EXPO 2026计划于9月20日至22日在利雅得国际会展中心举行，由沙特设施管理协会组织。议题涵盖运营维护、数字孪生、预测性维护及建筑使用者健康等设施管理问题。",
+      "review": "直接读取MOMAH阿语原文，分别核对9月17日发布日期与9月20日至22日计划会期、地点和组织方；不把页脚更新时间当发布日期，不把预告写成已举办。",
+      "boundary": "这是行业会议预告，不是法规生效、建设授标或营地采购公告。未采用市场规模与增长预测，亦未把预计参会数量写成实际到场。",
+      "background": "工程交付后的运营维护、建筑使用和设施管理行业信息；未形成对特定临建产品的直接采购需求。",
+      "evidenceFiles": [
+        "14-00/c-sfma.md",
+        "14-00/q-official-compliance.json"
+      ],
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "update": "14:00本轮新增",
+      "eventLabel": "事件／阶段",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-18T06:13:23.302Z",
+        "method": "读取原始公告或报道并追溯一手来源，核对日期、主体、范围及阶段",
+        "confirmedScope": "市政与住房部公告，第三届SFMA EXPO 2026计划于9月20日至22日在利雅得国际会展中心举行，由沙特设施管理协会组织。议题涵盖运营维护、数字孪生、预测性维护及建筑使用者健康等设施管理问题。",
+        "reason": "直接读取MOMAH阿语原文，分别核对9月17日发布日期与9月20日至22日计划会期、地点和组织方；不把页脚更新时间当发布日期，不把预告写成已举办。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "020",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "工程项目",
+        "资格预审"
+      ],
+      "region": "沙特吉达",
+      "title": "待证线索：Porta Jeddah后续包件据报征集承包商资格，截止日未获官方确认",
+      "original": "PIF-Backed Developer Seeks Contractors for Next Jeddah Packages",
+      "source": "Construction Week Saudi",
+      "sourceType": "专业媒体报道；本次资格预审未取得一手公告",
+      "url": "https://www.constructionweeksaudi.com/projects/al-akaria-jeddah-construction-packages",
+      "published": "2026-09-17",
+      "event": "据报征集后续包件承包商资格；10月4日截止尚未独立确认",
+      "summary": "Construction Week Saudi报道Al Akaria正在为Porta Jeddah剩余包件征集承包商资格，并提到10月4日截止。当前尚未取得能确认该轮资格预审范围、日期及申请要求的官方公告。",
+      "review": "已读专业媒体全文及Al Akaria官网、媒体页，并执行英文及阿语专项检索。官方公开信息确认的是一期施工和项目管理合同，与本次后续包件资格预审并非同一阶段，不能代替本次公告。",
+      "boundary": "不重复计为9月16日已收录的一期施工或Parsons管理合同；后续包件范围、金额及截止日尚未通过。",
+      "background": "潜在后续工程采购线索，不能据此推导打包箱或营地采购，也不暗示东方骆驼参与。",
+      "relatedId": "NEWS-20260916-001",
+      "reviewUrls": [
+        [
+          "Al Akaria媒体页",
+          "https://www.al-akaria.com/media/"
+        ]
+      ],
+      "evidenceFiles": [
+        "14-00/c-akaria.md",
+        "14-00/c-akaria-official.md",
+        "14-00/c-akaria-media.md",
+        "14-00/q-akaria.json",
+        "14-00/q-akaria-ar.json",
+        "14-00/q-akaria-final.json"
+      ],
+      "status": "unconfirmed",
+      "statusText": "证据不足",
+      "products": [],
+      "update": "14:00本轮新增",
+      "eventLabel": "事件／阶段",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-18T06:13:23.302Z",
+        "method": "读取原始公告或报道并追溯一手来源，核对日期、主体、范围及阶段",
+        "confirmedScope": "Construction Week Saudi报道Al Akaria正在为Porta Jeddah剩余包件征集承包商资格，并提到10月4日截止。当前尚未取得能确认该轮资格预审范围、日期及申请要求的官方公告。",
+        "reason": "已读专业媒体全文及Al Akaria官网、媒体页，并执行英文及阿语专项检索。官方公开信息确认的是一期施工和项目管理合同，与本次后续包件资格预审并非同一阶段，不能代替本次公告。",
+        "missing": "缺少本轮资格预审官方公告、有效申请入口和截止日期确认，亦未取得独立可靠的交叉核验。"
+      }
+    }
+  ],
+  "run": {
+    "status": "completed",
+    "slot": "14:00",
+    "startedAt": "2026-09-18T06:01:53.995Z",
+    "completedAt": "2026-09-18T06:14:46.990Z",
+    "newCount": 6,
+    "updatedCount": 2,
+    "message": "14:00批次完成双工具和六类检索；新增6条（3已核验、3证据不足），复核更新2条且仍未通过；今日累计20条（15已核验、5证据不足）。访问限制和不确定事件关联已标注。"
+  },
+  "completedSlots": [
+    "09:00",
+    "14:00"
+  ],
+  "lastVerifiedAt": "2026-09-18T06:13:23.302Z"
+}

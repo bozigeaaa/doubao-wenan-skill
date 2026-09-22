@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-09-14T01:15:11.922Z",
+  "categories": [
+    "工程项目",
+    "营地住宿",
+    "产品材料",
+    "采购招投标",
+    "合规政策",
+    "航运物流"
+  ],
+  "windowStart": "2026-09-10T06:08:44.903Z",
+  "exclusions": [
+    {
+      "source": "ADRENA 3D打印建筑报道",
+      "url": "https://www.voxelmatters.com/artificial-engineering-3d-prints-adrena-buildings-in-saudi-arabia/",
+      "reason": "9月12日技术回顾，项目在此前3月至5月已有开放或完成动作；本窗口未确认新增授标、开工或产品发布。"
+    },
+    {
+      "source": "杜拉PMC投标",
+      "url": "https://attaqa.net/2026/09/11/%D8%AD%D9%82%D9%84-%D8%A7%D9%84%D8%AF%D8%B1%D8%A9-%D8%A7%D9%84%D8%BA%D8%A7%D8%B2%D9%8A-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/",
+      "reason": "9月11日Attaqa报道回引9月9日MEED原稿及9月7日投标期限，早于本轮补漏窗口；没有新阶段，且同源转载不算独立复核。"
+    },
+    {
+      "source": "重卡六项条件报道",
+      "url": "https://saudigazette.com.sa/article/664512/saudi-arabia/saudi-traffic-directorate-sets-6-conditions-for-heavy-trucks-on-roads",
+      "reason": "与多年前article/625590内容重合，未取得本轮新增法规动作，排除旧闻重新包装。"
+    },
+    {
+      "source": "Etimad其他三条列表",
+      "reason": "安全部队车辆、摩托车等配件不属于工程行业收集范围，不映射为建筑五金。"
+    },
+    {
+      "source": "营地、材料与会议检索结果",
+      "reason": "商品广告、旧项目回顾及会议信息未形成可核验的新工程或采购事件；六类范围均实际查询，不能据此断言全网没有相关新闻。"
+    }
+  ],
+  "productEvidence": [
+    "knowledge/东方骆驼公司简介.txt",
+    "knowledge/钧瀚产品优势分级分类总表_v4.xlsx"
+  ],
+  "limits": [
+    "Google与Google News直接连接失败或验证页；X连接失败且Firecrawl不支持该入口。",
+    "MEED可读标题和导语，付费正文受限；RCRC返回拒绝页面。",
+    "SPA直接正文为空，管线官方声明由网页索引取得，并用Reuters全文复核。"
+  ]
+}

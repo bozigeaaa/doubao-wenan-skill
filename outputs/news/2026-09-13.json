@@ -1,0 +1,492 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-09-13",
+  "collectedAt": "2026-09-14T02:00:01.415Z",
+  "timeZone": "Asia/Shanghai",
+  "window": "2026-09-14手动重新检索，分别覆盖2026-09-12、13、14日至实际采集时点；本页按已核实原文日期归档，旧条目原核验时间保留。",
+  "scope": "工程项目、营地住宿、产品材料、采购招投标、合规政策、航运物流；收录行业信息与逐条未通过线索，不要求全部适配产品。",
+  "channels": [
+    [
+      "Google／Google News",
+      "Google直接搜索页可读；News失败",
+      "Google入口先Scrapling失败，Firecrawl取得搜索页；英文、阿语按12、13、14日检索补漏。"
+    ],
+    [
+      "X",
+      "直接访问失败",
+      "Scrapling失败，Firecrawl不支持；社交搜索索引不代替原文核验。"
+    ],
+    [
+      "MEED",
+      "最新目录可读",
+      "检查latest，最新列示日期11日；订阅正文限制仍存在。"
+    ],
+    [
+      "Etimad",
+      "首页可读；后续分页受限",
+      "新鲜首页仍为13日招标；第2页返回未加载模板，Scrapling返回访问拒绝，不能声称遍历全部招标。"
+    ],
+    [
+      "SPA／Arab News／Argaam",
+      "目录及多篇原文成功",
+      "找到机场设计、道路导改、生态投资、学校进度、建设展会等首轮漏项。"
+    ],
+    [
+      "公司与政府补充核验",
+      "部分受限",
+      "Miahona公告组件无数据，NCP与SCA入口失败，部分媒体拒绝访问。"
+    ],
+    [
+      "检索工具限制",
+      "已切换备用工具",
+      "Firecrawl本轮触发免费额度限制后，使用Scrapling和网页检索继续完成可执行复核。"
+    ]
+  ],
+  "retrievalTools": [
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://www.meed.com/latest",
+        "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-11+before%3A2026-09-15",
+        "https://news.google.com/search?q=Saudi%20construction%20after%3A2026-09-11%20before%3A2026-09-15&hl=en-US&gl=US&ceid=US%3Aen",
+        "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-12%20until%3A2026-09-15&f=live",
+        "https://www.arabnews.com/saudi-arabia",
+        "https://saudigazette.com.sa/saudi-arabia",
+        "https://www.argaam.com/ar",
+        "https://www.spa.gov.sa/en",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2",
+        "https://www.spa.gov.sa/N2674326",
+        "https://www.alarabiya.net/aswaq/companies/2026/09/13/%D8%A7%D9%84%D9%85%D8%A7%D8%AC%D8%AF%D9%8A%D8%A9-%D8%AA%D8%AA%D8%B9%D8%A7%D9%82%D8%AF-%D8%B9%D9%84%D9%89-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-296-%D9%88%D8%AD%D8%AF%D8%A9-%D8%B3%D9%83%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9",
+        "https://www.mubasher.info/news/4671227/-%D9%85%D9%8A%D8%A7%D9%87%D9%86%D8%A7-%D8%AA%D8%AD%D8%B5%D9%84-%D8%B9%D9%84%D9%89-%D9%85%D9%88%D8%A7%D9%81%D9%82%D8%A9-%D9%87%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%AD%D9%88%D8%A7%D8%B0-%D8%B9%D9%84%D9%89-%D8%B4%D8%A7%D8%B3-%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87-/"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-14/recheck-12-14/access-log.json及逐页原文；成功、空页与失败分开记录"
+    },
+    {
+      "tool": "firecrawl",
+      "status": "completed",
+      "entries": [
+        "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-12%20until%3A2026-09-15&f=live",
+        "Saudi construction infrastructure contracts projects after:2026-09-11 before:2026-09-13",
+        "Saudi construction infrastructure contracts projects after:2026-09-13 before:2026-09-15",
+        "Saudi construction infrastructure contracts projects after:2026-09-12 before:2026-09-14",
+        "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-11+before%3A2026-09-15",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1",
+        "السعودية مشاريع بنية تحتية \"13 سبتمبر 2026\"",
+        "السعودية مشاريع بنية تحتية \"12 سبتمبر 2026\"",
+        "السعودية مشاريع بنية تحتية \"14 سبتمبر 2026\"",
+        "https://www.arabnews.com/saudi-arabia",
+        "https://www.argaam.com/ar",
+        "https://www.spa.gov.sa/en",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2",
+        "https://www.arabnews.com/saudi-arabia/133m-investment-push-targets-green-projects-3001567",
+        "https://sca.sa/ar/news",
+        "https://www.spa.gov.sa/en/N2675486",
+        "https://www.spa.gov.sa/en/N2674295",
+        "https://www.arabnews.com/saudi-arabia/kings-college-riyadh-sedra-campus-set-to-open-in-2027-enhancing-education-quality-3001332",
+        "https://ncp.gov.sa/ar/MediaCenter/News/Pages/EOI-JDAMakkah.aspx",
+        "\"الثمامة\" \"سبتمبر\" \"2026\" تطوير",
+        "السعودية اشتراطات تراخيص مقاولين \"سبتمبر 2026\" after:2026-09-11 before:2026-09-15",
+        "Saudi NCVC 103 investment opportunities September 2026",
+        "Saudi ports shipping logistics freight September 12 13 14 2026 after:2026-09-11",
+        "Saudi construction camp accommodation steel cement September 12 13 14 2026 after:2026-09-11",
+        "السعودية حديد أسمنت سكن العمال مخيمات after:2026-09-11 before:2026-09-15",
+        "https://aawsat.com/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/5317805-%D8%AA%D9%88%D9%82%D9%8A%D8%B9-%D8%B9%D9%82%D8%AF-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D9%81%D9%87%D8%AF-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D9%88%D8%B1%D9%81%D8%B9-%D8%B7%D8%A7%D9%82%D8%AA%D9%87-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D8%B9%D8%A7%D8%A8%D9%8A%D8%A9-%D8%A5%D9%84%D9%89-32-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D9%85%D8%B3%D8%A7%D9%81%D8%B1",
+        "site:spa.gov.sa \"الثمامة\" \"سبتمبر\" \"2026\"",
+        "site:spa.gov.sa \"103\" \"2026\" \"الغطاء\"",
+        "site:wsp.com \"Dammam\" \"2026\" September",
+        "site:saudiexchange.sa \"مياهنا\" \"2026-09-13\"",
+        "site:spa.gov.sa \"مطار الملك فهد\" \"سبتمبر\" \"2026\"",
+        "site:saudiexchange.sa \"الماجدية\" \"2026-09-13\"",
+        "https://www.spa.gov.sa/N2674273",
+        "https://www.spa.gov.sa/N2675241",
+        "https://www.spa.gov.sa/N2674811",
+        "https://www.argaam.com/ar/article/articledetail/id/1935911",
+        "https://www.argaam.com/ar/article/articledetail/id/1935914",
+        "site:spa.gov.sa \"14 سبتمبر 2026\" اقتصادي",
+        "\"مياهنا\" \"شاس\" \"سبتمبر\" \"2026\"",
+        "site:spa.gov.sa \"12 سبتمبر 2026\" مشروع",
+        "site:spa.gov.sa \"12 سبتمبر 2026\" اقتصادي",
+        "\"الماجدية\" \"296\" \"سبتمبر\" \"2026\"",
+        "\"الماجدية\" \"185\" \"site:saudiexchange.sa/wps/portal/saudiexchange/newsandreports\"",
+        "https://www.spa.gov.sa/N2674326",
+        "site:spa.gov.sa \"أمانة حائل\" \"12 سبتمبر 2026\"",
+        "https://www.spa.gov.sa/N2674474",
+        "https://www.miahona.com/ar/announcements"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-14/recheck-12-14/access-log.json及逐页原文；成功、空页与失败分开记录"
+    },
+    {
+      "tool": "web-search",
+      "status": "completed",
+      "entries": [
+        "Miahona Shas September 13 2026 no objection",
+        "Almajdiah 185 million September 13 2026 agreement",
+        "https://www.miahona.com/ar/announcements",
+        "https://gulfdays.net/al-majdiah-signs-sar-185m-deal-to-develop-296-residential-units-in-madinah/"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-14/recheck-12-14/web-1.json至web-5.json"
+    }
+  ],
+  "items": [
+    {
+      "category": "招投标",
+      "region": "沙特／麦地那省巴德尔",
+      "published": "2026-09-13",
+      "event": "公开招标；合同期36个月",
+      "eventLabel": "项目阶段",
+      "sourceType": "政府采购平台公告",
+      "source": "Etimad／麦地那省市政部门",
+      "title": "巴德尔主要道路维护项目公开招标，合同期36个月",
+      "original": "صيانة المحاور الرئيسية للحفاظ على الكفاءه التشغيلية في نطاق بلدية محافظة بدر",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=oY4HtPQRYhDtiU*@@**BaLF6Lg==",
+      "summary": "Etimad发布巴德尔市政辖区主要道路维护招标，采购方为麦地那省市政部门，参考编号260939000667，招标编号26301012，合同期36个月。现阶段为公开招标，不能写成已经授标或开工。",
+      "review": "读取Etimad当期列表和对应详情，核对发布时间、招标名称、采购主体、参考编号及工期。工程量清单未取得，不对具体材料采购作推断。证据：p0-etimad.md、etimad-detail-0.md。 归档调整：2026-09-14补录至2026-09-13，原编号NEWS-20260914-005；事实与核验时间未变。",
+      "id": "001",
+      "tags": [
+        "招投标"
+      ],
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "2026-09-14补录｜按原文发布日期归入2026-09-13",
+      "products": [],
+      "background": "行业信息；原文没有披露四类产品的采购清单或供货关系。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T01:12:29.339Z",
+        "method": "读取原始公告并核对主体、日期与范围",
+        "confirmedScope": "Etimad发布巴德尔市政辖区主要道路维护招标，采购方为麦地那省市政部门，参考编号260939000667，招标编号26301012，合同期36个月。现阶段为公开招标，不能写成已经授标或开工。",
+        "reason": "读取Etimad当期列表和对应详情，核对发布时间、招标名称、采购主体、参考编号及工期。工程量清单未取得，不对具体材料采购作推断。证据：p0-etimad.md、etimad-detail-0.md。",
+        "missing": ""
+      },
+      "previousIds": [
+        "NEWS-20260914-005"
+      ]
+    },
+    {
+      "category": "招投标",
+      "published": "2026-09-13",
+      "event": "公开招标；合同期24个月",
+      "eventLabel": "项目阶段",
+      "sourceType": "政府采购平台公告",
+      "source": "Etimad／Saudi Water Authority",
+      "title": "沙特水务局招标修复及更换蒸汽生产单元部件",
+      "original": "إعادة تأهيل واستبدال جميع أجزاء وحدات انتاج البخار",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=KYGfD2U5Sk8V6pFVSteGMQ==",
+      "summary": "沙特水务局发布蒸汽生产单元修复与部件更换公开招标，参考编号260939000089，合同期24个月。公开范围包括蒸发器和省煤器管束、集箱及相关管路和支撑的更换，以及拆装、焊接、无损检测、水压试验、保温恢复和试运行支持。",
+      "review": "读取Etimad列表与完整公开目的说明，确认采购方、编号和24个月合同期。管束及压力系统工程不能仅因含金属部件就映射为公司普通五金。证据：p0-etimad.md、etimad-detail-1.md。 归档调整：2026-09-14补录至2026-09-13，原编号NEWS-20260914-006；事实与核验时间未变。",
+      "background": "水务设施检修工程信息；尚无公司具备相应压力部件或工程承包能力的证据，不强配五金。",
+      "id": "002",
+      "tags": [
+        "招投标"
+      ],
+      "region": "沙特",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "2026-09-14补录｜按原文发布日期归入2026-09-13",
+      "products": [],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T01:12:29.339Z",
+        "method": "读取原始公告并核对主体、日期与范围",
+        "confirmedScope": "沙特水务局发布蒸汽生产单元修复与部件更换公开招标，参考编号260939000089，合同期24个月。公开范围包括蒸发器和省煤器管束、集箱及相关管路和支撑的更换，以及拆装、焊接、无损检测、水压试验、保温恢复和试运行支持。",
+        "reason": "读取Etimad列表与完整公开目的说明，确认采购方、编号和24个月合同期。管束及压力系统工程不能仅因含金属部件就映射为公司普通五金。证据：p0-etimad.md、etimad-detail-1.md。",
+        "missing": ""
+      },
+      "previousIds": [
+        "NEWS-20260914-006"
+      ]
+    },
+    {
+      "category": "招投标",
+      "region": "沙特／阿西尔省艾卜哈",
+      "published": "2026-09-13",
+      "event": "公开招标；合同期720天",
+      "eventLabel": "项目阶段",
+      "sourceType": "政府采购平台公告",
+      "source": "Etimad／阿西尔省市政部门",
+      "title": "艾卜哈雨水积水点整治及排水网络修复项目招标",
+      "original": "مشروع صيانة ومعالجة نقاط تجمع مياه الامطار وتأهيل واستكمال بعض شبكات تصريف مياه الأمطار في أبها",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=8LCvFCn*@@**9w%20wfeIU%20xL7YQ==",
+      "summary": "阿西尔省市政部门发布艾卜哈雨水积水点维护整治及部分雨水排水网络修复、完善项目公开招标，参考编号260839000680，招标编号1576996，合同期720天。",
+      "review": "读取Etimad列表及官方详情，核对项目名称、编号、采购方与工期。未取得工程量清单，不能写成移动卫浴、营地或指定五金采购。证据：p0-etimad.md、etimad-detail-4.md。 归档调整：2026-09-14补录至2026-09-13，原编号NEWS-20260914-007；事实与核验时间未变。",
+      "id": "003",
+      "tags": [
+        "招投标"
+      ],
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "2026-09-14补录｜按原文发布日期归入2026-09-13",
+      "products": [],
+      "background": "行业信息；原文没有披露四类产品的采购清单或供货关系。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T01:12:29.339Z",
+        "method": "读取原始公告并核对主体、日期与范围",
+        "confirmedScope": "阿西尔省市政部门发布艾卜哈雨水积水点维护整治及部分雨水排水网络修复、完善项目公开招标，参考编号260839000680，招标编号1576996，合同期720天。",
+        "reason": "读取Etimad列表及官方详情，核对项目名称、编号、采购方与工期。未取得工程量清单，不能写成移动卫浴、营地或指定五金采购。证据：p0-etimad.md、etimad-detail-4.md。",
+        "missing": ""
+      },
+      "previousIds": [
+        "NEWS-20260914-007"
+      ]
+    },
+    {
+      "id": "005",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特／达曼",
+      "published": "2026-09-13",
+      "eventLabel": "项目阶段",
+      "sourceType": "官方原文",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "background": "行业信息；本条未披露公司四类产品的具体采购或供货关系。",
+      "update": "2026-09-14重新检索新增｜按原文发布日期补录至2026-09-13",
+      "title": "达曼机场公司与WSP签订法赫德国王机场扩建设计合同",
+      "original": "سياحة وترفيه / مطارات الدمام توقّع عقد تصميم لتطوير مطار الملك فهد الدولي",
+      "source": "SPA／Dammam Airports",
+      "url": "https://www.spa.gov.sa/N2675241",
+      "event": "设计合同签署；尚非施工授标",
+      "summary": "达曼机场公司与WSP签署法赫德国王国际机场开发项目设计合同，范围包括旅客航站楼扩建、设施及机场进出道路改善，以及行李处理、数字服务和导向系统。总体规划目标为2030年服务超过1930万人次，并逐步提升至3200万人次年容量；这些是规划目标，尚非已投运能力。",
+      "review": "分别读取9月13日SPA官方公告与Asharq Al-Awsat报道，确认签约双方、设计合同性质及规划容量口径。证据：recheck-12-14/airport-primary.md和airport-aawsat.md。",
+      "reviewUrls": [
+        [
+          "Asharq Al-Awsat",
+          "https://aawsat.com/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/5317805-%D8%AA%D9%88%D9%82%D9%8A%D8%B9-%D8%B9%D9%82%D8%AF-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D9%81%D9%87%D8%AF-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D9%88%D8%B1%D9%81%D8%B9-%D8%B7%D8%A7%D9%82%D8%AA%D9%87-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D8%B9%D8%A7%D8%A8%D9%8A%D8%A9-%D8%A5%D9%84%D9%89-32-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D9%85%D8%B3%D8%A7%D9%81%D8%B1"
+        ]
+      ],
+      "boundary": "本次是设计合同，不能改写为施工总包授标或已达成年客流。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T02:00:01.415Z",
+        "method": "读取原文并核对日期、主体、项目阶段和事实范围",
+        "confirmedScope": "达曼机场公司与WSP签署法赫德国王国际机场开发项目设计合同，范围包括旅客航站楼扩建、设施及机场进出道路改善，以及行李处理、数字服务和导向系统。总体规划目标为2030年服务超过1930万人次，并逐步提升至3200万人次年容量；这些是规划目标，尚非已投运能力。",
+        "reason": "分别读取9月13日SPA官方公告与Asharq Al-Awsat报道，确认签约双方、设计合同性质及规划容量口径。证据：recheck-12-14/airport-primary.md和airport-aawsat.md。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "006",
+      "category": "营地住宿",
+      "tags": [
+        "营地住宿",
+        "投资机会"
+      ],
+      "region": "沙特",
+      "published": "2026-09-13",
+      "eventLabel": "项目阶段",
+      "sourceType": "官方原文",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "background": "旅游营地及配套行业机会；是否采用模块化建筑或移动卫浴须逐项目核对设计和采购文件。",
+      "update": "2026-09-14重新检索新增｜按原文发布日期补录至2026-09-13",
+      "title": "沙特推出103项生态投资机会，包含生态旅宿与露营",
+      "original": "بيئي / \"الغطاء النباتي\" يطرح 103 فرص استثمارية بأكثر من 500 مليون ريال لتعزيز الاستدامة البيئية في جميع مناطق المملكة",
+      "source": "SPA／NCVC",
+      "url": "https://www.spa.gov.sa/N2674811",
+      "event": "招商机会发布；不是已授标项目",
+      "summary": "沙特植被覆盖发展与防治荒漠化国家中心于9月13日发布103项投资机会，覆盖全国多个地区，总面积超过4500万平方米，预计投资规模超过5亿里亚尔，投资期限为5至25年。所列活动包括生态旅宿、房车及露营等，具体机会通过Furas平台查看。",
+      "review": "读取SPA阿语官方公告，并以Arab News对中心的直接采访核对活动类型和设计审批边界。没有把预期投资额写为已经投入资金。证据：recheck-12-14/ncvc-primary.md与green-investment.md。",
+      "reviewUrls": [
+        [
+          "Arab News对NCVC采访",
+          "https://www.arabnews.com/saudi-arabia/133m-investment-push-targets-green-projects-3001567"
+        ]
+      ],
+      "boundary": "招商发布不等于获批施工，不保证投资收益或公司产品适配。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T02:00:01.415Z",
+        "method": "读取原文并核对日期、主体、项目阶段和事实范围",
+        "confirmedScope": "沙特植被覆盖发展与防治荒漠化国家中心于9月13日发布103项投资机会，覆盖全国多个地区，总面积超过4500万平方米，预计投资规模超过5亿里亚尔，投资期限为5至25年。所列活动包括生态旅宿、房车及露营等，具体机会通过Furas平台查看。",
+        "reason": "读取SPA阿语官方公告，并以Arab News对中心的直接采访核对活动类型和设计审批边界。没有把预期投资额写为已经投入资金。证据：recheck-12-14/ncvc-primary.md与green-investment.md。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "007",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特／利雅得SEDRA",
+      "published": "2026-09-13",
+      "eventLabel": "项目阶段",
+      "sourceType": "项目方负责人原始采访",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "background": "行业信息；本条未披露公司四类产品的具体采购或供货关系。",
+      "update": "2026-09-14重新检索新增｜按原文发布日期补录至2026-09-13",
+      "title": "ROSHN称SEDRA新校区施工超过56%，计划2027年开放",
+      "original": "King’s College Riyadh SEDRA campus set to open in 2027, enhancing education quality",
+      "source": "Arab News／ROSHN与Cognita负责人直接采访",
+      "url": "https://www.arabnews.com/saudi-arabia/kings-college-riyadh-sedra-campus-set-to-open-in-2027-enhancing-education-quality-3001332",
+      "event": "主体大部分完成；室内装修进行中",
+      "summary": "Arab News于9月13日采访ROSHN和Cognita负责人。受访者称，SEDRA社区的King’s College Riyadh新校区施工进度已超过56%，多数主体结构完成，室内装修正在进行，计划2027年开放。该校区建筑面积超过2万平方米。",
+      "review": "读取原始采访全文及具名受访者表述，核对9月13日发布时间、进度与开放计划。核验范围是项目方公开披露的进度，未取得独立工程监理报告，不将计划写成保证。证据：recheck-12-14/sedra-school.md。",
+      "boundary": "施工比例为项目方披露口径；2027年开放属于计划。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T02:00:01.415Z",
+        "method": "读取原文并核对日期、主体、项目阶段和事实范围",
+        "confirmedScope": "Arab News于9月13日采访ROSHN和Cognita负责人。受访者称，SEDRA社区的King’s College Riyadh新校区施工进度已超过56%，多数主体结构完成，室内装修正在进行，计划2027年开放。该校区建筑面积超过2万平方米。",
+        "reason": "读取原始采访全文及具名受访者表述，核对9月13日发布时间、进度与开放计划。核验范围是项目方公开披露的进度，未取得独立工程监理报告，不将计划写成保证。证据：recheck-12-14/sedra-school.md。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "008",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "published": "2026-09-13",
+      "eventLabel": "项目阶段",
+      "sourceType": "媒体援引公司公告",
+      "status": "unconfirmed",
+      "statusText": "未通过：缺原始公告",
+      "products": [],
+      "background": "行业信息；本条未披露公司四类产品的具体采购或供货关系。",
+      "update": "2026-09-14重新检索新增｜按原文发布日期补录至2026-09-13",
+      "title": "待证线索：Miahona称收购Shas Water获竞争主管部门不反对意见",
+      "original": "مياهنا: صدور عدم ممانعة هيئة المنافسة للاستحواذ على شاس لخدمات المياه",
+      "source": "Argaam",
+      "url": "https://www.argaam.com/ar/article/articledetail/id/1935914",
+      "event": "报道称9月10日取得不反对意见；交易未完成",
+      "summary": "Argaam于9月13日报道，Miahona称收购Shas Water已获竞争主管部门不反对意见，但交易仍需满足其他先决条件。现有报道不能解读为已完成收购。",
+      "review": "读完Argaam正文，定向检索交易所并访问Miahona官网公告页及其公告组件；组件未加载目标公告，Mubasher备用页面被拦截，同源转载不计独立佐证。证据：miahona-argaam.md、miahona-primary-index.md、miahona-mubasher.md及web-3、4.json。",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-14T02:00:01.415Z",
+        "method": "读取原文并核对日期、主体、项目阶段和事实范围",
+        "confirmedScope": "已确认Argaam于9月13日发布该报道；核心监管进展仍缺原始证据。",
+        "reason": "读完Argaam正文，定向检索交易所并访问Miahona官网公告页及其公告组件；组件未加载目标公告，Mubasher备用页面被拦截，同源转载不计独立佐证。证据：miahona-argaam.md、miahona-primary-index.md、miahona-mubasher.md及web-3、4.json。",
+        "missing": "公司或交易所该次原始公告，或能独立证实本次不反对意见的可靠证据。"
+      }
+    },
+    {
+      "id": "009",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特／麦地那",
+      "published": "2026-09-13",
+      "eventLabel": "项目阶段",
+      "sourceType": "媒体转载",
+      "status": "unconfirmed",
+      "statusText": "未通过：缺原始公告",
+      "products": [],
+      "background": "行业信息；本条未披露公司四类产品的具体采购或供货关系。",
+      "update": "2026-09-14重新检索新增｜按原文发布日期补录至2026-09-13",
+      "title": "待证线索：Al Majdiah披露麦地那296套住宅开发协议",
+      "original": "Al Majdiah signs SAR 185M deal to develop 296 residential units in Madinah",
+      "source": "Gulfdays／Argaam转载",
+      "url": "https://gulfdays.net/al-majdiah-signs-sar-185m-deal-to-develop-296-residential-units-in-madinah/",
+      "event": "报道称9月10日签署开发协议",
+      "summary": "9月13日媒体报道，Al Majdiah签署麦地那Mashraf Al Majdiah项目296套住宅开发协议，所述开发成本上限为1.85亿里亚尔，期限24个月。所述296套包括66栋别墅和230套公寓；这些细节尚未取得原始公告复核。",
+      "review": "读取Gulfdays完整转载，检查Argaam、Maaal、Al Arabiya及交易所搜索线索。相关来源共同援引同一上市披露，不能视为独立第二证据；Maaal和Al Arabiya原文访问受限，未取得交易所公告正文。证据：almajdiah-exact.json、almajdiah-exchange.json、almajdiah-arabia.md及web-3、5.json。",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-14T02:00:01.415Z",
+        "method": "读取原文并核对日期、主体、项目阶段和事实范围",
+        "confirmedScope": "已确认9月13日媒体报道存在；协议细节保留为未通过核验线索。",
+        "reason": "读取Gulfdays完整转载，检查Argaam、Maaal、Al Arabiya及交易所搜索线索。相关来源共同援引同一上市披露，不能视为独立第二证据；Maaal和Al Arabiya原文访问受限，未取得交易所公告正文。证据：almajdiah-exact.json、almajdiah-exchange.json、almajdiah-arabia.md及web-3、5.json。",
+        "missing": "Al Majdiah或Saudi Exchange对应开发协议公告原文，用于确认费用口径、范围和期限。"
+      }
+    },
+    {
+      "id": "010",
+      "category": "采购管理",
+      "tags": [
+        "采购管理",
+        "合同变更"
+      ],
+      "region": "沙特",
+      "published": "2026-09-13",
+      "eventLabel": "项目阶段",
+      "sourceType": "媒体援引公司公告",
+      "status": "unconfirmed",
+      "statusText": "未通过：缺原始变更公告",
+      "products": [],
+      "background": "行业信息；本条未披露公司四类产品的具体采购或供货关系。",
+      "update": "2026-09-14重新检索新增｜按原文发布日期补录至2026-09-13",
+      "title": "待证线索：TAM称绿色利雅得咨询合同金额调整至1251万里亚尔",
+      "original": "تام التنموية: تعديل قيمة عقد مشروع الهيئة الملكية للرياض إلى 12.5 مليون ريال",
+      "source": "Argaam",
+      "url": "https://www.argaam.com/ar/article/articledetail/id/1935911",
+      "event": "既有咨询及活动服务合同变更",
+      "summary": "Argaam于9月13日报道，TAM Development称收到绿色利雅得项目社区参与咨询及活动管理服务的变更函，取消一项运营内容，合同总额调整为1251万里亚尔（含增值税）。该报道涉及咨询与活动服务，并非绿化施工总合同削减。",
+      "review": "读取Argaam正文，核对服务范围与含税金额；当前未取得公司或交易所变更公告及范围附件，同一报道的重复读取不算独立来源。证据：tam-argaam.md、argaam-fresh.md及web-5.json。",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-14T02:00:01.415Z",
+        "method": "读取原文并核对日期、主体、项目阶段和事实范围",
+        "confirmedScope": "确认9月13日Argaam报道了该咨询服务合同变更；核心变更仍缺一手来源。",
+        "reason": "读取Argaam正文，核对服务范围与含税金额；当前未取得公司或交易所变更公告及范围附件，同一报道的重复读取不算独立来源。证据：tam-argaam.md、argaam-fresh.md及web-5.json。",
+        "missing": "TAM或Saudi Exchange发布的本次合同变更原文，以确认调整内容及金额。"
+      }
+    }
+  ],
+  "run": {
+    "status": "completed",
+    "startedAt": "2026-09-14T01:47:09.710Z",
+    "completedAt": "2026-09-14T02:01:19.659Z",
+    "newCount": 6,
+    "updatedCount": 0,
+    "message": "2026-09-14按12、13、14日重新检索：共新增9条，更新1条；合计22条（17条通过，5条证据不足）。本日新增6条。Etimad后续分页受限；完整性限于本轮可访问范围。"
+  },
+  "completedSlots": [],
+  "lastVerifiedAt": "2026-09-14T02:00:01.415Z",
+  "backfill": {
+    "sourceDate": "2026-09-14",
+    "performedAt": "2026-09-14T02:00:01.415Z",
+    "basis": "已核实原文发布日期；12日道路官方原文修正13日媒体归档"
+  },
+  "relocatedItems": [
+    {
+      "from": "NEWS-20260913-004",
+      "to": "NEWS-20260912-004",
+      "url": "https://www.spa.gov.sa/N2674273",
+      "archiveAdjustedAt": "2026-09-14T02:00:01.415Z"
+    }
+  ],
+  "runHistory": [
+    {
+      "status": "completed",
+      "startedAt": "2026-09-14T01:00:19.583Z",
+      "completedAt": "2026-09-14T01:15:11.923Z",
+      "newCount": 4,
+      "updatedCount": 0,
+      "message": "本档案由2026-09-14上午实际采集结果补录，共4条；未在2026-09-13执行采集。"
+    }
+  ],
+  "recheckBatch": {
+    "performedAt": "2026-09-14T02:00:01.415Z",
+    "newCount": 9,
+    "updatedCount": 1,
+    "byArchiveDate": {
+      "2026-09-12": {
+        "newCount": 2,
+        "updatedCount": 1,
+        "total": 4
+      },
+      "2026-09-13": {
+        "newCount": 6,
+        "relocatedOut": 1,
+        "total": 9
+      },
+      "2026-09-14": {
+        "newCount": 1,
+        "total": 9
+      }
+    }
+  }
+}

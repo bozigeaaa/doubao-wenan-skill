@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-09-22T01:17:55.964Z",
+  "published": [
+    {
+      "date": "2026-09-19",
+      "total": 1,
+      "verified": 1,
+      "unconfirmed": 0,
+      "new": 0,
+      "updated": 0
+    },
+    {
+      "date": "2026-09-20",
+      "total": 13,
+      "verified": 9,
+      "unconfirmed": 4,
+      "new": 3,
+      "updated": 0
+    },
+    {
+      "date": "2026-09-21",
+      "total": 10,
+      "verified": 8,
+      "unconfirmed": 2,
+      "new": 7,
+      "updated": 0
+    }
+  ],
+  "browser": {
+    "dateSwitch": true,
+    "statusFilters": true,
+    "proofPopovers": true,
+    "copyIds": true,
+    "actualTimes": true,
+    "desktopMobileOverflow": false,
+    "backToTop": true,
+    "pageErrors": []
+  },
+  "preservation": [
+    {
+      "date": "2026-09-19",
+      "oldItemsUnchanged": true,
+      "completedSlots": [],
+      "total": 1
+    },
+    {
+      "date": "2026-09-20",
+      "oldItemsUnchanged": true,
+      "completedSlots": [],
+      "total": 13
+    },
+    {
+      "date": "2026-09-21",
+      "oldItemsUnchanged": true,
+      "completedSlots": [
+        "09:00",
+        "14:00"
+      ],
+      "total": 10
+    }
+  ],
+  "olderArchivesUnchanged": [
+    "2026-09-10.json",
+    "2026-09-11.json",
+    "2026-09-12.json",
+    "2026-09-13.json",
+    "2026-09-14.json",
+    "2026-09-15.json",
+    "2026-09-16.json",
+    "2026-09-17.json",
+    "2026-09-18.json"
+  ]
+}

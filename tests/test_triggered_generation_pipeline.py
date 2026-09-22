@@ -65,6 +65,8 @@ def test_machine_manifest_declares_the_complete_stage_order() -> None:
         "deduplicate_structure",
         "recheck_oralization_if_dedup_changed",
         "validate_promise_fulfillment",
+        "check_one_sentence_takeaway",
+        "check_news_landing_point",
         "recheck_facts",
         "run_b2b_quality_gate",
         "run_compliance_review",
@@ -79,6 +81,11 @@ def test_machine_manifest_declares_the_complete_stage_order() -> None:
         "adjacent_non_substitutes",
     ):
         assert required in manifest["temporary_state_required_fields"]
+    assert "viewer_one_sentence_takeaway" in manifest["temporary_state_required_fields"]
+    assert "check_one_sentence_takeaway" in stages
+    assert "check_news_landing_point" in stages
+    assert stages.index("check_one_sentence_takeaway") > stages.index("validate_promise_fulfillment")
+    assert stages.index("check_one_sentence_takeaway") < stages.index("recheck_facts")
 
     assert manifest["visible_title_handoff"] is False
     assert manifest["persistent_state_write"] == "confirmed_or_published_only"

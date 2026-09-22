@@ -1,6 +1,6 @@
 {
-  "schema_version": 3,
-  "workflow_version": "semantic-promise-v3",
+  "schema_version": 4,
+  "workflow_version": "semantic-promise-v4",
   "orchestrator": "wenan-skill",
   "humanizer": "humanizer",
   "trigger_registry": ".agents/skills/references/generation-trigger-registry.md",
@@ -21,6 +21,8 @@
     "deduplicate_structure",
     "recheck_oralization_if_dedup_changed",
     "validate_promise_fulfillment",
+    "check_one_sentence_takeaway",
+    "check_news_landing_point",
     "recheck_facts",
     "run_b2b_quality_gate",
     "run_compliance_review",
@@ -35,6 +37,7 @@
     "answer_boundary",
     "adjacent_non_substitutes",
     "content_promise",
+    "viewer_one_sentence_takeaway",
     "audience_task",
     "viewer_usable_result",
     "provable_conclusion",
@@ -51,6 +54,16 @@
     "reference_corpus_default": {
       "phase": "pre_draft",
       "rule": "Follow the flexible default length policy in generation-trigger-registry.md (approximately 500 Chinese characters, excluding title, tags and sources). No default minimum, hard maximum or fixed tolerance range; prioritize one complete evidence-supported promise. Do not pad with adjacent topics, fabricated cases or repeated conclusions."
+    }
+  },
+  "mode_overrides": {
+    "doubao_dual_use_default": {
+      "applies_to": "Doubao client default",
+      "source_doc": "docs/豆包书面图文模式.md",
+      "rule": "Doubao client default is the written+spoken dual-use mode: draft from a written structure, review by written-standards checks (check verbosity/redundancy/news-piling/AI-flavor; keep long sentences and information density), and end with an advisory close. Explicit short-video/口播 requests switch back to the Doubao oral mode in docs/豆包执行模式.md.",
+      "stage_reinterpretation": {
+        "oralization_review": "Reinterpreted as written-standards review under the dual-use mode; gates are not reduced."
+      }
     }
   },
   "conditional_branches": {

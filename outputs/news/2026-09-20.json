@@ -1,0 +1,702 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-09-20",
+  "collectedAt": "2026-09-22T01:16:35.415Z",
+  "timeZone": "Asia/Shanghai",
+  "window": "9月21日14:00批次：9月21日下午直接进站与六类英阿语检索，窗口从9月19日00:00（北京时间）至当时实际检索时点；中断后于9月22日上午续跑，补做针对19—21日的查询及候选原文核验。未将9月22日当日新闻发现列为本批已完成范围。本档按已核实原文发布日期归入2026-09-20，实际补录于9月22日。",
+  "scope": "覆盖工程项目、营地住宿、产品材料、采购招投标、合规政策、航运物流六类；本档累计13条，已核验9条，证据不足4条。本轮新增3、核验更新0、迁移0；数量不是当日全网新闻总量。",
+  "channels": [
+    [
+      "Google／Google News",
+      "直访及备用均受限",
+      "9月21日Scrapling直访超时，Firecrawl备用亦失败；实际使用关键词搜索补漏，未把搜索工具等同站内访问。"
+    ],
+    [
+      "X",
+      "直访未完成；外部检索成功",
+      "9月21日普通方式连接失败，Firecrawl不支持该入口；9月22日执行针对9月19—21日的外部查询，未将社交摘要当作事实。"
+    ],
+    [
+      "MEED",
+      "最新列表与导语成功，正文订阅受限",
+      "9月21日直接读取最新列表，发现道路报道；两种方式均未读取订阅正文，后追到Etimad公告。"
+    ],
+    [
+      "Etimad",
+      "根列表、第二页与5项详情成功；第三页受限",
+      "9月21日读取根列表及第二页；9月22日读取5项详情和道路打印页。第三页Firecrawl显示无数据，Scrapling访问被拒绝，不能视为已完整覆盖该页。"
+    ],
+    [
+      "SaudiGulfProjects",
+      "首页与候选全文成功",
+      "直接读取9月21日首页和技术许可文章；同阶段钢管、数据中心等上午已收录内容不重复新增。"
+    ],
+    [
+      "Arab News／Saudi Gazette",
+      "备用或普通方式取得业务列表",
+      "9月21日业务列表及住宅报道全文可读；未以旧页眉或刷新日定档。"
+    ],
+    [
+      "SPA",
+      "备用取得新闻列表与原文",
+      "9月21日读取20日公园运维准备、球迷道路说明；公园运维收录，道路介绍无新工程阶段，排除。"
+    ],
+    [
+      "Momah／Balady",
+      "新闻列表成功；住宿页面受限",
+      "Momah备用取得列表，最新相关17日活动已收录；Balady普通方式失败，9月22日Firecrawl备用超时。未据此称无新规。"
+    ],
+    [
+      "Maersk／Hapag-Lloyd",
+      "Maersk原文成功；Hapag列表仅壳层",
+      "核对重箱附加费通知；Qilin调整只涉亚澳，本轮不纳入沙特行业范围。Hapag备用仍未读到所需新闻条目。"
+    ],
+    [
+      "ROSHN",
+      "官方新闻列表及正文成功",
+      "9月22日追到20日初步协议，按文章正文解决列表置顶日期差异；仅收录评估阶段。"
+    ],
+    [
+      "Technip Energies",
+      "官方技术许可稿成功",
+      "9月22日读取21日一手公告，Yahoo同一企业稿仅作辅助追溯，不计独立第二来源。"
+    ],
+    [
+      "Seetao",
+      "候选原文成功，排除旧闻",
+      "9月22日读取9月18日吉达项目转述，事件为9月15日已知工程阶段，不列周末新增。"
+    ]
+  ],
+  "retrievalTools": [
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://www.meed.com/latest",
+        "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-18",
+        "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-19&src=typed_query&f=live",
+        "https://news.google.com/search?q=Saudi%20construction%20when%3A3d&hl=en-US&gl=US&ceid=US%3Aen",
+        "https://www.arabnews.com/business",
+        "https://www.saudigulfprojects.com/",
+        "https://www.spa.gov.sa/en",
+        "https://saudigazette.com.sa/business",
+        "https://www.maersk.com/news/category/advisories",
+        "https://momah.gov.sa/ar/news",
+        "https://www.hapag-lloyd.com/en/services-information/news.html",
+        "https://www.maersk.com/news/articles/2026/09/21/temporary-operational-adjustment-qilin-service",
+        "https://www.meed.com/saudi-arabia-tenders-dariya-afif-road-dualisation",
+        "https://www.arabnews.com/business/pifs-roshn-tmg-saudi-sign-preliminary-deal-for-55k-home-riyadh-project-3002406",
+        "https://www.maersk.com/news/articles/2026/09/21/heavy-load-surcharge-far-east-asia-middle-east-f1w",
+        "https://www.saudigulfprojects.com/2026/09/technip-energies-and-sabic-sign-exclusive-agreement-for-global-licensing-of-ctr-ldpe-technology/",
+        "https://www.spa.gov.sa/en/N2681046",
+        "https://www.spa.gov.sa/en/N2681123",
+        "https://balady.gov.sa/ar/all-products/10543",
+        "https://www.ten.com/en/media/press-releases/technip-energies-announce-strategic-licensing-collaboration-agreement-sabic",
+        "https://www.seetaoa.com/details/278637.html",
+        "https://www.roshn.sa/news-and-events/press-releases/article-139",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=3"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-21/14-00/access-log.json；保留9月21日与9月22日的实际抓取时间；新旧原文分别存放，非重新抓取旧缓存。"
+    },
+    {
+      "tool": "firecrawl",
+      "status": "completed",
+      "entries": [
+        "https://tenders.etimad.sa/",
+        "https://news.google.com/search?q=Saudi%20construction%20when%3A3d&hl=en-US&gl=US&ceid=US%3Aen",
+        "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-18",
+        "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-19&src=typed_query&f=live",
+        "https://www.spa.gov.sa/en",
+        "https://www.arabnews.com/business",
+        "https://momah.gov.sa/ar/news",
+        "Saudi workers accommodation construction camp after:2026-09-18 before:2026-09-22",
+        "Saudi construction infrastructure contract project after:2026-09-18 before:2026-09-22",
+        "Saudi steel building materials prefabricated after:2026-09-18 before:2026-09-22",
+        "السعودية منافسات ترسية عقود after:2026-09-18 before:2026-09-22",
+        "Saudi port shipping carrier operational update after:2026-09-18 before:2026-09-22",
+        "السعودية اشتراطات البناء سكن العمال الدفاع المدني after:2026-09-18 before:2026-09-22",
+        "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-18 before:2026-09-20",
+        "Saudi (construction OR housing OR materials OR tender OR building regulation OR shipping) after:2026-09-18 before:2026-09-20",
+        "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-19 before:2026-09-21",
+        "Saudi (construction OR housing OR materials OR tender OR building regulation OR shipping) after:2026-09-19 before:2026-09-21",
+        "السعودية (مشاريع OR سكن العمال OR مواد بناء OR منافسات OR اشتراطات OR موانئ) after:2026-09-20 before:2026-09-22",
+        "Saudi (construction OR housing OR materials OR tender OR building regulation OR shipping) after:2026-09-20 before:2026-09-22",
+        "https://www.meed.com/saudi-arabia-tenders-dariya-afif-road-dualisation",
+        "https://www.hapag-lloyd.com/en/services-information/news.html",
+        "https://www.arabnews.com/business/pifs-roshn-tmg-saudi-sign-preliminary-deal-for-55k-home-riyadh-project-3002406",
+        "https://www.spa.gov.sa/en/N2681046",
+        "https://www.spa.gov.sa/en/N2681123",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2",
+        "site:ten.com \"SABIC\" \"CTR\" \"2026\"",
+        "\"ضريه\" \"عفيف\" \"ازدواج\" \"2026\"",
+        "Technip Energies SABIC CTR licensing September 2026",
+        "ROSHN TMG \"55,000\" \"September\" \"2026\"",
+        "طلعت مصطفى روشن \"سبتمبر\" \"2026\" \"اتفاق\"",
+        "\"Dariya\" \"Afif\" \"2026\" road",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=0MAWUnvnsxRxpflD%20vt47Q==",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=GE0RSff5piAY9M%20MI%20gewg==",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=LTs%20sD%20ysDuEWuwuRwpCpA==",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=HAYyHSRdqlTl*@@**NV9WCfv9w==",
+        "https://uk.finance.yahoo.com/news/technip-energies-announce-strategic-licensing-050000491.html",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=DXTrph*@@**MVUI1PJqMzpRTVQ==",
+        "(site:roshn.sa OR site:talaatmoustafa.com OR site:egx.com.eg) \"ROSHN\" \"2026\"",
+        "https://balady.gov.sa/ar/all-products/10543",
+        "\"Technip Energies\" \"Licensing Collaboration\" \"SABIC\" site:ten.com",
+        "https://www.roshn.sa/press-releases",
+        "Saudi \"September 19, 2026\" (construction OR camp OR materials OR tender OR regulation OR shipping)",
+        "السعودية \"19 سبتمبر 2026\" (مشاريع OR عمال OR مواد OR مناقصة OR اشتراطات OR شحن)",
+        "site:x.com (\"ضرية\" \"عفيف\" OR \"Saudi construction\") after:2026-09-18 before:2026-09-22",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=3",
+        "\"ضرية\" \"عفيف\" \"ازدواج\" \"2026\"",
+        "site:x.com Saudi construction after:2026-09-18 before:2026-09-22",
+        "https://tenders.etimad.sa/Tender/OpenTenderDetailsReportForVisitor?tenderIdString=Ft2MGEZgcFTMU3n4vIVEcg=="
+      ],
+      "evidence": "outputs/news/evidence-2026-09-21/14-00/access-log.json；保留9月21日与9月22日的实际抓取时间；新旧原文分别存放，非重新抓取旧缓存。"
+    }
+  ],
+  "items": [
+    {
+      "id": "001",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "现场运营"
+      ],
+      "region": "沙特；公开基本详情未列具体执行地点",
+      "title": "第11届阿卜杜勒阿齐兹国王骆驼节采购发电机租赁及运维服务",
+      "original": "استئجار وتركيب وتشغيل وصيانة مولدات كهربائية مع تأمين جميع المتطلبات لتشغيل المولدات وتوفير الوقود لمهرجان الملك عبدالعزيز للإبل - النسخة الحادية عشر",
+      "source": "Etimad",
+      "sourceType": "政府采购公开列表与基本详情",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=KstXque*@@**dmefKFUWigKsMQ==",
+      "published": "2026-09-20（Etimad公开列表原文发布日期）",
+      "event": "采购公告发布；截止2026-10-06 09:59（平台原文标时）",
+      "eventLabel": "事件／阶段",
+      "summary": "Etimad发布第11届阿卜杜勒阿齐兹国王骆驼节发电机租赁、安装、运行、维护及燃油保障框架协议采购，参考编号260939007806，合同期45天。 投标截止为2026-10-06 09:59（平台原文标时）。",
+      "review": "读取Etimad公开列表与本条基本详情，互核采购名称、参考编号、采购方式、合同期限、发布与截止日期。普通访问受限后已实际用Firecrawl取得正文，未购买招标文件。",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "2026-09-21周一实际补录，按原文发布日期归档至2026-09-20",
+      "products": [],
+      "background": "作为工程及配套行业信息收录，现有公开范围未证实打包箱、移动卫浴、五金或薄壁轻钢的具体采购需求。",
+      "boundary": "采购发布不等于授标或开工；文件费用不作合同金额。完整数量、技术条件和资格要求须以正式招标文件为准。",
+      "reviewUrls": [
+        [
+          "Etimad公开列表",
+          "https://tenders.etimad.sa/"
+        ]
+      ],
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-21/09-00/etimad-root-fc.md",
+        "outputs/news/evidence-2026-09-21/09-00/c-tender1-fc.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-21T01:21:52.608Z",
+        "method": "政府采购列表与详情字段互核",
+        "confirmedScope": "Etimad发布第11届阿卜杜勒阿齐兹国王骆驼节发电机租赁、安装、运行、维护及燃油保障框架协议采购，参考编号260939007806，合同期45天。 投标截止为2026-10-06 09:59（平台原文标时）。",
+        "reason": "读取Etimad公开列表与本条基本详情，互核采购名称、参考编号、采购方式、合同期限、发布与截止日期。普通访问受限后已实际用Firecrawl取得正文，未购买招标文件。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "002",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "产品材料"
+      ],
+      "region": "沙特达曼",
+      "title": "达曼伊玛目阿卜杜勒拉赫曼医院采购电气检测仪器，合同期3个月",
+      "original": "إدارة مشتريات الدمام – توريد الأجهزة الكهربائية (كاشف قاطع الدائرة، مقياس الإضاءة وميجر المقياس) بمستشفى الامام عبدالرحمن بن فيصل بالدمام التابع للشؤون الصحية بوزارة الحرس الوطني DR223520",
+      "source": "Etimad",
+      "sourceType": "政府采购公开列表与基本详情",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=fIY0FEOu1gqyr17NWPoe7g==",
+      "published": "2026-09-20（Etimad公开列表原文发布日期）",
+      "event": "采购公告发布；截止2026-09-26 09:59（平台原文标时）",
+      "eventLabel": "事件／阶段",
+      "summary": "国民卫队卫生事务部门通过Etimad发布达曼伊玛目阿卜杜勒拉赫曼·本·费萨尔医院电气检测仪器直接采购，项目编号DR223520、参考编号260939006369；公开名称列出断路器查找仪、照度计和绝缘电阻测试仪，合同期3个月。 投标截止为2026-09-26 09:59（平台原文标时）。",
+      "review": "读取Etimad公开列表与本条基本详情，互核采购名称、参考编号、采购方式、合同期限、发布与截止日期。普通访问受限后已实际用Firecrawl取得正文，未购买招标文件。",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "2026-09-21周一实际补录，按原文发布日期归档至2026-09-20",
+      "products": [],
+      "background": "作为工程及配套行业信息收录，现有公开范围未证实打包箱、移动卫浴、五金或薄壁轻钢的具体采购需求。",
+      "boundary": "采购发布不等于授标或开工；文件费用不作合同金额。完整数量、技术条件和资格要求须以正式招标文件为准。",
+      "reviewUrls": [
+        [
+          "Etimad公开列表",
+          "https://tenders.etimad.sa/"
+        ]
+      ],
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-21/09-00/etimad-root-fc.md",
+        "outputs/news/evidence-2026-09-21/09-00/c-tender2-fc.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-21T01:21:52.608Z",
+        "method": "政府采购列表与详情字段互核",
+        "confirmedScope": "国民卫队卫生事务部门通过Etimad发布达曼伊玛目阿卜杜勒拉赫曼·本·费萨尔医院电气检测仪器直接采购，项目编号DR223520、参考编号260939006369；公开名称列出断路器查找仪、照度计和绝缘电阻测试仪，合同期3个月。 投标截止为2026-09-26 09:59（平台原文标时）。",
+        "reason": "读取Etimad公开列表与本条基本详情，互核采购名称、参考编号、采购方式、合同期限、发布与截止日期。普通访问受限后已实际用Firecrawl取得正文，未购买招标文件。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "003",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "合规政策"
+      ],
+      "region": "沙特利雅得",
+      "title": "利雅得阿卜杜勒阿齐兹国王医学城采购电梯及扶梯安全检测服务",
+      "original": "تقديم خدمة فحص الأمان لمصاعد اسرة المرضى ومصاعد الركاب ومصاعد البضائع والسلالم الكهربائية والسيور المتحركة في مدينة الملك عبد العزيز الطبية بالرياض التابعة للشؤون الصحية بوزارة الحرس الوطني",
+      "source": "Etimad",
+      "sourceType": "政府采购公开列表与基本详情",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=tLhPQ4MxC7DZTOchYNOolw==",
+      "published": "2026-09-20（Etimad公开列表原文发布日期）",
+      "event": "采购公告发布；截止2026-10-06 09:59（平台原文标时）",
+      "eventLabel": "事件／阶段",
+      "summary": "国民卫队卫生事务部门为利雅得阿卜杜勒阿齐兹国王医学城公开采购病床电梯、客梯、货梯、扶梯和自动人行道安全检测服务，参考编号260939004103，合同期1095天。 投标截止为2026-10-06 09:59（平台原文标时）。",
+      "review": "读取Etimad公开列表与本条基本详情，互核采购名称、参考编号、采购方式、合同期限、发布与截止日期。普通访问受限后已实际用Firecrawl取得正文，未购买招标文件。",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "2026-09-21周一实际补录，按原文发布日期归档至2026-09-20",
+      "products": [],
+      "background": "作为工程及配套行业信息收录，现有公开范围未证实打包箱、移动卫浴、五金或薄壁轻钢的具体采购需求。",
+      "boundary": "采购发布不等于授标或开工；文件费用不作合同金额。完整数量、技术条件和资格要求须以正式招标文件为准。",
+      "reviewUrls": [
+        [
+          "Etimad公开列表",
+          "https://tenders.etimad.sa/"
+        ]
+      ],
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-21/09-00/etimad-root-fc.md",
+        "outputs/news/evidence-2026-09-21/09-00/c-tender3-fc.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-21T01:21:52.608Z",
+        "method": "政府采购列表与详情字段互核",
+        "confirmedScope": "国民卫队卫生事务部门为利雅得阿卜杜勒阿齐兹国王医学城公开采购病床电梯、客梯、货梯、扶梯和自动人行道安全检测服务，参考编号260939004103，合同期1095天。 投标截止为2026-10-06 09:59（平台原文标时）。",
+        "reason": "读取Etimad公开列表与本条基本详情，互核采购名称、参考编号、采购方式、合同期限、发布与截止日期。普通访问受限后已实际用Firecrawl取得正文，未购买招标文件。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "004",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "合规政策"
+      ],
+      "region": "沙特哈克尔",
+      "title": "哈克尔海水淡化设施采购环境许可研究服务，合同期365天",
+      "original": "مشروع استخراج الرخصة البيئية لوحدة تحلية مياه البحر في حقل",
+      "source": "Etimad",
+      "sourceType": "政府采购公开列表与基本详情",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=VupofNGBgx1rH6e0sxXtLA==",
+      "published": "2026-09-20（Etimad公开列表原文发布日期）",
+      "event": "采购公告发布；截止2026-10-06 09:59（平台原文标时）",
+      "eventLabel": "事件／阶段",
+      "summary": "沙特水务局在Etimad发布哈克尔海水淡化设施环境许可项目公开采购，参考编号260939007769。工作涉及环境服务及必要研究，以支持环境管理、证书和许可的取得与维护；合同期365天。 投标截止为2026-10-06 09:59（平台原文标时）。",
+      "review": "读取Etimad公开列表与本条基本详情，互核采购名称、参考编号、采购方式、合同期限、发布与截止日期。普通访问受限后已实际用Firecrawl取得正文，未购买招标文件。",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "2026-09-21周一实际补录，按原文发布日期归档至2026-09-20",
+      "products": [],
+      "background": "作为工程及配套行业信息收录，现有公开范围未证实打包箱、移动卫浴、五金或薄壁轻钢的具体采购需求。",
+      "boundary": "采购发布不等于授标或开工；文件费用不作合同金额。完整数量、技术条件和资格要求须以正式招标文件为准。采购单位采用详情页的沙特水务局名称；不由招标目标推定许可已经取得。",
+      "reviewUrls": [
+        [
+          "Etimad公开列表",
+          "https://tenders.etimad.sa/"
+        ]
+      ],
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-21/09-00/etimad-root-fc.md",
+        "outputs/news/evidence-2026-09-21/09-00/c-tender4-fc.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-21T01:21:52.608Z",
+        "method": "政府采购列表与详情字段互核",
+        "confirmedScope": "沙特水务局在Etimad发布哈克尔海水淡化设施环境许可项目公开采购，参考编号260939007769。工作涉及环境服务及必要研究，以支持环境管理、证书和许可的取得与维护；合同期365天。 投标截止为2026-10-06 09:59（平台原文标时）。",
+        "reason": "读取Etimad公开列表与本条基本详情，互核采购名称、参考编号、采购方式、合同期限、发布与截止日期。普通访问受限后已实际用Firecrawl取得正文，未购买招标文件。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "005",
+      "category": "采购交付",
+      "tags": [
+        "采购交付",
+        "行业信息"
+      ],
+      "region": "沙特",
+      "title": "PIF宣布成立Tawrid，提供供应链融资及已确认发票提前结算服务",
+      "original": "PIF launches Tawrid to provide supply-chain financing products in Saudi Arabia",
+      "source": "PIF",
+      "sourceType": "机构官方新闻稿",
+      "url": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2026/pif-launches-tawrid-to-provide-supply-chain-financing-products-in-saudi-arabia/",
+      "published": "2026-09-20（官方新闻稿）",
+      "event": "2026-09-20宣布推出；公告称已开始运营",
+      "eventLabel": "事件／阶段",
+      "summary": "PIF宣布推出Tawrid供应链融资数字平台。官方稿称平台已获SAMA监管沙盒运营许可，可连接采购方、供应商和资金提供方，产品包括基于已确认发票的提前结算；已与GIB、SNB、BSF、ROSHN和Nesma & Partners签署约束性协议。",
+      "review": "普通抓取失败后读取Firecrawl取得的PIF官方全文，核对发布日期、监管沙盒表述、发票前提及已签协议主体。核验的是PIF实际发布的业务与启动信息。",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "2026-09-21周一实际补录，按原文发布日期归档至2026-09-20",
+      "products": [],
+      "background": "与工程供应商应收账款及采购支付机制相关；不构成融资建议或本公司已接入平台的事实。",
+      "boundary": "未确认任何具体企业的融资资格、费率、额度或放款时间；监管沙盒许可不能改写为无条件金融牌照或自动融资承诺。",
+      "reviewUrls": [],
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-21/09-00/c-pif-fc.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-21T01:21:52.608Z",
+        "method": "官方新闻稿原文核验",
+        "confirmedScope": "PIF宣布推出Tawrid供应链融资数字平台。官方稿称平台已获SAMA监管沙盒运营许可，可连接采购方、供应商和资金提供方，产品包括基于已确认发票的提前结算；已与GIB、SNB、BSF、ROSHN和Nesma & Partners签署约束性协议。",
+        "reason": "普通抓取失败后读取Firecrawl取得的PIF官方全文，核对发布日期、监管沙盒表述、发票前提及已签协议主体。核验的是PIF实际发布的业务与启动信息。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "006",
+      "category": "合规政策",
+      "tags": [
+        "合规政策",
+        "工程项目"
+      ],
+      "region": "沙特东部省达林及塔鲁特岛",
+      "title": "SPA披露达林及塔鲁特岛环境合作安排，涵盖监测数据库和项目分类",
+      "original": "Darin and Tarout Island: Historic Port of Perfumes and Sustainable Investment Destination",
+      "source": "Saudi Press Agency（SPA）",
+      "sourceType": "官方通讯社报道",
+      "url": "https://www.spa.gov.sa/en/N2681202",
+      "published": "2026-09-20 22:13沙特当地时间／19:13 GMT",
+      "event": "9月20日报道环境合作备忘录内容；签署日未披露",
+      "eventLabel": "事件／阶段",
+      "summary": "SPA报道，国家环境合规中心与达林及塔鲁特岛发展基金会的合作备忘录涵盖空气、水、土壤和噪声数据库、监测与修复优先区域、环境分类和检查机制，并拟设联合委员会推进成果转化。",
+      "review": "读取SPA官方全文，区分正文日期、文末准确标时与网页页眉；核对合作双方、数据库、监测分类及联合委员会的实际表述。",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "2026-09-21周一实际补录，按原文发布日期归档至2026-09-20",
+      "products": [],
+      "background": "作为工程及配套行业信息收录，现有公开范围未证实打包箱、移动卫浴、五金或薄壁轻钢的具体采购需求。",
+      "boundary": "这是合作安排的披露，不是新全国法规、施工授标、开工或营地采购；备忘录签署日期及单个项目清单未披露。",
+      "reviewUrls": [],
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-21/09-00/c-tarout-fc.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-21T01:21:52.608Z",
+        "method": "官方通讯社原文与文末日期核验",
+        "confirmedScope": "SPA报道，国家环境合规中心与达林及塔鲁特岛发展基金会的合作备忘录涵盖空气、水、土壤和噪声数据库、监测与修复优先区域、环境分类和检查机制，并拟设联合委员会推进成果转化。",
+        "reason": "读取SPA官方全文，区分正文日期、文末准确标时与网页页眉；核对合作双方、数据库、监测分类及联合委员会的实际表述。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "007",
+      "category": "产品材料",
+      "tags": [
+        "产品材料"
+      ],
+      "region": "沙特；具体项目未披露",
+      "title": "待证线索：Group Five据报签订2.7058亿里亚尔阿美钢管合同",
+      "original": "Group Five, Aramco sign SAR 270.6M contract",
+      "source": "Argaam；SaudiGulfProjects",
+      "sourceType": "财经及工程媒体对交易所披露的同源转述",
+      "url": "https://www.argaam.com/en/article/articledetail/id/1937721?amp",
+      "published": "2026-09-20（Argaam原文日期）",
+      "event": "媒体称9月17日签约、9月20日披露；原公告未取得",
+      "eventLabel": "事件／阶段",
+      "summary": "Argaam与SaudiGulfProjects报道，Group Five将为阿美项目制造和供应螺旋焊接钢管，合同金额2.7058亿里亚尔，合同期4个月。上述合同事实仍缺可直接核对的一手公告。",
+      "review": "读取两家媒体正文，并检查Saudi Exchange公告入口和针对原公告的检索；交易所页面未取得有效公告内容。两媒体均援引同一交易所公告，不能作为独立第二来源，故本轮未通过。",
+      "status": "unconfirmed",
+      "statusText": "证据不足",
+      "update": "2026-09-21周一实际补录，按原文发布日期归档至2026-09-20",
+      "products": [],
+      "background": "作为工程及配套行业信息收录，现有公开范围未证实打包箱、移动卫浴、五金或薄壁轻钢的具体采购需求。",
+      "boundary": "两篇报道均指向Tadawul披露，不算两个独立来源；未确认具体工程、数量或交货排程。",
+      "reviewUrls": [
+        [
+          "SaudiGulfProjects对应报道",
+          "https://www.saudigulfprojects.com/2026/09/group-five-pipe-saudi-secures-72-million-saudi-aramco-contract/"
+        ]
+      ],
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-21/09-00/ref-group-fc.md",
+        "outputs/news/evidence-2026-09-21/09-00/c-sgp1.md",
+        "outputs/news/evidence-2026-09-21/09-00/exchange-direct.md"
+      ],
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-21T01:21:52.608Z",
+        "method": "媒体全文互核与一手公告追索",
+        "confirmedScope": "已确认媒体文章及其发布日期；核心事件主张未获足够的一手或独立复核证据。",
+        "reason": "读取两家媒体正文，并检查Saudi Exchange公告入口和针对原公告的检索；交易所页面未取得有效公告内容。两媒体均援引同一交易所公告，不能作为独立第二来源，故本轮未通过。",
+        "missing": "缺少可直接核对本次签约日期、主体、金额及条件的Saudi Exchange或公司原公告；现有两媒体为同源转述。"
+      }
+    },
+    {
+      "id": "008",
+      "category": "产品材料",
+      "tags": [
+        "产品材料"
+      ],
+      "region": "沙特；具体工程地点未披露",
+      "title": "待证线索：East Pipes据报与阿美签订超过7.71亿里亚尔钢管供应合同",
+      "original": "East Pipes signs SAR 771M contract with Saudi Aramco",
+      "source": "Argaam；SaudiGulfProjects",
+      "sourceType": "财经及工程媒体对交易所披露的同源转述",
+      "url": "https://www.argaam.com/en/article/articledetail/id/1937711?amp",
+      "published": "2026-09-20（Argaam原文日期）",
+      "event": "媒体9月20日报道签约；仍缺可核对的原公告",
+      "eventLabel": "事件／阶段",
+      "summary": "Argaam与SaudiGulfProjects报道，East Pipes与阿美签订制造及供应钢管合同，金额超过7.71亿里亚尔（含增值税），期限6个月。本轮取得媒体正文，未取得其引用的交易所公告。",
+      "review": "读取两家媒体正文，并检查Saudi Exchange公告入口和针对原公告的检索；交易所页面未取得有效公告内容。两媒体均援引同一交易所公告，不能作为独立第二来源，故本轮未通过。",
+      "status": "unconfirmed",
+      "statusText": "证据不足",
+      "update": "2026-09-21周一实际补录，按原文发布日期归档至2026-09-20",
+      "products": [],
+      "background": "作为工程及配套行业信息收录，现有公开范围未证实打包箱、移动卫浴、五金或薄壁轻钢的具体采购需求。",
+      "boundary": "不得把合同额理解为净收入，亦不能由钢管订单推定新工程已开工；同源转述不算独立交叉核验。",
+      "reviewUrls": [
+        [
+          "SaudiGulfProjects对应报道",
+          "https://www.saudigulfprojects.com/2026/09/east-pipes-signs-205-million-steel-pipe-supply-contract-with-aramco/"
+        ]
+      ],
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-21/09-00/ref-pipes-fc.md",
+        "outputs/news/evidence-2026-09-21/09-00/c-sgp2.md",
+        "outputs/news/evidence-2026-09-21/09-00/exchange-direct.md"
+      ],
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-21T01:21:52.608Z",
+        "method": "媒体全文互核与一手公告追索",
+        "confirmedScope": "已确认媒体文章及其发布日期；核心事件主张未获足够的一手或独立复核证据。",
+        "reason": "读取两家媒体正文，并检查Saudi Exchange公告入口和针对原公告的检索；交易所页面未取得有效公告内容。两媒体均援引同一交易所公告，不能作为独立第二来源，故本轮未通过。",
+        "missing": "缺少可直接核对本次签约日期、主体、金额及条件的Saudi Exchange或公司原公告；现有两媒体为同源转述。"
+      }
+    },
+    {
+      "id": "009",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特；本次报道未明确单个数据中心地点",
+      "title": "待证线索：MIS与HUMAIN据报签订AI数据中心扩容协议，工单将分批下达",
+      "original": "MIS inks agreement with HUMAIN worth over SAR 8.7B",
+      "source": "Argaam；SaudiGulfProjects",
+      "sourceType": "财经及工程媒体对交易所披露的同源转述",
+      "url": "https://www.argaam.com/en/article/articledetail/id/1937727?amp",
+      "published": "2026-09-20（Argaam原文日期）",
+      "event": "媒体称9月19日签协议、9月20日披露；不同于8月授标阶段",
+      "eventLabel": "事件／阶段",
+      "summary": "Argaam与SaudiGulfProjects报道，MIS与HUMAIN签订协议，将AI数据中心设计建设范围由50MW扩大至250MW，EPC工作依后续逐批工单执行。媒体援引公告称协议金额超过2025年收入的689%（含税口径），本轮未确认原公告，亦不采用媒体换算出的固定金额。",
+      "review": "读取两家媒体正文，并检查Saudi Exchange公告入口和针对原公告的检索；交易所页面未取得有效公告内容。另检查MIS公司公告页，实际仅返回导航；检索中8月公告不是本次9月协议。两媒体均援引同一交易所公告，不能作为独立第二来源，故本轮未通过。",
+      "status": "unconfirmed",
+      "statusText": "证据不足",
+      "update": "2026-09-21周一实际补录，按原文发布日期归档至2026-09-20",
+      "products": [],
+      "background": "作为工程及配套行业信息收录，现有公开范围未证实打包箱、移动卫浴、五金或薄壁轻钢的具体采购需求。",
+      "boundary": "签订总协议不等于250MW全部工单已释放或已投产；媒体换算金额存在8.76／8.77十亿里亚尔差异，未将其作为合同确切金额。",
+      "reviewUrls": [
+        [
+          "SaudiGulfProjects对应报道",
+          "https://www.saudigulfprojects.com/2026/09/humain-mis-250mw-ai-data-center-agreement-sar-8-77-billion/"
+        ]
+      ],
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-21/09-00/c-mis-fc.md",
+        "outputs/news/evidence-2026-09-21/09-00/c-sgp3.md",
+        "outputs/news/evidence-2026-09-21/09-00/exchange-direct.md"
+      ],
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-21T01:21:52.608Z",
+        "method": "媒体全文互核与一手公告追索",
+        "confirmedScope": "已确认媒体文章及其发布日期；核心事件主张未获足够的一手或独立复核证据。",
+        "reason": "读取两家媒体正文，并检查Saudi Exchange公告入口和针对原公告的检索；交易所页面未取得有效公告内容。另检查MIS公司公告页，实际仅返回导航；检索中8月公告不是本次9月协议。两媒体均援引同一交易所公告，不能作为独立第二来源，故本轮未通过。",
+        "missing": "缺少可直接核对本次签约日期、主体、金额及条件的Saudi Exchange或公司原公告；现有两媒体为同源转述。"
+      }
+    },
+    {
+      "id": "010",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "行业统计"
+      ],
+      "region": "沙特全国",
+      "title": "待证线索：Argaam报道沙特7月建筑许可5828项，尚缺统计原表",
+      "original": "Building permits in Saudi Arabia hit 5,828 in July",
+      "source": "Argaam",
+      "sourceType": "财经媒体转述GASTAT数据",
+      "url": "https://www.argaam.com/en/article/articledetail/id/1937867?amp",
+      "published": "2026-09-20（Argaam原文）",
+      "event": "统计期为2026年7月；2026年数据标为初步值",
+      "eventLabel": "事件／阶段",
+      "summary": "Argaam报道沙特2026年7月建筑许可为5828项，2025年同月5582项、2026年6月5045项，所列同比约4%、环比约16%，并明确2026年数据为初步值。本轮未定位到可核对该指标的GASTAT原始数据表。",
+      "review": "读取Argaam全文和完整月份表，检查当地媒体列表，并以英语数字及阿语月份追查GASTAT；检索取得的建筑成本指数不是建筑许可数量，不能代替原表。",
+      "status": "unconfirmed",
+      "statusText": "证据不足",
+      "update": "2026-09-21周一实际补录，按原文发布日期归档至2026-09-20",
+      "products": [],
+      "background": "作为工程及配套行业信息收录，现有公开范围未证实打包箱、移动卫浴、五金或薄壁轻钢的具体采购需求。",
+      "boundary": "许可数量不等于开工项目数或新建营地需求；不得把初步月度数据解释为当前施工量。",
+      "reviewUrls": [],
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-21/09-00/c-permits-fc.md"
+      ],
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-21T01:21:52.608Z",
+        "method": "媒体数据表核对及统计机构原表追索",
+        "confirmedScope": "已确认媒体文章及其发布日期；核心事件主张未获足够的一手或独立复核证据。",
+        "reason": "读取Argaam全文和完整月份表，检查当地媒体列表，并以英语数字及阿语月份追查GASTAT；检索取得的建筑成本指数不是建筑许可数量，不能代替原表。",
+        "missing": "缺少GASTAT对应建筑许可原表、统计定义及本次更新依据；单一媒体数据表不足以独立确认该统计。"
+      }
+    },
+    {
+      "id": "011",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "公共建筑修缮"
+      ],
+      "region": "塔布克",
+      "sourceType": "官方公告",
+      "event": "采购公告开放；报价截止以摘要所列平台日期为准",
+      "eventLabel": "采购阶段",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "本轮新收录；9月21日下午发现，9月22日上午续跑完成核验与入档。",
+      "products": [],
+      "background": "作为行业信息收录；未确认直接产品需求。",
+      "title": "塔布克法赫德国王清真寺围墙拆除重建项目开放直接采购",
+      "original": "هدم وإعادة بناء سور جامع الملك فهد بمدينة تبوك.",
+      "source": "Etimad／采购方公告",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=DXTrph*@@**MVUI1PJqMzpRTVQ==",
+      "published": "2026-09-20（公开列表，未标时区）",
+      "summary": "伊斯兰事务部门塔布克分支就法赫德国王清真寺围墙拆除并重建发布直接采购，详情列合同期6个月。列表所示报价截止为2026年10月1日09:59（平台未标时区）。",
+      "review": "9月21日直接读取Etimad公开列表，9月22日继续读取对应详情，以参考编号260939007497匹配名称、采购方、采购类型和合同期。上述基本公告事实通过核验；未取得工程量或型号清单。",
+      "boundary": "不代表已经授标或开工，也不等于已确认具体产品适配。列表与详情的标书费用存在个别差异，本条不采用费用数字。",
+      "reviewUrls": [
+        [
+          "Etimad公开列表",
+          "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2"
+        ]
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-22T01:15:17.101Z",
+        "method": "直接读取一手公告，并核对来源标题、日期、主体及阶段。",
+        "confirmedScope": "伊斯兰事务部门塔布克分支就法赫德国王清真寺围墙拆除并重建发布直接采购，详情列合同期6个月。列表所示报价截止为2026年10月1日09:59（平台未标时区）。",
+        "reason": "9月21日直接读取Etimad公开列表，9月22日继续读取对应详情，以参考编号260939007497匹配名称、采购方、采购类型和合同期。上述基本公告事实通过核验；未取得工程量或型号清单。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "012",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "住宅开发",
+        "初步协议"
+      ],
+      "region": "利雅得",
+      "sourceType": "官方公告",
+      "event": "初步协议，后续拟开展详细总规与商业论证；签署日未单列",
+      "eventLabel": "项目阶段",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "本轮新收录；9月21日下午发现，9月22日上午续跑完成核验与入档。",
+      "products": [],
+      "background": "作为行业信息收录；未确认直接产品需求。",
+      "title": "ROSHN与TMG Saudi签初步协议，评估利雅得超过5.5万套住宅的综合社区",
+      "source": "ROSHN Group",
+      "url": "https://www.roshn.sa/news-and-events/press-releases/article-139",
+      "original": "ROSHN Group and Talaat Moustafa Group Saudi Sign a Preliminary Agreement to Establish a Joint Company to Explore and Develop a Mixed-Use Project in Riyadh",
+      "published": "2026-09-20（官网文章正文；列表置顶日期另显示19日，以正文及常规列表20日为准）",
+      "summary": "ROSHN与TMG Saudi宣布签署初步协议，拟设合资公司评估利雅得综合开发项目，拟定持股为TMG Saudi 51%、ROSHN 49%。初步研究预计超过5.5万套住宅，并配套商业、酒店、休闲、医疗、教育与公共空间；双方拟进一步开展详细总体规划和商业论证。",
+      "review": "9月21日读取Arab News报道；9月22日追到ROSHN新闻列表和文章139全文，确认主体、股比、初步研究规模与待评估阶段。列表置顶19日与文章正文20日不一致，采用文章正文20日，且常规列表和Arab News同为20日。",
+      "reviewUrls": [
+        [
+          "ROSHN新闻列表",
+          "https://www.roshn.sa/press-releases"
+        ],
+        [
+          "Arab News",
+          "https://www.arabnews.com/business/pifs-roshn-tmg-saudi-sign-preliminary-deal-for-55k-home-riyadh-project-3002406"
+        ]
+      ],
+      "boundary": "5.5万套为初步研究预期，非已批准或开工数量；不代表施工授标、明确采购需求或确定工期。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-22T01:15:17.101Z",
+        "method": "直接读取一手公告，并核对来源标题、日期、主体及阶段。",
+        "confirmedScope": "ROSHN与TMG Saudi宣布签署初步协议，拟设合资公司评估利雅得综合开发项目，拟定持股为TMG Saudi 51%、ROSHN 49%。初步研究预计超过5.5万套住宅，并配套商业、酒店、休闲、医疗、教育与公共空间；双方拟进一步开展详细总体规划和商业论证。",
+        "reason": "9月21日读取Arab News报道；9月22日追到ROSHN新闻列表和文章139全文，确认主体、股比、初步研究规模与待评估阶段。列表置顶19日与文章正文20日不一致，采用文章正文20日，且常规列表和Arab News同为20日。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "013",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "公共设施运维"
+      ],
+      "region": "北部边境省",
+      "sourceType": "官方公告",
+      "event": "国庆活动前完成设施准备，节日期间继续巡查",
+      "eventLabel": "运维阶段",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "本轮新收录；9月21日下午发现，9月22日上午续跑完成核验与入档。",
+      "products": [],
+      "background": "作为行业信息收录；未确认直接产品需求。",
+      "title": "沙特北部边境省完成130余处公园及休闲场所国庆准备",
+      "source": "Saudi Press Agency／北部边境省市政部门",
+      "url": "https://www.spa.gov.sa/en/N2681046",
+      "original": "Over 130 Parks, Recreational Areas in Northern Borders Ready for Saudi National Day Celebrations",
+      "published": "2026-09-20 18:05（沙特当地时间；15:05 GMT）",
+      "summary": "SPA援引北部边境省市政部门发言人称，市政部门及下属机构已完成130余处公园和休闲区域的国庆活动准备，包括清洁、维护和公共设施整备；现场团队将在假期继续检查服务、清洁及设施状态。",
+      "review": "读取SPA9月20日原文，核对地方主体、130余处范围与清洁维护动作，仅确认既有设施的活动前整备和假期运维安排。",
+      "boundary": "不是130处新建项目，不证明有移动卫浴、营地或其他新增采购。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-22T01:15:17.101Z",
+        "method": "直接读取一手公告，并核对来源标题、日期、主体及阶段。",
+        "confirmedScope": "SPA援引北部边境省市政部门发言人称，市政部门及下属机构已完成130余处公园和休闲区域的国庆活动准备，包括清洁、维护和公共设施整备；现场团队将在假期继续检查服务、清洁及设施状态。",
+        "reason": "读取SPA9月20日原文，核对地方主体、130余处范围与清洁维护动作，仅确认既有设施的活动前整备和假期运维安排。",
+        "missing": ""
+      }
+    }
+  ],
+  "run": {
+    "status": "completed",
+    "startedAt": "2026-09-21T06:04:45.037Z",
+    "completedAt": "2026-09-22T01:16:35.415Z",
+    "newCount": 3,
+    "updatedCount": 0,
+    "message": "9月21日下午批次中断，9月22日上午续跑完成候选核验与归档；本档新增3、核验更新0、迁移0。六类及三日已执行英阿语查询与官方/行业入口补漏；Etimad第三页、部分渠道直访与订阅正文仍受限，范围不宣称全量。旧条目未重查，原checkedAt全部保留。"
+  },
+  "backfill": {
+    "sourceDate": "2026-09-22",
+    "performedAt": "2026-09-22T01:16:35.415Z",
+    "basis": "承接9月21日下午周末补查，9月22日续跑归档；原文发布日期为本档日期，核验时间保持实际时间。"
+  },
+  "completedSlots": [],
+  "lastVerifiedAt": "2026-09-22T01:15:17.101Z"
+}

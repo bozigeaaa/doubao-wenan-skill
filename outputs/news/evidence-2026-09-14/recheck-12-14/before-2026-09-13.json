@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-09-13",
+  "collectedAt": "2026-09-14T01:15:11.922Z",
+  "timeZone": "Asia/Shanghai",
+  "window": "本页归档2026-09-13发布的新闻；于2026-09-14上午实际检索、核验并补录，保留原核验时间。",
+  "scope": "周末新闻按原文发布日期归档。收集范围与检索凭据来自2026-09-14上午批次，核验未通过的线索仍完整保留。",
+  "channels": [
+    [
+      "Google／Google News",
+      "直接访问失败或验证页",
+      "Scrapling直接检查失败；Firecrawl补读为验证页，另用Firecrawl搜索和网页工具补漏。"
+    ],
+    [
+      "X",
+      "直接访问失败",
+      "Scrapling连接失败，Firecrawl不支持该入口；社交索引不代替原始证据。"
+    ],
+    [
+      "MEED",
+      "主页及标题导语可读",
+      "实际检查最新列表及麦加地铁、杜拉PMC原文；付费正文仍受限。"
+    ],
+    [
+      "Etimad",
+      "列表及3条相关详情成功",
+      "读取9月13日列表和3条道路、排水、水务检修官方招标详情。"
+    ],
+    [
+      "官方公报／船公司",
+      "原文成功",
+      "Umm Al-Qura法规决定、Maersk第46号通知及OCR费率公告。"
+    ],
+    [
+      "媒体与官方补充核验",
+      "部分成功",
+      "Saudi Gazette、The Loadstar、Lloyd’s List转载、Reuters转载；RCRC拒绝，SPA直读为空后使用官方索引。"
+    ],
+    [
+      "六类范围覆盖",
+      "均实际检索",
+      "英阿语覆盖工程、住宿、材料、采购、政策及航运；旧闻、广告和无新增阶段的回顾排除，详见证据记录。"
+    ]
+  ],
+  "retrievalTools": [
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://www.meed.com/",
+        "https://www.google.com/search?q=Saudi+construction+September+2026&tbs=qdr:w",
+        "https://x.com/search?q=Saudi%20construction&f=live",
+        "https://news.google.com/search?q=Saudi%20construction%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+        "https://saudigazette.com.sa/article/664522/saudi-arabia/riyadh-activates-traffic-diversion-as-thumamah-road-development-advances",
+        "https://www.maersk.com/news/articles/2026/09/11/emergency-ocr-surcharge-world-to-bahrain-qatar-kuwait-iraq",
+        "https://www.maersk.com/news/articles/2026/09/11/middle-east-operational-update-46",
+        "https://www.meed.com/saudi-arabia-sets-october-deadline-for-mecca-metro-design",
+        "https://www.voxelmatters.com/artificial-engineering-3d-prints-adrena-buildings-in-saudi-arabia/",
+        "https://www.maersk.com/news/articles/2026/03/11/maersk-operations-through-strait-of-hormuz",
+        "https://theloadstar.com/cyber-attack-halts-operations-at-malaysias-tanjung-pelepas-port/",
+        "https://mykn.kuehne-nagel.com/news/article/cyber-attack-disrupts-operations-at-malaysias",
+        "https://www.uqn.gov.sa/",
+        "https://www.tbsnews.net/worldbiz/middle-east/saudis-shut-down-oil-pipeline-houthis-tighten-grip-red-sea-shipping-1540231",
+        "https://www.rcrc.gov.sa/",
+        "https://www.uqn.gov.sa/decisions-and-regulations/4001830",
+        "https://saudigazette.com.sa/article/664498/saudi-arabia/saudi-arabia-developing-over-14-gw-of-computing-capacity-to-accelerate-ai-growth",
+        "https://attaqa.net/2026/09/11/%D8%AD%D9%82%D9%84-%D8%A7%D9%84%D8%AF%D8%B1%D8%A9-%D8%A7%D9%84%D8%BA%D8%A7%D8%B2%D9%8A-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%83-%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/",
+        "https://www.uqn.gov.sa/decisions-and-regulations/4001817",
+        "https://www.uqn.gov.sa/decisions-and-regulations/4001808",
+        "https://www.spa.gov.sa/en/N2674017",
+        "https://www.meed.com/firms-submit-pmc-bids-for-dorra-gas-field-project"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-14/access-log.json及对应md、search与arabic结果文件"
+    },
+    {
+      "tool": "firecrawl",
+      "status": "completed",
+      "entries": [
+        "https://x.com/search?q=Saudi%20construction&f=live",
+        "https://www.google.com/search?q=Saudi+construction+September+2026&tbs=qdr:w",
+        "https://tenders.etimad.sa/",
+        "Saudi workers accommodation camp modular building after:2026-09-10",
+        "Saudi construction project contract awarded September 2026 after:2026-09-10",
+        "Saudi shipping port Maersk Hapag September 2026 after:2026-09-10",
+        "Saudi building regulations procurement law September 2026 after:2026-09-10",
+        "Saudi construction materials steel cement factory after:2026-09-10",
+        "Saudi tender prequalification September 2026 after:2026-09-10",
+        "https://www.maersk.com/news/",
+        "https://www.saudigazette.com.sa/",
+        "موانئ السعودية خدمات شحن سبتمبر after:2026-09-10",
+        "السعودية مشاريع ترسية عقود إنشاء سبتمبر 2026 after:2026-09-10",
+        "السعودية أنظمة اشتراطات البناء مشتريات حكومية after:2026-09-10",
+        "السعودية سكن عمال مباني جاهزة مصانع حديد أسمنت after:2026-09-10",
+        "Al Durra project management retender September 2026 Khafji Joint Operations",
+        "مترو مكة أكتوبر 2026 تصميم سبتمبر",
+        "Saudi oil pipeline attack September 13 2026 Reuters ministry energy",
+        "Tanjung Pelepas cyber attack September 2026 restored port operations",
+        "Thumamah Road diversion September 13 2026 RCRC",
+        "ADRENA Artificial Engineering 3D printed Red Sea Global September 2026",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=oY4HtPQRYhDtiU*@@**BaLF6Lg==",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=8LCvFCn*@@**9w%20wfeIU%20xL7YQ==",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=KYGfD2U5Sk8V6pFVSteGMQ=="
+      ],
+      "evidence": "outputs/news/evidence-2026-09-14/access-log.json及对应md、search与arabic结果文件"
+    },
+    {
+      "tool": "web-search",
+      "status": "completed",
+      "entries": [
+        "Thumamah Road diversion RCRC September 2026",
+        "Mecca metro design October deadline 2026",
+        "Saudi East West pipeline September 2026 SPA",
+        "Saudi road transport deadline February 27 2027",
+        "Saudi 14 GW computing capacity Al-Swaha September 2026",
+        "Tanjung Pelepas cyber attack recovery September 2026"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-14/web-1.json至web-8.json；包含实际结果和访问限制。"
+    }
+  ],
+  "items": [
+    {
+      "category": "招投标",
+      "region": "沙特／麦地那省巴德尔",
+      "published": "2026-09-13",
+      "event": "公开招标；合同期36个月",
+      "eventLabel": "项目阶段",
+      "sourceType": "政府采购平台公告",
+      "source": "Etimad／麦地那省市政部门",
+      "title": "巴德尔主要道路维护项目公开招标，合同期36个月",
+      "original": "صيانة المحاور الرئيسية للحفاظ على الكفاءه التشغيلية في نطاق بلدية محافظة بدر",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=oY4HtPQRYhDtiU*@@**BaLF6Lg==",
+      "summary": "Etimad发布巴德尔市政辖区主要道路维护招标，采购方为麦地那省市政部门，参考编号260939000667，招标编号26301012，合同期36个月。现阶段为公开招标，不能写成已经授标或开工。",
+      "review": "读取Etimad当期列表和对应详情，核对发布时间、招标名称、采购主体、参考编号及工期。工程量清单未取得，不对具体材料采购作推断。证据：p0-etimad.md、etimad-detail-0.md。 归档调整：2026-09-14补录至2026-09-13，原编号NEWS-20260914-005；事实与核验时间未变。",
+      "id": "001",
+      "tags": [
+        "招投标"
+      ],
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "2026-09-14补录｜按原文发布日期归入2026-09-13",
+      "products": [],
+      "background": "行业信息；原文没有披露四类产品的采购清单或供货关系。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T01:12:29.339Z",
+        "method": "读取原始公告并核对主体、日期与范围",
+        "confirmedScope": "Etimad发布巴德尔市政辖区主要道路维护招标，采购方为麦地那省市政部门，参考编号260939000667，招标编号26301012，合同期36个月。现阶段为公开招标，不能写成已经授标或开工。",
+        "reason": "读取Etimad当期列表和对应详情，核对发布时间、招标名称、采购主体、参考编号及工期。工程量清单未取得，不对具体材料采购作推断。证据：p0-etimad.md、etimad-detail-0.md。",
+        "missing": ""
+      },
+      "previousIds": [
+        "NEWS-20260914-005"
+      ]
+    },
+    {
+      "category": "招投标",
+      "published": "2026-09-13",
+      "event": "公开招标；合同期24个月",
+      "eventLabel": "项目阶段",
+      "sourceType": "政府采购平台公告",
+      "source": "Etimad／Saudi Water Authority",
+      "title": "沙特水务局招标修复及更换蒸汽生产单元部件",
+      "original": "إعادة تأهيل واستبدال جميع أجزاء وحدات انتاج البخار",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=KYGfD2U5Sk8V6pFVSteGMQ==",
+      "summary": "沙特水务局发布蒸汽生产单元修复与部件更换公开招标，参考编号260939000089，合同期24个月。公开范围包括蒸发器和省煤器管束、集箱及相关管路和支撑的更换，以及拆装、焊接、无损检测、水压试验、保温恢复和试运行支持。",
+      "review": "读取Etimad列表与完整公开目的说明，确认采购方、编号和24个月合同期。管束及压力系统工程不能仅因含金属部件就映射为公司普通五金。证据：p0-etimad.md、etimad-detail-1.md。 归档调整：2026-09-14补录至2026-09-13，原编号NEWS-20260914-006；事实与核验时间未变。",
+      "background": "水务设施检修工程信息；尚无公司具备相应压力部件或工程承包能力的证据，不强配五金。",
+      "id": "002",
+      "tags": [
+        "招投标"
+      ],
+      "region": "沙特",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "2026-09-14补录｜按原文发布日期归入2026-09-13",
+      "products": [],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T01:12:29.339Z",
+        "method": "读取原始公告并核对主体、日期与范围",
+        "confirmedScope": "沙特水务局发布蒸汽生产单元修复与部件更换公开招标，参考编号260939000089，合同期24个月。公开范围包括蒸发器和省煤器管束、集箱及相关管路和支撑的更换，以及拆装、焊接、无损检测、水压试验、保温恢复和试运行支持。",
+        "reason": "读取Etimad列表与完整公开目的说明，确认采购方、编号和24个月合同期。管束及压力系统工程不能仅因含金属部件就映射为公司普通五金。证据：p0-etimad.md、etimad-detail-1.md。",
+        "missing": ""
+      },
+      "previousIds": [
+        "NEWS-20260914-006"
+      ]
+    },
+    {
+      "category": "招投标",
+      "region": "沙特／阿西尔省艾卜哈",
+      "published": "2026-09-13",
+      "event": "公开招标；合同期720天",
+      "eventLabel": "项目阶段",
+      "sourceType": "政府采购平台公告",
+      "source": "Etimad／阿西尔省市政部门",
+      "title": "艾卜哈雨水积水点整治及排水网络修复项目招标",
+      "original": "مشروع صيانة ومعالجة نقاط تجمع مياه الامطار وتأهيل واستكمال بعض شبكات تصريف مياه الأمطار في أبها",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=8LCvFCn*@@**9w%20wfeIU%20xL7YQ==",
+      "summary": "阿西尔省市政部门发布艾卜哈雨水积水点维护整治及部分雨水排水网络修复、完善项目公开招标，参考编号260839000680，招标编号1576996，合同期720天。",
+      "review": "读取Etimad列表及官方详情，核对项目名称、编号、采购方与工期。未取得工程量清单，不能写成移动卫浴、营地或指定五金采购。证据：p0-etimad.md、etimad-detail-4.md。 归档调整：2026-09-14补录至2026-09-13，原编号NEWS-20260914-007；事实与核验时间未变。",
+      "id": "003",
+      "tags": [
+        "招投标"
+      ],
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "2026-09-14补录｜按原文发布日期归入2026-09-13",
+      "products": [],
+      "background": "行业信息；原文没有披露四类产品的采购清单或供货关系。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T01:12:29.339Z",
+        "method": "读取原始公告并核对主体、日期与范围",
+        "confirmedScope": "阿西尔省市政部门发布艾卜哈雨水积水点维护整治及部分雨水排水网络修复、完善项目公开招标，参考编号260839000680，招标编号1576996，合同期720天。",
+        "reason": "读取Etimad列表及官方详情，核对项目名称、编号、采购方与工期。未取得工程量清单，不能写成移动卫浴、营地或指定五金采购。证据：p0-etimad.md、etimad-detail-4.md。",
+        "missing": ""
+      },
+      "previousIds": [
+        "NEWS-20260914-007"
+      ]
+    },
+    {
+      "category": "工程项目",
+      "published": "2026-09-13",
+      "event": "报道称实施施工交通导改；具体启用日未独立确认",
+      "sourceType": "媒体原文／核验未通过",
+      "source": "Saudi Gazette",
+      "status": "unconfirmed",
+      "title": "待证线索：利雅得Thumamah路施工交通导改",
+      "original": "Riyadh activates traffic diversion as Thumamah Road development advances",
+      "url": "https://saudigazette.com.sa/article/664522/saudi-arabia/riyadh-activates-traffic-diversion-as-thumamah-road-development-advances",
+      "summary": "Saudi Gazette于9月13日报道，利雅得皇家委员会因Thumamah路东段桥梁及隧道施工实施交通导改。该轮导改的官方公告和准确启用日期未取得独立佐证。",
+      "review": "已读报道全文，定向英文和阿语搜索并尝试RCRC官网。官网返回拒绝页面，补漏只得到同源转载、社交索引及旧工程报道，不满足独立复核条件。证据：thumamah.md、rcrc-index.md、verify-thumamah.json与web记录。 归档调整：2026-09-14补录至2026-09-13，原编号NEWS-20260914-011；事实与核验时间未变。",
+      "background": "暂存工程线索；未通过事实核验，不能直接用于文案。",
+      "id": "004",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "statusText": "未通过：证据不足",
+      "update": "2026-09-14补录｜按原文发布日期归入2026-09-13",
+      "products": [],
+      "eventLabel": "事件日期",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-14T01:12:29.339Z",
+        "method": "读取原始公告并核对主体、日期与范围",
+        "confirmedScope": "已确认所列媒体发布了这条报道；核心事件证据不足。",
+        "reason": "已读报道全文，定向英文和阿语搜索并尝试RCRC官网。官网返回拒绝页面，补漏只得到同源转载、社交索引及旧工程报道，不满足独立复核条件。证据：thumamah.md、rcrc-index.md、verify-thumamah.json与web记录。",
+        "missing": "RCRC本轮导改原始公告，或可独立核对启用日期及准确范围的可靠报道。"
+      },
+      "previousIds": [
+        "NEWS-20260914-011"
+      ]
+    }
+  ],
+  "run": {
+    "status": "completed",
+    "startedAt": "2026-09-14T01:00:19.583Z",
+    "completedAt": "2026-09-14T01:15:11.923Z",
+    "newCount": 4,
+    "updatedCount": 0,
+    "message": "本档案由2026-09-14上午实际采集结果补录，共4条；未在2026-09-13执行采集。"
+  },
+  "completedSlots": [],
+  "lastVerifiedAt": "2026-09-14T01:12:29.339Z",
+  "backfill": {
+    "sourceDate": "2026-09-14",
+    "performedAt": "2026-09-14T01:27:36.621Z",
+    "basis": "原文已核实的发布日期"
+  }
+}

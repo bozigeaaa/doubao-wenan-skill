@@ -1,0 +1,516 @@
+[
+  {
+    "tool": "scrapling",
+    "url": "https://www.meed.com/latest",
+    "at": "2026-09-14T01:47:09.710Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/p0-meed-latest.md",
+    "result": "received latest list; latest shown date Sep11",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-11+before%3A2026-09-15",
+    "result": "connection timeout",
+    "attemptWindow": "2026-09-14T01:47:09Z–2026-09-14T01:47:45Z"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://news.google.com/search?q=Saudi%20construction%20after%3A2026-09-11%20before%3A2026-09-15&hl=en-US&gl=US&ceid=US%3Aen",
+    "result": "connection timeout",
+    "attemptWindow": "2026-09-14T01:47:09Z–2026-09-14T01:47:45Z"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-12%20until%3A2026-09-15&f=live",
+    "result": "connection timeout",
+    "attemptWindow": "2026-09-14T01:47:09Z–2026-09-14T01:47:45Z"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-12%20until%3A2026-09-15&f=live",
+    "at": "2026-09-14T01:49:20.829Z",
+    "result": "failed",
+    "error": "Error: We apologize for the inconvenience but we do not support this site. If you are part of an enterprise and want to have a further conversation about this, please fill out our intake form here: https://fk4bvu0n5qp.typeform.com/to/Ej6oydlg\n"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "Saudi construction infrastructure contracts projects after:2026-09-11 before:2026-09-13",
+    "at": "2026-09-14T01:49:20.833Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/sep12-project-search.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "Saudi construction infrastructure contracts projects after:2026-09-13 before:2026-09-15",
+    "at": "2026-09-14T01:49:20.837Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/sep14-project-search.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "Saudi construction infrastructure contracts projects after:2026-09-12 before:2026-09-14",
+    "at": "2026-09-14T01:49:20.835Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/sep13-project-search.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-11+before%3A2026-09-15",
+    "at": "2026-09-14T01:49:20.826Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/p0-google-alternative.md",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1",
+    "at": "2026-09-14T01:49:20.831Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/etimad-page1-fresh.md",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.arabnews.com/saudi-arabia",
+    "at": "2026-09-14T01:49:49.910Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/arabnews-index.md",
+    "result": "empty",
+    "contentLevel": "空内容"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://saudigazette.com.sa/saudi-arabia",
+    "at": "2026-09-14T01:49:49.912Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/gazette-index.md",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.argaam.com/ar",
+    "at": "2026-09-14T01:49:49.914Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/argaam-index.md",
+    "result": "empty",
+    "contentLevel": "空内容"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.spa.gov.sa/en",
+    "at": "2026-09-14T01:49:49.916Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/spa-index.md",
+    "result": "empty",
+    "contentLevel": "空内容"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "السعودية مشاريع بنية تحتية \"13 سبتمبر 2026\"",
+    "at": "2026-09-14T01:49:49.921Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/arabic13-project.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "السعودية مشاريع بنية تحتية \"12 سبتمبر 2026\"",
+    "at": "2026-09-14T01:49:49.918Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/arabic12-project.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "السعودية مشاريع بنية تحتية \"14 سبتمبر 2026\"",
+    "at": "2026-09-14T01:49:49.923Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/arabic14-project.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://www.arabnews.com/saudi-arabia",
+    "at": "2026-09-14T01:50:09.295Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/arabnews-fresh.md",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://www.argaam.com/ar",
+    "at": "2026-09-14T01:50:09.297Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/argaam-fresh.md",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://www.spa.gov.sa/en",
+    "at": "2026-09-14T01:50:09.298Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/spa-fresh.md",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2",
+    "at": "2026-09-14T01:50:09.300Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/etimad-page2.md",
+    "result": "received",
+    "contentLevel": "受限页面或未加载列表"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://www.arabnews.com/saudi-arabia/133m-investment-push-targets-green-projects-3001567",
+    "at": "2026-09-14T01:53:20.617Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/green-investment.md",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://sca.sa/ar/news",
+    "at": "2026-09-14T01:53:20.624Z",
+    "result": "failed",
+    "error": "Error: All scraping engines failed to retrieve content from this URL. Engines tried: [fire-engine;chrome-cdp;stealth, fire-engine(retry);chrome-cdp;stealth, pdf, document, image]. This usually happens when: (1) The URL is invalid or the page doesn't exist (404), (2) The website is blocking automated access, (3) The website is down or unreachable, (4) The page requires authentication. Double check the URL is correct and accessible in a browser. If the issue persists, contact us at help@firecrawl.com with your request ID for investigation.\n"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://www.spa.gov.sa/en/N2675486",
+    "at": "2026-09-14T01:53:20.614Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/roshn-spa.md",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://www.spa.gov.sa/en/N2674295",
+    "at": "2026-09-14T01:53:20.611Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/compute-spa.md",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://www.arabnews.com/saudi-arabia/kings-college-riyadh-sedra-campus-set-to-open-in-2027-enhancing-education-quality-3001332",
+    "at": "2026-09-14T01:53:20.619Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/sedra-school.md",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://ncp.gov.sa/ar/MediaCenter/News/Pages/EOI-JDAMakkah.aspx",
+    "at": "2026-09-14T01:53:20.622Z",
+    "result": "failed",
+    "error": "Command failed: C:/Program Files/nodejs/node.exe C:/Users/Windows/AppData/Roaming/npm/node_modules/firecrawl-cli/dist/index.js scrape https://ncp.gov.sa/ar/MediaCenter/News/Pages/EOI-JDAMakkah.aspx --only-main-content --max-age 0 -o D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/ncp-makkah.md\n"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "\"الثمامة\" \"سبتمبر\" \"2026\" تطوير",
+    "at": "2026-09-14T01:54:20.270Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/thumamah-source.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "السعودية اشتراطات تراخيص مقاولين \"سبتمبر 2026\" after:2026-09-11 before:2026-09-15",
+    "at": "2026-09-14T01:54:20.264Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/compliance-recheck.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "Saudi NCVC 103 investment opportunities September 2026",
+    "at": "2026-09-14T01:54:20.266Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/ncvc-source.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "Saudi ports shipping logistics freight September 12 13 14 2026 after:2026-09-11",
+    "at": "2026-09-14T01:54:20.262Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/shipping-recheck.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "Saudi construction camp accommodation steel cement September 12 13 14 2026 after:2026-09-11",
+    "at": "2026-09-14T01:54:20.257Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/materials-camps.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "السعودية حديد أسمنت سكن العمال مخيمات after:2026-09-11 before:2026-09-15",
+    "at": "2026-09-14T01:54:20.259Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/ar-materials-camps.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://aawsat.com/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/5317805-%D8%AA%D9%88%D9%82%D9%8A%D8%B9-%D8%B9%D9%82%D8%AF-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D9%81%D9%87%D8%AF-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D9%88%D8%B1%D9%81%D8%B9-%D8%B7%D8%A7%D9%82%D8%AA%D9%87-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D8%B9%D8%A7%D8%A8%D9%8A%D8%A9-%D8%A5%D9%84%D9%89-32-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D9%85%D8%B3%D8%A7%D9%81%D8%B1",
+    "at": "2026-09-14T01:54:23.409Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/airport-aawsat.md",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "site:spa.gov.sa \"الثمامة\" \"سبتمبر\" \"2026\"",
+    "at": "2026-09-14T01:54:36.601Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/thumamah-spa.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "site:spa.gov.sa \"103\" \"2026\" \"الغطاء\"",
+    "at": "2026-09-14T01:54:36.599Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/ncvc-spa.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "site:wsp.com \"Dammam\" \"2026\" September",
+    "at": "2026-09-14T01:54:36.591Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/airport-wsp.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "site:saudiexchange.sa \"مياهنا\" \"2026-09-13\"",
+    "at": "2026-09-14T01:54:36.597Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/miahona-exchange.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "site:spa.gov.sa \"مطار الملك فهد\" \"سبتمبر\" \"2026\"",
+    "at": "2026-09-14T01:54:36.593Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/airport-spa.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "site:saudiexchange.sa \"الماجدية\" \"2026-09-13\"",
+    "at": "2026-09-14T01:54:36.595Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/almajdiah-exchange.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://www.spa.gov.sa/N2674273",
+    "at": "2026-09-14T01:54:51.037Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/thumamah-primary.md",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://www.spa.gov.sa/N2675241",
+    "at": "2026-09-14T01:54:51.033Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/airport-primary.md",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://www.spa.gov.sa/N2674811",
+    "at": "2026-09-14T01:54:51.035Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/ncvc-primary.md",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://www.argaam.com/ar/article/articledetail/id/1935911",
+    "at": "2026-09-14T01:54:51.042Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/tam-argaam.md",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://www.argaam.com/ar/article/articledetail/id/1935914",
+    "at": "2026-09-14T01:54:51.039Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/miahona-argaam.md",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "site:spa.gov.sa \"14 سبتمبر 2026\" اقتصادي",
+    "at": "2026-09-14T01:55:33.895Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/sep14-spa-econ.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "\"مياهنا\" \"شاس\" \"سبتمبر\" \"2026\"",
+    "at": "2026-09-14T01:55:33.897Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/miahona-exact.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "site:spa.gov.sa \"12 سبتمبر 2026\" مشروع",
+    "at": "2026-09-14T01:55:33.893Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/sep12-spa-project.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "site:spa.gov.sa \"12 سبتمبر 2026\" اقتصادي",
+    "at": "2026-09-14T01:55:33.891Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/sep12-spa-econ.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "search",
+    "query": "\"الماجدية\" \"296\" \"سبتمبر\" \"2026\"",
+    "at": "2026-09-14T01:55:33.899Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/almajdiah-exact.json",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "\"الماجدية\" \"185\" \"site:saudiexchange.sa/wps/portal/saudiexchange/newsandreports\"",
+    "at": "2026-09-14T01:55:48.442Z",
+    "result": "failed",
+    "error": "Error: You've hit Firecrawl's keyless free tier rate limit. To continue now, create a free API key at https://www.firecrawl.dev/signin.\n\nThen authenticate with:\nAuthorization: Bearer YOUR_API_KEY\n"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://www.spa.gov.sa/N2674326",
+    "at": "2026-09-14T01:55:48.434Z",
+    "result": "failed",
+    "error": "Error: You've hit Firecrawl's keyless free tier rate limit. To continue now, create a free API key at https://www.firecrawl.dev/signin.\n\nThen authenticate with:\nAuthorization: Bearer YOUR_API_KEY\n"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "site:spa.gov.sa \"أمانة حائل\" \"12 سبتمبر 2026\"",
+    "at": "2026-09-14T01:55:48.438Z",
+    "result": "failed",
+    "error": "Error: You've hit Firecrawl's keyless free tier rate limit. To continue now, create a free API key at https://www.firecrawl.dev/signin.\n\nThen authenticate with:\nAuthorization: Bearer YOUR_API_KEY\n"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://www.spa.gov.sa/N2674474",
+    "at": "2026-09-14T01:55:48.433Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/jibex-primary.md",
+    "result": "received",
+    "contentLevel": "已取得页面或检索结果"
+  },
+  {
+    "tool": "firecrawl",
+    "mode": "scrape max-age=0",
+    "url": "https://www.miahona.com/ar/announcements",
+    "at": "2026-09-14T01:55:48.436Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/miahona-primary-index.md",
+    "result": "received",
+    "contentLevel": "受限页面或未加载列表"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2",
+    "at": "2026-09-14T01:56:36.828Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/etimad-page2-scrapling.md",
+    "result": "received",
+    "contentLevel": "受限页面或未加载列表"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.spa.gov.sa/N2674326",
+    "at": "2026-09-14T01:56:36.826Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/cifit-scrapling.md",
+    "result": "empty",
+    "contentLevel": "空内容"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.alarabiya.net/aswaq/companies/2026/09/13/%D8%A7%D9%84%D9%85%D8%A7%D8%AC%D8%AF%D9%8A%D8%A9-%D8%AA%D8%AA%D8%B9%D8%A7%D9%82%D8%AF-%D8%B9%D9%84%D9%89-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-296-%D9%88%D8%AD%D8%AF%D8%A9-%D8%B3%D9%83%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9",
+    "at": "2026-09-14T01:57:17.018Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/almajdiah-arabia.md",
+    "result": "received",
+    "contentLevel": "受限页面或未加载列表"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.mubasher.info/news/4671227/-%D9%85%D9%8A%D8%A7%D9%87%D9%86%D8%A7-%D8%AA%D8%AD%D8%B5%D9%84-%D8%B9%D9%84%D9%89-%D9%85%D9%88%D8%A7%D9%81%D9%82%D8%A9-%D9%87%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%AD%D9%88%D8%A7%D8%B0-%D8%B9%D9%84%D9%89-%D8%B4%D8%A7%D8%B3-%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87-/",
+    "at": "2026-09-14T01:57:17.020Z",
+    "file": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main/outputs/news/evidence-2026-09-14/recheck-12-14/miahona-mubasher.md",
+    "result": "received",
+    "contentLevel": "受限页面或未加载列表"
+  },
+  {
+    "tool": "web-search",
+    "mode": "search/open/click",
+    "at": "2026-09-14T02:00:01.415Z",
+    "evidence": [
+      "web-1.json",
+      "web-2.json",
+      "web-3.json",
+      "web-4.json",
+      "web-5.json"
+    ],
+    "result": "读取媒体正文和官方公告组件；部分官方页面为空，详见逐条结果"
+  }
+]

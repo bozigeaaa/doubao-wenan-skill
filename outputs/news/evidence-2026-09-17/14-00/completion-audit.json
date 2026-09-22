@@ -1,0 +1,60 @@
+{
+  "at": "2026-09-17T06:19:09.744Z",
+  "historicalArchives": [
+    {
+      "file": "2026-09-10.json",
+      "unchanged": true
+    },
+    {
+      "file": "2026-09-11.json",
+      "unchanged": true
+    },
+    {
+      "file": "2026-09-12.json",
+      "unchanged": true
+    },
+    {
+      "file": "2026-09-13.json",
+      "unchanged": true
+    },
+    {
+      "file": "2026-09-14.json",
+      "unchanged": true
+    },
+    {
+      "file": "2026-09-15.json",
+      "unchanged": true
+    },
+    {
+      "file": "2026-09-16.json",
+      "unchanged": true
+    }
+  ],
+  "preservedMorningItems001to011": true,
+  "updatedOldItems": [
+    "012"
+  ],
+  "newItems": [
+    "013",
+    "014",
+    "015",
+    "016",
+    "017"
+  ],
+  "total": 17,
+  "verified": 14,
+  "unconfirmed": 3,
+  "slots": [
+    "09:00",
+    "14:00"
+  ],
+  "uiCheck": "qa-result.txt",
+  "mobileImage": "report-mobile.png",
+  "due09": {
+    "due": false,
+    "date": "2026-09-17",
+    "slot": "09:00",
+    "reason": "slot_completed",
+    "report": "D:\\wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）\\wenan-skill-main\\outputs\\news\\2026-09-17.json"
+  }
+}

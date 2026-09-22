@@ -1,0 +1,782 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-09-10",
+  "collectedAt": "2026-09-10T07:36:08.254Z",
+  "timeZone": "Asia/Shanghai",
+  "window": "主要检索2026-08-27至2026-09-10；另收录近期生效的较早航运通知",
+  "scope": "沙特工程、营地、材料、采购及相关海湾项目和航运。一次性收集，不代表全网无遗漏。",
+  "items": [
+    {
+      "id": "001",
+      "category": "航运物流",
+      "tags": [
+        "航运物流"
+      ],
+      "region": "中东／沙特东西海岸",
+      "event": "2026-09-09 更新",
+      "eventLabel": "事件日期",
+      "source": "Maersk",
+      "sourceType": "船公司官方通知",
+      "status": "verified",
+      "statusText": "官方正文已核对",
+      "update": "本轮新收录",
+      "products": [
+        [
+          "打包箱",
+          "条件适配：仅限实际使用马士基相关服务进口该产品或其部件的订单。港口、货类与境内运输条件共同影响到场安排；沙特本地现货不自动受到相同影响。"
+        ],
+        [
+          "移动卫浴",
+          "条件适配：仅限实际使用马士基相关服务进口该产品或其部件的订单。港口、货类与境内运输条件共同影响到场安排；沙特本地现货不自动受到相同影响。"
+        ],
+        [
+          "五金",
+          "条件适配：仅限实际使用马士基相关服务进口该产品或其部件的订单。港口、货类与境内运输条件共同影响到场安排；沙特本地现货不自动受到相同影响。"
+        ],
+        [
+          "薄壁轻钢",
+          "条件适配：仅限实际使用马士基相关服务进口该产品或其部件的订单。港口、货类与境内运输条件共同影响到场安排；沙特本地现货不自动受到相同影响。"
+        ]
+      ],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已直接读取马士基完整客户通知，核对干货订舱表与境内运输段落。具体订单须再次核对货类与订舱系统。",
+      "boundary": "不能概括为沙特全部港口关闭或全部船公司停运；超限货、危险品和冷藏货不能套用普通干货规则。",
+      "title": "马士基更新中东订舱安排：沙特东西岸港口适用条件不同",
+      "original": "Middle East Operational Update 45",
+      "published": "2026-09-09",
+      "url": "https://www.maersk.com/news/articles/2026/09/09/middle-east-operational-update-45",
+      "summary": "9月9日通知显示，普通干货往返达曼、朱拜勒的订舱暂停；吉达和阿卜杜拉国王港仍接受相应干货订舱。通知同时列出吉达港至利雅得、达曼的沙特境内承运人拖车方案，服务仍受运力可用性约束。不同货类另有规则。",
+      "shipping": [
+        [
+          "运输方式",
+          "集装箱海运＋沙特境内陆运"
+        ],
+        [
+          "适用范围",
+          "马士基本通知列明的港口、货类与服务"
+        ],
+        [
+          "时效",
+          "未提供统一到场承诺"
+        ],
+        [
+          "费用",
+          "不把其他货类的费用套用于普通干货"
+        ]
+      ]
+    },
+    {
+      "id": "002",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "营地住宿"
+      ],
+      "region": "沙特",
+      "event": "2026-09-06 公告",
+      "eventLabel": "事件日期",
+      "source": "Acwa",
+      "sourceType": "项目公司官方公告",
+      "status": "verified",
+      "statusText": "官方正文已核对",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "可跟踪大型项目员工生活区与公共设施的运营衔接。新闻没有披露新建宿舍或移动卫浴采购，暂不推荐产品。",
+      "review": "已直接读取Acwa公告，并核对同事件的行业媒体报道；本条只采用公告明确披露的服务范围和运营节点。",
+      "boundary": "商业运营不等于所有建设全部完成，也不证明出现新的临建采购；不将“员工村”擅自改写为临时施工营地。",
+      "title": "红海项目综合公用设施进入商业运营，覆盖员工村等设施",
+      "original": "Acwa-led consortium reaches commercial operation at The Red Sea, the world’s largest off-grid renewable utilities system",
+      "published": "2026-09-06",
+      "url": "https://www.acwapower.com/en/media-center/latest-news/acwa-led-consortium-reaches-commercial-operation-at-the-red-sea-the-world-s-largest-off-grid-renewable-utilities-system/",
+      "summary": "Acwa宣布红海目的地公用设施达到项目商业运营节点，范围包括供电、供水、污水、区域供冷和废弃物管理。公告明确服务对象包含运营酒店、机场、物流枢纽、员工村和社区设施。"
+    },
+    {
+      "id": "003",
+      "category": "产品与材料",
+      "tags": [
+        "产品与材料",
+        "营地住宿"
+      ],
+      "region": "全球／包含沙特营地业务介绍",
+      "event": "2026-09-07 发布",
+      "eventLabel": "事件日期",
+      "source": "Lida Group／PR Newswire",
+      "sourceType": "企业自行发布新闻稿",
+      "status": "verified",
+      "statusText": "企业发布内容已核对",
+      "update": "本轮新收录",
+      "products": [
+        [
+          "打包箱",
+          "同类方案比较线索：原文明确涉及container houses和营地整体交付，可围绕“单个房箱与完整营地交付范围如何比较”核对双方资料。具体箱型是否为打包箱仍须查型号，不能直接等同。"
+        ]
+      ],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已直接读取PR Newswire原稿。确认的是企业发布了这些信息，案例、规模和效果尚未逐个独立验证。",
+      "boundary": "不把企业自述当独立评价；不把旧案例当本周新订单；steel structure不自动等于薄壁轻钢。",
+      "title": "Lida发布模块化建筑服务扩展信息，强调营地整体交付",
+      "original": "Lida Group Expands Integrated Modular Construction Services for Large Scale Global Projects",
+      "published": "2026-09-07",
+      "url": "https://www.prnewswire.com/news-releases/lida-group-expands-integrated-modular-construction-services-for-large-scale-global-projects-302870989.html",
+      "summary": "Lida在企业新闻稿中介绍模块化建筑服务扩展，涵盖设计、工厂生产、物流及现场安装，并提及集装箱房、预制房和营地配套建筑。稿件引用既往项目组合，本次没有披露新的沙特项目授标。"
+    },
+    {
+      "id": "004",
+      "category": "航运物流",
+      "tags": [
+        "航运物流"
+      ],
+      "region": "欧洲—沙特吉达",
+      "event": "2026-09-01",
+      "eventLabel": "适用起日",
+      "source": "Hapag-Lloyd",
+      "sourceType": "船公司官方通知",
+      "status": "verified",
+      "statusText": "官方正文已核对",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "这是危险品运输费用信息，没有证据表明本项目四类产品的具体货物属于其适用危险品。",
+      "review": "已核对官方通知正文及中东动态汇总页中的8月18日发布记录。",
+      "boundary": "不能写成普通干货或全部沙特航线每箱涨价1,000美元。",
+      "title": "赫伯罗特调整欧洲—吉达危险品附加费，9月1日起适用",
+      "original": "Shipping from Europe to Jeddah, Saudi Arabia? An increase to the Dangerous Goods Premium (DGP) is coming up",
+      "published": "2026-08-18",
+      "url": "https://www.hapag-lloyd.com/en/services-information/news/2026/08/shipping-from-north-europe-and-mediterranean-sea-to-jeddah--saud.headless.html",
+      "summary": "官方通知列明，9月1日起相关航次的危险品附加费每箱增加1,000美元，适用载运危险品的箱型，但危险品第1类与第7类除外。此条按近期生效日期收录，发布日并非9月。",
+      "reviewUrls": [
+        [
+          "官方汇总页",
+          "https://www.hapag-lloyd.com/en/services-information/news/2026/03/live-ticker-middle-east-faq.html"
+        ]
+      ],
+      "shipping": [
+        [
+          "货类",
+          "危险品；第1类、第7类除外"
+        ],
+        [
+          "费用口径",
+          "现有DGP增加1,000美元／箱"
+        ],
+        [
+          "生效条件",
+          "2026-09-01起相关航次，至另行通知"
+        ]
+      ]
+    },
+    {
+      "id": "005",
+      "category": "产品与材料",
+      "tags": [
+        "产品与材料",
+        "工程项目"
+      ],
+      "region": "沙特利雅得",
+      "event": "2026-09-02 闭幕",
+      "eventLabel": "事件日期",
+      "source": "Big 5 Construct Saudi",
+      "sourceType": "主办方官方新闻稿",
+      "status": "verified",
+      "statusText": "主办方正文已核对",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "可用于了解建筑与设施管理行业议题。当前没有与四类产品形成同一内容承诺的具体信息。",
+      "review": "已直接读取主办方对应日期新闻稿；页面导航中的未来展期未当作本次事件日期。",
+      "boundary": "不能据此推断存在打包箱、移动卫浴、五金或薄壁轻钢采购需求，也不能暗示东方骆驼参与该项目。",
+      "title": "Big 5沙特展发布闭幕信息，关注设施管理与工程交付",
+      "original": "Big 5 Construct Saudi spotlights pathway to sustainable future and long-term partnerships for the Kingdom’s construction industry",
+      "published": "2026-09-02",
+      "url": "https://www.big5constructsaudi.com/big-5-construct-saudi-pathway-to-sustainable-future/",
+      "summary": "主办方9月2日发布四天展会的闭幕信息，回顾建筑、暖通、设施管理及清洁等领域的展示与合作交流。收录为材料和项目交付行业动态，新闻稿没有证明特定产品获得新增采购。"
+    },
+    {
+      "id": "006",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特东部／海夫吉",
+      "event": "2026-09-07 公告",
+      "eventLabel": "事件日期",
+      "source": "PIF",
+      "sourceType": "官方公告的搜索索引内容",
+      "status": "pending",
+      "statusText": "官方索引已读 · 原页受限",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "取得官方公告索引内容及The National同题报道线索；直访PIF返回访问保护页，未将索引读取记为官网直访成功。",
+      "boundary": "公司成立和开发规划不等于施工授标；未核实招标包、营地配置或具体临建采购。",
+      "title": "PIF宣布成立海湾海岸开发公司，推进海夫吉滨海综合开发",
+      "original": "PIF launches Gulf Coast Development Company to deliver an integrated coastal destination in Al-Khafji in Saudi Arabia’s Eastern Province",
+      "published": "2026-09-07",
+      "url": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2026/pif-launches-gulf-coast-development-company-to-deliver-an-integrated-coastal-destination-in-al-khafji-in-saudi-arabia-eastern-province/",
+      "summary": "PIF官方公告的可读索引显示，新成立的海湾海岸开发公司将推进海夫吉旅游和住宅综合开发，拟分期实施。官网直访被访问保护拦截，本条保留为待复核项目线索。",
+      "reviewUrls": [
+        [
+          "The National同事件报道",
+          "https://www.thenationalnews.com/business/economy/2026/09/07/pif-launches-property-developer-for-al-khafji-coastal-project-near-kuwait/"
+        ]
+      ]
+    },
+    {
+      "id": "007",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "招投标"
+      ],
+      "region": "沙特塔布克",
+      "event": "2026-09-09 公告",
+      "eventLabel": "事件日期",
+      "source": "沙特通讯社 SPA",
+      "sourceType": "官方通讯社索引内容",
+      "status": "pending",
+      "statusText": "官方索引已读 · 原页待补",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已取得SPA阿拉伯语公告索引，Arab News转述同一事件；SPA直接抓取正文为空，尚未核对投资文件。",
+      "boundary": "不能将ready-built factories翻译为已确定采用某种预制结构，亦不能把投资机会当施工合同。",
+      "title": "MODON推出塔布克15座现成厂房开发运营投资机会",
+      "original": "اقتصادي / \"مدن\" تطرح فرصة استثمارية لتطوير وتشغيل 15 مصنعًا جاهزًا في تبوك",
+      "published": "2026-09-09",
+      "url": "https://www.spa.gov.sa/N2672410",
+      "summary": "SPA可读索引显示，MODON提出在塔布克工业城开发和运营15座现成厂房的投资机会。此处“现成厂房”指交付使用的工业物业产品，原文没有披露采用打包箱或薄壁轻钢体系。",
+      "reviewUrls": [
+        [
+          "Arab News转述",
+          "https://www.arabnews.com/business/modon-offers-37m-investment-opportunity-to-develop-15-factories-in-tabuk-3001087"
+        ]
+      ]
+    },
+    {
+      "id": "008",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "event": "2026-09-09 投资决定（据报道）",
+      "eventLabel": "事件日期",
+      "source": "SaudiGulf Projects",
+      "sourceType": "专业媒体报道",
+      "status": "pending",
+      "statusText": "正文已读 · 待复核",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已读取媒体正文，尚未取得对应业主或承包商的一手公告。",
+      "boundary": "工程计划不等于已经开工；不把整个化工装置合同价值当临建采购规模。",
+      "title": "SABIC Agri-Nutrients据报批准扩建投资并向三星E&A授予EPC合同",
+      "original": "SABIC Agri-Nutrients Awards $3.47 Billion EPC Contract to Samsung E&A",
+      "published": "2026-09-10",
+      "url": "https://www.saudigulfprojects.com/2026/09/sabic-agri-nutrients-awards-3-465-billion-epc-contract-samsung-ea-ammonia-urea-project/",
+      "summary": "SaudiGulf Projects报道，第七项目获得最终投资决定，并向三星E&A授予氨、尿素及相关设施的EPC合同；报道计划于2026年第四季度开始施工。对应交易所或公司公告仍待补齐。"
+    },
+    {
+      "id": "009",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特奇迪亚",
+      "event": "原文未单列",
+      "eventLabel": "事件日期",
+      "source": "MEED",
+      "sourceType": "专业媒体报道",
+      "status": "pending",
+      "statusText": "正文已读 · 待复核",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "Scrapling成功读取MEED正文；Estithmar官网新闻栏可访问，但未找到同一授标公告。",
+      "boundary": "机电与给排水工程包不等于普通五金采购清单，也不等于移动厕所采购。",
+      "title": "MEED报道Elegancia获奇迪亚体育场机电合同",
+      "original": "Qatari firm wins $221m Qiddiya stadium MEP deal",
+      "published": "2026-09-09",
+      "url": "https://www.meed.com/qatari-firm-wins-221m-qiddiya-stadium-mep-deal",
+      "summary": "MEED正文报道，Elegancia MEP获得穆罕默德·本·萨勒曼体育场机电及给排水工程合同。本条关注专项施工包进展；已尝试承包商母公司新闻栏复核，尚未找到对应公告。",
+      "reviewUrls": [
+        [
+          "承包商母公司新闻栏（未找到同条公告）",
+          "https://www.estithmarholding.com/Home/LatestNewsSection"
+        ]
+      ]
+    },
+    {
+      "id": "010",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "event": "2026-09-08 收到授标函（据报道）",
+      "eventLabel": "事件日期",
+      "source": "SaudiGulf Projects",
+      "sourceType": "专业媒体报道",
+      "status": "pending",
+      "statusText": "多源一致 · 原公告待补",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "两家媒体对授标主体、专业服务范围与含税金额口径基本一致；交易所原公告未取得。",
+      "boundary": "不能把设计监督服务金额当成全部工程投资；报道未披露临建采购。",
+      "title": "Edarat收到MIS数据中心专业服务授标，范围含设计和监督",
+      "original": "Edarat Secures US$52.7 Million Award from MIS for 200MW AI Data Center Project",
+      "published": "2026-09-09",
+      "url": "https://www.saudigulfprojects.com/2026/09/edarat-secures-us52-7-million-award-from-mis-for-200mw-ai-data-center-project/",
+      "summary": "SaudiGulf Projects与Argaam均报道Edarat收到MIS授标，服务涉及规划200MW数据中心的设计、施工监督、测试和调试。这里披露的是专业服务包，不能当成整体数据中心建造合同。",
+      "reviewUrls": [
+        [
+          "Argaam同事件报道",
+          "https://www.argaam.com/en/article/articledetail/id/1935122"
+        ]
+      ]
+    },
+    {
+      "id": "011",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "招投标"
+      ],
+      "region": "沙特卡西姆",
+      "event": "原文未单列",
+      "eventLabel": "事件日期",
+      "source": "SaudiGulf Projects",
+      "sourceType": "专业媒体报道",
+      "status": "pending",
+      "statusText": "多源一致 · 原公告待补",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已对照SaudiGulf Projects与MEED正文的六组名单及采购阶段；NCP原公告尚未取得。",
+      "boundary": "资格预审通过不等于中标，不能据此确定总包、开工时间或营地供应商。",
+      "title": "卡西姆机场PPP项目据报完成六组投标人资格预审",
+      "original": "Saudi Arabia Qualifies Six Bidders for Prince Naif Bin Abdulaziz International Airport PPP Project",
+      "published": "2026-09-06",
+      "url": "https://www.saudigulfprojects.com/2026/09/saudi-arabia-qualifies-six-bidders-for-prince-naif-bin-abdulaziz-international-airport-ppp-project/",
+      "summary": "SaudiGulf Projects和9月7日MEED报道均指出，纳伊夫王子国际机场PPP项目有六组投标人通过资格预审。报道范围包括航站楼和机场配套设施，当前节点为资格预审。",
+      "reviewUrls": [
+        [
+          "MEED复核报道",
+          "https://www.meed.com/six-groups-qualify-for-saudi-arabias-qassim-airport-ppp"
+        ]
+      ]
+    },
+    {
+      "id": "012",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "event": "原文未单列",
+      "eventLabel": "事件日期",
+      "source": "SaudiGulf Projects",
+      "sourceType": "专业媒体报道",
+      "status": "pending",
+      "statusText": "正文已读 · 主体名称待核",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已对照SaudiGulf Projects与Smart Water Magazine。核心设施数和运维性质一致；中方企业名称未自行裁决，待NWC原公告确认。",
+      "boundary": "既有污水厂运维合同不等于新建九座工厂，也不证明存在移动卫浴采购。",
+      "title": "沙特国家水务公司据报授予九座污水厂长期运维合同",
+      "original": "Saudi Arabia: NWC Awards $348 Million LTOM Contract to Saudi-Chinese Consortium",
+      "published": "2026-09-02",
+      "url": "https://www.saudigulfprojects.com/2026/09/saudi-arabia-nwc-awards-348-million-ltom-contract-to-saudi-chinese-consortium/",
+      "summary": "媒体报道，NWC向沙特与中国企业组成的联合体授予现有九座污水处理厂的修复及长期运营维护合同，期限15年。其他媒体也有同事件报道，但联合体中方名称的英文转写存在差异。",
+      "reviewUrls": [
+        [
+          "Smart Water Magazine复核报道",
+          "https://smartwatermagazine.com/news/smart-water-magazine/saudi-arabias-nwc-taps-saudi-chinese-partnership-for-348-million-wastewater-treatment-contract"
+        ]
+      ]
+    },
+    {
+      "id": "013",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特吉达",
+      "event": "原文未单列",
+      "eventLabel": "事件日期",
+      "source": "SaudiGulf Projects",
+      "sourceType": "专业媒体报道",
+      "status": "pending",
+      "statusText": "正文已读 · 待复核",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已读取媒体正文，尚未取得对应业主或承包商的一手公告。",
+      "boundary": "备忘录、拟议EPC范围和潜在收入不能写成已签署最终施工合同或已确认工程收入。",
+      "title": "Garuda子公司就吉达93层塔楼签署备忘录，仍待审批",
+      "original": "Garuda Construction Signs MoU for Development of 93-Storey Landmark Tower in Jeddah",
+      "published": "2026-09-08",
+      "url": "https://www.saudigulfprojects.com/2026/09/garuda-construction-signs-mou-for-development-of-93-storey-landmark-tower-in-jeddah/",
+      "summary": "报道显示，Garuda旗下Dream City Builders与Almasarat签署拟建93层塔楼的备忘录。拟议安排包含EPC范围，但仍以必要审批及开发启动为条件。"
+    },
+    {
+      "id": "014",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特达曼第三工业城",
+      "event": "原文未单列",
+      "eventLabel": "事件日期",
+      "source": "SaudiGulf Projects",
+      "sourceType": "专业媒体报道",
+      "status": "pending",
+      "statusText": "正文已读 · 待复核",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已读取媒体正文，尚未取得对应业主或承包商的一手公告。",
+      "boundary": "不得写成站点已建成供气，也不能自动推断临建或普通五金需求。",
+      "title": "沙特能源部与MODON据报签署达曼压缩天然气站合作备忘录",
+      "original": "Saudi’s Ministry of Energy, MODON Sign MoU for CNG Compression and Distribution Station in Dammam",
+      "published": "2026-09-07",
+      "url": "https://www.saudigulfprojects.com/2026/09/saudis-ministry-of-energy-modon-sign-mou-for-cng-compression-and-distribution-station-in-dammam/",
+      "summary": "报道显示，双方拟在达曼第三工业城建立压缩天然气压缩及槽车配送站，为相关工业设施供气。当前披露为备忘录阶段，未确认具体施工招标包。"
+    },
+    {
+      "id": "015",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "event": "文中称LEAP 2026期间；具体日待核",
+      "eventLabel": "事件日期",
+      "source": "SaudiGulf Projects",
+      "sourceType": "专业媒体报道",
+      "status": "pending",
+      "statusText": "正文已读 · 事件日期待核",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已读取媒体正文，尚未取得对应业主或承包商的一手公告。",
+      "boundary": "年度产能目标不等于单一项目已授标容量，也不是已投运容量。",
+      "title": "Desert Technologies与CTS数据中心合资消息：报道日期与签约日期需区分",
+      "original": "Desert Technologies and CTS Group Launch 300MW AI Data Center Venture in Saudi Arabia",
+      "published": "2026-09-02",
+      "url": "https://www.saudigulfprojects.com/2026/09/desert-technologies-and-cts-group-launch-300mw-ai-data-center-venture-in-saudi-arabia/",
+      "summary": "9月2日报道介绍双方拟设CTS-DT合资公司，目标是发展沙特AI数据中心及相关制造能力。文中提到在LEAP 2026期间签约，未给出可独立核对的签约日，不能把报道日直接当新签约日。"
+    },
+    {
+      "id": "016",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "招投标"
+      ],
+      "region": "沙特东部省",
+      "event": "原文未单列",
+      "eventLabel": "事件日期",
+      "source": "SaudiGulf Projects",
+      "sourceType": "专业媒体报道",
+      "status": "pending",
+      "statusText": "正文已读 · 待复核",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已读取媒体正文，尚未取得对应业主或承包商的一手公告。",
+      "boundary": "RFQ在本报道中是资格申请，不是采购报价单；不能写成项目已授标。",
+      "title": "东部省法赫德国王郊区大道PPP项目据报进入资格申请阶段",
+      "original": "Saudi Arabia Launches RFQ for King Fahd Suburb Boulevard PPP Project in Eastern Province",
+      "published": "2026-08-27",
+      "url": "https://www.saudigulfprojects.com/2026/08/saudi-arabia-launches-rfq-for-king-fahd-suburb-boulevard-ppp-project-in-eastern-province/",
+      "summary": "SaudiGulf Projects报道，市政与住房部、NCP和Ashraq推进该综合开发PPP项目的资格申请阶段。拟议开发包含公园、商业、办公和道路等设施；本轮尚未取得原始资格文件。"
+    },
+    {
+      "id": "017",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "产品与材料"
+      ],
+      "region": "沙特麦加省／贡夫宰",
+      "event": "2026-09-10（聚合页截止日，须复核）",
+      "eventLabel": "报价截止",
+      "source": "TRSEAH；公告参考号260939000215",
+      "sourceType": "采购公告聚合页",
+      "status": "pending",
+      "statusText": "明细与截止状态待核",
+      "update": "本轮新收录",
+      "products": [
+        [
+          "五金",
+          "待核验候选：用途与水暖维修配件相关，须取得物料名称、型号和规格，并核对公司实际经营范围后才能确认适配。"
+        ]
+      ],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已读取TRSEAH详情。Etimad直接列表访问受验证或翻页限制，本轮未取得该公告可复核的完整采购明细。",
+      "boundary": "不能当作整套移动厕所采购，也不能保证截止时间或采购仍开放。",
+      "title": "贡夫宰市政卫生间维修水暖用品采购线索，物料清单待核",
+      "original": "ادوات سباكة لصيانة دورات المياه",
+      "published": "原始发布日期本轮未确认",
+      "url": "https://trseah.com.sa/tenders/30168",
+      "summary": "聚合页显示，贡夫宰市政有“卫生间维修水暖用品”直接采购公告，参考号260939000215。本轮未取得物料清单，聚合页时间字段也存在先后疑点；应回Etimad核对是否仍可提交。",
+      "reviewUrls": [
+        [
+          "Etimad原公告入口（本轮未取得明细）",
+          "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=sWywvHyvNpzthTatl%20NJww=="
+        ]
+      ]
+    },
+    {
+      "id": "018",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "event": "原文未单列",
+      "eventLabel": "事件日期",
+      "source": "MEED",
+      "sourceType": "媒体标题线索",
+      "status": "partial",
+      "statusText": "仅标题可读",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已读取MEED站内相关报道列表的标题与日期；目标详情读取失败。",
+      "boundary": "仅保存发现线索，不可据此补写承包商名称、产品需求或实际开工状态。",
+      "title": "MEED标题线索：中国承包商获得NHC利雅得Al-Fursan项目合同",
+      "original": "Chinese contractor wins NHC Al-Fursan Riyadh deal",
+      "published": "2026-09-10",
+      "url": "https://www.meed.com/chinese-contractor-wins-nhc-al-fursan-riyadh-deal",
+      "summary": "MEED最新新闻链接列出该授标标题。具体承包商、合同金额、工程范围及授标日期尚未取得完整原文支持。"
+    },
+    {
+      "id": "019",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "招投标"
+      ],
+      "region": "沙特达曼",
+      "event": "原文未单列",
+      "eventLabel": "事件日期",
+      "source": "MEED",
+      "sourceType": "媒体标题线索",
+      "status": "partial",
+      "statusText": "仅标题可读",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已读取MEED站内列表；目标正文未取得。",
+      "boundary": "不能把酒店及水上乐园招标自动视为移动卫浴或营地采购。",
+      "title": "MEED标题线索：SEVEN招标达曼水上乐园与酒店项目",
+      "original": "Seven tenders Dammam water park and hotel project",
+      "published": "2026-09-10",
+      "url": "https://www.meed.com/seven-tenders-dammam-water-park-and-hotel-project",
+      "summary": "MEED站内最新列表显示，SEVEN就达曼水上乐园与酒店项目发出招标。当前仅取得标题和发布日期，招标范围、提交截止和承包方式尚未核对。"
+    },
+    {
+      "id": "020",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "event": "原文未单列",
+      "eventLabel": "事件日期",
+      "source": "MEED",
+      "sourceType": "媒体摘要线索",
+      "status": "partial",
+      "statusText": "仅摘要可读",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已直接读取标题、日期和公开摘要；未访问受订阅保护正文。",
+      "boundary": "不得根据铁路项目管理合同自行推断新铁路施工、营地规模或材料需求。",
+      "title": "MEED摘要线索：沙特铁路磷矿铁路项目管理合同有新进展",
+      "original": "Consultant wins SAR phosphate rail project management",
+      "published": "2026-09-08",
+      "url": "https://www.meed.com/consultant-wins-sar-phosphate-rail-project-management",
+      "summary": "MEED标题及摘要提到沙特铁路相关磷矿铁路项目管理合同。报道正文受订阅限制，当前未取得获选顾问及完整合同范围。"
+    },
+    {
+      "id": "021",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "卡塔尔",
+      "event": "原文未单列",
+      "eventLabel": "事件日期",
+      "source": "SaudiGulf Projects",
+      "sourceType": "专业媒体报道",
+      "status": "pending",
+      "statusText": "正文已读 · 待复核",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已读取媒体正文，尚未取得对应业主或承包商的一手公告。",
+      "boundary": "数据中心服务协议不等于已授予相同金额的施工合同；不能推断沙特或公司的产品订单。",
+      "title": "卡塔尔MEEZA据报签署长期数据中心服务协议",
+      "original": "Qatar’s MEEZA Signs $275 Million Data Centre Agreement with Global Hyperscaler",
+      "published": "2026-09-09",
+      "url": "https://www.saudigulfprojects.com/2026/09/qatars-meeza-signs-275-million-data-centre-agreement-with-global-hyperscaler/",
+      "summary": "报道显示，MEEZA与一家全球云服务商签署长期数据中心服务协议，涉及新增数据中心园区及容量租赁安排。本条作为海湾数字基础设施动态保留，官方合同公告尚待复核。"
+    },
+    {
+      "id": "022",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "event": "原文未单列",
+      "eventLabel": "事件日期",
+      "source": "SaudiGulf Projects",
+      "sourceType": "专业媒体报道",
+      "status": "pending",
+      "statusText": "正文已读 · 待复核",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已读取媒体正文，尚未取得对应业主或承包商的一手公告。",
+      "boundary": "首次点火不等于整座电站商业运营，亦不证明新的施工营地需求。",
+      "title": "Taiba 2燃气电站据报完成首次点火，处于调试阶段",
+      "original": "Saudi Arabia’s 1.8 GW Taiba 2 CCGT Project Achieves First Fire Milestone",
+      "published": "2026-08-29",
+      "url": "https://www.saudigulfprojects.com/2026/08/saudi-arabias-1-8-gw-taiba-2-ccgt-project-achieves-first-fire-milestone/",
+      "summary": "SaudiGulf Projects报道，Taiba 2项目GT11燃气轮机完成首次点火，这是调试流程中的一个节点。当前未取得业主的一手调试公告。"
+    },
+    {
+      "id": "023",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "产品与材料"
+      ],
+      "region": "沙特利雅得",
+      "event": "原文未单列",
+      "eventLabel": "事件日期",
+      "source": "SaudiGulf Projects",
+      "sourceType": "专业媒体报道",
+      "status": "pending",
+      "statusText": "正文已读 · 待复核",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已读取媒体正文，尚未取得对应业主或承包商的一手公告。",
+      "boundary": "高压电缆工程不能归入普通五金采购；未证明公司具备该工程范围或参与该项目。",
+      "title": "TDP据报获利雅得世博项目高压电缆工程合同",
+      "original": "TDP Wins 132kV High-Voltage Cable Contract for Expo 2030 Riyadh Power Infrastructure",
+      "published": "2026-08-28",
+      "url": "https://www.saudigulfprojects.com/2026/08/tdp-wins-132kv-high-voltage-cable-contract-for-expo-2030-riyadh-power-infrastructure/",
+      "summary": "报道显示，TDP承担利雅得世博园区相关132kV高压电缆的供应、安装、测试和调试，连接主变电站与电网。现有报道属于专业供电工程包。"
+    },
+    {
+      "id": "024",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "阿联酋迪拜",
+      "event": "原文未单列",
+      "eventLabel": "事件日期",
+      "source": "SaudiGulf Projects",
+      "sourceType": "专业媒体报道",
+      "status": "pending",
+      "statusText": "正文已读 · 待复核",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "保留为工程行业信息；现有资料没有披露可直接对应四类产品的采购范围。",
+      "review": "已读取媒体正文，尚未取得对应业主或承包商的一手公告。",
+      "boundary": "阿联酋工程授标不能推断沙特本地产品需求；报道未明确临建或材料采购清单。",
+      "title": "中建中东据报获迪拜控股总部及住宅项目施工合同",
+      "original": "China State Construction Awarded $1.36 Billion Contract from Dubai Holding",
+      "published": "2026-09-09",
+      "url": "https://www.saudigulfprojects.com/2026/09/dubai-holding-aed-5-billion-construction-contract-cscec-middle-east-jumeirah-residences/",
+      "summary": "SaudiGulf Projects报道，迪拜控股向中建中东授予总部及Jumeirah Residences Emirates Towers建设合同。此条保留为中资企业在海湾的工程进展，合同原公告尚待补齐。"
+    },
+    {
+      "id": "025",
+      "category": "航运物流",
+      "tags": [
+        "航运物流"
+      ],
+      "region": "吉达／巴基斯坦—北美",
+      "event": "2026-09-01",
+      "eventLabel": "计价适用起日",
+      "source": "Hapag-Lloyd",
+      "sourceType": "船公司官方通知",
+      "status": "verified",
+      "statusText": "官方正文已核对",
+      "update": "本轮新收录",
+      "products": [],
+      "background": "本条涉及向北美出口的运输费用，不是亚洲向沙特进口的同一航向；暂不推荐四类产品。",
+      "review": "已读取船公司官方通知。网页未单列确切发布日期，未将路径月份猜成具体日期。",
+      "boundary": "2,000美元是该通知列出的PSS水平，不能写成总运费或任意航线的增幅。",
+      "title": "赫伯罗特吉达等地至北美航线旺季附加费9月起调整",
+      "original": "Shipping from Indian Subcontinent, Pakistan and Jeddah to North America? A PSS increase is coming up",
+      "published": "2026-07（页面路径；具体日未披露）",
+      "url": "https://www.hapag-lloyd.com/en/services-information/news/2026/07/shipping-from-indian-subcontinent--pakistan-and-jeddah--saudi-ar.headless.html",
+      "summary": "官方通知显示，相关航线旺季附加费水平调整为每箱2,000美元，适用于计价日在9月1日及以后的相关航次，覆盖通知列出的干货、冷藏和特种箱。因生效日期落在近期窗口而收录。",
+      "shipping": [
+        [
+          "费用口径",
+          "PSS水平2,000美元／箱"
+        ],
+        [
+          "计价日",
+          "2026-09-01起，至另行通知"
+        ],
+        [
+          "航向",
+          "吉达／巴基斯坦至北美，详见原通知"
+        ]
+      ]
+    }
+  ],
+  "channels": [
+    [
+      "Google／Google News",
+      "直接访问失败；外部搜索补漏",
+      "站内直接抓取未取得有效结果；随后通过网页检索与Firecrawl搜索发现公开原文。不能视为Google直访成功。"
+    ],
+    [
+      "X",
+      "直接访问失败",
+      "未完成可用的实时帖子读取；未将社交摘要当成事实来源。"
+    ],
+    [
+      "MEED",
+      "部分成功",
+      "直接访问新闻链接与正文；部分可读全文，部分仅标题／摘要，个别目标页读取失败。"
+    ],
+    [
+      "Etimad",
+      "部分成功／受限",
+      "一页公告列表经替代抓取可读；直接访问或后续翻页出现验证／无正文。相关水暖采购经聚合页发现，原明细待核。"
+    ],
+    [
+      "Acwa／主办方／PR Newswire",
+      "正文成功",
+      "取得红海公用设施、Big 5闭幕及Lida企业新闻稿。企业自述与官方项目事实分别标注。"
+    ],
+    [
+      "Maersk／Hapag-Lloyd",
+      "正文成功",
+      "取得船公司客户通知；分别核对货类、港口、航向和生效条件。"
+    ],
+    [
+      "PIF／SPA",
+      "直接访问受限；官方索引可读",
+      "PIF直接抓取返回访问保护页；SPA直接正文为空。可读官方索引及其他报道保留，原页核验状态未升级。"
+    ],
+    [
+      "SaudiGulf／Arab News／Argaam等",
+      "部分成功",
+      "直接查看站内最新内容并读相关正文；对部分事件取得多源对照，其余保留待复核。"
+    ]
+  ]
+}

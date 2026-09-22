@@ -1,0 +1,38 @@
+{
+  "at": "2026-09-17T01:22:15.922Z",
+  "cards": 12,
+  "verified": 11,
+  "unconfirmed": 1,
+  "uiChecks": "passed",
+  "evidenceInteraction": "012 mouse pointerover opens evidence and displays missing evidence; Escape dismisses",
+  "archives": [
+    {
+      "file": "2026-09-10.json",
+      "unchanged": true
+    },
+    {
+      "file": "2026-09-11.json",
+      "unchanged": true
+    },
+    {
+      "file": "2026-09-12.json",
+      "unchanged": true
+    },
+    {
+      "file": "2026-09-13.json",
+      "unchanged": true
+    },
+    {
+      "file": "2026-09-14.json",
+      "unchanged": true
+    },
+    {
+      "file": "2026-09-15.json",
+      "unchanged": true
+    },
+    {
+      "file": "2026-09-16.json",
+      "unchanged": true
+    }
+  ]
+}

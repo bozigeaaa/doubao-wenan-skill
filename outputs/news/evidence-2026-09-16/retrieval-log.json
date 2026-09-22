@@ -1,0 +1,869 @@
+[
+  {
+    "tool": "scrapling",
+    "url": "https://tenders.etimad.sa/Tender/AllTenders",
+    "at": "2026-09-16T01:04:53.029Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/p0-etimad.md",
+    "outcome": "fetched",
+    "length": 340,
+    "level": "restricted"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.meed.com/latest-news",
+    "at": "2026-09-16T01:04:53.026Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/p0-meed.md",
+    "outcome": "fetched",
+    "length": 15261,
+    "level": "page-content"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.google.com/search?q=Saudi+construction+project+after%3A2026-09-14+before%3A2026-09-17",
+    "at": "2026-09-16T01:04:53.021Z",
+    "outcome": "failed",
+    "error": "Command failed: D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/.news-venv/Scripts/python.exe scripts/news_tools.py get https://www.google.com/search?q=Saudi+construction+project+after%3A2026-09-14+before%3A2026-09-17 D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/p0-google.md\n[202"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://news.google.com/search?q=Saudi%20construction%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
+    "at": "2026-09-16T01:04:53.023Z",
+    "outcome": "failed",
+    "error": "Command failed: D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/.news-venv/Scripts/python.exe scripts/news_tools.py get https://news.google.com/search?q=Saudi%20construction%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/p0-gnews.md\n[2026-09-"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-14&src=typed_query&f=live",
+    "at": "2026-09-16T01:04:53.027Z",
+    "outcome": "failed",
+    "error": "Command failed: D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/.news-venv/Scripts/python.exe scripts/news_tools.py get https://x.com/search?q=Saudi%20construction%20since%3A2026-09-14&src=typed_query&f=live D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/p0-x.md\n[2026-09-16 09:05:0"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://www.google.com/search?q=Saudi+construction+project+after%3A2026-09-14+before%3A2026-09-17",
+    "at": "2026-09-16T01:05:30.911Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/p0-google-fallback.md",
+    "outcome": "fetched",
+    "length": 13721,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://tenders.etimad.sa/Tender/AllTenders",
+    "at": "2026-09-16T01:05:30.913Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/p0-etimad-fallback.md",
+    "outcome": "fetched",
+    "length": 62,
+    "level": "empty"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://news.google.com/search?q=Saudi%20construction%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen",
+    "at": "2026-09-16T01:05:44.414Z",
+    "outcome": "failed",
+    "error": "Command failed: C:/Program Files/nodejs/node.exe C:/Users/Windows/AppData/Roaming/npm/node_modules/firecrawl-cli/dist/index.js scrape https://news.google.com/search?q=Saudi%20construction%20when%3A2d&hl=en-US&gl=US&ceid=US%3Aen --only-main-content --max-age 0 -o D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-14&src=typed_query&f=live",
+    "at": "2026-09-16T01:05:44.416Z",
+    "outcome": "failed",
+    "error": "Command failed: C:/Program Files/nodejs/node.exe C:/Users/Windows/AppData/Roaming/npm/node_modules/firecrawl-cli/dist/index.js scrape https://x.com/search?q=Saudi%20construction%20since%3A2026-09-14&src=typed_query&f=live --only-main-content --max-age 0 -o D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-0"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "Saudi construction project contract September 15 2026",
+    "at": "2026-09-16T01:05:52.771Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/search-project.json",
+    "outcome": "search-result",
+    "length": 2940,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "Saudi accommodation housing camp hotel September 15 2026",
+    "at": "2026-09-16T01:05:52.773Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/search-camp.json",
+    "outcome": "search-result",
+    "length": 2689,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "Saudi steel cement materials after:2026-09-14 before:2026-09-17",
+    "at": "2026-09-16T01:06:00.989Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/search-material.json",
+    "outcome": "search-result",
+    "length": 3243,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "السعودية ترسية منافسة مشروع after:2026-09-14 before:2026-09-17",
+    "at": "2026-09-16T01:06:00.990Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/search-tender.json",
+    "outcome": "search-result",
+    "length": 4669,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "Saudi regulation building industry ministry after:2026-09-14 before:2026-09-17",
+    "at": "2026-09-16T01:06:14.107Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/search-policy.json",
+    "outcome": "search-result",
+    "length": 3546,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "Saudi shipping logistics Suez Jeddah September 15 2026",
+    "at": "2026-09-16T01:06:14.109Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/search-shipping.json",
+    "outcome": "search-result",
+    "length": 3208,
+    "level": "search-results"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.arabnews.com/business-economy",
+    "at": "2026-09-16T01:06:16.242Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/local-arabnews.md",
+    "outcome": "fetched",
+    "length": 0,
+    "level": "empty"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1&PageSize=24&Sort=PublishDate&SortDirection=DESC",
+    "at": "2026-09-16T01:06:16.244Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/p0-etimad-visitor.md",
+    "outcome": "fetched",
+    "length": 340,
+    "level": "restricted"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.meed.com/saudi-arabia-tenders-next-phase-of-king-saud-air-base",
+    "at": "2026-09-16T01:06:16.247Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/meed-airbase.md",
+    "outcome": "fetched",
+    "length": 5457,
+    "level": "paywall-teaser"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://saudigazette.com.sa/saudi-arabia",
+    "at": "2026-09-16T01:06:16.241Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/local-gazette.md",
+    "outcome": "fetched",
+    "length": 20200,
+    "level": "page-content"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.meed.com/saudi-arabia-sets-october-deadline-for-mecca-metro-design",
+    "at": "2026-09-16T01:06:16.245Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/meed-metro.md",
+    "outcome": "fetched",
+    "length": 5385,
+    "level": "paywall-teaser"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://www.arabnews.com/business-economy",
+    "at": "2026-09-16T01:06:31.007Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/local-arabnews-fallback.md",
+    "outcome": "fetched",
+    "length": 8616,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1&PageSize=24&Sort=PublishDate&SortDirection=DESC",
+    "at": "2026-09-16T01:06:31.009Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/p0-etimad-visitor-fallback.md",
+    "outcome": "fetched",
+    "length": 10898,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "\"Saudi\" (housing OR accommodation OR hotel) after:2026-09-14 before:2026-09-17 -site:booking.com -site:expedia.com -site:hotels.com -site:trip.com",
+    "at": "2026-09-16T01:06:55.584Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/search-camp-date.json",
+    "outcome": "search-result",
+    "length": 3023,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "\"Saudi\" \"September 15, 2026\" (contract OR construction OR project)",
+    "at": "2026-09-16T01:06:55.582Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/search-project-date.json",
+    "outcome": "search-result",
+    "length": 3892,
+    "level": "search-results"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://saudigazette.com.sa/article/664582/saudi-arabia/saudi-wholesale-prices-rise-46-in-august-as-basic-chemical-prices-surge-514",
+    "at": "2026-09-16T01:07:10.348Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/wholesale.md",
+    "outcome": "fetched",
+    "length": 12391,
+    "level": "page-content"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://saudigazette.com.sa/article/664598/saudi-arabia/midday-outdoor-work-ban-under-sun-comes-to-an-end-in-saudi-arabia",
+    "at": "2026-09-16T01:07:10.346Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/midday-ban.md",
+    "outcome": "fetched",
+    "length": 12711,
+    "level": "page-content"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.saudigulfprojects.com/",
+    "at": "2026-09-16T01:07:10.345Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/sgp-index.md",
+    "outcome": "fetched",
+    "length": 59173,
+    "level": "page-content"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2&PageSize=24&Sort=PublishDate&SortDirection=DESC",
+    "at": "2026-09-16T01:07:10.349Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/etimad-page2.md",
+    "outcome": "fetched",
+    "length": 340,
+    "level": "restricted"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/fastmarkets-strengthens-saudi-steel-scrap-070000425.html",
+    "at": "2026-09-16T01:07:25.871Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/fastmarkets.md",
+    "outcome": "fetched",
+    "length": 6825,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2&PageSize=24&Sort=PublishDate&SortDirection=DESC",
+    "at": "2026-09-16T01:07:25.869Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/etimad-page2-fallback.md",
+    "outcome": "fetched",
+    "length": 3289,
+    "level": "unrendered-list"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "site:spa.gov.sa \"2026\" \"أغسطس\" \"الجملة\"",
+    "at": "2026-09-16T01:08:22.192Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/verify-wpi.json",
+    "outcome": "search-result",
+    "length": 2413,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "site:spa.gov.sa \"2026\" \"سبتمبر\" \"15\" \"الشمس\"",
+    "at": "2026-09-16T01:08:22.190Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/verify-ban.json",
+    "outcome": "search-result",
+    "length": 1983,
+    "level": "search-results"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.saudigulfprojects.com/2026/09/emaar-ec-signs-sar-152-million-infrastructure-development-agreement-for-masarat-mobility-park-in-king-abdullah-economic-city/",
+    "at": "2026-09-16T01:08:24.129Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/emaar.md",
+    "outcome": "fetched",
+    "length": 20718,
+    "level": "page-content"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.saudigulfprojects.com/2026/09/ades-completes-usd-285-million-acquisition-of-saipems-saudi-shallow-water-drilling-business/",
+    "at": "2026-09-16T01:08:24.131Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/ades.md",
+    "outcome": "fetched",
+    "length": 19118,
+    "level": "page-content"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.saudigulfprojects.com/2026/09/saudi-real-estate-company-signs-sar-463-million-contract-with-mobco-for-porta-jeddah-project/",
+    "at": "2026-09-16T01:08:24.128Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/porta.md",
+    "outcome": "fetched",
+    "length": 19116,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "\"Emaar\" \"Masarat\" \"September\" \"2026\"",
+    "at": "2026-09-16T01:08:33.971Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/verify-emaar.json",
+    "outcome": "search-result",
+    "length": 3359,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "\"Al Akaria\" \"MOBCO\" \"2026\"",
+    "at": "2026-09-16T01:08:33.969Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/verify-porta.json",
+    "outcome": "search-result",
+    "length": 2915,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "site:saudiexchange.sa \"2026-09-15\" \"MOBCO\"",
+    "at": "2026-09-16T01:08:47.951Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/verify-exchange-porta.json",
+    "outcome": "search-result",
+    "length": 610,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "site:saipem.com \"2026\" \"September\" \"Saudi\"",
+    "at": "2026-09-16T01:08:47.953Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/verify-ades.json",
+    "outcome": "search-result",
+    "length": 4334,
+    "level": "search-results"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://english.mubasher.info/news/4671621/Emaar-the-Economic-City-Announces-an-update-on-the-Sale-of-an-industrial-plot-valued-366-766-203-12-SAR",
+    "at": "2026-09-16T01:08:49.906Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/emaar-disclosure.md",
+    "outcome": "fetched",
+    "length": 932,
+    "level": "restricted"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.spa.gov.sa/N2612758",
+    "at": "2026-09-16T01:08:49.904Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/ban-official.md",
+    "outcome": "fetched",
+    "length": 0,
+    "level": "empty"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://www.spa.gov.sa/N2612758",
+    "at": "2026-09-16T01:09:05.028Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/ban-official-fallback.md",
+    "outcome": "fetched",
+    "length": 8316,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://english.mubasher.info/news/4671621/Emaar-the-Economic-City-Announces-an-update-on-the-Sale-of-an-industrial-plot-valued-366-766-203-12-SAR",
+    "at": "2026-09-16T01:09:05.030Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/emaar-disclosure-fallback.md",
+    "outcome": "fetched",
+    "length": 2870,
+    "level": "page-content"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=XZ39F8N42i9IMNpTqZCUzg==",
+    "at": "2026-09-16T01:09:16.655Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/tender-rafha.md",
+    "outcome": "fetched",
+    "length": 340,
+    "level": "restricted"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=FMmJqeYpnprw4m4vURrBYg==",
+    "at": "2026-09-16T01:09:16.656Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/tender-pumps.md",
+    "outcome": "fetched",
+    "length": 340,
+    "level": "restricted"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.saipem.com/en/media/press-releases/2026-09-15/saipem-divestment-shallow-water-drillings-operations-saudi-arabia",
+    "at": "2026-09-16T01:09:16.654Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/ades-official.md",
+    "outcome": "fetched",
+    "length": 34459,
+    "level": "page-content"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/hidden/company-profile-main/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziTR3NDIw8LAz83d2MXA0C3SydAl1c3Q0NvE30I4EKzBEKDMKcTQzMDPxN3H19LAzdTU31w8syU8v1wwkpK8hOMgUA-oskdg!!/?companySymbol=4020&csrt=16829154820124982318",
+    "at": "2026-09-16T01:09:16.652Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/porta-profile.md",
+    "outcome": "fetched",
+    "length": 61434,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=FMmJqeYpnprw4m4vURrBYg==",
+    "at": "2026-09-16T01:09:36.638Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/tender-pumps-fallback.md",
+    "outcome": "fetched",
+    "length": 2125,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=XZ39F8N42i9IMNpTqZCUzg==",
+    "at": "2026-09-16T01:09:36.636Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/tender-rafha-fallback.md",
+    "outcome": "fetched",
+    "length": 2021,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "\"السعودية\" \"الجملة\" \"4.6\" \"2026\"",
+    "at": "2026-09-16T01:09:56.225Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/verify-wpi2.json",
+    "outcome": "search-result",
+    "length": 3563,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "(Maersk OR Hapag-Lloyd OR Mawani) after:2026-09-14 before:2026-09-17 -site:facebook.com -site:instagram.com",
+    "at": "2026-09-16T01:09:56.227Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/search-shipping-new.json",
+    "outcome": "search-result",
+    "length": 3042,
+    "level": "search-results"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.arabnews.com/business/saudi-housing-deals-rebound-9-in-q2-knight-frank-3001745",
+    "at": "2026-09-16T01:09:58.381Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/housing-knight.md",
+    "outcome": "fetched",
+    "length": 0,
+    "level": "empty"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange",
+    "at": "2026-09-16T01:09:58.377Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/exchange-latest.md",
+    "outcome": "fetched",
+    "length": 94104,
+    "level": "page-content"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.thehotelshowsaudiarabia.com/hotel-hospitality-expo-saudi-arabia-2026-returns-with-new-features-and-industry-programme/",
+    "at": "2026-09-16T01:09:58.379Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/hotel-expo.md",
+    "outcome": "fetched",
+    "length": 16220,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://www.arabnews.com/business/saudi-housing-deals-rebound-9-in-q2-knight-frank-3001745",
+    "at": "2026-09-16T01:10:14.275Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/housing-knight-fallback.md",
+    "outcome": "fetched",
+    "length": 7785,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://www.alyaum.com/ampArticle/6682680",
+    "at": "2026-09-16T01:10:14.277Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/wpi-cross.md",
+    "outcome": "fetched",
+    "length": 9351,
+    "level": "page-content"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98149&anCat=1&cs=1321&locale=en",
+    "at": "2026-09-16T01:10:31.016Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/eastpipes.md",
+    "outcome": "fetched",
+    "length": 28429,
+    "level": "page-content"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98147&anCat=1&cs=4220&locale=en",
+    "at": "2026-09-16T01:10:31.014Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/emaar-addendum.md",
+    "outcome": "fetched",
+    "length": 28485,
+    "level": "page-content"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98148&anCat=1&cs=4020&locale=en",
+    "at": "2026-09-16T01:10:31.012Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/porta-official.md",
+    "outcome": "fetched",
+    "length": 30346,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "site:stats.gov.sa \"August 2026\" \"Wholesale\"",
+    "at": "2026-09-16T01:10:51.443Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/verify-wpi-primary.json",
+    "outcome": "search-result",
+    "length": 627,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "site:knightfrank.com \"2026\" \"45,740\"",
+    "at": "2026-09-16T01:10:51.445Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/verify-knight-primary.json",
+    "outcome": "search-result",
+    "length": 18,
+    "level": "search-results"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=TvrpJLfGz2d5*@@**8WuX4iRKQ==",
+    "at": "2026-09-16T01:11:15.442Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/tender-cable.md",
+    "outcome": "fetched",
+    "length": 340,
+    "level": "restricted"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=HhlpOL%20oPkh4URBF1hm5BA==",
+    "at": "2026-09-16T01:11:15.444Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/tender-laundry.md",
+    "outcome": "fetched",
+    "length": 340,
+    "level": "restricted"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98112&anCat=1&cs=4220&locale=en",
+    "at": "2026-09-16T01:11:15.438Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/emaar-original.md",
+    "outcome": "fetched",
+    "length": 29993,
+    "level": "page-content"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.stats.gov.sa/en",
+    "at": "2026-09-16T01:11:15.440Z",
+    "outcome": "failed",
+    "error": "Command failed: D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/.news-venv/Scripts/python.exe scripts/news_tools.py get https://www.stats.gov.sa/en D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/stats-index.md\n[2026-09-16 09:11:37] WARNING: Proxy 'None' failed (attempt 1) | Retryin"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "site:stats.gov.sa \"أسعار الجملة\" \"2026\" \"أغسطس\"",
+    "at": "2026-09-16T01:11:42.459Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/verify-stats-ar.json",
+    "outcome": "search-result",
+    "length": 3400,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "Knight Frank Saudi Arabia real estate market review Q2 2026 September 15",
+    "at": "2026-09-16T01:11:42.452Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/verify-knight-report.json",
+    "outcome": "search-result",
+    "length": 14762,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://www.stats.gov.sa/en",
+    "at": "2026-09-16T01:12:01.575Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/stats-index-fallback.md",
+    "outcome": "fetched",
+    "length": 6538,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=TvrpJLfGz2d5*@@**8WuX4iRKQ==",
+    "at": "2026-09-16T01:12:01.577Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/tender-cable-fallback.md",
+    "outcome": "fetched",
+    "length": 2078,
+    "level": "page-content"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2",
+    "at": "2026-09-16T01:12:25.448Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/etimad-page2-minimal.md",
+    "outcome": "fetched",
+    "length": 340,
+    "level": "restricted"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=5FWGKXQOY9bL7WVc2br4RA==",
+    "at": "2026-09-16T01:12:25.450Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/tender-turbine.md",
+    "outcome": "fetched",
+    "length": 340,
+    "level": "restricted"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.knightfrank.com.sa/en/research",
+    "at": "2026-09-16T01:12:25.447Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/knight-reports.md",
+    "outcome": "fetched",
+    "length": 21215,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=HhlpOL%20oPkh4URBF1hm5BA==",
+    "at": "2026-09-16T01:12:40.665Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/tender-laundry-fallback.md",
+    "outcome": "fetched",
+    "length": 2367,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=5FWGKXQOY9bL7WVc2br4RA==",
+    "at": "2026-09-16T01:12:40.667Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/tender-turbine-fallback.md",
+    "outcome": "fetched",
+    "length": 2210,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "site:x.com (Saudi OR السعودية) (construction OR مشروع OR ميناء) after:2026-09-14 before:2026-09-17",
+    "at": "2026-09-16T01:13:05.928Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/x-public-supplement.json",
+    "outcome": "search-result",
+    "length": 2615,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2",
+    "at": "2026-09-16T01:13:05.927Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/etimad-page2-final.md",
+    "outcome": "fetched",
+    "length": 7268,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "\"SAB\" \"100 billion\" \"construction\" \"2026\"",
+    "at": "2026-09-16T01:13:26.376Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/verify-sab.json",
+    "outcome": "search-result",
+    "length": 3052,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://www.stats.gov.sa/statistics-tabs?tab=436312&category=122852",
+    "at": "2026-09-16T01:13:26.374Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/stats-wpi-page.md",
+    "outcome": "fetched",
+    "length": 7904,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://www.linkedin.com/posts/alawwalsab_in-support-of-saudi-vision-2030s-development-activity-7505607609484480512-auAH",
+    "at": "2026-09-16T01:13:53.223Z",
+    "outcome": "failed",
+    "error": "Command failed: C:/Program Files/nodejs/node.exe C:/Users/Windows/AppData/Roaming/npm/node_modules/firecrawl-cli/dist/index.js scrape https://www.linkedin.com/posts/alawwalsab_in-support-of-saudi-vision-2030s-development-activity-7505607609484480512-auAH --only-main-content --max-age 0 -o D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "site:sab.com \"construction\" \"100\" \"billion\"",
+    "at": "2026-09-16T01:13:53.225Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/verify-sab-official.json",
+    "outcome": "search-result",
+    "length": 2904,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "\"الأول\" \"100 مليار\" \"الإنشاءات\"",
+    "at": "2026-09-16T01:14:05.236Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/verify-sab-ar.json",
+    "outcome": "search-result",
+    "length": 3397,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://www.stats.gov.sa/statistics-tabs?tab=436312&category=122852",
+    "at": "2026-09-16T01:14:24.837Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/stats-wpi-page.html",
+    "outcome": "html",
+    "level": "html"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "\"Saudi Awwal\" \"100 billion\" construction",
+    "at": "2026-09-16T01:14:37.471Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/verify-sab-exact.json",
+    "outcome": "search-result",
+    "length": 3405,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://www.stats.gov.sa/documents/20117/2435259/WPI+Aug+2026-AR.pdf/c6a0c22d-2887-da54-208e-5b07b8d49507?t=1789447146221",
+    "at": "2026-09-16T01:14:49.688Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/wpi-official.md",
+    "outcome": "fetched",
+    "length": 4265,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "\"البنك السعودي الأول\" \"100 مليار\"",
+    "at": "2026-09-16T01:14:59.423Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/sab-ar-broader.json",
+    "outcome": "search-result",
+    "length": 4614,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "\"Knight Frank\" \"45,740\"",
+    "at": "2026-09-16T01:14:59.421Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/knight-exact-numbers.json",
+    "outcome": "search-result",
+    "length": 3040,
+    "level": "search-results"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://saudigazette.com.sa/article/664574/saudi-arabia/abdullah-kamel-number-of-factories-in-saudi-arabia-surpasses-15000",
+    "at": "2026-09-16T01:15:40.095Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/factory-statement.md",
+    "outcome": "fetched",
+    "length": 14430,
+    "level": "page-content"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://saudigazette.com.sa/article/664588/saudi-arabia/saudi-arabia-approves-sme-strategy-targeting-500000-jobs-35-gdp-contribution",
+    "at": "2026-09-16T01:15:40.097Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/sme-strategy.md",
+    "outcome": "fetched",
+    "length": 13289,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "site:spa.gov.sa \"2026\" \"كامل\" \"15 ألف\"",
+    "at": "2026-09-16T01:15:41.264Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/verify-factories.json",
+    "outcome": "search-result",
+    "length": 7338,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "site:spa.gov.sa \"2026\" \"15 سبتمبر\" \"المنشآت الصغيرة والمتوسطة\"",
+    "at": "2026-09-16T01:15:41.262Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/verify-sme.json",
+    "outcome": "search-result",
+    "length": 385,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "site:spa.gov.sa \"SME\" \"Strategy\" \"September\"",
+    "at": "2026-09-16T01:16:01.948Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/sme-primary-en.json",
+    "outcome": "search-result",
+    "length": 999,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "\"عبدالله كامل\" \"المصانع\" \"2026\"",
+    "at": "2026-09-16T01:16:01.950Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/factory-primary-ar.json",
+    "outcome": "search-result",
+    "length": 3290,
+    "level": "search-results"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.spa.gov.sa/N2675965",
+    "at": "2026-09-16T01:16:14.754Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/industry-forum-official.md",
+    "outcome": "fetched",
+    "length": 0,
+    "level": "empty"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://www.arabnews.com/business/saudi-minister-thanks-leadership-as-cabinet-approves-national-sme-strategy-3001830",
+    "at": "2026-09-16T01:16:14.756Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/sme-spa-reprint.md",
+    "outcome": "fetched",
+    "length": 8640,
+    "level": "page-content"
+  },
+  {
+    "tool": "firecrawl",
+    "query": "\"الاستراتيجية الوطنية\" \"ريادة الأعمال\" \"15 سبتمبر 2026\"",
+    "at": "2026-09-16T01:16:17.237Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/sme-primary-ar.json",
+    "outcome": "search-result",
+    "length": 4082,
+    "level": "search-results"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://www.spa.gov.sa/N2675965",
+    "at": "2026-09-16T01:16:25.664Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/industry-forum-official-fallback.md",
+    "outcome": "fetched",
+    "length": 12439,
+    "level": "page-content"
+  },
+  {
+    "tool": "scrapling",
+    "url": "https://www.spa.gov.sa/ar/w2676791",
+    "at": "2026-09-16T01:16:41.105Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/sme-original.md",
+    "outcome": "fetched",
+    "length": 0,
+    "level": "empty"
+  },
+  {
+    "tool": "firecrawl",
+    "url": "https://www.spa.gov.sa/ar/w2676791",
+    "at": "2026-09-16T01:16:57.501Z",
+    "file": "D:/wenan-skill-main-optimized-v3.zip（全局因果闭环规则版）/wenan-skill-main/outputs/news/evidence-2026-09-16/sme-original-fallback.md",
+    "outcome": "fetched",
+    "length": 9764,
+    "level": "page-content"
+  }
+]

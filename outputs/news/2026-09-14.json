@@ -1,0 +1,572 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-09-14",
+  "collectedAt": "2026-09-14T02:00:01.415Z",
+  "timeZone": "Asia/Shanghai",
+  "window": "2026-09-14手动重新检索，分别覆盖2026-09-12、13、14日至实际采集时点；本页按已核实原文日期归档，旧条目原核验时间保留。",
+  "scope": "工程项目、营地住宿、产品材料、采购招投标、合规政策、航运物流；收录行业信息与逐条未通过线索，不要求全部适配产品。",
+  "channels": [
+    [
+      "Google／Google News",
+      "Google直接搜索页可读；News失败",
+      "Google入口先Scrapling失败，Firecrawl取得搜索页；英文、阿语按12、13、14日检索补漏。"
+    ],
+    [
+      "X",
+      "直接访问失败",
+      "Scrapling失败，Firecrawl不支持；社交搜索索引不代替原文核验。"
+    ],
+    [
+      "MEED",
+      "最新目录可读",
+      "检查latest，最新列示日期11日；订阅正文限制仍存在。"
+    ],
+    [
+      "Etimad",
+      "首页可读；后续分页受限",
+      "新鲜首页仍为13日招标；第2页返回未加载模板，Scrapling返回访问拒绝，不能声称遍历全部招标。"
+    ],
+    [
+      "SPA／Arab News／Argaam",
+      "目录及多篇原文成功",
+      "找到机场设计、道路导改、生态投资、学校进度、建设展会等首轮漏项。"
+    ],
+    [
+      "公司与政府补充核验",
+      "部分受限",
+      "Miahona公告组件无数据，NCP与SCA入口失败，部分媒体拒绝访问。"
+    ],
+    [
+      "检索工具限制",
+      "已切换备用工具",
+      "Firecrawl本轮触发免费额度限制后，使用Scrapling和网页检索继续完成可执行复核。"
+    ]
+  ],
+  "retrievalTools": [
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://www.meed.com/latest",
+        "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-11+before%3A2026-09-15",
+        "https://news.google.com/search?q=Saudi%20construction%20after%3A2026-09-11%20before%3A2026-09-15&hl=en-US&gl=US&ceid=US%3Aen",
+        "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-12%20until%3A2026-09-15&f=live",
+        "https://www.arabnews.com/saudi-arabia",
+        "https://saudigazette.com.sa/saudi-arabia",
+        "https://www.argaam.com/ar",
+        "https://www.spa.gov.sa/en",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2",
+        "https://www.spa.gov.sa/N2674326",
+        "https://www.alarabiya.net/aswaq/companies/2026/09/13/%D8%A7%D9%84%D9%85%D8%A7%D8%AC%D8%AF%D9%8A%D8%A9-%D8%AA%D8%AA%D8%B9%D8%A7%D9%82%D8%AF-%D8%B9%D9%84%D9%89-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-296-%D9%88%D8%AD%D8%AF%D8%A9-%D8%B3%D9%83%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D9%88%D8%B1%D8%A9",
+        "https://www.mubasher.info/news/4671227/-%D9%85%D9%8A%D8%A7%D9%87%D9%86%D8%A7-%D8%AA%D8%AD%D8%B5%D9%84-%D8%B9%D9%84%D9%89-%D9%85%D9%88%D8%A7%D9%81%D9%82%D8%A9-%D9%87%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9-%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%AD%D9%88%D8%A7%D8%B0-%D8%B9%D9%84%D9%89-%D8%B4%D8%A7%D8%B3-%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87-/"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-14/recheck-12-14/access-log.json及逐页原文；成功、空页与失败分开记录"
+    },
+    {
+      "tool": "firecrawl",
+      "status": "completed",
+      "entries": [
+        "https://x.com/search?q=Saudi%20construction%20since%3A2026-09-12%20until%3A2026-09-15&f=live",
+        "Saudi construction infrastructure contracts projects after:2026-09-11 before:2026-09-13",
+        "Saudi construction infrastructure contracts projects after:2026-09-13 before:2026-09-15",
+        "Saudi construction infrastructure contracts projects after:2026-09-12 before:2026-09-14",
+        "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-11+before%3A2026-09-15",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=1",
+        "السعودية مشاريع بنية تحتية \"13 سبتمبر 2026\"",
+        "السعودية مشاريع بنية تحتية \"12 سبتمبر 2026\"",
+        "السعودية مشاريع بنية تحتية \"14 سبتمبر 2026\"",
+        "https://www.arabnews.com/saudi-arabia",
+        "https://www.argaam.com/ar",
+        "https://www.spa.gov.sa/en",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2",
+        "https://www.arabnews.com/saudi-arabia/133m-investment-push-targets-green-projects-3001567",
+        "https://sca.sa/ar/news",
+        "https://www.spa.gov.sa/en/N2675486",
+        "https://www.spa.gov.sa/en/N2674295",
+        "https://www.arabnews.com/saudi-arabia/kings-college-riyadh-sedra-campus-set-to-open-in-2027-enhancing-education-quality-3001332",
+        "https://ncp.gov.sa/ar/MediaCenter/News/Pages/EOI-JDAMakkah.aspx",
+        "\"الثمامة\" \"سبتمبر\" \"2026\" تطوير",
+        "السعودية اشتراطات تراخيص مقاولين \"سبتمبر 2026\" after:2026-09-11 before:2026-09-15",
+        "Saudi NCVC 103 investment opportunities September 2026",
+        "Saudi ports shipping logistics freight September 12 13 14 2026 after:2026-09-11",
+        "Saudi construction camp accommodation steel cement September 12 13 14 2026 after:2026-09-11",
+        "السعودية حديد أسمنت سكن العمال مخيمات after:2026-09-11 before:2026-09-15",
+        "https://aawsat.com/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/5317805-%D8%AA%D9%88%D9%82%D9%8A%D8%B9-%D8%B9%D9%82%D8%AF-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D9%81%D9%87%D8%AF-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D9%88%D8%B1%D9%81%D8%B9-%D8%B7%D8%A7%D9%82%D8%AA%D9%87-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%8A%D8%B9%D8%A7%D8%A8%D9%8A%D8%A9-%D8%A5%D9%84%D9%89-32-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D9%85%D8%B3%D8%A7%D9%81%D8%B1",
+        "site:spa.gov.sa \"الثمامة\" \"سبتمبر\" \"2026\"",
+        "site:spa.gov.sa \"103\" \"2026\" \"الغطاء\"",
+        "site:wsp.com \"Dammam\" \"2026\" September",
+        "site:saudiexchange.sa \"مياهنا\" \"2026-09-13\"",
+        "site:spa.gov.sa \"مطار الملك فهد\" \"سبتمبر\" \"2026\"",
+        "site:saudiexchange.sa \"الماجدية\" \"2026-09-13\"",
+        "https://www.spa.gov.sa/N2674273",
+        "https://www.spa.gov.sa/N2675241",
+        "https://www.spa.gov.sa/N2674811",
+        "https://www.argaam.com/ar/article/articledetail/id/1935911",
+        "https://www.argaam.com/ar/article/articledetail/id/1935914",
+        "site:spa.gov.sa \"14 سبتمبر 2026\" اقتصادي",
+        "\"مياهنا\" \"شاس\" \"سبتمبر\" \"2026\"",
+        "site:spa.gov.sa \"12 سبتمبر 2026\" مشروع",
+        "site:spa.gov.sa \"12 سبتمبر 2026\" اقتصادي",
+        "\"الماجدية\" \"296\" \"سبتمبر\" \"2026\"",
+        "\"الماجدية\" \"185\" \"site:saudiexchange.sa/wps/portal/saudiexchange/newsandreports\"",
+        "https://www.spa.gov.sa/N2674326",
+        "site:spa.gov.sa \"أمانة حائل\" \"12 سبتمبر 2026\"",
+        "https://www.spa.gov.sa/N2674474",
+        "https://www.miahona.com/ar/announcements"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-14/recheck-12-14/access-log.json及逐页原文；成功、空页与失败分开记录"
+    },
+    {
+      "tool": "web-search",
+      "status": "completed",
+      "entries": [
+        "Miahona Shas September 13 2026 no objection",
+        "Almajdiah 185 million September 13 2026 agreement",
+        "https://www.miahona.com/ar/announcements",
+        "https://gulfdays.net/al-majdiah-signs-sar-185m-deal-to-develop-296-residential-units-in-madinah/"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-14/recheck-12-14/web-1.json至web-5.json"
+    }
+  ],
+  "items": [
+    {
+      "category": "航运物流",
+      "region": "中东／沙特",
+      "published": "2026-09-11",
+      "event": "2026-09-11第46号更新",
+      "sourceType": "船公司官方通知",
+      "source": "Maersk",
+      "title": "马士基发布中东第46号更新，沙特东西岸干货订舱条件仍有区别",
+      "original": "Middle East Operational Update 46",
+      "url": "https://www.maersk.com/news/articles/2026/09/11/middle-east-operational-update-46",
+      "summary": "第46号通知列明：普通干货往返达曼、朱拜勒订舱暂停，吉达和阿卜杜拉国王港接受相应订舱；科威特、卡塔尔、巴林也列入干货接受范围。塞拉莱、苏哈尔至沙特等地的部分陆桥订舱暂停，吉达至利雅得、达曼的沙特境内承运人拖车方案仍列为可用，受运力和适用法规约束。",
+      "review": "已读马士基9月11日完整通知，分别核对干货表格及陆运段；关联此前第45号通知，不能将干货规则套给超限货、危险品或冷藏货。证据：maersk46.md。",
+      "boundary": "这是马士基具体服务条件；不代表沙特全部港口、其他船公司或所有货类停运。",
+      "relatedId": "2026-09-11/006",
+      "update": "09:00更新：关联第45号通知，现记录第46号新版本",
+      "products": [
+        [
+          "打包箱",
+          "条件适配：仅限实际使用本通知所列马士基服务进口打包箱或其部件的订单。货类、目的港与境内接运条件会影响路线选择；不据此声称本地现货短缺、交期延误或公司参与新闻项目。"
+        ],
+        [
+          "移动卫浴",
+          "条件适配：仅限实际使用本通知所列马士基服务进口移动卫浴或其部件的订单。货类、目的港与境内接运条件会影响路线选择；不据此声称本地现货短缺、交期延误或公司参与新闻项目。"
+        ],
+        [
+          "五金",
+          "条件适配：仅限实际使用本通知所列马士基服务进口五金或其部件的订单。货类、目的港与境内接运条件会影响路线选择；不据此声称本地现货短缺、交期延误或公司参与新闻项目。"
+        ],
+        [
+          "薄壁轻钢",
+          "条件适配：仅限实际使用本通知所列马士基服务进口薄壁轻钢或其部件的订单。货类、目的港与境内接运条件会影响路线选择；不据此声称本地现货短缺、交期延误或公司参与新闻项目。"
+        ]
+      ],
+      "background": "产品类别依据公司简介和产品资料确认，仅建立有条件的运输关联，不增加性能、库存或交期主张。",
+      "shipping": [
+        [
+          "船公司",
+          "Maersk"
+        ],
+        [
+          "适用货类",
+          "摘要限普通干货；其他货类另有规则"
+        ],
+        [
+          "沙特目的港",
+          "达曼、朱拜勒与吉达、阿卜杜拉国王港条件不同"
+        ],
+        [
+          "境内运输",
+          "吉达到利雅得、达曼；受运力与法规约束"
+        ],
+        [
+          "价格／时效",
+          "本摘要不提供统一费用或到场时限"
+        ]
+      ],
+      "id": "001",
+      "tags": [
+        "航运物流"
+      ],
+      "status": "verified",
+      "statusText": "原文已核验",
+      "eventLabel": "事件日期",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T01:12:29.339Z",
+        "method": "读取原始公告并核对主体、日期与范围",
+        "confirmedScope": "第46号通知列明：普通干货往返达曼、朱拜勒订舱暂停，吉达和阿卜杜拉国王港接受相应订舱；科威特、卡塔尔、巴林也列入干货接受范围。塞拉莱、苏哈尔至沙特等地的部分陆桥订舱暂停，吉达至利雅得、达曼的沙特境内承运人拖车方案仍列为可用，受运力和适用法规约束。",
+        "reason": "已读马士基9月11日完整通知，分别核对干货表格及陆运段；关联此前第45号通知，不能将干货规则套给超限货、危险品或冷藏货。证据：maersk46.md。",
+        "missing": ""
+      }
+    },
+    {
+      "category": "航运物流",
+      "region": "海湾／非沙特目的地",
+      "published": "2026-09-11",
+      "event": "非受监管始发地2026-09-17；所列受监管始发地2026-10-11",
+      "eventLabel": "生效日期",
+      "sourceType": "船公司官方费率公告",
+      "source": "Maersk",
+      "title": "马士基公布赴海湾四国OCR附加费，排除远东亚洲始发货物",
+      "original": "Implementation of Emergency Operational Cost Recovery Surcharge OCR for the scope of World (excluding Far East Asia) to Bahrain (BH) , Qatar (QA), Kuwait (KW) and Iraq (IQ)",
+      "url": "https://www.maersk.com/news/articles/2026/09/11/emergency-ocr-surcharge-world-to-bahrain-qatar-kuwait-iraq",
+      "summary": "公告对全球（不含远东亚洲）始发、前往巴林、卡塔尔、科威特和伊拉克的合同订舱实施OCR附加费，干箱、冷藏箱和特种箱均为每箱500美元。非受监管始发地9月17日起适用，公告列明的受监管始发地10月11日起适用。",
+      "review": "直接读取官方费率表及脚注，核对每箱计费、仅合同订舱、排除远东亚洲和两组生效日。证据：maersk-ocr.md。",
+      "boundary": "目的地不包括沙特；不能改写成中国发往沙特每箱涨价500美元。",
+      "background": "海湾航运成本背景；本通知与中国至沙特业务没有直接适用关系，不强配产品。",
+      "shipping": [
+        [
+          "始发地",
+          "全球，不含远东亚洲"
+        ],
+        [
+          "目的地",
+          "巴林、卡塔尔、科威特、伊拉克"
+        ],
+        [
+          "货类／费基",
+          "干箱、冷藏箱、特种箱；USD 500/箱"
+        ],
+        [
+          "订舱条件",
+          "仅合同订舱；按公告PCD口径"
+        ],
+        [
+          "10月11日组",
+          "美国、关岛、美属萨摩亚、美属维尔京群岛、哥伦比亚、波多黎各、巴西"
+        ]
+      ],
+      "id": "002",
+      "tags": [
+        "航运物流"
+      ],
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "09:00批次新收录",
+      "products": [],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T01:12:29.339Z",
+        "method": "读取原始公告并核对主体、日期与范围",
+        "confirmedScope": "公告对全球（不含远东亚洲）始发、前往巴林、卡塔尔、科威特和伊拉克的合同订舱实施OCR附加费，干箱、冷藏箱和特种箱均为每箱500美元。非受监管始发地9月17日起适用，公告列明的受监管始发地10月11日起适用。",
+        "reason": "直接读取官方费率表及脚注，核对每箱计费、仅合同订舱、排除远东亚洲和两组生效日。证据：maersk-ocr.md。",
+        "missing": ""
+      }
+    },
+    {
+      "category": "航运物流",
+      "region": "马来西亚／国际中转",
+      "published": "2026-09-11",
+      "event": "9月9日晚发生；9月10日起分阶段恢复",
+      "sourceType": "两家专业媒体独立采访",
+      "source": "The Loadstar",
+      "title": "丹戎帕拉帕斯港网络事件曾中断作业，已启动分阶段恢复",
+      "original": "Cyber-attack halts operations at Malaysia’s Tanjung Pelepas Port",
+      "url": "https://theloadstar.com/cyber-attack-halts-operations-at-malaysias-tanjung-pelepas-port/",
+      "summary": "马来西亚丹戎帕拉帕斯港9月9日晚因网络安全事件暂停部分码头作业。9月10日起受影响系统恢复后开始分阶段重启。马士基向专业媒体表示，部分船舶可能延误，正在处理运营影响；未公布面向沙特货物的统一延误天数。",
+      "review": "读取The Loadstar对马士基发言人的直接采访，并与Lloyd’s List独立报道（myKN转载）交叉核对。两篇都包含各自采访及港口通知信息，myKN不另算第三来源。后续定向搜索未取得全面恢复正常的正式公告。证据：ptp-loadstar.md、ptp-kn.md。",
+      "reviewUrls": [
+        [
+          "Lloyd’s List报道（myKN转载）",
+          "https://mykn.kuehne-nagel.com/news/article/cyber-attack-disrupts-operations-at-malaysias"
+        ]
+      ],
+      "boundary": "不将9月9日短时中断写成9月14日仍全港关闭；未确认具体沙特订单受影响。",
+      "background": "与实际经该港中转的工程货物有关；尚无具体订单或产品路线信息，不强配产品。",
+      "id": "003",
+      "tags": [
+        "航运物流"
+      ],
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "09:00批次新收录",
+      "products": [],
+      "eventLabel": "事件日期",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T01:12:29.339Z",
+        "method": "两家专业媒体独立采访交叉核对",
+        "confirmedScope": "马来西亚丹戎帕拉帕斯港9月9日晚因网络安全事件暂停部分码头作业。9月10日起受影响系统恢复后开始分阶段重启。马士基向专业媒体表示，部分船舶可能延误，正在处理运营影响；未公布面向沙特货物的统一延误天数。",
+        "reason": "读取The Loadstar对马士基发言人的直接采访，并与Lloyd’s List独立报道（myKN转载）交叉核对。两篇都包含各自采访及港口通知信息，myKN不另算第三来源。后续定向搜索未取得全面恢复正常的正式公告。证据：ptp-loadstar.md、ptp-kn.md。",
+        "missing": ""
+      }
+    },
+    {
+      "category": "航运物流",
+      "tags": [
+        "航运物流",
+        "工程项目"
+      ],
+      "published": "2026-09-11",
+      "event": "2026-09-10上午遭袭；9月11日公告",
+      "sourceType": "官方声明＋通讯社报道",
+      "source": "SPA／沙特能源部",
+      "title": "沙特能源部宣布东西向输油管线遇袭后预防性停运",
+      "original": "East–West Pipeline Shut Down as a Precaution Following Multiple Attacks",
+      "url": "https://www.spa.gov.sa/en/N2674017",
+      "summary": "沙特能源部消息人士9月11日通过SPA表示，东西向输油管线在利雅得和麦地那地区于9月10日上午遭到多次袭击，管线采取预防性停运措施，技术和应急团队处置并评估现场情况。本轮未取得明确的正式复运日期。",
+      "review": "SPA页面直接读取为空，已通过本轮网页索引读到官方声明，并与Reuters独立报道全文（TBS转载）对照。后续搜索复运进展，没有采用旧的4月复运消息或市场人士的供给损失估计。证据：web-3.json、web-4.json、pipeline-reuters.md。",
+      "reviewUrls": [
+        [
+          "Reuters报道（TBS转载）",
+          "https://www.tbsnews.net/worldbiz/middle-east/saudis-shut-down-oil-pipeline-houthis-tighten-grip-red-sea-shipping-1540231"
+        ]
+      ],
+      "background": "能源基础设施及区域物流背景；无法据此量化工程材料涨价、项目停工或某产品交付影响。",
+      "boundary": "摘要明确为9月11日宣布的措施，不将未核实的当前停运范围、修复时长或油价后果写成事实。",
+      "id": "004",
+      "region": "沙特",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "09:00批次新收录",
+      "products": [],
+      "eventLabel": "事件日期",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T01:12:29.339Z",
+        "method": "官方声明索引＋Reuters全文交叉核对",
+        "confirmedScope": "沙特能源部消息人士9月11日通过SPA表示，东西向输油管线在利雅得和麦地那地区于9月10日上午遭到多次袭击，管线采取预防性停运措施，技术和应急团队处置并评估现场情况。本轮未取得明确的正式复运日期。",
+        "reason": "SPA页面直接读取为空，已通过本轮网页索引读到官方声明，并与Reuters独立报道全文（TBS转载）对照。后续搜索复运进展，没有采用旧的4月复运消息或市场人士的供给损失估计。证据：web-3.json、web-4.json、pipeline-reuters.md。",
+        "missing": ""
+      }
+    },
+    {
+      "category": "项目合规",
+      "tags": [
+        "项目合规",
+        "营地住宿"
+      ],
+      "published": "2026-09-11",
+      "event": "2027-07-01生效；符合条件的已有持证人自生效日起90天内调整",
+      "eventLabel": "生效条件",
+      "sourceType": "官方公报决定原文",
+      "source": "Umm Al-Qura／沙特旅游部",
+      "title": "沙特批准旅游住宿设施法规修订，2027年7月1日起实施",
+      "original": "الموافقة على تعديل لائحة مرفق الضيافة السياحي",
+      "url": "https://www.uqn.gov.sa/decisions-and-regulations/4001830",
+      "summary": "9月11日官方公报刊登旅游部长决定，批准修订旅游住宿设施法规，并明确2027年7月1日起实施。新规生效前许可证仍有效的相关运营者，应按随附调整机制在生效日起90天内调整。",
+      "review": "读取官方决定全文，核对批准事项、明确的公历生效日及90天起算条件。网页未提供本轮可读的完整附件，故仅核验决定本身，不解释新增技术条款。证据：hospitality-rule.md。",
+      "boundary": "旅游住宿法规不自动适用于工人营地；未读取附件，不推断消防、建筑配置或产品认证要求。",
+      "background": "住宿运营的制度切换信息；具体项目是否属于旅游许可范围需另行判断。",
+      "id": "008",
+      "region": "沙特",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "09:00批次新收录",
+      "products": [],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T01:12:29.339Z",
+        "method": "读取原始公告并核对主体、日期与范围",
+        "confirmedScope": "9月11日官方公报刊登旅游部长决定，批准修订旅游住宿设施法规，并明确2027年7月1日起实施。新规生效前许可证仍有效的相关运营者，应按随附调整机制在生效日起90天内调整。",
+        "reason": "读取官方决定全文，核对批准事项、明确的公历生效日及90天起算条件。网页未提供本轮可读的完整附件，故仅核验决定本身，不解释新增技术条款。证据：hospitality-rule.md。",
+        "missing": ""
+      }
+    },
+    {
+      "category": "项目合规",
+      "tags": [
+        "项目合规",
+        "营地住宿"
+      ],
+      "published": "2026-09-11",
+      "event": "自2026-09-11发布日起实施；相关已有许可者90天内调整",
+      "eventLabel": "生效条件",
+      "sourceType": "官方公报决定原文",
+      "source": "Umm Al-Qura／沙特旅游部",
+      "title": "沙特批准私人住宿单元法规，发布日起生效",
+      "original": "الموافقة على لائحة وحدة الضيافة الخاصة",
+      "url": "https://www.uqn.gov.sa/decisions-and-regulations/4001817",
+      "summary": "旅游部长决定批准私人住宿单元法规，替代此前私人旅游住宿设施法规，相关名称同步调整。决定自官方公报发布日起实施，决定发布前持有效许可者须按随附机制在生效后不超过90天内调整。",
+      "review": "逐条读取官方决定，核对替代关系、即时生效条款和90天调整期。该决定与另一项2027年7月生效的旅游住宿设施修订不同，不合并生效日期。证据：private-hospitality.md。",
+      "boundary": "本轮仅核验部长决定；没有取得完整附属法规，不延伸到工人营地或具体房型技术要求。",
+      "background": "私人住宿经营的制度信息；不能凭标题认定模块化房屋或工程营地直接适用。",
+      "id": "009",
+      "region": "沙特",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "09:00批次新收录",
+      "products": [],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T01:12:29.339Z",
+        "method": "读取原始公告并核对主体、日期与范围",
+        "confirmedScope": "旅游部长决定批准私人住宿单元法规，替代此前私人旅游住宿设施法规，相关名称同步调整。决定自官方公报发布日起实施，决定发布前持有效许可者须按随附机制在生效后不超过90天内调整。",
+        "reason": "逐条读取官方决定，核对替代关系、即时生效条款和90天调整期。该决定与另一项2027年7月生效的旅游住宿设施修订不同，不合并生效日期。证据：private-hospitality.md。",
+        "missing": ""
+      }
+    },
+    {
+      "category": "项目合规",
+      "tags": [
+        "项目合规",
+        "航运物流"
+      ],
+      "published": "2026-09-11",
+      "event": "所列调整期限延长至2027-02-27；决定自签发日起实施",
+      "eventLabel": "期限／生效条件",
+      "sourceType": "官方公报决定原文",
+      "source": "Umm Al-Qura／沙特交通与物流服务部",
+      "title": "沙特延长部分重型及轻型货运合规调整期限至2027年2月27日",
+      "original": "قرار وزير النقل والخدمات اللوجستية رقم (1/48/47) وتاريخ 1448/03/06هـ",
+      "url": "https://www.uqn.gov.sa/decisions-and-regulations/4001808",
+      "summary": "官方公报9月11日刊登交通与物流服务部长决定，将重型货运实施条例中特定条款，以及轻型货运实施条例中指定条款的调整期限延长至2027年2月27日。其中明确包括将相关车辆登记类型从私人运输调整为公共运输的期限。",
+      "review": "从媒体线索追到官方公报，核对四项延长期限及决定生效方式。只描述原文指定条款，不将延期写成全部运输义务暂停或所有车辆豁免。证据：transport-rule.md。",
+      "boundary": "本条仅涵盖所链接决定的重型、轻型货运条款；其他客运或企业活动登记事项未在本条扩写。",
+      "background": "供项目物流与承运人核对整改安排；期限延长不等于具体承运车辆已满足其余许可要求。",
+      "id": "010",
+      "region": "沙特",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "update": "09:00批次新收录",
+      "products": [],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T01:12:29.339Z",
+        "method": "读取原始公告并核对主体、日期与范围",
+        "confirmedScope": "官方公报9月11日刊登交通与物流服务部长决定，将重型货运实施条例中特定条款，以及轻型货运实施条例中指定条款的调整期限延长至2027年2月27日。其中明确包括将相关车辆登记类型从私人运输调整为公共运输的期限。",
+        "reason": "从媒体线索追到官方公报，核对四项延长期限及决定生效方式。只描述原文指定条款，不将延期写成全部运输义务暂停或所有车辆豁免。证据：transport-rule.md。",
+        "missing": ""
+      }
+    },
+    {
+      "category": "工程项目",
+      "region": "沙特／麦加",
+      "published": "2026-09-11",
+      "event": "设计招标期限线索；具体日未核实",
+      "sourceType": "专业媒体摘要／核验未通过",
+      "source": "MEED",
+      "status": "unconfirmed",
+      "title": "待证线索：麦加地铁设计招标拟设10月截止日期",
+      "original": "Saudi Arabia sets October deadline for Mecca metro design",
+      "url": "https://www.meed.com/saudi-arabia-sets-october-deadline-for-mecca-metro-design",
+      "summary": "MEED于9月11日发布麦加地铁设计招标10月截止日期的报道。当前可读内容为标题和导语，具体截止日、采购主体及设计范围未完成可靠核对。",
+      "review": "已直接读取MEED原页并进行英文和阿语定向补漏，未取得业主采购公告或独立可靠报道。付费正文限制仍存在，不采用导语中的车站规模与建设时间表。证据：mecca.md、verify-mecca.json、web-1.json。",
+      "background": "保留为工程采购线索，不推导为施工授标或营地采购。",
+      "id": "012",
+      "tags": [
+        "工程项目"
+      ],
+      "statusText": "未通过：证据不足",
+      "update": "09:00批次新收录",
+      "products": [],
+      "eventLabel": "事件日期",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-14T01:12:29.339Z",
+        "method": "读取原始公告并核对主体、日期与范围",
+        "confirmedScope": "已确认所列媒体发布了这条报道；核心事件证据不足。",
+        "reason": "已直接读取MEED原页并进行英文和阿语定向补漏，未取得业主采购公告或独立可靠报道。付费正文限制仍存在，不采用导语中的车站规模与建设时间表。证据：mecca.md、verify-mecca.json、web-1.json。",
+        "missing": "正式设计招标文件或独立来源对采购主体、范围及具体截止日期的确认。"
+      }
+    },
+    {
+      "id": "014",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "行业活动"
+      ],
+      "region": "沙特／利雅得SEDRA",
+      "published": "2026-09-14",
+      "eventLabel": "项目阶段",
+      "sourceType": "官方原文",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "background": "大型项目行业活动与渠道信息，不构成具体采购机会或ROSHN新授标公告。",
+      "update": "2026-09-14重新检索新增",
+      "title": "ROSHN成为Saudi Mega Projects 2026主办合作伙伴",
+      "original": "ROSHN Group: Host Partner for Saudi Mega Projects 2026 in Riyadh",
+      "source": "SPA／ROSHN",
+      "url": "https://www.spa.gov.sa/en/N2675486",
+      "event": "2026-09-28至2026-09-30；行业峰会预告",
+      "summary": "SPA于9月14日发布消息，ROSHN将担任Saudi Mega Projects 2026峰会的主办合作伙伴。峰会计划于9月28日至30日在利雅得SEDRA社区的The Venue举行，主题涉及沙特大型项目开发与交付。",
+      "review": "读取SPA英文原文，按正文署期9月14日00:38沙特时间归档；网页顶部仍显示13日，未采用页眉作为文章日期。仅收录会议信息，不把宣传中的行业趋势改写为具体授标。证据：roshn-spa.md。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-14T02:00:01.415Z",
+        "method": "读取原文并核对日期、主体、项目阶段和事实范围",
+        "confirmedScope": "SPA于9月14日发布消息，ROSHN将担任Saudi Mega Projects 2026峰会的主办合作伙伴。峰会计划于9月28日至30日在利雅得SEDRA社区的The Venue举行，主题涉及沙特大型项目开发与交付。",
+        "reason": "读取SPA英文原文，按正文署期9月14日00:38沙特时间归档；网页顶部仍显示13日，未采用页眉作为文章日期。仅收录会议信息，不把宣传中的行业趋势改写为具体授标。证据：roshn-spa.md。",
+        "missing": ""
+      }
+    }
+  ],
+  "run": {
+    "status": "completed",
+    "startedAt": "2026-09-14T01:47:09.710Z",
+    "completedAt": "2026-09-14T02:01:19.659Z",
+    "newCount": 1,
+    "updatedCount": 0,
+    "message": "2026-09-14按12、13、14日重新检索：共新增9条，更新1条；合计22条（17条通过，5条证据不足）。本日新增1条。Etimad后续分页受限；完整性限于本轮可访问范围。"
+  },
+  "completedSlots": [
+    "09:00"
+  ],
+  "lastVerifiedAt": "2026-09-14T02:00:01.415Z",
+  "relocatedItems": [
+    {
+      "from": "NEWS-20260914-013",
+      "to": "NEWS-20260912-001",
+      "url": "https://saudigazette.com.sa/article/664498/saudi-arabia/saudi-arabia-developing-over-14-gw-of-computing-capacity-to-accelerate-ai-growth"
+    },
+    {
+      "from": "NEWS-20260914-005",
+      "to": "NEWS-20260913-001",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=oY4HtPQRYhDtiU*@@**BaLF6Lg=="
+    },
+    {
+      "from": "NEWS-20260914-006",
+      "to": "NEWS-20260913-002",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=KYGfD2U5Sk8V6pFVSteGMQ=="
+    },
+    {
+      "from": "NEWS-20260914-007",
+      "to": "NEWS-20260913-003",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=8LCvFCn*@@**9w%20wfeIU%20xL7YQ=="
+    },
+    {
+      "from": "NEWS-20260914-011",
+      "to": "NEWS-20260912-004",
+      "url": "https://www.spa.gov.sa/N2674273",
+      "archiveAdjustedAt": "2026-09-14T02:00:01.415Z"
+    }
+  ],
+  "archiveAdjustedAt": "2026-09-14T01:27:36.621Z",
+  "runHistory": [
+    {
+      "status": "completed",
+      "slot": "09:00",
+      "startedAt": "2026-09-14T01:00:19.583Z",
+      "completedAt": "2026-09-14T01:15:11.923Z",
+      "newCount": 12,
+      "updatedCount": 1,
+      "message": "上午实际检索共13条（10条通过、3条证据不足），新增12条、更新1条；按用户要求分日归档：12号1条、13号4条、14号8条。此次仅调整归档，核验时间与09:00批次完成状态不变。",
+      "backfilledCount": 5
+    }
+  ],
+  "recheckBatch": {
+    "performedAt": "2026-09-14T02:00:01.415Z",
+    "newCount": 9,
+    "updatedCount": 1,
+    "byArchiveDate": {
+      "2026-09-12": {
+        "newCount": 2,
+        "updatedCount": 1,
+        "total": 4
+      },
+      "2026-09-13": {
+        "newCount": 6,
+        "relocatedOut": 1,
+        "total": 9
+      },
+      "2026-09-14": {
+        "newCount": 1,
+        "total": 9
+      }
+    }
+  }
+}

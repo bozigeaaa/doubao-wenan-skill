@@ -309,6 +309,8 @@ def test_default_oral_length_is_pre_draft_and_detailed_placement_is_conditional(
         "deduplicate_structure",
         "recheck_oralization_if_dedup_changed",
         "validate_promise_fulfillment",
+        "check_one_sentence_takeaway",
+        "check_news_landing_point",
         "recheck_facts",
         "run_b2b_quality_gate",
         "run_compliance_review",
@@ -634,3 +636,50 @@ def test_pending_or_expired_claims_stay_out_of_the_finished_script() -> None:
     assert "不进入成稿" in read(AGENTS)
     assert "omit it from the script, obtain supporting evidence, narrow the content promise, or stop" in fire_skill
     assert "omit it from the script, obtain supporting evidence, narrow the content promise, or stop" in light_steel_skill
+
+
+def test_one_sentence_takeaway_gate_is_wired_into_the_machine_workflow() -> None:
+    manifest = json.loads(read(MANIFEST))
+    registry = read(REGISTRY)
+    router = read(WENAN)
+
+    assert "viewer_one_sentence_takeaway" in manifest["temporary_state_required_fields"]
+    assert "check_one_sentence_takeaway" in manifest["stages"]
+    assert "check_news_landing_point" in manifest["stages"]
+    assert manifest["stages"].index("check_one_sentence_takeaway") > manifest["stages"].index(
+        "validate_promise_fulfillment"
+    )
+    assert manifest["stages"].index("check_news_landing_point") < manifest["stages"].index(
+        "recheck_facts"
+    )
+
+    for expected in (
+        "一句话总结门",
+        "新闻落点检查",
+        "观众一句话总结",
+        "转播新闻",
+        "以本篇目标受众身份",
+        "明确对象或场景",
+    ):
+        assert expected in registry, expected
+
+    assert "一句话总结检查" in router
+    assert "新闻落点检查" in router
+    assert "观众一句话总结" in router
+
+
+def test_completeness_and_directness_rules_guard_against_thin_winding_vague_copy() -> None:
+    registry = read(REGISTRY)
+    gate = read(QUALITY_GATE)
+    negative = read(NEGATIVE_EXAMPLES)
+
+    for expected in (
+        "讲清楚",
+        "适用条件、比较口径",
+        "内容过少而不是简洁",
+        "简单不等于内容少",
+    ):
+        assert expected in registry or expected in gate, expected
+
+    for symptom in ("转播新闻", "只讲结论不讲条件", "一句话说不清核心", "绕：铺垫过长与条件套条件"):
+        assert symptom in negative, symptom

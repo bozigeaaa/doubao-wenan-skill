@@ -1,0 +1,858 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-09-15",
+  "collectedAt": "2026-09-15T06:26:55.089Z",
+  "timeZone": "Asia/Shanghai",
+  "window": "2026-09-13 10:00（北京时间；上次成功采集前24小时）至2026-09-15本轮实际采集结束；补查遗漏时段，统一按9月15日实际收录，原文日期逐条保留。",
+  "scope": "以沙特为主，覆盖工程项目、营地住宿、产品与材料、招投标、项目合规、航运物流。本次实际发现19条去重事件或新进展，不代表全网新闻总量。",
+  "channels": [
+    [
+      "Google／Google News",
+      "Google结果页可读；Google News两工具失败",
+      "已直接读Google结果页，外部关键词搜索补漏。"
+    ],
+    [
+      "X",
+      "直接请求失败；备用不支持；外部索引补漏",
+      "可得公开转述索引，管线线索追到AP原文；不声称读取完整X时间线。"
+    ],
+    [
+      "MEED",
+      "最新列表及公开导语可读；订阅正文受限",
+      "Oxagon备标未通过核验；重复整体EPC等旧事件不新增。"
+    ],
+    [
+      "Etimad",
+      "最新三页列表及候选详情可读",
+      "核对实际公告及截止日；另做9月14日限定搜索，未穷尽所有分页。"
+    ],
+    [
+      "SPA／Saudi Gazette／Arab News",
+      "当地媒体与官方原文可读；空页已使用备用",
+      "核对吉赞工业项目、天气、资源声明及世博村。"
+    ],
+    [
+      "SaudiGulfProjects／MAIRE／Saudi Exchange",
+      "行业线索追到公司与交易所原文",
+      "核实化肥技术包、钻机合同、水泥三份合同；更正矿石资源数字口径。"
+    ],
+    [
+      "Maersk／Hapag-Lloyd",
+      "Maersk原文可读；Hapag只得验证页／框架",
+      "采用具体Gemini航线通知，不推导沙特所有港口恢复。"
+    ],
+    [
+      "Asharq Al-Awsat／Business Wire／GlobeNewswire／AP",
+      "正文或完整通讯稿转载可读",
+      "区分负责人计划、企业自述与匿名维修估计；不将同稿转载当独立二次证实。"
+    ]
+  ],
+  "retrievalTools": [
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://www.meed.com/latest",
+        "https://saudigazette.com.sa/saudi-arabia",
+        "https://www.meed.com/contractors-prepare-bids-for-oxagon-wastewater-plant",
+        "https://saudigazette.com.sa/article/664566/saudi-arabia/sr32-billion-joint-venture-agreement-inked-to-develop-and-deliver-riyadh-expo-village",
+        "https://www.maersk.com/news/",
+        "https://www.maersk.com/news/articles/2026/09/14/structural-changes-ae5-ae11-ae12-me2-gemini-services",
+        "https://www.saudigulfprojects.com/",
+        "https://www.saudigulfprojects.com/2026/09/arabian-drilling-wins-sar-2-billion-five-year-contract-from-slb-for-8-gas-land-rigs/",
+        "https://www.saudigulfprojects.com/2026/09/riyadh-cement-awards-14-9-million-digital-transformation-contract-to-tianjin-cement-institute/",
+        "https://www.saudigulfprojects.com/2026/09/riyadh-cement-signs-25-year-solar-energy-purchase-agreement-with-samana-energy/",
+        "https://www.saudigulfprojects.com/2026/09/saudi-arabia-identifies-estimated-110-million-tonnes-of-ore-at-jabal-sayid-rare-earth-project/"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-15/retrieval-log.json；原文与检索结果逐项保存在同目录，覆盖复核见coverage-review.json。"
+    },
+    {
+      "tool": "firecrawl",
+      "status": "completed",
+      "entries": [
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor",
+        "https://www.google.com/search?q=Saudi+construction+after%3A2026-09-12+before%3A2026-09-16",
+        "https://www.arabnews.com/saudi-arabia",
+        "https://www.spa.gov.sa/en",
+        "Saudi workers accommodation camp housing after:2026-09-12 before:2026-09-16",
+        "Saudi construction project contract after:2026-09-12 before:2026-09-16",
+        "Saudi construction steel materials modular after:2026-09-12 before:2026-09-16",
+        "السعودية ترسية عقود مشاريع \"14 سبتمبر 2026\"",
+        "Saudi construction regulation procurement law after:2026-09-12 before:2026-09-16",
+        "Saudi port shipping Maersk Hapag September 14 15 2026",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=2",
+        "https://www.spa.gov.sa/en/N2675809",
+        "site:maersk.com \"September\" \"14\" \"2026\" \"Suez\"",
+        "\"Expo Village\" \"Al Habib\" \"September 14\"",
+        "\"NEXTCHEM\" \"SABIC\" \"September\" \"2026\"",
+        "\"Oxagon\" \"wastewater\" \"September\" \"2026\"",
+        "\"BRKZ\" \"31 million\" \"2026\"",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=4SmgYIYNA5wcSNSDW9dbiA==",
+        "https://www.spa.gov.sa/en/N2676499",
+        "https://www.groupmaire.com/en/newsroom/press-releases/detail/nextchem-maire-has-been-selected-to-provide-the-technology-package-for-sabic-ans-san-7-large-scale-fertilizer-complex-in-saudi-arabia-based-on-its-nx-stami-urea-solution-for-a-total-value-of-125-million/",
+        "https://nz.finance.yahoo.com/news/expo-2030-riyadh-mohammed-al-094200874.html",
+        "https://www.okaz.com.sa/local/na/2264566",
+        "https://markets.businessinsider.com/news/stocks/brkz-secures-31-million-to-scale-ai-enabled-building-materials-procurement-across-saudi-arabia-and-the-gcc-1036542314",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=EePkA8OFirXtubR1VkjbRg==",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=wNMInoU9rzkRuvARGxWX8w==",
+        "\"Miahona\" \"Shas\" \"September\" \"2026\"",
+        "السعودية مشاريع بناء موانئ \"15 سبتمبر 2026\"",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=*@@**PnXwEpAPLLIkbRnS*@@**Ucfw==",
+        "https://www.spa.gov.sa/en/N2675968",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=9*@@**vsV7V3ND0FWBi23RdQrQ==",
+        "https://aawsat.com/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/5318197-%D8%A7%D9%84%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%8A%D9%88%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9-%D8%AA%D8%B6%D9%8A%D9%81-%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D9%84%D9%80%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%86%D8%A6-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A8%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-14-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
+        "\"Riyadh Cement\" \"Tianjin\" \"September 14\" \"2026\"",
+        "\"Riyadh Cement\" \"Samana\" \"2026\"",
+        "\"Arabian Drilling\" \"8\" \"SLB\" \"September 14\" \"2026\"",
+        "site:saudiexchange.sa \"Riyadh Cement\" \"2026-09-14\"",
+        "https://www.saudiexchange.sa/Resources/fsPdf/28194_3703_2026-09-14_08-27-09_en.pdf",
+        "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98127&anCat=1&cs=3092&locale=en",
+        "site:saudiexchange.sa \"Riyadh Cement\" \"Light House\"",
+        "site:saudiexchange.sa \"Miahona\" \"2026-09-13\" \"Shas\"",
+        "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98132&anCat=1&cs=3092&locale=en",
+        "Mawani Al Khumra logistics economic zone September 14 2026",
+        "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98131&anCat=1&cs=3092&locale=en",
+        "site:tenders.etimad.sa بناء صيانة \"2026-09-14\"",
+        "site:x.com Saudi construction project September 14 2026",
+        "site:apnews.com \"pipeline\" \"weeks\" \"September 14\" \"2026\"",
+        "https://tenders.etimad.sa/Tender/AllTendersForVisitor?PageNumber=3",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=zwFA6EZ3WBLp0WuhTfpIGg==",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=yQJJfC9yGOdVxQxv6fuNYg==",
+        "https://apnews.com/article/yemen-houthis-saudi-shipping-mandeb-8c18d82c109a8ea91347ce53c0096c53",
+        "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=H3kNM7ZHB87N%209SrNp4YGw=="
+      ],
+      "evidence": "outputs/news/evidence-2026-09-15/retrieval-log.json；原文与检索结果逐项保存在同目录，覆盖复核见coverage-review.json。"
+    }
+  ],
+  "items": [
+    {
+      "id": "001",
+      "category": "营地住宿",
+      "tags": [
+        "营地住宿"
+      ],
+      "region": "利雅得",
+      "source": "Expo 2030 Riyadh／MAHR（Business Wire通讯稿，Yahoo转载）",
+      "sourceType": "项目方联合新闻稿",
+      "published": "2026-09-14",
+      "event": "2026-09-14宣布签约；具体签署日未单列",
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "url": "https://nz.finance.yahoo.com/news/expo-2030-riyadh-mohammed-al-094200874.html",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "利雅得世博村签署32亿里亚尔合资协议，规划约2300套公寓",
+      "original": "Expo 2030 Riyadh and Mohammed Al Habib Real Estate Company Sign a 3.2 billion SAR Joint Venture Agreement to Develop and Deliver Expo Village",
+      "summary": "项目方宣布与 Mohammed Al Habib Real Estate 签署32亿里亚尔合资协议，开发并交付世博村。规划约2300套公寓、容纳约5500名居民，服务世博会官方参展者与代表团；设计和场地准备已完成，后续推进建设，会后计划转为长期社区。",
+      "review": "读取项目方Business Wire原稿的完整转载，并与Saudi Gazette正文核对。采用项目方约2300套口径；32亿里亚尔是合资协议金额，未将其改为施工总包合同价。两处同源信息不作为独立双来源。证据：expo-release-fallback.md、expo-village.md。",
+      "reviewUrls": [
+        [
+          "Saudi Gazette",
+          "https://saudigazette.com.sa/article/664566/saudi-arabia/sr32-billion-joint-venture-agreement-inked-to-develop-and-deliver-riyadh-expo-village"
+        ]
+      ],
+      "boundary": "世博村是参展人员居住社区，不是已建成交付的工人营地；未披露打包箱或移动卫浴采购。",
+      "background": "住宿社区从规划进入合资开发阶段，可关注配套工程后续公告。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-15T06:20:02.523Z",
+        "method": "读取本轮取得的原始公告，核对主体、日期、阶段、数字及适用范围",
+        "confirmedScope": "项目方宣布与 Mohammed Al Habib Real Estate 签署32亿里亚尔合资协议，开发并交付世博村。规划约2300套公寓、容纳约5500名居民，服务世博会官方参展者与代表团；设计和场地准备已完成，后续推进建设，会后计划转为长期社区。",
+        "reason": "读取项目方Business Wire原稿的完整转载，并与Saudi Gazette正文核对。采用项目方约2300套口径；32亿里亚尔是合资协议金额，未将其改为施工总包合同价。两处同源信息不作为独立双来源。证据：expo-release-fallback.md、expo-village.md。",
+        "missing": ""
+      },
+      "evidenceFiles": [
+        "expo-release-fallback.md"
+      ]
+    },
+    {
+      "id": "002",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "吉赞",
+      "source": "Saudi Press Agency（SPA）",
+      "sourceType": "官方通讯社项目进度报道",
+      "published": "2026-09-14 14:40（沙特时间）",
+      "event": "截至9月14日报道，施工完成52%",
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "url": "https://www.spa.gov.sa/en/N2675809",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "吉赞38座标准工业单元建设进度达52%，总项目面积约15.45万平方米",
+      "original": "Ready-Built Industrial Units Boost Investment in Jazan City for Primary and Downstream Industries",
+      "summary": "SPA报道，吉赞基础与下游工业城的标准工业单元项目建设进度达到52%。项目总面积154490平方米，包含38个不同规模的工业单元，并配置运营支持服务。",
+      "review": "读取SPA正文及当地发布时间，核对52%、38个单元与154490平方米三个口径。证据：jazan-units.md。",
+      "boundary": "总面积不是单座厂房面积；52%不表示已投产或全部交付。",
+      "background": "工业载体正在建设，后续设备安装与配套服务需追踪独立招采信息。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-15T06:20:02.523Z",
+        "method": "读取本轮取得的原始公告，核对主体、日期、阶段、数字及适用范围",
+        "confirmedScope": "SPA报道，吉赞基础与下游工业城的标准工业单元项目建设进度达到52%。项目总面积154490平方米，包含38个不同规模的工业单元，并配置运营支持服务。",
+        "reason": "读取SPA正文及当地发布时间，核对52%、38个单元与154490平方米三个口径。证据：jazan-units.md。",
+        "missing": ""
+      },
+      "evidenceFiles": [
+        "jazan-units.md"
+      ]
+    },
+    {
+      "id": "003",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "朱拜勒",
+      "source": "MAIRE",
+      "sourceType": "技术供应商官方公告",
+      "published": "2026-09-14",
+      "event": "2026-09-14公布技术包安排",
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "url": "https://www.groupmaire.com/en/newsroom/press-releases/detail/nextchem-maire-has-been-selected-to-provide-the-technology-package-for-sabic-ans-san-7-large-scale-fertilizer-complex-in-saudi-arabia-based-on-its-nx-stami-urea-solution-for-a-total-value-of-125-million/",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "Nextchem获SAN-7化肥项目技术包，公告金额约1.25亿欧元",
+      "original": "Nextchem (MAIRE) has been selected to provide the technology package for SABIC AN’s “SAN-7” large-scale fertilizer complex in Saudi Arabia based on its NX STAMI™ Urea solution, for a total value of €125 million",
+      "summary": "MAIRE宣布，Nextchem旗下Stamicarbon为SABIC Agri-Nutrients位于朱拜勒的SAN-7项目提供许可、工艺设计包和专有设备，技术包总额约1.25亿欧元。公告列出的两套尿素装置设计能力各为每日3850吨。",
+      "review": "读取MAIRE官网完整公告，核对签约范围、金额与每套装置能力；这是技术包新披露，与此前SAN-7整体EPC事件相关但阶段不同。证据：nextchem-fallback.md。",
+      "relatedId": "2026-09-11/001",
+      "boundary": "金额不代表整个SAN-7投资；3850吨／日为每套装置的设计能力，不是已实现产量。",
+      "background": "可跟踪化工项目技术许可、设计和设备供应的分工变化。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-15T06:20:02.523Z",
+        "method": "读取本轮取得的原始公告，核对主体、日期、阶段、数字及适用范围",
+        "confirmedScope": "MAIRE宣布，Nextchem旗下Stamicarbon为SABIC Agri-Nutrients位于朱拜勒的SAN-7项目提供许可、工艺设计包和专有设备，技术包总额约1.25亿欧元。公告列出的两套尿素装置设计能力各为每日3850吨。",
+        "reason": "读取MAIRE官网完整公告，核对签约范围、金额与每套装置能力；这是技术包新披露，与此前SAN-7整体EPC事件相关但阶段不同。证据：nextchem-fallback.md。",
+        "missing": ""
+      },
+      "evidenceFiles": [
+        "nextchem-fallback.md"
+      ]
+    },
+    {
+      "id": "004",
+      "category": "航运物流",
+      "tags": [
+        "航运物流"
+      ],
+      "region": "亚欧／地中海／红海",
+      "source": "Maersk",
+      "sourceType": "船公司官方客户通知",
+      "published": "2026-09-14",
+      "event": "计划首批西向航次自2026-09-19起；各线日期不同",
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "url": "https://www.maersk.com/news/articles/2026/09/14/structural-changes-ae5-ae11-ae12-me2-gemini-services",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "马士基公布四条Gemini航线转经苏伊士计划，首航分批实施",
+      "original": "Structural changes – AE5, AE11, AE12 & ME2 Gemini services",
+      "summary": "马士基9月14日通知，AE5、AE11、AE12和ME2计划由绕行好望角转经苏伊士运河。公布的西向首航包括AE11于9月19日从丹戎帕拉帕斯出发、AE5于9月21日从该港出发、ME2于9月24日从科伦坡出发；AE12首航仍待另行通知。安排以红海地区持续稳定、没有升级为条件。",
+      "review": "读取船公司完整航线和首航表，分别核对方向、起运港及生效条件；没有据此更改既有沙特东西岸订舱规则。证据：suez-official.md。",
+      "boundary": "航线转经苏伊士不等于沙特所有港口和货类恢复订舱，也不保证具体项目到场时间。",
+      "background": "对使用上述服务的供应链有路线判断价值；是否涉及沙特订单须核对实际订舱。",
+      "shipping": [
+        [
+          "承运体系",
+          "Maersk／Gemini；AE5、AE11、AE12、ME2"
+        ],
+        [
+          "货类",
+          "集装箱班轮服务；各货类是否接受按具体订舱规则"
+        ],
+        [
+          "西向首航",
+          "AE11：Antonia Maersk 635W，丹戎帕拉帕斯9月19日；AE5：Marchen Maersk 635W，同港9月21日；ME2：Cornelia Maersk 638W，科伦坡9月24日"
+        ],
+        [
+          "东向首航",
+          "AE5：Maastricht Maersk 637E，阿尔赫西拉斯9月22日；AE11：Maersk Halifax 637E，Vado Ligure 9月28日；ME2：Cornelia Maersk 643E，丹吉尔10月31日"
+        ],
+        [
+          "AE12",
+          "首航待船公司后续公告"
+        ],
+        [
+          "生效条件",
+          "地区稳定且无升级；可能随安全评估调整"
+        ],
+        [
+          "费用",
+          "本通知未提供统一运价或沙特到场费用"
+        ]
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-15T06:20:02.523Z",
+        "method": "读取本轮取得的原始公告，核对主体、日期、阶段、数字及适用范围",
+        "confirmedScope": "马士基9月14日通知，AE5、AE11、AE12和ME2计划由绕行好望角转经苏伊士运河。公布的西向首航包括AE11于9月19日从丹戎帕拉帕斯出发、AE5于9月21日从该港出发、ME2于9月24日从科伦坡出发；AE12首航仍待另行通知。安排以红海地区持续稳定、没有升级为条件。",
+        "reason": "读取船公司完整航线和首航表，分别核对方向、起运港及生效条件；没有据此更改既有沙特东西岸订舱规则。证据：suez-official.md。",
+        "missing": ""
+      },
+      "evidenceFiles": [
+        "suez-official.md"
+      ]
+    },
+    {
+      "id": "005",
+      "category": "产品与材料",
+      "tags": [
+        "产品与材料"
+      ],
+      "region": "沙特／海湾",
+      "source": "BRKZ（GlobeNewswire通讯稿，Business Insider转载）",
+      "sourceType": "企业融资新闻稿",
+      "published": "2026-09-14",
+      "event": "2026-09-14宣布融资",
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "url": "https://markets.businessinsider.com/news/stocks/brkz-secures-31-million-to-scale-ai-enabled-building-materials-procurement-across-saudi-arabia-and-the-gcc-1036542314",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "建材采购平台BRKZ宣布3100万美元新融资，包含股权与债务",
+      "original": "BRKZ Secures $31 Million to Scale AI-Enabled Building Materials Procurement Across Saudi Arabia and the GCC",
+      "summary": "BRKZ宣布获得3100万美元新资本，包括由Wa’ed Ventures与500 Global共同领投的1300万美元B轮股权，以及Stride Ventures承诺的1800万美元增长债务。后者属于此前披露的3000万美元债务额度。公司称资金将用于建材采购的AI定价、履约及嵌入式融资。",
+      "review": "读取完整企业通讯稿并核对股权与债务拆分；不将转载视为独立审核，也不采用未审计的增长或客户效果主张。证据：brkz-fallback.md。",
+      "boundary": "不能称3100万美元全部为B轮股权；1800万美元不能再与原3000万美元额度重复相加。",
+      "background": "反映建材采购平台资金和服务投入，不代表已降低所有承包商采购成本。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-15T06:20:02.523Z",
+        "method": "读取本轮取得的原始公告，核对主体、日期、阶段、数字及适用范围",
+        "confirmedScope": "BRKZ宣布获得3100万美元新资本，包括由Wa’ed Ventures与500 Global共同领投的1300万美元B轮股权，以及Stride Ventures承诺的1800万美元增长债务。后者属于此前披露的3000万美元债务额度。公司称资金将用于建材采购的AI定价、履约及嵌入式融资。",
+        "reason": "读取完整企业通讯稿并核对股权与债务拆分；不将转载视为独立审核，也不采用未审计的增长或客户效果主张。证据：brkz-fallback.md。",
+        "missing": ""
+      },
+      "evidenceFiles": [
+        "brkz-fallback.md"
+      ]
+    },
+    {
+      "id": "006",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "营地住宿"
+      ],
+      "region": "吉赞、阿西尔、巴哈、麦加、麦地那等",
+      "source": "SPA／沙特国家气象中心",
+      "sourceType": "官方天气预报",
+      "published": "2026-09-15 08:47（沙特时间）",
+      "event": "2026-09-15天气预报",
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "url": "https://www.spa.gov.sa/en/N2676499",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "9月15日沙特天气预报：西部多地雷雨，部分地区有扬尘大风",
+      "original": "Weather Forecast for Tuesday",
+      "summary": "国家气象中心预报，吉赞、阿西尔、巴哈、麦加和麦地那部分地区预计有中到强雷雨，可能伴随山洪、冰雹；奈季兰部分地区有雷云形成可能。上述地区及东部、塔布克、利雅得部分地区预计有扬尘阵风。",
+      "review": "读取SPA转述国家气象中心的当日预报，核对发布时刻与具体地区。仅按预报表达，未写作已发生灾害。证据：weather-official.md。",
+      "boundary": "适用于9月15日预报覆盖地区；未确认任何工地停工或财产损失。",
+      "background": "当天户外施工和营地管理的天气背景，具体现场安排以当地最新预警为准。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-15T06:20:02.523Z",
+        "method": "读取本轮取得的原始公告，核对主体、日期、阶段、数字及适用范围",
+        "confirmedScope": "国家气象中心预报，吉赞、阿西尔、巴哈、麦加和麦地那部分地区预计有中到强雷雨，可能伴随山洪、冰雹；奈季兰部分地区有雷云形成可能。上述地区及东部、塔布克、利雅得部分地区预计有扬尘阵风。",
+        "reason": "读取SPA转述国家气象中心的当日预报，核对发布时刻与具体地区。仅按预报表达，未写作已发生灾害。证据：weather-official.md。",
+        "missing": ""
+      },
+      "evidenceFiles": [
+        "weather-official.md"
+      ]
+    },
+    {
+      "id": "007",
+      "category": "招投标",
+      "tags": [
+        "招投标"
+      ],
+      "region": "西海岸／Shuqaiq",
+      "source": "Etimad／Saudi Water Authority",
+      "sourceType": "政府采购原始公告",
+      "published": "2026-09-15（Etimad列表）",
+      "event": "投标截止2026-10-04（平台列示日期）",
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=EePkA8OFirXtubR1VkjbRg==",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "沙特水务局发布Shuqaiq空气压缩机材料及备件采购公告",
+      "original": "توريد مواد وقطع غيار ضواغط هواء ميكانيكية للهيئة السعودية للمياه منظومة انتاج الشقيق الساحل الغربي 60021017",
+      "summary": "沙特水务局就Shuqaiq西海岸生产系统空气压缩机材料和机械备件发布公开竞争采购。竞争编号60021017，参考号260939001800，公告合同期180天，列表投标截止日为10月4日。",
+      "review": "读取Etimad当日列表与对应详情，核对采购主体、名称、编号、方式和期限。证据：p0-etimad.md、tender-compressor.md。",
+      "boundary": "核验范围为基本采购公告；未获得完整型号和数量清单。页面500里亚尔为文件费，不是采购金额。",
+      "background": "设备维护采购线索，不能自动等同于公司五金供货资格或具体型号适配。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-15T06:20:02.523Z",
+        "method": "读取本轮取得的原始公告，核对主体、日期、阶段、数字及适用范围",
+        "confirmedScope": "沙特水务局就Shuqaiq西海岸生产系统空气压缩机材料和机械备件发布公开竞争采购。竞争编号60021017，参考号260939001800，公告合同期180天，列表投标截止日为10月4日。",
+        "reason": "读取Etimad当日列表与对应详情，核对采购主体、名称、编号、方式和期限。证据：p0-etimad.md、tender-compressor.md。",
+        "missing": ""
+      },
+      "evidenceFiles": [
+        "tender-compressor.md"
+      ]
+    },
+    {
+      "id": "008",
+      "category": "招投标",
+      "tags": [
+        "招投标"
+      ],
+      "region": "卡西姆／Al Badayi",
+      "source": "Etimad／Al Badayi市政",
+      "sourceType": "政府采购原始公告",
+      "published": "2026-09-15（Etimad列表）",
+      "event": "投标截止2026-10-01（平台列示日期）",
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=4SmgYIYNA5wcSNSDW9dbiA==",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "Al Badayi市政发布雨水抽排泵维护与更换招标",
+      "original": "صيانة واستبدال مكائن ومضخات سحب وطرد تجمعات مياه الأمطار لبلدية محافظة البدائع",
+      "summary": "Al Badayi市政发布雨水吸入与排出泵的维护、更换公开招标，参考号260939003479，公告合同期90天，列表投标截止日为10月1日。",
+      "review": "读取政府采购列表和详情，核对市政主体、泵维护范围、参考号、期限与截止日期。证据：p0-etimad.md、tender-drainage.md。",
+      "boundary": "没有核实设备型号、工程量和合同总额；800里亚尔是文件费。不能将维护招标写成已发生洪灾。",
+      "background": "市政排水维护工程的实际采购线索。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-15T06:20:02.523Z",
+        "method": "读取本轮取得的原始公告，核对主体、日期、阶段、数字及适用范围",
+        "confirmedScope": "Al Badayi市政发布雨水吸入与排出泵的维护、更换公开招标，参考号260939003479，公告合同期90天，列表投标截止日为10月1日。",
+        "reason": "读取政府采购列表和详情，核对市政主体、泵维护范围、参考号、期限与截止日期。证据：p0-etimad.md、tender-drainage.md。",
+        "missing": ""
+      },
+      "evidenceFiles": [
+        "tender-drainage.md"
+      ]
+    },
+    {
+      "id": "009",
+      "category": "招投标",
+      "tags": [
+        "招投标"
+      ],
+      "region": "吉达",
+      "source": "Etimad／国民卫队卫生事务部门",
+      "sourceType": "同一改造项目三份直接采购公告",
+      "published": "2026-09-15（Etimad列表）",
+      "event": "三项列表截止日均为2026-09-19",
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=*@@**PnXwEpAPLLIkbRnS*@@**Ucfw==",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "吉达阿卜杜勒阿齐兹医疗城化疗房改造发布三项材料采购",
+      "original": "RT-Civil materials for Room Modification of Chemotherapy (WR-26-065) -JR739651；RT-Curtain materials for Room Modification of Chemotherapy (WR-26-065)-JR740067；RT-Hand rail, wall guard and corner protector materials for Room Modification of Chemotherapy (WR-26-065)-JR740041",
+      "summary": "吉达阿卜杜勒阿齐兹医疗城化疗房改造WR-26-065出现三项材料直接采购，分别涉及土建材料、窗帘材料，以及扶手、护墙和护角材料。对应参考号为260939004707、260939004703、260939004705；列表截止日均为9月19日。三份公告合并为一条项目线索。",
+      "review": "逐一读取三份详情并与当日两页列表对应，核对同一房间改造编号和三个采购参考号，避免把三份公告统计为三个独立项目。证据：tender-civil.md、tender-curtain.md、tender-handrail.md、p0-etimad.md、etimad-page2.md。",
+      "reviewUrls": [
+        [
+          "窗帘材料公告",
+          "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=9*@@**vsV7V3ND0FWBi23RdQrQ=="
+        ],
+        [
+          "扶手／护墙／护角公告",
+          "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=wNMInoU9rzkRuvARGxWX8w=="
+        ]
+      ],
+      "boundary": "公告未充分展示材质、尺寸及数量清单；采购性质为直接采购，不能改写为整个医院改扩建工程总包招标。",
+      "background": "医疗空间改造的材料采购线索，具体供货适配需要采购清单。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-15T06:20:02.523Z",
+        "method": "读取本轮取得的原始公告，核对主体、日期、阶段、数字及适用范围",
+        "confirmedScope": "吉达阿卜杜勒阿齐兹医疗城化疗房改造WR-26-065出现三项材料直接采购，分别涉及土建材料、窗帘材料，以及扶手、护墙和护角材料。对应参考号为260939004707、260939004703、260939004705；列表截止日均为9月19日。三份公告合并为一条项目线索。",
+        "reason": "逐一读取三份详情并与当日两页列表对应，核对同一房间改造编号和三个采购参考号，避免把三份公告统计为三个独立项目。证据：tender-civil.md、tender-curtain.md、tender-handrail.md、p0-etimad.md、etimad-page2.md。",
+        "missing": ""
+      },
+      "evidenceFiles": [
+        "tender-civil.md"
+      ]
+    },
+    {
+      "id": "010",
+      "category": "航运物流",
+      "tags": [
+        "航运物流"
+      ],
+      "region": "吉达／Al Khumra",
+      "source": "Asharq Al-Awsat（负责人论坛发言报道）",
+      "sourceType": "记者署名现场发言报道",
+      "published": "2026-09-14 16:13（原文标示）",
+      "event": "2026-09-14沙特工业论坛发言",
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "url": "https://aawsat.com/%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/5318197-%D8%A7%D9%84%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%8A%D9%88%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9-%D8%AA%D8%B6%D9%8A%D9%81-%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D9%84%D9%80%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%86%D8%A6-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A8%D8%A3%D9%83%D8%AB%D8%B1-%D9%85%D9%86-14-%D9%85%D9%84%D9%8A%D8%A7%D8%B1-%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "Mawani负责人表示正筹备Al Khumra物流经济区，意向征集尚未发布",
+      "original": "الاضطرابات الجيوسياسية تضيف استثمارات لـ«الموانئ» السعودية بأكثر من 1.4 مليار دولار",
+      "summary": "据《中东报》对吉达沙特工业论坛的报道，Mawani负责人Sulaiman Al Mazrou表示，正在推进吉达伊斯兰港附近Al Khumra物流经济特区，并计划近期向私营部门征集开发意向；达曼也有类似方向。",
+      "review": "已读阿语全文，限定为负责人在论坛上公布的计划。补搜命中的旧港口投资协议与本次拟征集事项不同，未混用。未取得正式意向征集文件，因此没有写作已开放投标。证据：ports-fallback.md、verify-ports.json。",
+      "boundary": "确认范围是公开发言内容；启动时间、正式征集文件、范围和截止日期未披露。",
+      "background": "可关注后续物流园区开发入口，目前不能作为正在招标的项目直接报名。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-15T06:21:16.913Z",
+        "method": "读取阿语记者署名报道中负责人原话，并进行官方公开公告补搜",
+        "confirmedScope": "据《中东报》对吉达沙特工业论坛的报道，Mawani负责人Sulaiman Al Mazrou表示，正在推进吉达伊斯兰港附近Al Khumra物流经济特区，并计划近期向私营部门征集开发意向；达曼也有类似方向。",
+        "reason": "已读阿语全文，限定为负责人在论坛上公布的计划。补搜命中的旧港口投资协议与本次拟征集事项不同，未混用。未取得正式意向征集文件，因此没有写作已开放投标。证据：ports-fallback.md、verify-ports.json。",
+        "missing": ""
+      },
+      "evidenceFiles": [
+        "ports-fallback.md"
+      ]
+    },
+    {
+      "id": "011",
+      "category": "产品与材料",
+      "tags": [
+        "产品与材料"
+      ],
+      "region": "麦地那省／Jabal Sayid",
+      "source": "SPA／沙特部长在IAEA大会的声明",
+      "sourceType": "官方声明全文",
+      "published": "2026-09-14 17:32（沙特时间）",
+      "event": "2026-09-14公布勘查进展",
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "url": "https://www.spa.gov.sa/en/N2675968",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "沙特官方披露Jabal Sayid约1.14亿吨矿石资源估算，涉及稀土与铀",
+      "original": "Energy Minister Delivers the Kingdom's Statement at 70th IAEA General Conference",
+      "summary": "SPA发布的沙特部长声明提到，麦地那省Jabal Sayid稀土勘查项目初步发现涉及稀土、特别是重稀土和铀，估算矿石资源约1.14亿吨。该信息属于资源勘查阶段披露。",
+      "review": "对照专业媒体线索与SPA完整声明，发现前者标题为1.10亿吨，采用官方正文1.14亿吨口径；明确吨位对象为矿石资源估算。证据：nuclear-official.md、rareearth.md。",
+      "boundary": "不是1.14亿吨稀土金属储量，不表示商业开采、矿建授标或产量已经形成。",
+      "background": "矿产资源开发背景，后续是否形成工程采购仍需独立项目公告。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-15T06:21:16.913Z",
+        "method": "读取本轮取得的原始公告，核对主体、日期、阶段、数字及适用范围",
+        "confirmedScope": "SPA发布的沙特部长声明提到，麦地那省Jabal Sayid稀土勘查项目初步发现涉及稀土、特别是重稀土和铀，估算矿石资源约1.14亿吨。该信息属于资源勘查阶段披露。",
+        "reason": "对照专业媒体线索与SPA完整声明，发现前者标题为1.10亿吨，采用官方正文1.14亿吨口径；明确吨位对象为矿石资源估算。证据：nuclear-official.md、rareearth.md。",
+        "missing": ""
+      },
+      "evidenceFiles": [
+        "nuclear-official.md"
+      ]
+    },
+    {
+      "id": "012",
+      "category": "产品与材料",
+      "tags": [
+        "产品与材料"
+      ],
+      "region": "沙特",
+      "source": "Saudi Exchange／Riyadh Cement",
+      "sourceType": "上市公司交易所披露",
+      "published": "2026-09-14 15:38:50（交易所标示）",
+      "event": "2026-09-14签署；系统计划2027年第四季度运行",
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98127&anCat=1&cs=3092&locale=en",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "利雅得水泥签25年太阳能购电协议，预计2027年四季度投运",
+      "original": "Riyadh Cement Co. Announces Contract Sign Off with SAMANA Energy",
+      "summary": "利雅得水泥披露与Samana Energy签订25年太阳能购电协议，预计平均每年支付约600万里亚尔、不含增值税。系统预计于2027年第四季度开始运行；节约效果预计逐步体现，实际财务影响取决于届时所用能源价格。",
+      "review": "读取交易所公告表格，核对合同日期、年均预期付款、期限、投运计划及必要许可条件。证据：cement-solar-official.md。",
+      "boundary": "600万里亚尔是预计年均付款，不是整个项目造价或承诺节省额；投运仍为计划并涉及必要许可审批。",
+      "background": "水泥企业能源采购的新合同，不能推出全行业水泥价格下降。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-15T06:21:16.913Z",
+        "method": "读取本轮取得的原始公告，核对主体、日期、阶段、数字及适用范围",
+        "confirmedScope": "利雅得水泥披露与Samana Energy签订25年太阳能购电协议，预计平均每年支付约600万里亚尔、不含增值税。系统预计于2027年第四季度开始运行；节约效果预计逐步体现，实际财务影响取决于届时所用能源价格。",
+        "reason": "读取交易所公告表格，核对合同日期、年均预期付款、期限、投运计划及必要许可条件。证据：cement-solar-official.md。",
+        "missing": ""
+      },
+      "evidenceFiles": [
+        "cement-solar-official.md"
+      ]
+    },
+    {
+      "id": "013",
+      "category": "产品与材料",
+      "tags": [
+        "产品与材料"
+      ],
+      "region": "沙特",
+      "source": "Saudi Exchange／Riyadh Cement",
+      "sourceType": "上市公司交易所披露",
+      "published": "2026-09-14 15:59:25（交易所标示）",
+      "event": "2026-09-14签署",
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98132&anCat=1&cs=3092&locale=en",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "利雅得水泥与天津院签1490万美元数字化改造合同，执行期24个月",
+      "original": "Riyadh Cement Co. Announces Contract Sign Off with Tianjin Cement Industry Design & Research Institute Co. ,Ltd",
+      "summary": "利雅得水泥披露与天津水泥工业设计研究院签署Light House项目合同，金额1490万美元、不含增值税，期限24个月。范围包括数字化、自动化、工艺优化、人工智能、预测性维护和能源效率；公司还需为项目目标投入配套基础设施、建筑及相关设备。",
+      "review": "读取交易所原始公告，核对1490万美元税口径和24个月期限，并保留实施依赖配套投入的说明。证据：cement-digital-official.md。",
+      "boundary": "效率和财务收益为项目目标及预期，未公布已实现效果；合同金额不能视为包含所有后续配套投资。",
+      "background": "沙特建材制造业的工业改造合同及中资技术参与线索。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-15T06:21:16.913Z",
+        "method": "读取本轮取得的原始公告，核对主体、日期、阶段、数字及适用范围",
+        "confirmedScope": "利雅得水泥披露与天津水泥工业设计研究院签署Light House项目合同，金额1490万美元、不含增值税，期限24个月。范围包括数字化、自动化、工艺优化、人工智能、预测性维护和能源效率；公司还需为项目目标投入配套基础设施、建筑及相关设备。",
+        "reason": "读取交易所原始公告，核对1490万美元税口径和24个月期限，并保留实施依赖配套投入的说明。证据：cement-digital-official.md。",
+        "missing": ""
+      },
+      "evidenceFiles": [
+        "cement-digital-official.md"
+      ]
+    },
+    {
+      "id": "014",
+      "category": "产品与材料",
+      "tags": [
+        "产品与材料",
+        "航运物流"
+      ],
+      "region": "沙特",
+      "source": "Saudi Exchange／Riyadh Cement",
+      "sourceType": "上市公司交易所披露",
+      "published": "2026-09-14 15:51:55（交易所标示）",
+      "event": "2026-09-14签署",
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anId=98131&anCat=1&cs=3092&locale=en",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "利雅得水泥签27.9万欧元发运自动化合同，涵盖系统供货安装调试",
+      "original": "Riyadh Cement Co. Announces Contract Sign Off with Cachapuz – Weighing & Logistics Systems",
+      "summary": "利雅得水泥与Cachapuz签署27.9万欧元合同，采购、安装和调试物流及发运自动化方案，期限一年。公告范围包括SLV Cement物流IT、移动与合作伙伴门户，以及使用计算机视觉的安全合规方案和相关硬件。",
+      "review": "读取交易所公告，核对单独合同的供应商、金额、一年期限与交付范围；与天津院数字化改造合同分开记录，未重复合并金额。证据：cement-weighing-official.md。",
+      "boundary": "这是系统实施合同，未证实已完成无人发运或取得节省效果。",
+      "background": "建材出厂物流和数字交付接口的新采购实例。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-15T06:21:16.913Z",
+        "method": "读取本轮取得的原始公告，核对主体、日期、阶段、数字及适用范围",
+        "confirmedScope": "利雅得水泥与Cachapuz签署27.9万欧元合同，采购、安装和调试物流及发运自动化方案，期限一年。公告范围包括SLV Cement物流IT、移动与合作伙伴门户，以及使用计算机视觉的安全合规方案和相关硬件。",
+        "reason": "读取交易所公告，核对单独合同的供应商、金额、一年期限与交付范围；与天津院数字化改造合同分开记录，未重复合并金额。证据：cement-weighing-official.md。",
+        "missing": ""
+      },
+      "evidenceFiles": [
+        "cement-weighing-official.md"
+      ]
+    },
+    {
+      "id": "015",
+      "category": "工程项目",
+      "tags": [
+        "工程项目"
+      ],
+      "region": "沙特",
+      "source": "Arabian Drilling（Saudi Exchange托管公告PDF）",
+      "sourceType": "上市公司原始新闻稿",
+      "published": "2026-09-14",
+      "event": "2026-09-14宣布；预计2026年第四季度开始产生收入",
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "url": "https://www.saudiexchange.sa/Resources/fsPdf/28194_3703_2026-09-14_08-27-09_en.pdf",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "Arabian Drilling获SLB八台陆地钻机五年合同，新增订单约20亿里亚尔",
+      "original": "ARABIAN DRILLING SIGNS 8 ADDITIONAL LAND RIGS UNDER SLB GAS LSTK PROGRAM, TAKING TOTAL BACKLOG TO A RECORD SAR 16 BILLION",
+      "summary": "Arabian Drilling宣布与SLB达成八台额外陆地钻机的五年合同，新增订单规模约20亿里亚尔。钻机从现有机队调配，公司预计相关收入自2026年第四季度开始体现。",
+      "review": "读取交易所托管的公司PDF全文，区分本次新增八台、此前十一台和公司整体订单余额；只采用本次约20亿里亚尔增量。证据：drilling-official.md。",
+      "boundary": "不是新制造八台钻机的采购合同，也不代表八台已全部开工或收入已实现。",
+      "background": "天然气上游服务合同进展，现场配套需求须以具体承包或采购公告确认。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-15T06:21:16.913Z",
+        "method": "读取本轮取得的原始公告，核对主体、日期、阶段、数字及适用范围",
+        "confirmedScope": "Arabian Drilling宣布与SLB达成八台额外陆地钻机的五年合同，新增订单规模约20亿里亚尔。钻机从现有机队调配，公司预计相关收入自2026年第四季度开始体现。",
+        "reason": "读取交易所托管的公司PDF全文，区分本次新增八台、此前十一台和公司整体订单余额；只采用本次约20亿里亚尔增量。证据：drilling-official.md。",
+        "missing": ""
+      },
+      "evidenceFiles": [
+        "drilling-official.md"
+      ]
+    },
+    {
+      "id": "016",
+      "category": "招投标",
+      "tags": [
+        "招投标"
+      ],
+      "region": "NEOM／Oxagon",
+      "source": "MEED",
+      "sourceType": "专业媒体订阅报道，仅公开标题与导语可见",
+      "published": "2026-09-14",
+      "event": "备标阶段仅见媒体标题，未获得业主文件",
+      "eventLabel": "事件／阶段",
+      "status": "unconfirmed",
+      "statusText": "证据不足：仅公开标题与导语",
+      "products": [],
+      "url": "https://www.meed.com/contractors-prepare-bids-for-oxagon-wastewater-plant",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "MEED报道Oxagon工业污水项目正在备标，核心招标信息证据不足",
+      "original": "Contractors prepare bids for Oxagon wastewater plant",
+      "summary": "MEED于9月14日发布关于承包商准备Oxagon污水项目投标的报道。本轮可读部分仅能确认该报道及其标题存在，尚不能独立确认招标范围、承包商名单和截止日期。",
+      "review": "MEED正文受订阅限制；公开补搜未取得能验证本轮备标阶段的业主公告或独立原始文件，没有用同源转述替代。证据：oxagon.md、verify-oxagon.json。",
+      "boundary": "导语中的处理规模不作为已核实项目参数进入摘要；不能据此生成确定性项目文案。",
+      "background": "保留为后续查证线索，默认已核验列表不展示。",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-15T06:21:16.913Z",
+        "method": "直读MEED公开页并按项目、污水处理和日期检索可公开复核来源",
+        "confirmedScope": "确认MEED于9月14日发布相关标题和导语；核心项目阶段未通过核验。",
+        "reason": "MEED正文受订阅限制；公开补搜未取得能验证本轮备标阶段的业主公告或独立原始文件，没有用同源转述替代。证据：oxagon.md、verify-oxagon.json。",
+        "missing": "缺少业主正式招标或预审文件，以及可核验的投标阶段、范围、日期等核心依据。"
+      },
+      "evidenceFiles": [
+        "oxagon.md"
+      ]
+    },
+    {
+      "id": "017",
+      "category": "招投标",
+      "tags": [
+        "招投标"
+      ],
+      "region": "Al Nabhaniyah",
+      "source": "Etimad／Al Nabhaniyah市政",
+      "sourceType": "政府采购原始公告",
+      "published": "2026-09-15（Etimad列表）",
+      "event": "投标截止2026-10-01（平台列示日期）",
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=yQJJfC9yGOdVxQxv6fuNYg==",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "Al Nabhaniyah市政休憩建筑续建工程招标，公告合同期六个月",
+      "original": "استكمال مبنى الاستراحة ببلدية النبهانية",
+      "summary": "Al Nabhaniyah市政就休憩建筑续建发布公开招标，竞争编号6，参考号260939001860。详情列示合同期六个月，列表投标截止日为10月1日。",
+      "review": "读取第三页列表和对应原始详情，核对建筑续建名称、政府建筑设施范围、合同期和截止日期。证据：etimad-page3.md、tender-resthouse.md。",
+      "boundary": "未取得完整工程量清单，不推定建筑面积、结构体系、营地用途或中标主体。",
+      "background": "明确的政府建筑续建采购线索。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-15T06:25:42.189Z",
+        "method": "读取本轮取得的原始公告，核对主体、日期、阶段、数字及适用范围",
+        "confirmedScope": "Al Nabhaniyah市政就休憩建筑续建发布公开招标，竞争编号6，参考号260939001860。详情列示合同期六个月，列表投标截止日为10月1日。",
+        "reason": "读取第三页列表和对应原始详情，核对建筑续建名称、政府建筑设施范围、合同期和截止日期。证据：etimad-page3.md、tender-resthouse.md。",
+        "missing": ""
+      },
+      "evidenceFiles": [
+        "tender-resthouse.md"
+      ]
+    },
+    {
+      "id": "018",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "航运物流"
+      ],
+      "region": "沙特",
+      "source": "Etimad／ZATCA",
+      "sourceType": "政府采购原始公告",
+      "published": "2026-09-15（Etimad列表）",
+      "event": "投标截止2026-10-01（平台列示日期）",
+      "eventLabel": "事件／阶段",
+      "status": "verified",
+      "statusText": "原文已核验",
+      "products": [],
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=H3kNM7ZHB87N%209SrNp4YGw==",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "ZATCA招标续订船舶与集装箱安全监测数据服务，合同期54周",
+      "original": "تجديد الاشتراك في نظام المراقبة الأمنية للسفن والحاويات ومنصة قواعد البيانات",
+      "summary": "沙特天课、税务与海关管理局就船舶、集装箱安全监测及数据库平台订阅续期发布公开采购，参考号260939002938，合同期54周。公告涉及把海事观察、企业及相关数据库信息接入风险评估系统，列表投标截止日为10月1日。",
+      "review": "读取第三页列表及详情，核对采购主体、参考号、54周期限和数据服务范围。证据：etimad-page3.md、tender-port-system.md。",
+      "boundary": "这是既有数据订阅服务续期，不是新建港口、采购集装箱或发布新的通关义务。",
+      "background": "港航风险管理系统的采购动态，不推断客户查验率或清关时间变化。",
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-15T06:25:42.189Z",
+        "method": "读取本轮取得的原始公告，核对主体、日期、阶段、数字及适用范围",
+        "confirmedScope": "沙特天课、税务与海关管理局就船舶、集装箱安全监测及数据库平台订阅续期发布公开采购，参考号260939002938，合同期54周。公告涉及把海事观察、企业及相关数据库信息接入风险评估系统，列表投标截止日为10月1日。",
+        "reason": "读取第三页列表及详情，核对采购主体、参考号、54周期限和数据服务范围。证据：etimad-page3.md、tender-port-system.md。",
+        "missing": ""
+      },
+      "evidenceFiles": [
+        "tender-port-system.md"
+      ]
+    },
+    {
+      "id": "019",
+      "category": "航运物流",
+      "tags": [
+        "航运物流"
+      ],
+      "region": "沙特东西向输油管线",
+      "source": "Associated Press（AP）",
+      "sourceType": "国际通讯社报道，维修估算来自匿名官员",
+      "published": "2026-09-14 21:30 EDT（原文更新时间；首次发布时间未单列）",
+      "event": "9月14日报道披露维修时长估计；实际复运日未披露",
+      "eventLabel": "事件／阶段",
+      "status": "unconfirmed",
+      "statusText": "证据不足：修复时长未获官方确认",
+      "products": [],
+      "url": "https://apnews.com/article/yemen-houthis-saudi-shipping-mandeb-8c18d82c109a8ea91347ce53c0096c53",
+      "update": "14:00新收录；实际收录日2026-09-15，原文发布日期另列",
+      "title": "美联社引述匿名官员称管线维修或需三至五周，官方修复时长未确认",
+      "original": "Saudi pipeline hit by drones will be out of service for weeks, further restricting oil flow",
+      "relatedId": "2026-09-14/004",
+      "summary": "美联社最新报道引述两名获悉情况的地区官员称，沙特东西向输油管线受损维修可能需要三至五周，其中一人称维修期间可能部分运行，但无法说明可输送多少原油。该时长是匿名消息人士估计，本轮未取得运营方确认，不能视为确定停运期限。",
+      "review": "社交转述存在“三至五周”和“远超一个月”等差异，回到AP正文仅保留前者并标明匿名估计。AP网页为更新时间，未充作事件发生时间；关联旧停运公告，不将旧遇袭事件再次计数。证据：x-public-backfill.json、pipeline-recheck.json、pipeline-ap-fallback.md。",
+      "boundary": "新记录仅追踪维修估计这一新增线索；不能据此断言全线确定停运五周或沙特工程材料一定涨价。",
+      "background": "能源出口通道风险的后续线索，尚不具备确定性行业影响结论。",
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-15T06:25:42.189Z",
+        "method": "从公开社交转述追到AP原文，经备用读取核对正文、更新时间及匿名消息源限定",
+        "confirmedScope": "确认AP确有相关报道、引述和条件措辞；三至五周维修估算本身未通过独立核验。",
+        "reason": "社交转述存在“三至五周”和“远超一个月”等差异，回到AP正文仅保留前者并标明匿名估计。AP网页为更新时间，未充作事件发生时间；关联旧停运公告，不将旧遇袭事件再次计数。证据：x-public-backfill.json、pipeline-recheck.json、pipeline-ap-fallback.md。",
+        "missing": "缺少沙特能源主管部门或运营方公布的检修范围、部分运行能力与正式复运时间表。"
+      },
+      "evidenceFiles": [
+        "pipeline-ap-fallback.md"
+      ]
+    }
+  ],
+  "run": {
+    "status": "completed",
+    "slot": "14:00",
+    "startedAt": "2026-09-15T06:04:13.979Z",
+    "completedAt": "2026-09-15T06:26:55.089Z",
+    "newCount": 19,
+    "updatedCount": 0,
+    "message": "14:00实际执行完成：六类范围经Scrapling和Firecrawl检索、去重及逐条核验，19条新增（17条通过、2条证据不足）。补查此前遗漏内容；访问限制详见渠道记录，不补记09:00已执行。"
+  },
+  "completedSlots": [
+    "14:00"
+  ],
+  "lastVerifiedAt": "2026-09-15T06:25:42.189Z"
+}

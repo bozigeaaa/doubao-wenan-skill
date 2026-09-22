@@ -1,0 +1,165 @@
+Internal Error ()
+citeturn80view0 [wordlim: 200] Source: open({"ref_id":"https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-09-02/603291_20260902_JHV1.pdf","lineno":null}); Total lines: 1
+L0: URL https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-09-02/603291_20260902_JHV1.pdf is not safe to open (non-retryable error)
+--------------------------------------------------------------------------------
+江苏联合水务科技股份有限公司关于签署“沙特阿拉伯市政污水处理厂长期运维合同第10包（北部区域）”项目长期运营与维护协议的公告|上海证券报 (https://paper.cnstock.com/html/2026-09/02/content_2264398.htm)
+citeturn80view1 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({"ref_id":"https://paper.cnstock.com/html/2026-09/02/content_2264398.htm","lineno":null}); Total lines: 226
+L0: cite0†Image†static.cnstock.com 主管主办|证监会法定信息披露平台
+L1: 
+L2: cite1†Image†static.cnstock.com L3: 
+L4: cite2†客户端†www.cnstock.com L5: 
+L6: cite3†电子报 L7: 
+L8: [Input: 搜索]
+L9: 
+L10: cite2†首页†www.cnstock.com L11: 
+L12: cite4†快讯†www.cnstock.com L13: 
+L14: cite5†时政†www.cnstock.com L15: 
+L16: cite6†证券†www.cnstock.com L17: 
+L18: cite7†金融†www.cnstock.com L19: 
+L20: cite8†公司†www.cnstock.com L21: 
+L22: cite9†产经†www.cnstock.com L23: 
+L24: cite10†盈视频†www.cnstock.com L25: 
+L26: cite11†信披†xinpi.cnstock.com L27: 
+L28: cite12†路演†www.cnstock.com L29: 
+L30: cite13†投教†edu.cnstock.com L31: 
+L32: cite14†活动†www.cnstock.com L33: 
+L34: cite15†专题†www.cnstock.com L35: 
+L36: cite16†关注†www.cnstock.com L37: 
+L38: cite17†Image†oss.cnstock.com L39: ### 54版 信息披露
+L40: 
+L41: cite18†上一版 L42: 
+L43: cite19†下一版 L44: 
+L45:   * ### cite20†江苏联合水务科技股份有限公司关于签署“沙特阿拉伯市政污水处理厂长期运维合同第10包（北部区域）”项目长期运营与维护协议的公告 L46: 
+L47:   * ### cite21†公牛集团股份有限公司关于以集中竞价交易方式回购股份的进展公告 L48: 
+L49:   * ### cite22†浙江中力机械股份有限公司关于股份回购进展公告 L50: 
+L51:   * ### cite23†弘元绿色能源股份有限公司关于使用闲置募集资金进行现金管理到期赎回的公告 L52: 
+L53:   * ### cite24†深圳市汇顶科技股份有限公司关于以集中竞价交易方式回购公司股份的进展公告 L54: 
+L55:   * ### cite25†光大嘉宝股份有限公司关于公司接受财务资助暨关联交易的进展公告 L56: 
+L57:   * ### cite26†江苏万林现代物流股份有限公司关于实际控制人部分股份解除质押的公告 L58: 
+L59:   * ### cite27†中交设计咨询集团股份有限公司关于召开2026年半年度业绩说明会的公告 L60: 
+L61:   * ### cite28†西安曲江文化旅游股份有限公司关于控股股东所持部分股份拍卖进展公告 L62:   * ### cite29†四川金顶（集团）股份有限公司关于对外担保进展情况的公告 L63: 
+L64:   * ### cite30†常熟通润汽车零部件股份有限公司关于股份回购进展公告 L65: 
+L66:   * ### cite31†浙江云中马股份有限公司关于召开2026年半年度业绩说明会的公告 L67: 
+L68: * * *
+L69: ## 上海证券报网络版郑重声明
+L70: 
+L71: 经上海证券报社授权，中国证券网独家全权代理《上海证券报》信息登载业务。本页内容未经书面授权许可，不得转载、复制或在非中国证券网所属服务器建立镜像。欲咨询授权事宜请与中国证券网联系 (021-38967792) 。
+L72: 
+L73: cite32†Image†static.cnstock.com L74: 
+L75: ### 2026年
+L76: 
+L77: ## 9月2日
+L78: 
+L79: 查看其他日期
+L80: 
+L81: ### cite33†返回首页 L82: ### 版面导航
+L83:   * cite34†1：封面 L84:   * cite35†2：要闻 L85:   * cite36†3：市场 L86:   * cite37†4：财经新闻 L87:   * cite38†5：专版 L88:   * cite39†6：公司 L89:   * cite40†7：公司 L90:   * cite41†8：广告 L91:   * cite42†9：路演回放 L92:   * cite43†10：信息披露 L93:   * cite44†11：信息披露 L94:   * cite45†12：信息披露 L95:   * cite46†13：信息披露 L96:   * cite47†14：信息披露 L97:   * cite48†15：信息披露 L98:   * cite49†16：信息披露 L99:   * cite50†17：信息披露 L100:   * cite51†18：信息披露 L101:   * cite52†19：信息披露 L102:   * cite53†20：信息披露 L103:   * cite54†21：信息披露 L104:   * cite55†22：信息披露 L105:   * cite56†23：信息披露 L106:   * cite57†24：信息披露 L107:   * cite58†25：信息披露 L108:   * cite59†26：信息披露 L109:   * cite60†27：信息披露 L110:   * cite61†28：信息披露 L111:   * cite62†29：信息披露 L112:   * cite63†30：信息披露 L113:   * cite64†31：信息披露 L114:   * cite65†32：信息披露 L115:   * cite66†33：信息披露 L116:   * cite67†34：信息披露 L117:   * cite68†35：信息披露 L118:   * cite69†36：信息披露 L119:   * cite70†37：信息披露 L120:   * cite71†38：信息披露 L121:   * cite72†39：信息披露 L122:   * cite73†40：信息披露 L123:   * cite74†41：信息披露 L124:   * cite75†42：信息披露 L125:   * cite76†43：信息披露 L126:   * cite77†44：信息披露 L127:   * cite78†45：信息披露 L128:   * cite79†46：信息披露 L129:   * cite80†47：信息披露 L130:   * cite81†48：信息披露 L131:   * cite82†49：信息披露 L132:   * cite83†50：信息披露 L133:   * cite84†51：信息披露 L134:   * cite85†52：信息披露 L135:   * cite18†53：信息披露 L136:   * cite86†54：信息披露 L137:   * cite19†55：信息披露 L138:   * cite87†56：信息披露 L139:   * cite88†57：信息披露 L140:   * cite89†58：信息披露 L141:   * cite90†59：信息披露 L142:   * cite91†60：信息披露 L143:   * cite92†61：信息披露 L144:   * cite93†62：信息披露 L145:   * cite94†63：信息披露 L146:   * cite95†64：信息披露 L147:   * cite96†65：信息披露 L148:   * cite97†66：信息披露 L149:   * cite98†67：信息披露 L150:   * cite99†68：信息披露 L151:   * cite100†69：信息披露 L152:   * cite101†70：信息披露 L153:   * cite102†71：信息披露 L154:   * cite103†72：信息披露 L155:   * cite104†73：信息披露 L156:   * cite105†74：信息披露 L157:   * cite106†75：信息披露 L158:   * cite107†76：信息披露 L159:   * cite108†77：信息披露 L160:   * cite109†78：信息披露 L161:   * cite110†79：信息披露 L162:   * cite111†80：信息披露 L163:   * cite112†81：信息披露 L164:   * cite113†82：信息披露 L165:   * cite114†83：信息披露 L166:   * cite115†84：信息披露 L167:   * cite116†85：信息披露 L168:   * cite117†86：信息披露 L169:   * cite118†87：信息披露 L170:   * cite119†88：信息披露 L171:   * cite120†89：信息披露 L172:   * cite121†90：信息披露 L173:   * cite122†91：信息披露 L174:   * cite123†92：信息披露 L175: ### 稿件搜索
+L176: 
+L177: [Input]
+L178: # 江苏联合水务科技股份有限公司
+L179: 关于签署“沙特阿拉伯市政污水处理厂长期运维合同
+L180: 第10包（北部区域）”项目长期运营与维护协议的公告
+L181: 
+L182: 2026-09-02 来源：上海证券报
+L183: 
+L184: 证券代码：603291 证券简称：联合水务 公告编号：2026-051
+L185: 
+L186: 江苏联合水务科技股份有限公司
+L187: 
+L188: 关于签署“沙特阿拉伯市政污水处理厂长期运维合同
+L189: 
+L190: 第10包（北部区域）”项目长期运营与维护协议的公告
+L191: 
+L192: 本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。
+L193: 
+L194: 一、对外投资及签署项目协议概述
+L195: 2026年1月9日，江苏联合水务科技股份有限公司（以下简称“联合水务”或“公司”）披露《关于中标沙特阿拉伯市政污水处理长期运维项目的公告》（公告编号：2026-003），公司作为牵头人组成的联合体中标沙特国家水务公司“Long-term O&M (LTOM) Contracts for Sewage Treatment Plants Package #10 (North Cluster)”项目（中文：沙特国家水务公司市政污水长期运维合同第10包（北部区域），以下简称“LTOM Package 10 (North Cluster)”或“本项目”）。
+L196: LTOM Package 10 (North Cluster)是沙特国家水务公司在北部区域推进的长期运营维护项目，涵盖 Hail、Qassim、Al Jouf 和 Northern Borders 共4省9座污水处理厂，项目总规模337,800立方米/日。项目内容包括一期修复和效率提升、二期污泥深度处理设施建设及15年的全周期运营维护，确保出水、污泥及环境绩效符合国家标准，根据《Contract purchase Agreement》（编号：101251010,0），15年运营期预计总收入13.056亿沙特里亚尔（按2026年7月8日1里亚尔=1.8123人民币汇率换算，约折合为人民币23.66亿元）。
+L197: 2026年7月10日，公司召开第二届董事会第二十一次会议，审议通过《关于投资沙特阿拉伯市政污水处理厂长期运维合同第10包并设立项目公司的议案》。同意公司投资LTOM Package 10 (North Cluster)项目，同意授权董事长或其指定人员在相关法律法规规定范围内，全权办理本次投资的具体事宜并签署相关法律文件，同意公司通过全资子公司United Water Service Company与Armada Holding Company共同出资设立项目公司，并由项目公司承继联合体在本项目协议项下相关权利义务并负责项目具体运作。
+L198: 
+L199: 二、本次最新进展
+L200: 
+L201: 2026年9月1日，沙特国家水务公司与江苏联合水务科技股份有限公司、Armada Holding Company组成的联合体签署LTOM Package 10 (North Cluster)项目《长期运营与维护协议》及协议附件（统称“协议”），协议约定的关键条款与前期披露内容一致。具体内容详见公司于2026年7月11日披露的《关于投资沙特阿拉伯市政污水处理厂长期运维合同第10包并设立项目公司的公告》（公告编号：2026-034）。
+L202: 
+L203: 三、对上市公司的影响
+L204: 随着项目交割落地，将对公司经营业绩带来积极影响，项目采用「容量收入+产出收入」双重保底付费机制，资本投入、固定运维、可变运营成本均有对应服务费覆盖并锁定合理利润区间，15年合作周期将持续为公司贡献稳定营业收入与净利润，有助于开辟中东市场稳定现金流增长曲线。
+L205: 
+L206: 特此公告。
+L207: 
+L208: 江苏联合水务科技股份有限公司董事会
+L209: 
+L210: 2026年9月2日
+L211: 
+L212:   * ### cite18†上一版：53：信息披露 L213: 
+L214:   * ### cite21†下一篇：公牛集团股份有限公司关于以集中竞价交易方式回购股份的进展公告 L215: 
+L216: 上海证券报社有限公司版权所有。本网站提供之资料或信息，仅供投资者参考，不构成投资建议。
+L217: 
+L218: Copyright 1998 Shanghai Securities News Co. Ltd. All rights reserved.
+L219: 
+L220: 联系电话：021-38967777 转新媒体部 地址：上海浦东新区陆家嘴金融城东园路18号 邮编：200120 E-MAIL:webmaster@cnstock.com 投诉、举报电话：021-38967777
+L221: 互联网新闻信息服务许可证：10120190013      网络出版服务许可证：（总）网出证（沪）字第010号      增值电信业务经营许可证：沪B2-20180571
+L222: 
+L223: 广播电视节目制作经营许可证：（沪）字第2676号      cite124†沪ICP备17054524号-2†beian.miit.gov.cn 上海工商      沪公网安备31011502Q05973号
+L224: 
+L225: cite125†Image†static.cnstock.com --------------------------------------------------------------------------------
+SABIC Agri-Nutrients - News (https://www.sabic-agrinutrients.com/en/news)
+citeturn80view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.sabic-agrinutrients.com/en/news","lineno":null}); Total lines: 83
+L0: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX;visibility:hidden">
+L1: ### THIS SITE USES COOKIES
+L2: This website uses first and third party cookies (and equivalent technologies) to improve your experience on our site. Necessary cookies ensure that this site functions properly. We also use cookies to analyze how our site performs, understand your preferences and deliver tailored commercial content on this and other sites. For more information about which cookies we use, the information collected and SABIC’s purposes, please see our Cookie Notice.
+L3: By clicking ‘Accept Cookies’ you agree to the use of such cookies.
+L4: ACCEPT COOKIES
+L5: 
+L6: Manage Cookies
+L7: ##
+L8: 
+L9: Menu Close cite0†Image: SABIC GLOBE Search
+L10: 
+L11: Type here to search [Input] [Button: Submit]
+L12: ## cite1†Image: Chemistry that matters™ L13:   * cite2†Home L14:   * About
+L15:     * Back
+L16:     * cite3†About Us L17:     * cite4†Company Strategy L18:     * cite5†Vision & Mission L19:     * cite6†Board of Directors & CEO L20:     * cite7†Our Code of Ethics L21:     * cite8†Contact Us L22:   * Environment & Safety
+L23:     * Back
+L24:     * cite9†Environment & Safety L25:     * cite10†Safety L26:     * cite11†Quality Management System L27:     * cite12†Responsible Care L28:     * cite13†EHSSQ Policy L29:   * Products
+L30:     * Back
+L31:     * cite14†Products L32:     * cite15†Urea L33:     * cite16†Ammonia L34:     * cite17†Other Products L35:   * Investor Relations
+L36:     * Back
+L37:     * cite18†Dividend L38:     * cite19†Financial Statements L39:     * cite20†Annual Reports L40:     * cite21†General Assembly Minutes L41:     * cite22†Audit Committee Report L42:     * cite23†Company Bylaw L43:     * cite24†ShareHolder's E-Verification Tool L44:     * cite25†Contact Us L45:   * News
+L46:     * Back
+L47:     * cite26†News L48:   * cite27†Image: SABIC GLOBE Contact Us
+L49:     * Back
+L50:     * cite8†Contact Us L51:   * cite28†Image: SABIC GLOBE Change Region
+L52:     * cite29†عربي L53:     * cite30†English L54:   * cite0†Image: SABIC GLOBE Search
+L55: Type here to search [Input] cite0†Image: SABIC GLOBE Submit
+L56: 
+L57: * * *
+L58: 
+L59: cite31†Saudi Arabia Fertilizers Co. (SAFCO) announces the interim financial results for the period ending on 31-03-2018 (Three Months) L60: 
+L61: 26/04/2018
+L62: 
+L63: Saudi Arabia Fertilizers Co. (SAFCO) announces the interim financial results for the period ending on 31-03-2018 (Three Months)
+L64: 
+L65: cite32†Saudi Arabia Fertilizers Co. announces the annual financial results for the period ending on 31-12-2017 L66: 
+L67: 21/02/2018
+L68: Saudi Arabia Fertilizers Co. announces the annual financial results for the period ending on 31-12-2017
+L69: 
+L70: * * *
+L71: 
+L72: Year [Select] [Button: Search]
+L73: 
+L74: Sorry, an error occurred Sorry, no results found.
+L75: 
+L76: Load more news
+L77: 
+L78: Chemistry that matters®
+L79: 
+L80: Copyright 2026 Saudi Basic Industries Corporation (SABIC).
+L81: 
+L82:   * cite33†Legal Disclaimer --------------------------------------------------------------------------------
+Internal Error ()
+citeturn80view3 [wordlim: 200] Source: open({"ref_id":"https://www.ice.it/it/news/notizie-dal-mondo/308799","lineno":null}); Total lines: 1
+L0: URL https://www.ice.it/it/news/notizie-dal-mondo/308799 is not safe to open (non-retryable error)
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn80view4 [wordlim: 200] Source: open({"ref_id":"https://www.ice.it/it/news/notizie-dal-mondo/308805","lineno":null}); Total lines: 1
+L0: URL https://www.ice.it/it/news/notizie-dal-mondo/308805 is not safe to open (non-retryable error)
