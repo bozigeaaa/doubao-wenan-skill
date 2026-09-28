@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-09-27",
+  "collectedAt": "2026-09-28T01:15:00Z",
+  "timeZone": "Asia/Shanghai",
+  "window": "周一补查（2026-09-28执行）：常规检索窗口起点09-23 15:08（上次成功批次前24h）与紧邻周六00:00（09-26 00:00）取较早者，检索至本轮实际采集时点（09-28 09:10北京时间）；本档按Tadawul公告发布日归周日09-27。",
+  "backfill": {
+    "sourceDate": "2026-09-28",
+    "performedAt": "2026-09-28T01:15:00Z",
+    "basis": "周一周末补查按已核实原文（Tadawul公告2026-09-27 08:38发布）发布日期归入周日档案"
+  },
+  "scope": "覆盖工程项目、营地住宿、产品材料、采购招投标、合规政策、航运物流六类；本档1条（verified 1）。周六09-26经检索无窗口内新事件（仅旧闻转载：Dawadmi风电=2025-10、Samsung E&A尿素=9-10、SLB西语转载同09-24事件），不建空档。数量不是当日全网新闻总量。",
+  "channels": [
+    [
+      "Saudi Exchange（Tadawul）",
+      "直接访问完成",
+      "SARCO公告anId=98276全文实读：Lawazem Industrial Advanced Company与Thabat Contracting签Banan 1项目别墅木门制造供应安装分包合同，SAR 3,404,000含税，2026-09-24签署，136天至2027年1月中，无关联方，财务影响Q3 2026–Q1 2027。"
+    ],
+    [
+      "当地财经媒体（交叉）",
+      "外部检索线索",
+      "el-3rb 9-27、Traders Union 9-27、Alarabiya 9-27（907千美元折算）同口径转载；Alarabiya 7-23报道SARCO子公司85%持股背景。"
+    ],
+    [
+      "排除记录",
+      "旧闻/窗口外",
+      "ROSHN–TMG 5.5万套利雅得项目=ROSHN官方9-20发布（窗口外），SGP 9-25为跟进；Hapag-Lloyd SE3加Salalah=9-10/9-14公告（窗口外），marinews 9-27为执行确认；Dawadmi风电=SaudiPress 9-26转载2025-10旧闻；Samsung E&A $3.5B=SABIC AN第7项目9-10旧闻；CMA CGM EFS=9-18宣布窗口外；马士基update49已收录09-24档004。"
+    ],
+    [
+      "Etimad官方",
+      "访问受限",
+      "官方列表/详情页JS动态渲染无静态数据；聚合站9-24/9-25线索（Linen Supply等）无官方详情，不收录。"
+    ]
+  ],
+  "retrievalTools": [
+    {
+      "tool": "web-search",
+      "status": "completed",
+      "entries": [
+        "Saudi Arabia construction project contract award news September 26 27 2026",
+        "Saudi tender Etimad new announcement September 25 26 2026 procurement",
+        "SLB Aramco four integrated well construction contracts 450 wells official press release September 2026",
+        "SARCO لوازم المتطورة للصناعة عقد مشروع باقة بنان تداول",
+        "Saudi workers accommodation camp modular building contract September 2026",
+        "Saudi Aramco NEOM project award September 25 26 2026 contractor MEED",
+        "Maersk OR Hapag-Lloyd OR CMA CGM Middle East Red Sea shipping update September 26 27 2026",
+        "Saudi Arabia building code fire safety regulation compliance new rule September 2026",
+        "September 25, 2026 OR September 26, 2026 Saudi contract awarded NEOM Qiddiya Diriyah Red Sea",
+        "السعودية منافسة سكن عمال مواد بناء سبتمبر 2026 ترسية عقد",
+        "saudigulfprojects.com September 26 2026 Saudi contract awarded",
+        "Mawani port Saudi Arabia September 25 26 27 2026 announcement shipping",
+        "ROSHN Talaat Moustafa Group Saudi 55000 unit Riyadh joint agreement official",
+        "Saudi construction news September 26 2026 awarded OR tender OR contract",
+        "Saudi steel rebar cement price September 2026 construction material market",
+        "Red Sea Development Company TRSDC concrete supply contract September 2026 award",
+        "Saudi Mega Projects Summit 2026 Riyadh September 28 Arab News",
+        "Hapag-Lloyd SE3 service Salalah port rotation September 26 2026 official"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-28/09-00/access-log.json"
+    },
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anCat=1&anId=98276&cs=2030&locale=en",
+        "https://www.slb.com/newsroom/press-release/2026/pr-2026-0924-slb-aramco",
+        "https://guest.meed.com/",
+        "https://www.saudigulfprojects.com/",
+        "https://www.roshn.sa/news-and-events/press-releases/article-139"
+      ],
+      "evidence": "Tadawul SARCO公告全文、SLB官方新闻稿全文、MEED首页（磷酸盐铁路二段）、SGP首页（混凝土供应条目未确认正文、排除）、ROSHN官方（TMG协议9-20窗口外）已实读。"
+    }
+  ],
+  "items": [
+    {
+      "id": "001",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "工程项目",
+        "住宅项目"
+      ],
+      "region": "沙特（Banan 1项目）",
+      "sourceType": "Tadawul上市公司公告",
+      "event": "2026-09-24签署，2026-09-27公告",
+      "eventLabel": "分包合同签署",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "周一补查按Tadawul公告发布日（09-27）归周日档案新收录。",
+      "products": [],
+      "background": "SARCO旗下子公司承接Banan 1项目木门分包，属住宅精装配套供应；金额小，无直接临建产品适配，行业背景信息。",
+      "title": "SARCO子公司签Banan 1项目别墅木门分包合同340万里亚尔（含税）",
+      "source": "Saudi Exchange（Tadawul）",
+      "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anCat=1&anId=98276&cs=2030&locale=en",
+      "original": "Saudi Arabian Refineries Company (SARCO) announces that Lawazem Industrial Advanced Company– owned by one of its subsidiaries – has signed a contract to execute the works of the Banan Package 1 (BV1) Project",
+      "published": "2026-09-27 08:38（Tadawul公告）",
+      "summary": "沙特炼油公司（SARCO）公告：其子公司（经85%持股的Masaafi Ventures）所属Lawazem Industrial Advanced Company与Thabat Contracting Company签订Banan 1项目分包合同，负责别墅木门（含配件）的制造、供应、油漆与安装。合同金额340.4万里亚尔（含增值税），2026-09-24签署，工期136天、交付至2027年1月中旬；预计财务影响体现在2026年第三季度至2027年第一季度，合同无关联方。",
+      "review": "9月28日实读Tadawul公告全文（Saudi Exchange anId=98276），核对金额、签署日、工期与关联方字段；el-3rb 9-27、Traders Union 9-27、Alarabiya 9-27转载同口径，Alarabiya以90.7万美元折算一致（340.4万/3.75）。",
+      "reviewUrls": [
+        [
+          "el-3rb（阿拉伯语）",
+          "https://el-3rb.com/economy/57011.html"
+        ],
+        [
+          "Alarabiya",
+          "https://www.alarabiya.net/aswaq/companies/2026/09/27/%D8%B4%D8%B1%D9%83%D8%A9-%D8%AA%D8%A7%D8%A8%D8%B9%D8%A9-%D9%84%D9%80-%D8%A7%D9%84%D9%85%D8%B5%D8%A7%D9%81%D9%8A-%D8%AA%D8%A8%D8%B1%D9%85-%D8%B9%D9%82%D8%AF%D8%A7-%D8%A8%D9%80-907-%D8%A7%D9%84%D8%A7%D9%81-%D8%AF%D9%88%D9%84%D8%A7%D8%B1"
+        ]
+      ],
+      "boundary": "合同金额340.4万里亚尔含增值税，不含税净额未披露；为分包合同，非业主直授。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-28/09-00/access-log.json"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-28T01:10:00Z",
+        "method": "Tadawul一手公告全文核验＋当地财经媒体交叉",
+        "confirmedScope": "SARCO公告：Lawazem与Thabat签Banan 1项目木门分包合同，SAR3,404,000含税，9-24签署、136天、无关联方、财务影响Q3 2026–Q1 2027。",
+        "reason": "Tadawul官方公告全文列明全部字段，多家当地财经媒体同口径转载，公告写出的事实可证明。",
+        "missing": ""
+      }
+    }
+  ],
+  "run": {
+    "status": "completed",
+    "startedAt": "2026-09-28T00:55:00Z",
+    "completedAt": "2026-09-28T01:15:00Z",
+    "newCount": 1,
+    "updatedCount": 0,
+    "message": "周一补查：周日09-27按Tadawul公告发布日归档1条（SARCO Banan木门分包，verified）；周六09-26经检索无窗口内新事件。"
+  },
+  "completedSlots": [],
+  "lastVerifiedAt": "2026-09-28T01:10:00Z"
+}

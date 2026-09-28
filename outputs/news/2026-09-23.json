@@ -1,0 +1,908 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-09-23",
+  "collectedAt": "2026-09-23T06:17:25Z",
+  "timeZone": "Asia/Shanghai",
+  "window": "9月23日14:00批次：增量窗口自09:00批次完成时点（09:28北京时间）起至本轮实际采集时点（14:17北京时间）。保留09:00批次已核验13条，新增事件接续编号014起；本批新收录2、补录2。",
+  "scope": "覆盖工程项目、营地住宿、产品材料、采购招投标、合规政策、航运物流六类；本档累计17条，已核验16条，证据不足1条。09:00批次新增13，14:00批次新增2（014、015）、补录2（016、017）；核验更新0、迁移0。数量不是当日全网新闻总量。",
+  "channels": [
+    [
+      "MEED",
+      "公开导语可读，正文订阅受限",
+      "9月22日直接读取最新列表与两条候选导语（Oxagon顾问提交意向、塔伊巴医院剩余工程）；正文受限，塔伊巴条目因缺独立一手标unconfirmed。"
+    ],
+    [
+      "Etimad",
+      "详情页成功",
+      "9月22日读取6项直接采购详情（Shuqaiq、Duba、发电机、玻璃纤维、医院设备、骆驼节）；官方公告页为核验依据，本档收录其中5项。"
+    ],
+    [
+      "SaudiGulfProjects",
+      "BEC合同原文全文成功",
+      "9月22日发现BEC/Almoosa合同，9月23日web_fetch实读原文全文（5571字），核对金额、期限、融资方式与财务影响。"
+    ],
+    [
+      "GASTAT",
+      "官方PDF链接＋媒体交叉成功",
+      "9月22日发布8月建筑成本指数，Arab News、Al-Eqtisadiah、Al-Arabiya、Maaal、Okaz等9月22日多源一致；官方CCI+Aug+2026-EN.pdf为一手链接。"
+    ],
+    [
+      "Umm Al Qura官网及媒体",
+      "公告转述＋背景成功",
+      "9月22日Maaal、Eye of Riyadh、TTN报道服务公寓塔协议；公司CMD演示稿提供Masar背景。Saudiweek 2025-10-01为同项目早期阶段旧闻，作进展对照。"
+    ],
+    [
+      "Welspun/BSE/NSE",
+      "一手备案成功",
+      "9月20日Welspun向BSE/NSE提交备案，9月23日实读备案全文与NSE披露PDF，用于升级09-20档008。"
+    ],
+    [
+      "SPA",
+      "官方原文成功",
+      "9月21日设施管理会议开幕，市政与住房部长称市场超500亿美元；SPA原文与Arab News、Al-Eqtisadiah一致。"
+    ],
+    [
+      "Hapag-Lloyd",
+      "官方通知成功",
+      "9月21日Tema CGD冷藏箱附加费与UAE MPCI强制合规两条通知原文已读；仅作为行业背景航运信息收录。"
+    ],
+    [
+      "X/社媒",
+      "未直接访问；仅作线索",
+      "塔伊巴医院阿语社媒聚合内容未作为事实依据；MEED导语亦不足独立交叉，故该条unconfirmed。"
+    ],
+    [
+      "排除记录",
+      "旧闻与窗口外条目",
+      "SaudiPress称阿美授TR/Sinopec 3.3B美元天然气设施合同实为2024-01-22旧闻复用且比例写反；PowerChina国王港、机场PPP、SAN-7等为旧闻或窗口外，不收录。"
+    ],
+    [
+      "CBNME/MEED/CW",
+      "直接访问完成",
+      "CBNME 9-23全文、MEED guest 9-17导语、Construction Week Saudi 9-17交叉：Oxagon 55号公路设计-建造招标与400km铁路EoI细节。"
+    ],
+    [
+      "WAM经okazinvest",
+      "直接访问完成",
+      "TAQA/JERA/AlBawani与SPPC签Rumah 2与Nairyah 2两份25年PPA（9-23 WAM）全文已读。"
+    ],
+    [
+      "TradeArabia经okazinvest",
+      "直接访问完成",
+      "ACWA/Badeel/SAPCO三光伏财务关闭（9-21）全文已读；SaudiPress 15GW口径不一致，不采用。"
+    ],
+    [
+      "Etimad",
+      "详情页本轮被拒；沿用09-22官方抓取",
+      "Al-Khafji备件（260939008244）有09-22官方列表详情可核验；香水溶液（260939008679）仅聚合线索无官方证据，不收录。"
+    ],
+    [
+      "排除记录",
+      "旧闻与不可靠来源",
+      "EDF-SPIC 1.4GW财务关闭为2025-11-05旧闻复用；Qurayyah 3GW EPC为2025-03-24旧闻；搜狐9-23聚合稿混合旧闻，仅作线索。"
+    ]
+  ],
+  "retrievalTools": [
+    {
+      "tool": "web-search",
+      "status": "completed",
+      "entries": [
+        "Saudi construction contract awarded September 2026",
+        "沙特 建筑 授标 合同 9月23日 2026",
+        "Saudi Aramco tender workers camp accommodation September 2026",
+        "Maersk Hapag-Lloyd shipping surcharge Middle East Saudi September 23 2026",
+        "Etimad Saudi tender direct purchase September 2026 awarded",
+        "Saudi building code fire safety SBC 801 camp regulation September 2026",
+        "Saudi Ministry Energy Qurayyah 3GW EPC ACWA 15GW financial close September 2026",
+        "SPPC 9200 MW PPA September 21 2026 Rumah Nairyah Al Sadawi",
+        "Orascom Técnicas Reunidas Qurayyah IPP expansion EPC contract September 2026",
+        "NEOM Highway 55 upgrade tender Oxagon Duba 14 km design build",
+        "\"Al Masa'a\" OR \"Al Henakiyah\" solar financial close EDF SPIC 1.4 GW",
+        "\"260939008679\" OR \"260939008244\" Etimad"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-23/14-00/access-log.json"
+    },
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://www.cbnme.com/news/neom-tenders-oxagon-highway-upgrade-and-400km-rail-link-to-power-freight-growth/",
+        "https://okazinvest.com/okaz/newDetails.aspx?id=991598&nb=2",
+        "https://www.okazinvest.com/okaz/newDetails.aspx?id=967720&nb=2",
+        "https://saudipress.com/edf-spic-consortium-hits-financial-close-on-two-saudi-solar-projects-totaling-1-4-gw",
+        "https://m.sohu.com/a/1079868102_122706516/",
+        "https://www.spa.gov.sa/N2044384",
+        "https://tenders.etimad.sa/Tender/OpenTenderDetailsReportForVisitor?tenderIdString=3rJx9KzP0mWqLpQa1b2cDg=="
+      ],
+      "evidence": "outputs/news/evidence-2026-09-23/14-00/access-log.json；CBNME、okazinvest两篇、SaudiPress、搜狐聚合稿、SPA原文已读；Etimad详情页本轮访问被拒。"
+    }
+  ],
+  "items": [
+    {
+      "id": "001",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "医疗设施",
+        "机电工程"
+      ],
+      "region": "沙特／Al Khobar",
+      "sourceType": "上市公司公告（Tadawul）经多家媒体转述",
+      "event": "9月21日签约；9月22日向Tadawul公告",
+      "eventLabel": "签约与公告",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "本轮新收录；9月22日发现，9月23日实读原文完成核验与入档。",
+      "products": [],
+      "background": "作为行业信息收录；医院机电工程未确认打包箱、移动卫浴、五金或薄壁轻钢的具体采购需求。",
+      "title": "BEC Arabia获Almoosa Health约7.82亿里亚尔专科医院机电工程合同",
+      "source": "SaudiGulfProjects；Almoosa Health公告；Argaam；Al-Eqtisadiah",
+      "url": "https://www.saudigulfprojects.com/2026/09/bec-arabia-awarded-208-2-million-mep-contract-from-almoosa-health/",
+      "original": "BEC Arabia awarded $208.2 million MEP contract from Almoosa Health",
+      "published": "2026-09-22（SaudiGulfProjects报道日；公告同日）",
+      "summary": "Almoosa Health于9月21日与BEC Arabia签约、9月22日向Tadawul公告：BEC Arabia承接Al Khobar专科医院机电工程（MEP）合同，金额781.66百万沙特里亚尔（不含增值税，约合2.084亿美元），立即开工、工期24个月，无关联方，融资为自有资金加伊斯兰长期贷款，财务影响将在设施建成投运后显现。",
+      "review": "9月23日web_fetch实读SaudiGulfProjects原文全文，核对签约与公告日期、金额、期限、融资与财务影响表述；以Argaam英文条目、Al-Eqtisadiah、Sahmi、Dora等引同一Tadawul公告交叉确认。多级媒体均指向同一披露，属同源交叉，金额口径一致（781.66m vs 782m取公告精确值）。",
+      "reviewUrls": [
+        [
+          "Argaam EN",
+          "https://www.argaam.com/en/article/articledetail/id/1938195"
+        ],
+        [
+          "Al-Eqtisadiah",
+          "https://www.aleqt.com/%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%89-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D9%88%D9%82%D8%B9-%D8%B9%D9%82%D8%AF%D8%A7-%D8%A8-782-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%B1%D9%8A%D8%A7%D9%84-%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89-%D8%A7%D9%84%D8%AE%D8%A8%D8%B1-14511"
+        ]
+      ],
+      "boundary": "金额为不含增值税口径；合同为机电工程，不证明医院临建、营地或打包箱等产品采购；24个月为合同期，非完工保证。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-23/09-00/access-log.json"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-23T01:28:56Z",
+        "method": "原文全文实读＋多源交叉核对",
+        "confirmedScope": "Almoosa Health 9月21日与BEC Arabia签约、9月22日公告，合同为Al Khobar专科医院机电工程，金额781.66百万里亚尔不含VAT，立即开工、24个月，无关联方，自有资金加伊斯兰长期贷款，财务影响于建成投运后显现。",
+        "reason": "9月23日实读SaudiGulfProjects原文全文，并以Argaam、Al-Eqtisadiah、Sahmi、Dora等多家引同一Tadawul公告交叉确认；金额口径在781.66m/782m间取公告精确值781,656,783。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "002",
+      "category": "产品与材料",
+      "tags": [
+        "产品与材料",
+        "成本指数",
+        "官方统计"
+      ],
+      "region": "沙特全国",
+      "sourceType": "官方统计发布",
+      "event": "统计期2026年8月；9月22日发布",
+      "eventLabel": "官方统计发布",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "本轮新收录；9月22日发布，9月23日完成核验与入档。",
+      "products": [
+        [
+          "五金",
+          "金属制品分项同比上涨2.0%，直接影响五金件采购成本判断"
+        ],
+        [
+          "薄壁轻钢",
+          "基础材料与金属制品分项上行，影响轻钢墙体方案成本判断，指数为背景而非具体价格承诺"
+        ]
+      ],
+      "background": "官方建筑成本指数，反映建材、设备租赁与劳动力成本变化，可作营地与临建报价的背景依据。",
+      "title": "沙特8月建筑成本指数同比上涨2.3%，金属制品与设备租赁分项上行",
+      "source": "GASTAT；Arab News；Al-Eqtisadiah",
+      "url": "https://www.stats.gov.sa/documents/20117/2435267/CCI+Aug+2026-EN.pdf/61ef0169-9b20-b304-1323-438b4852aeab?t=1789985900149",
+      "original": "Construction Cost Index (CCI) August 2026",
+      "published": "2026-09-22（GASTAT发布；Arab News 9月22日04:42转载）",
+      "summary": "GASTAT 9月22日发布2026年8月建筑成本指数：同比上涨2.3%（住宅+2.1%、非住宅+2.6%），环比+0.1%。住宅分项中基础材料+1.8%（金属制品+2.0%）、设备机械租赁+4.1%（带操作员+5.6%）、劳动力+5.1%、能源+3.0%；非住宅设备租赁+5.8%（带操作员+7.2%）、劳动力+2.0%、能源+3.0%、基础材料+1.8%。",
+      "review": "以GASTAT官方CCI+Aug+2026-EN.pdf为一手，读取Arab News 9月22日报道、Al-Eqtisadiah分析（住宅权重77.5%、7月同为2.3%）、Al-Arabiya、Maaal、Okaz、Ayamalarab交叉核对；统计发布多源一致，未采用个别媒体的扩展解读。",
+      "reviewUrls": [
+        [
+          "Arab News",
+          "https://www.arabnews.com/"
+        ],
+        [
+          "Al-Eqtisadiah分析",
+          "https://www.aleqt.com/%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1-%D9%88%D8%AA%D8%AD%D9%84%D9%8A%D9%84%D8%A7%D8%AA/%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9-%D8%AA%D9%83%D8%A7%D9%84%D9%8A%D9%81-%D8%A7%D9%84%D8%A8%D9%86%D8%A7%D8%A1-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%B3%D8%AA%D9%82%D8%B1-%D8%B9%D9%86%D8%AF-23-%D8%AE%D9%84%D8%A7%D9%84-%D8%A3%D8%BA%D8%B3%D8%B7%D8%B3-14524"
+        ]
+      ],
+      "boundary": "指数为统计口径，不证明任一具体材料或产品的价格；分项变化不等同于临建产品必然涨价。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-22/14-00/c-costs.md",
+        "outputs/news/evidence-2026-09-22/14-00/costs-official.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-23T01:28:56Z",
+        "method": "官方PDF链接＋多家独立媒体交叉核对",
+        "confirmedScope": "GASTAT 2026年8月建筑成本指数同比+2.3%（住宅+2.1%、非住宅+2.6%），环比+0.1%；住宅分项基础材料+1.8%（金属制品+2.0%）、设备机械租赁+4.1%、劳动力+5.1%、能源+3.0%；非住宅设备租赁+5.8%、劳动力+2.0%、能源+3.0%、基础材料+1.8%。",
+        "reason": "官方CCI PDF为一手；Arab News、Al-Eqtisadiah、Al-Arabiya、Maaal、Okaz等9月22日多源数字一致，未发现冲突口径。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "003",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "麦加",
+        "酒店开发"
+      ],
+      "region": "沙特／麦加 Masar",
+      "sourceType": "上市公司公告经媒体转述",
+      "event": "9月22日公告提前执行土地预留与出售协议",
+      "eventLabel": "协议执行",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "本轮新收录；9月22日公告，9月23日完成核验与入档。",
+      "products": [],
+      "background": "作为行业信息收录；酒店塔开发未确认临建产品采购需求。",
+      "title": "Umm Al Qura提前执行Masar土地协议，Numu将开发约460单元服务公寓塔",
+      "source": "Umm Al Qura公告；Maaal；Eye of Riyadh；TTN",
+      "url": "https://maaal.com/en/news/details/umm-al-qura-for-developme-l/",
+      "original": "Umm Al Qura announces early execution of land reservation and sale deal with Numu to develop serviced apartment tower at Masar",
+      "published": "2026-09-22（Maaal英文报道日；公司同日公告）",
+      "summary": "Umm Al Qura（UAQ）9月22日公告，提前执行与Numu的土地预留与出售协议：在麦加Masar目的地开发约460个酒店/服务公寓单元的服务公寓塔，投资近7亿沙特里亚尔（媒体口径约1.85亿美元），由开发商Numu承担开发。此为公司公告的协议执行进展。",
+      "review": "读取Maaal英文报道、Eye of Riyadh阿拉伯语报道（9月22日17:23）与TTN（1.85亿美元口径），并对照Umm Al Qura公司CMD演示稿的Masar背景。Saudiweek 2025-10-01报道同项目早期阶段（原称300余客房），本次为协议执行进展而非全新事件，单元数按本次公告口径更新为约460。",
+      "reviewUrls": [
+        [
+          "Eye of Riyadh AR",
+          "https://m.eyeofriyadh.com/ar/news/details/umm-al-qura-for-development-and-construction-announces-early-execution-of-land-reservation-sale-deal-with-numu-with-sar-700m-investments-to-develop-serviced-apartment-tower-at-masar-destination"
+        ],
+        [
+          "TTN",
+          "https://www.ttnworldwide.com/TagsTA/makkah"
+        ]
+      ],
+      "boundary": "投资额为媒体口径的约数；协议执行不代表已开工或已确定采购；早期阶段口径（300余客房）与本轮460单元属同一项目不同阶段。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-22/14-00/c-investment.md",
+        "outputs/news/evidence-2026-09-23/09-00/access-log.json"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-23T01:28:56Z",
+        "method": "多源交叉核对＋公司背景对照",
+        "confirmedScope": "Umm Al Qura 9月22日公告提前执行与Numu的土地预留与出售协议，在Masar开发约460个酒店/服务公寓单元，投资近7亿里亚尔，由Numu承担开发。",
+        "reason": "Maaal、Eye of Riyadh、TTN等9月22日独立报道交叉一致；与2025年10月早期阶段旧闻对照确认属协议执行进展。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "004",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "铁路",
+        "NEOM"
+      ],
+      "region": "沙特／NEOM Oxagon",
+      "sourceType": "项目业主EoI公告＋行业媒体",
+      "event": "9月14日发EoI、9月16日截止；9月22日报道顾问提交意向",
+      "eventLabel": "前期咨询阶段",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "本轮新收录；事件于9月14—17日发生，9月22日MEED报道进展，9月23日核验入档。",
+      "products": [],
+      "background": "铁路可研与概念设计阶段，尚无施工或临建采购；作为NEOM重点工程前期信息收录。",
+      "title": "NEOM为Oxagon货运铁路发EoI并收到顾问意向，线路约400公里接入SAR网络",
+      "source": "NEOM EoI；MEED；Construction Week Saudi",
+      "url": "https://www.meed.com/consultants-submit-oxagon-freight-rail-interest",
+      "original": "Consultants submit Oxagon freight rail interest",
+      "published": "2026-09-22（MEED报道日；EoI 9月14日发布）",
+      "summary": "NEOM于9月14日就Oxagon货运铁路发布意向征求（EoI），范围覆盖可行性研究、概念设计与路由比选，9月16日截止；MEED 9月22日报道顾问已提交意向。该铁路约400公里，连接Oxagon与沙特国家铁路（SAR）网络。",
+      "review": "读取MEED 9月22日报道导语与9月15日原报道（EoI发布、截止日、400公里与SAR网络接入），并以Construction Week Saudi 9月17日、Construction Review 9月15日独立报道交叉核对；EoI事实来自NEOM官方发布，顾问提交意向为MEED报道。",
+      "reviewUrls": [
+        [
+          "Construction Week Saudi",
+          "https://www.constructionweeksaudi.com/news/neom-oxagon-400km-freight-rail-link"
+        ],
+        [
+          "Construction Review",
+          "https://constructionreviewonline.com/neom-oxagon-freight-rail-connection-500-billion-giga-project-plans-400km-link-to-sar-network/"
+        ]
+      ],
+      "boundary": "EoI为前期咨询阶段，不代表施工授标、开工或营地采购；顾问名单、路由方案与造价未披露。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-22/14-00/oxagon-primary.json",
+        "outputs/news/evidence-2026-09-22/14-00/c-oxagon.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-23T01:28:56Z",
+        "method": "EoI官方发布＋多家行业媒体交叉核对",
+        "confirmedScope": "NEOM 9月14日就Oxagon货运铁路发布EoI（可研/概念设计/路由比选），9月16日截止；MEED 9月22日报道顾问提交意向；铁路约400公里接入SAR网络。",
+        "reason": "EoI事实来自NEOM官方并经Construction Week Saudi、Construction Review独立报道确认；MEED导语提供9月22日进展。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "005",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "直接采购",
+        "海水淡化"
+      ],
+      "region": "沙特／Shuqaiq",
+      "sourceType": "官方采购公告（Etimad）",
+      "event": "直接采购公告；60天期限，抓取日剩余15日21:26",
+      "eventLabel": "在招阶段",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "9月22日中断批次素材，本档收录；抓取时间保留，9月23日核验入档。",
+      "products": [],
+      "background": "海水淡化设施设备测试与操作员执照，属设施运维配套；未证实临建产品采购需求。",
+      "title": "Etimad：SWCC采购Shuqaiq海水淡化举升设备测试与操作员执照服务",
+      "source": "Etimad官方公告",
+      "url": "https://tenders.etimad.sa/Tender/OpenTenderDetailsReportForVisitor?tenderIdString=rcZZNW%20htdutydDcGNkqqQ==",
+      "original": "اختبار وترخيص مشغل معدات الرفع بمحطة تحلية الشقيق",
+      "published": "2026-09-22（Etimad详情页抓取）",
+      "summary": "Etimad官方公告，沙特水务公司（SWCC）直接采购Shuqaiq海水淡化厂举升设备测试与操作员执照服务，参考号260939003924，期限60天，抓取日显示剩余15日21:26。",
+      "review": "读取Etimad官方详情页，核对采购机关、参考号、采购方式（直接采购）与期限；公告页为核验依据。",
+      "reviewUrls": [],
+      "boundary": "剩余天数按抓取日口径；直接采购不设保函要求，不代表施工或营地采购。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-22/14-00/t-shuqaiq.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-23T01:28:56Z",
+        "method": "官方公告详情页直接核验",
+        "confirmedScope": "Etimad参考号260939003924：SWCC直接采购Shuqaiq海水淡化举升设备测试与操作员执照，60天期限，抓取日剩余15日21:26。",
+        "reason": "Etimad官方公告页列出采购机关、参考号、采购方式与期限，可证明公告明确写出的事实。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "006",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "直接采购",
+        "环境许可"
+      ],
+      "region": "沙特／Duba",
+      "sourceType": "官方采购公告（Etimad）",
+      "event": "直接采购公告；2个月期限，抓取日剩余10日",
+      "eventLabel": "在招阶段",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "9月22日中断批次素材，本档收录；抓取时间保留，9月23日核验入档。",
+      "products": [],
+      "background": "海水淡化项目环境许可证服务，属项目合规配套；未证实临建产品采购需求。",
+      "title": "Etimad：SWCC采购Duba海水淡化项目环境许可证服务",
+      "source": "Etimad官方公告",
+      "url": "https://tenders.etimad.sa/Tender/OpenTenderDetailsReportForVisitor?tenderIdString=*@@**00iO1juv1KQ7SdSgSOTLw==",
+      "original": "خدمات رخصة التشغيل البيئية لمحطة التحلية بدبا",
+      "published": "2026-09-22（Etimad详情页抓取）",
+      "summary": "Etimad官方公告，SWCC直接采购Duba海水淡化项目环境运营许可证服务，参考号260939008051，期限2个月，抓取日显示剩余10日。",
+      "review": "读取Etimad官方详情页，核对采购机关、参考号、采购方式与期限；公告页为核验依据。",
+      "reviewUrls": [],
+      "boundary": "剩余天数按抓取日口径；为服务类采购，不含工程或营地产品。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-22/14-00/t-duba.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-23T01:28:56Z",
+        "method": "官方公告详情页直接核验",
+        "confirmedScope": "Etimad参考号260939008051：SWCC直接采购Duba海水淡化环境运营许可证服务，2个月期限，抓取日剩余10日。",
+        "reason": "Etimad官方公告页列出采购机关、参考号、采购方式与期限，可证明公告明确写出的事实。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "007",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "直接采购",
+        "营地能源"
+      ],
+      "region": "沙特／东部省",
+      "sourceType": "官方采购公告（Etimad）",
+      "event": "直接采购公告；8个月期限，抓取日剩余5日",
+      "eventLabel": "在招阶段",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "9月22日中断批次素材，本档收录；抓取时间保留，9月23日核验入档。",
+      "products": [],
+      "background": "反毒中心车辆扣押中心2台发电机柴油供应，属设施后勤燃料采购；与营地能源相关但未证实临建产品采购。",
+      "title": "Etimad：东部省反毒中心车辆扣押中心2台发电机柴油供应在招",
+      "source": "Etimad官方公告",
+      "url": "https://tenders.etimad.sa/Tender/OpenTenderDetailsReportForVisitor?tenderIdString=Nv8XTU6VrzvFCDEGRylycA==",
+      "original": "تامين محروقات (ديزل) لعدد (2) مولدات كهربائية الخاصة بمركز حجز السيارات لمكافحة المخدرات بالمنطقة الشرقية",
+      "published": "2026-09-22（Etimad详情页抓取）",
+      "summary": "Etimad官方公告，东部省反毒中心为车辆扣押中心2台发电机直接采购柴油燃料，参考号260939007735，期限8个月，抓取日显示剩余5日，文件价值200里亚尔。",
+      "review": "读取Etimad官方详情页，核对采购机关、参考号、采购方式、期限与文件价值；公告页为核验依据。",
+      "reviewUrls": [],
+      "boundary": "剩余天数按抓取日口径；为燃料采购，不证明发电机或临建设施采购。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-22/14-00/t-generator.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-23T01:28:56Z",
+        "method": "官方公告详情页直接核验",
+        "confirmedScope": "Etimad参考号260939007735：东部省反毒中心车辆扣押中心2台发电机柴油供应，直接采购，8个月期限，抓取日剩余5日。",
+        "reason": "Etimad官方公告页列出采购机关、参考号、采购方式与期限，可证明公告明确写出的事实。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "008",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "直接采购",
+        "材料"
+      ],
+      "region": "沙特／麦地那—延布",
+      "sourceType": "官方采购公告（Etimad）",
+      "event": "直接采购公告；60天期限，抓取日剩余2日",
+      "eventLabel": "在招阶段",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "9月22日中断批次素材，本档收录；抓取时间保留，9月23日核验入档。",
+      "products": [
+        [
+          "五金",
+          "玻璃纤维车间耗材属材料采购，与五金类材料供应同属配套物料，关联度中等"
+        ]
+      ],
+      "background": "边境警卫玻璃纤维车间耗材，属维护材料采购；五金适配为材料类关联，非证明具体采购。",
+      "title": "Etimad：麦地那—延布边境警卫玻璃纤维车间耗材在招",
+      "source": "Etimad官方公告",
+      "url": "https://tenders.etimad.sa/Tender/OpenTenderDetailsReportForVisitor?tenderIdString=OwUmkL*@@**PYQ7BZVwhIV8Jdw==",
+      "original": "تأمين مستلزمات لورشة الفيبر جلاس بقيادة حرس الحدود بمنطقة المدينة المنورة - ينبع",
+      "published": "2026-09-22（Etimad详情页抓取）",
+      "summary": "Etimad官方公告，麦地那—延布边境警卫玻璃纤维车间耗材供应在招，参考号260939008119，期限60天，抓取日显示剩余2日，文件价值200里亚尔。",
+      "review": "读取Etimad官方详情页，核对采购机关、参考号、采购方式、期限与文件价值；公告页为核验依据。",
+      "reviewUrls": [],
+      "boundary": "剩余天数按抓取日口径；耗材类采购，数量与规格未在公告详情公开。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-22/14-00/t-fiberglass.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-23T01:28:56Z",
+        "method": "官方公告详情页直接核验",
+        "confirmedScope": "Etimad参考号260939008119：麦地那—延布边境警卫玻璃纤维车间耗材供应，直接采购，60天期限，抓取日剩余2日。",
+        "reason": "Etimad官方公告页列出采购机关、参考号、采购方式与期限，可证明公告明确写出的事实。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "009",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "医院设备",
+        "承接前任合同"
+      ],
+      "region": "沙特／麦加",
+      "sourceType": "官方采购公告（Etimad）",
+      "event": "直接采购公告；60天期限，抓取日剩余5日",
+      "eventLabel": "在招阶段",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "9月22日中断批次素材，本档收录；抓取时间保留，9月23日核验入档。",
+      "products": [],
+      "background": "伊本西纳长期护理医院承接前任承包商餐厅设备补充与维修，属设施维护采购；未证实临建产品需求。",
+      "title": "Etimad：伊本西纳医院承接前任承包商餐厅设备补充与维修在招",
+      "source": "Etimad官方公告",
+      "url": "https://tenders.etimad.sa/Tender/OpenTenderDetailsReportForVisitor?tenderIdString=CPIvMFxEQy9ftPb3CHS3lA==",
+      "original": "توريد وتركيب وإصلاح الأجهزة وملاحظات الصيانة المتبقية على المقاول السابق لعقد خدمات التغذية بمستشفى ابن سينا للرعاية الممتدة",
+      "published": "2026-09-22（Etimad详情页抓取）",
+      "summary": "Etimad官方公告，麦加卫生群为伊本西纳长期护理医院承接前任承包商（Anjal Arabia）餐厅服务合同遗留的验收整改事项，直接采购设备补充、安装与维修，参考号260939005949，文件免费，抓取日剩余5日。",
+      "review": "读取Etimad官方详情页，核对采购机关、参考号、采购方式、目的与前任承包商信息；公告页为核验依据。",
+      "reviewUrls": [],
+      "boundary": "剩余天数按抓取日口径；为前任合同遗留的整改采购，不证明新医院建设或营地采购。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-22/14-00/t-maintenance.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-23T01:28:56Z",
+        "method": "官方公告详情页直接核验",
+        "confirmedScope": "Etimad参考号260939005949：麦加卫生群为伊本西纳长期护理医院承接前任承包商餐厅设备补充、安装与维修，直接采购，抓取日剩余5日。",
+        "reason": "Etimad官方公告页列出采购机关、参考号、采购方式、目的与前任承包商，可证明公告明确写出的事实。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "010",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "医院",
+        "授标线索"
+      ],
+      "region": "沙特／麦地那",
+      "sourceType": "行业媒体导语＋社媒线索",
+      "event": "9月19日起社媒称授标；9月22日MEED报道",
+      "eventLabel": "授标线索",
+      "status": "unconfirmed",
+      "statusText": "证据不足",
+      "update": "本轮新收录；9月22日MEED报道，缺独立一手，9月23日完成本轮可执行查证后按证据不足收录。",
+      "products": [],
+      "background": "如属实为麦地那医院剩余工程授标，与医疗设施建设相关；现有公开证据不足以确认，供后续追踪。",
+      "title": "线索：Al-Mansouria据报获3.96亿里亚尔麦地那塔伊巴大学医院剩余工程合同",
+      "source": "MEED（guest）",
+      "url": "https://guest.meed.com/contractor-wins-105m-medina-university-hospital-deal/",
+      "original": "Contractor wins $105m Medina university hospital deal",
+      "published": "2026-09-22（MEED guest报道日）",
+      "summary": "MEED 9月22日称Al-Mansouria GC获3.96亿里亚尔（约1.056亿美元）合同，完成麦地那塔伊巴大学医院剩余工程；阿语社媒聚合自9月19日起声称授标已获批准。未取得塔伊巴大学医院、卫生部或相关官方公告，亦无独立第二来源确认。",
+      "review": "检索官方公告未果：hospital-primary检索结果杂乱无效，hospital-official仅塔伊巴官网无关公告；MEED正文订阅受限，仅guest导语可读；阿语社媒内容仅作线索。本轮已穷尽合理公开来源，故标unconfirmed。",
+      "reviewUrls": [
+        [
+          "MEED guest",
+          "https://guest.meed.com/contractor-wins-105m-medina-university-hospital-deal/"
+        ]
+      ],
+      "boundary": "金额与主体以MEED导语为限；社媒所谓正式批准不能作为事实；未确认合同生效或开工。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-22/14-00/hospital-primary.json",
+        "outputs/news/evidence-2026-09-22/14-00/hospital-official.json",
+        "outputs/news/evidence-2026-09-22/14-00/taibah-news.md"
+      ],
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-23T01:28:56Z",
+        "method": "官方公告追索＋多源核验",
+        "confirmedScope": "仅确认MEED guest导语内容（Al-Mansouria GC获3.96亿里亚尔麦地那塔伊巴大学医院剩余工程）及社媒线索存在；核心授标事实未获官方或独立第二来源确认。",
+        "reason": "MEED正文订阅受限，未找到塔伊巴大学医院、卫生部或Tadawul公告；hospital-official仅无关公告；社媒不可作为事实依据。",
+        "missing": "缺少麦地那塔伊巴大学医院剩余工程授标的官方公告或独立可靠第二来源；MEED正文与金额细节未完整取得。"
+      }
+    },
+    {
+      "id": "011",
+      "category": "营地住宿",
+      "tags": [
+        "营地住宿",
+        "设施管理",
+        "行业背景"
+      ],
+      "region": "沙特全国",
+      "sourceType": "政府官员公开表态（SPA）",
+      "event": "9月21日第三届设施管理会议开幕",
+      "eventLabel": "行业会议表态",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "本轮新收录；9月21日表态，9月23日核验入档。",
+      "products": [],
+      "background": "市政与住房部长称沙特设施管理市场超500亿美元，反映营地、园区与建筑设施运维需求体量；属行业背景，非工程授标。",
+      "title": "沙特部长：设施管理市场超500亿美元，第三届FM会议在利雅得开幕",
+      "source": "SPA；Arab News；Al-Eqtisadiah",
+      "url": "https://www.spa.gov.sa/ar/w2681087",
+      "original": "اقتصادي / وزير البلديات والإسكان يفتتح المؤتمر والمعرض الدولي الثالث لإدارة المرافق",
+      "published": "2026-09-21（SPA原文日期）",
+      "summary": "沙特市政与住房部长Majed Al-Hogail在利雅得第三届设施管理国际会议暨展览（IFM 2026）开幕式上表示，沙特设施管理市场超过500亿美元，市场规模反映行业机会；会议于9月21日开幕。",
+      "review": "读取SPA官方原文，核对部长姓名、会议名称、市场规模表述与开幕日期；以Arab News与Al-Eqtisadiah 9月21日报道交叉确认。",
+      "reviewUrls": [
+        [
+          "Arab News",
+          "https://www.arabnews.com/"
+        ]
+      ],
+      "boundary": "市场规模为部长公开表态口径，非官方统计报告；不构成工程授标、采购或公司业绩承诺。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-22/14-00/fm-official.json",
+        "outputs/news/evidence-2026-09-22/14-00/fm-spa.md",
+        "outputs/news/evidence-2026-09-22/14-00/c-fm.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-23T01:28:56Z",
+        "method": "官方原文＋独立媒体交叉核对",
+        "confirmedScope": "市政与住房部长Majed Al-Hogail 9月21日在利雅得IFM 2026开幕式称沙特设施管理市场超500亿美元；会议当天开幕。",
+        "reason": "SPA官方原文直接可证；Arab News、Al-Eqtisadiah报道口径一致。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "012",
+      "category": "航运物流",
+      "tags": [
+        "航运物流",
+        "附加费",
+        "西非航线"
+      ],
+      "region": "中东（含沙特）至加纳Tema",
+      "sourceType": "船公司官方通知",
+      "event": "2026-10-05起按航次适用",
+      "eventLabel": "生效日",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "本轮新收录；9月21日通知，9月23日核验入档。",
+      "products": [],
+      "background": "涉及中东（含沙特）发往加纳Tema的冷藏箱附加费；对沙特出口西非货量有费用影响，属航线背景。",
+      "title": "Hapag-Lloyd：中东至加纳Tema冷藏箱拥堵目的地附加费250美元/TEU",
+      "source": "Hapag-Lloyd官方通知",
+      "url": "https://www.hapag-lloyd.com/en/services-information/news/2026/09/shipping-from-asia--oceania--middle-east-and-indian-subcontinent.html",
+      "original": "Shipping to Tema, Ghana? A Congestion Destination Surcharge (CGD) is coming up",
+      "published": "2026-09-21（官方通知）",
+      "summary": "Hapag-Lloyd 9月21日通知：从中东（含沙特、阿联酋、巴林、伊拉克、科威特、卡塔尔、约旦）及亚洲、印度次大陆发往加纳Tema的冷藏箱，将加收拥堵目的地附加费（CGD）每TEU 250美元，2026年10月5日起按航次适用。",
+      "review": "读取Hapag-Lloyd官方通知原文，核对适用区域（含沙特）、货类（冷藏箱）、费率、生效日期与航次口径。",
+      "reviewUrls": [],
+      "boundary": "附加费仅适用于冷藏箱及列明航向；不构成整票运费或全部沙特货物统一涨价。",
+      "shipping": [
+        [
+          "船公司",
+          "Hapag-Lloyd"
+        ],
+        [
+          "航向",
+          "中东（含沙特）等至加纳Tema"
+        ],
+        [
+          "货类",
+          "冷藏箱"
+        ],
+        [
+          "费率",
+          "USD 250/TEU"
+        ],
+        [
+          "生效",
+          "2026-10-05起航次"
+        ]
+      ],
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-22/14-00/shipping-0.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-23T01:28:56Z",
+        "method": "船公司官方通知原文核验",
+        "confirmedScope": "Hapag-Lloyd 9月21日通知：中东（含沙特）等至加纳Tema冷藏箱CGD每TEU 250美元，2026-10-05起按航次适用。",
+        "reason": "官方通知原文列出适用区域、货类、费率与生效日期，可证明通知明确写出的事实。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "013",
+      "category": "航运物流",
+      "tags": [
+        "航运物流",
+        "合规",
+        "海湾中转"
+      ],
+      "region": "海湾（阿联酋进口合规；经阿联酋中转的沙特货物相关）",
+      "sourceType": "船公司官方通知",
+      "event": "宽限期至2026-09-30；2026-10-01起全面执行",
+      "eventLabel": "生效日",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "本轮新收录；9月21日通知，9月23日核验入档。",
+      "products": [],
+      "background": "阿联酋进口强制MPCI预申报合规，影响经阿联酋中转的海湾货物；作为海湾物流合规背景收录。",
+      "title": "Hapag-Lloyd提醒：阿联酋MPCI进口预申报宽限9月30日止、10月1日全面执行",
+      "source": "Hapag-Lloyd官方通知",
+      "url": "https://www.hapag-lloyd.com/fr/services-information/offices-localinfo/local-news/2026/09/uae--mpci-grace-period-ends-september-30--2026.html",
+      "original": "UAE: Maritime Pre-load Cargo Information (MPCI) program grace period ends",
+      "published": "2026-09-21（官方通知）",
+      "summary": "Hapag-Lloyd 9月21日提醒：阿联酋国家预先进口信息中心（NAIC）的MPCI预申报合规宽限期至9月30日止，10月1日起全面执行；缺失或不完整申报可能产生不装船指令、扣留或处罚。经阿联酋中转的沙特等海湾货物受该合规要求影响。",
+      "review": "读取Hapag-Lloyd官方通知原文，核对宽限期、执行日、申报要求与后果表述；该条针对阿联酋进口，对沙特为间接（中转）影响。",
+      "reviewUrls": [],
+      "boundary": "合规要求直接针对阿联酋进口；经阿联酋中转的沙特货物相关，直进沙特港口货物不受此要求约束。",
+      "shipping": [
+        [
+          "船公司",
+          "Hapag-Lloyd"
+        ],
+        [
+          "范围",
+          "阿联酋进口预申报（NAIC/MPCI）"
+        ],
+        [
+          "生效",
+          "2026-10-01全面执行；宽限至09-30"
+        ],
+        [
+          "影响",
+          "经阿联酋中转的海湾货物（含沙特）"
+        ]
+      ],
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-22/14-00/shipping-1.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-23T01:28:56Z",
+        "method": "船公司官方通知原文核验",
+        "confirmedScope": "Hapag-Lloyd 9月21日通知：UAE MPCI合规宽限至2026-09-30，10-01起全面执行，缺失申报可能产生DNL、扣留或处罚。",
+        "reason": "官方通知原文列出宽限期、执行日、申报要求与后果，可证明通知明确写出的事实。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "014",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "道路",
+        "NEOM"
+      ],
+      "region": "沙特／NEOM Oxagon",
+      "sourceType": "项目业主招标公告＋行业媒体",
+      "event": "9月17日发布设计-建造招标；9月21日提案截止",
+      "eventLabel": "招标阶段",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "14:00批次新收录；9月17日招标发布，9月23日14:00批次实读原文核验入档。",
+      "products": [],
+      "background": "Oxagon物流走廊公路升级，与004铁路EoI同属货运基础设施前期；未确认临建产品采购。",
+      "title": "NEOM招标Oxagon高速公路55号永久升级，一期14公里设计-建造",
+      "source": "CBNME；MEED；Construction Week Saudi",
+      "url": "https://www.cbnme.com/news/neom-tenders-oxagon-highway-upgrade-and-400km-rail-link-to-power-freight-growth/",
+      "original": "NEOM Tenders Oxagon Highway Upgrade And 400km Rail Link To Power Freight Growth",
+      "published": "2026-09-23（CBNME报道日；招标9月17日发布）",
+      "summary": "NEOM就Oxagon地区55号高速公路永久升级发布设计-建造招标：一期14公里、双向两车道、1座桥、3个互通，提案9月21日截止，工期约22个月；升级支持Duba港货物向沙特各地运输。同期披露400公里铁路EoI细节（连接Oxagon与SAR南北铁路Al Baseeta，目标2030年港口吞吐从约25万TEU提升至150万TEU）。",
+      "review": "实读CBNME 9月23日全文，并以MEED guest 9月17日导语（14km、双向两车道、1桥3互通、22个月、9-21截止）与Construction Week Saudi 9月17日独立报道交叉；CW报道口径（约22km/三车道/两桥四互通）与MEED一期14km不同，按MEED/CBNME一期口径收录。",
+      "reviewUrls": [
+        [
+          "MEED guest",
+          "https://guest.meed.com/neom-tenders-oxagon-highway-contract/"
+        ],
+        [
+          "Construction Week Saudi",
+          "https://www.constructionweeksaudi.com/gigaprojects/neom/neom-oxagon-highway-upgrade"
+        ]
+      ],
+      "boundary": "招标为设计-建造前期阶段，非施工授标；铁路EoI无造价与完工时间披露；公路与铁路为同一物流走廊的独立设施，关联004。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-23/14-00/access-log.json",
+        "outputs/news/evidence-2026-09-23/14-00/batch-notes.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-23T06:17:25Z",
+        "method": "原文全文实读＋多家行业媒体交叉核对",
+        "confirmedScope": "NEOM 9月17日就55号高速公路永久升级发布设计-建造招标：一期14km、双向两车道、1桥3互通，9月21日提案截止，工期约22个月；同期披露400km铁路EoI细节（接入SAR南北铁路Al Baseeta）。",
+        "reason": "CBNME全文与MEED guest、Construction Week Saudi独立交叉一致；一期口径取MEED/CBNME。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "015",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "电力",
+        "燃气发电"
+      ],
+      "region": "沙特（Rumah 2、Nairyah 2）",
+      "sourceType": "上市公司公告经官方通讯社（WAM）转述",
+      "event": "9月23日公告签署两份25年PPA",
+      "eventLabel": "PPA签署",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "14:00批次新收录；9月23日WAM发布，实读okazinvest转载原文核验入档。",
+      "products": [],
+      "background": "SPPC授标并签署燃气发电IPP购电协议，属电力工程项目；未确认临建或营地产品需求。",
+      "title": "TAQA、JERA与AlBawani获沙特Rumah 2与Nairyah 2项目，合计超3.6GW燃气IPP签25年PPA",
+      "source": "WAM（经okazinvest转载）",
+      "url": "https://okazinvest.com/okaz/newDetails.aspx?id=991598&nb=2",
+      "original": "TAQA to develop two new power plants in Saudi Arabia",
+      "published": "2026-09-23（okazinvest转载WAM）",
+      "summary": "TAQA（49%）联合JERA（31%）与AlBawani（20%）与沙特电力采购公司（SPPC）签署两份25年购电协议（PPA），以建设-拥有-运营方式开发Rumah 2与Nairyah 2两个绿地燃气联合循环（CCGT）项目，合计容量超3.6GW（各1.8GW）；项目使用高效CCGT涡轮并预留碳捕获接口。",
+      "review": "实读okazinvest 9月23日10:31转载WAM全文，核对联合体股权、项目名、容量、PPA期限与BOO模式；以SAB官网2026-06背景（联合体结构）交叉；搜狐9-23聚合稿LCOE细节为单源，不采用。",
+      "reviewUrls": [
+        [
+          "SAB背景",
+          "https://www.sab.com/en/corporate/business-insight/november-home/renewable/"
+        ]
+      ],
+      "boundary": "PPA签署为开发协议，非施工授标；未披露开工与工期；LCOE等细节未获独立确认不收录。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-23/14-00/access-log.json",
+        "outputs/news/evidence-2026-09-23/14-00/batch-notes.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-23T06:17:25Z",
+        "method": "WAM官方通讯社转载原文核验＋背景交叉",
+        "confirmedScope": "TAQA/JERA/AlBawani与SPPC签Rumah 2与Nairyah 2两份25年PPA，合计超3.6GW（各1.8GW），BOO模式，预留碳捕获。",
+        "reason": "WAM全文列出联合体股权、项目、容量、期限与模式；可证明公告明确写出的事实。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "016",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "电力",
+        "光伏",
+        "财务关闭"
+      ],
+      "region": "沙特（麦加、卡西姆）",
+      "sourceType": "企业公告经媒体（TradeArabia）转述",
+      "event": "9月21日宣布财务关闭",
+      "eventLabel": "财务关闭",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "14:00批次补录；事件9月21日宣布，09:00批次窗口未收录，本批发现并核验入档。",
+      "products": [],
+      "background": "ACWA/Badeel/SAPCO完成三光伏项目财务关闭，属电力工程项目；未确认临建或营地产品需求。",
+      "title": "ACWA、Badeel与SAPCO完成沙特三光伏项目财务关闭，合计5.5GW投资32亿美元",
+      "source": "TradeArabia（经okazinvest转载）",
+      "url": "https://www.okazinvest.com/okaz/newDetails.aspx?id=967720&nb=2",
+      "original": "Acwa, Badeel, Sapco in financial close for $3.2bn solar PV projects",
+      "published": "2026-09-21（okazinvest转载TradeArabia）",
+      "summary": "ACWA Power联合Badeel（PIF子公司）与SAPCO宣布完成Haden（2GW，麦加）、Muwayh（2GW，麦加）、Al Khushaybi（1.5GW，卡西姆）三光伏项目财务关闭：总投资32亿美元，高级债务25亿美元，银团含多家本地、区域及国际银行；SPPC为承购方，属NREP框架项目。",
+      "review": "实读okazinvest 9月21日12:19转载TradeArabia全文，核对项目名、容量、投资额、债务与承购方；SaudiPress 9-21另有15GW七项目口径（含2个风电3GW），容量金额不一致，按Okaz/TradeArabia三光伏5.5GW/32亿口径收录，SaudiPress不采用为独立事实。",
+      "reviewUrls": [],
+      "boundary": "财务关闭为融资阶段完成，非开工或完工；商业运营日期未披露。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-23/14-00/access-log.json",
+        "outputs/news/evidence-2026-09-23/14-00/batch-notes.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-23T06:17:25Z",
+        "method": "媒体转载原文核验＋口径交叉",
+        "confirmedScope": "ACWA/Badeel/SAPCO完成Haden、Muwayh、Al Khushaybi三光伏项目财务关闭，合计5.5GW、总投资32亿美元、高级债务25亿美元，SPPC承购。",
+        "reason": "TradeArabia全文列出项目、容量、金额、债务与承购方；口径以该来源为准。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "017",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "直接采购",
+        "车辆备件"
+      ],
+      "region": "沙特／东部省Al-Khafji",
+      "sourceType": "官方采购公告（Etimad）",
+      "event": "直接采购公告；9月22日发布、9月25日截止",
+      "eventLabel": "在招阶段",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "14:00批次补录；9月22日抓取素材，本批依据官方列表详情核验入档。",
+      "products": [],
+      "background": "民防部门车辆备件与维修，属设施后勤采购；与五金/车辆备件相关但未证实临建产品需求。",
+      "title": "Etimad：东部省Al-Khafji民防车辆备件与维修在招",
+      "source": "Etimad官方公告",
+      "url": "https://tenders.etimad.sa/Tender/DetailsForVisitor?STenderId=8*@@**uob5KnsAAPQhqyUDw0FA==",
+      "original": "تأمين قطع غيار و اصلاح الاليات التابعة لإدارة الدفاع المدني بالخفجي",
+      "published": "2026-09-22（Etimad列表抓取）",
+      "summary": "Etimad官方公告，东部省Al-Khafji民防部门车辆备件供应与维修在招，参考号260939008244，直接采购，9月22日发布、9月25日09:59截止，文件免费，活动分类为新零配件贸易。",
+      "review": "依据09-22抓取的Etimad官方列表详情（etimad-page2.md）核对参考号、采购机关、采购方式、期限与文件价值；官方详情页本轮访问被拒，但09-22官方抓取字段完整可核验。",
+      "reviewUrls": [],
+      "boundary": "剩余天数按抓取日口径；为备件采购，不证明发电机或临建设施采购。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-22/14-00/etimad-page2.md",
+        "outputs/news/evidence-2026-09-23/14-00/batch-notes.md"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-23T06:17:25Z",
+        "method": "官方公告列表详情直接核验",
+        "confirmedScope": "Etimad参考号260939008244：Al-Khafji民防部门车辆备件供应与维修，直接采购，9月22日发布、9月25日截止，文件免费。",
+        "reason": "09-22抓取的官方列表详情列出参考号、机关、方式与期限，可证明公告明确写出的事实。",
+        "missing": ""
+      }
+    }
+  ],
+  "run": {
+    "status": "completed",
+    "slot": "14:00",
+    "startedAt": "2026-09-23T06:05:00Z",
+    "completedAt": "2026-09-23T06:17:25Z",
+    "newCount": 2,
+    "updatedCount": 0,
+    "message": "9月23日14:00批次完成增量收集、逐条核验与入档：本批新收录2（014 NEOM Oxagon公路招标、015 TAQA/JERA/AlBawani PPA），补录2（016 ACWA/Badeel/SAPCO光伏财务关闭、017 Etimad Al-Khafji备件），本档累计17条（已核验16、证据不足1）。排除EDF-SPIC 1.4GW（2025-11旧闻复用）与搜狐聚合稿（混合旧闻）。Etimad官方详情页本轮访问被拒，香水溶液线索不收录。"
+  },
+  "completedSlots": [
+    "09:00",
+    "14:00"
+  ],
+  "lastVerifiedAt": "2026-09-23T06:17:25Z"
+}

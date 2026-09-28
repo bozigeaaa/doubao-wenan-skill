@@ -1,0 +1,82 @@
+{
+  "batch": "2026-09-23 09:00",
+  "timeZone": "Asia/Shanghai",
+  "note": "09:00批次实际于09:05起执行。09-22中断批次（evidence-2026-09-22/14-00）的候选素材并入本批处理：BEC/Almoosa、GASTAT CCI、Umm Al Qura–Numu、Etimad直接采购详情、NEOM Oxagon、East Pipes一手备案、Hapag-Lloyd通知。沿用09-22证据时保留原抓取时间，本批仅对新增/更新项在09-23实际核验。",
+  "tools": [
+    {
+      "tool": "web-search",
+      "status": "completed",
+      "time": "2026-09-23T01:07:00Z-01:21:00Z",
+      "entries": [
+        "BEC Arabia Almoosa Health MEP contract Saudi riyals",
+        "Almoosa 781.66 million riyals contract hospital Al Khobar",
+        "الموصى توقع عقدا ب782 مليون ريال لأعمال مستشفى الخبر",
+        "GASTAT construction cost index August 2026 Saudi Arabia",
+        "ارتفاع الرقم القياسي لتكاليف البناء السعودية أغسطس 2026",
+        "Umm Al Qura Numu Masar serviced apartment tower Saudi",
+        "أم القرى نومو ماسار برج وحدات فندقية 700 مليون",
+        "NEOM Oxagon freight rail EOI consultants interest",
+        "Taiba University Hospital remaining works contractor Al-Mansouria",
+        "Al-Mansouria GC 396 million riyals Medina university hospital",
+        "Welspun East Pipes Aramco steel pipe contract 771 million",
+        "Saudi facilities management market 50 billion dollars minister",
+        "Hapag-Lloyd Tema congestion destination surcharge reefer October 2026",
+        "UAE MPCI maritime preload cargo information enforcement October 2026"
+      ],
+      "evidence": "本轮general_search实际执行上述查询；命中结果分别对应SaudiGulfProjects、Argaam、Al-Eqtisadiah、Maaal、Arab News、Al-Arabiya、stats.gov.sa、eyeofriyadh、TTN、MEED、BSE/NSE备案及媒体转载等候选，随后逐条读原文核验。"
+    },
+    {
+      "tool": "web-fetch",
+      "status": "completed",
+      "time": "2026-09-23T01:12:00Z-01:20:00Z",
+      "entries": [
+        "https://www.saudigulfprojects.com/2026/09/bec-arabia-awarded-208-2-million-mep-contract-from-almoosa-health/",
+        "https://www.argaam.com/en/article/articledetail/id/1938195",
+        "https://www.aleqt.com/الشركات/الموصى-السعودية-توقع-عقدا-ب-782-مليون-ريال-لأعمال-مستشفى-الخبر-14511",
+        "https://www.arabnews.com/node/3003066",
+        "https://nsearchives.nseindia.com/corporate/WELCORP_20092026214050_SEDisclosureEPICOrdersigned.pdf"
+      ],
+      "evidence": "web_fetch实际读取SaudiGulfProjects原文全文（BEC/Almoosa合同，金额、期限、融资方式、财务影响均逐句核验）、Argaam英文条目与Al-Eqtisadiah阿语条目（交叉确认Tadawul公告口径781.66m SAR）、Arab News GASTAT CCI报道及stats.gov.sa官方PDF链接、NSE East Pipes披露PDF。"
+    }
+  ],
+  "carriedEvidence": [
+    {
+      "dir": "outputs/news/evidence-2026-09-22/14-00",
+      "files": [
+        "pipes-filing.md",
+        "pipes-official.json",
+        "pipes-primary.json",
+        "t-shuqaiq.md",
+        "t-duba.md",
+        "t-generator.md",
+        "t-fiberglass.md",
+        "t-maintenance.md",
+        "t-festival.md",
+        "oxagon-primary.json",
+        "c-oxagon.md",
+        "hospital-primary.json",
+        "hospital-official.json",
+        "taibah-news.md",
+        "c-hospital.md",
+        "c-fm.md",
+        "fm-official.json",
+        "fm-spa.md",
+        "shipping-0.md",
+        "shipping-1.md",
+        "p0-meed.md",
+        "p0-etimad.md",
+        "p1-sgp.md",
+        "p1-spa.md",
+        "c-welspun.md",
+        "requests.jsonl"
+      ],
+      "note": "09-22中断批次已实读的证据文件，本批沿用其内容；访问记录见evidence-2026-09-22/14-00/requests.jsonl。"
+    }
+  ],
+  "accessStatus": {
+    "MEED": "guest公开导语可读，正文订阅受限；医院合同与Oxagon铁路条目以导语+官方EoI+独立行业媒体交叉核验。",
+    "X": "未直接访问；社媒（med_projects等）内容仅作线索，不作为事实依据。",
+    "Etimad": "09-22已读详情页（Shuqaiq/Duba/发电机/玻璃纤维/医院设备/骆驼节），官方公告页为核验依据，本批沿用。",
+    "Google": "未直接进站；由通用检索工具补漏，未将搜索工具等同站内访问。"
+  }
+}

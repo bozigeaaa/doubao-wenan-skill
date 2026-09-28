@@ -1,0 +1,70 @@
+{
+  "batch": "2026-09-23 14:00",
+  "collectedAt": "2026-09-23T14:17:25+08:00",
+  "window": "14:00批次增量窗口：自09:00批次完成时点（09:28北京时间）起至本轮实际采集时点（14:17北京时间）。保留09:00批次已核验13条，新增事件接续编号014起。",
+  "retrievalTools": [
+    {
+      "tool": "web-search",
+      "status": "completed",
+      "entries": [
+        "Saudi construction contract awarded September 2026",
+        "沙特 建筑 授标 合同 9月23日 2026",
+        "Saudi Aramco tender workers camp accommodation September 2026",
+        "Maersk Hapag-Lloyd shipping surcharge Middle East Saudi September 23 2026",
+        "Etimad Saudi tender direct purchase September 2026 awarded",
+        "Saudi building code fire safety SBC 801 camp regulation September 2026",
+        "Saudi Ministry Energy Qurayyah 3GW EPC ACWA 15GW financial close September 2026",
+        "Saudi Arabia project award NEOM ROSHN tender news September 23 2026",
+        "SPPC Saudi Power Procurement Company 9200 MW PPA September 21 2026 Rumah Nairyah Al Sadawi",
+        "Orascom Técnicas Reunidas Qurayyah IPP expansion EPC contract September 2026",
+        "SPA Saudi press agency September 21 2026 power purchase agreement 9200 MW signed SPPC",
+        "\"260939008679\" OR \"260939008244\" Etimad",
+        "\"Al Masa'a\" OR \"Al Henakiyah\" solar financial close EDF SPIC 1.4 GW",
+        "NEOM Highway 55 upgrade tender Oxagon Duba 14 km design build"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-23/14-00/access-log.json"
+    },
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://www.cbnme.com/news/neom-tenders-oxagon-highway-upgrade-and-400km-rail-link-to-power-freight-growth/",
+        "https://okazinvest.com/okaz/newDetails.aspx?id=991598&nb=2",
+        "https://saudipress.com/edf-spic-consortium-hits-financial-close-on-two-saudi-solar-projects-totaling-1-4-gw",
+        "https://www.okazinvest.com/okaz/newDetails.aspx?id=967720&nb=2",
+        "https://saudipress.com/saudi-arabia-finalises-financing-for-15-gw-renewables-push-12-gw-solar-and-3-gw-wind-under-way",
+        "https://m.sohu.com/a/1079868102_122706516/",
+        "https://www.spa.gov.sa/N2044384",
+        "https://tenders.etimad.sa/Tender/OpenTenderDetailsReportForVisitor?tenderIdString=3rJx9KzP0mWqLpQa1b2cDg=="
+      ],
+      "evidence": "outputs/news/evidence-2026-09-23/14-00/access-log.json；CBNME原文全文、okazinvest两篇原文、SaudiPress两篇原文、搜狐聚合稿全文、SPA原文已读；Etimad详情页访问被拒（The requested URL was rejected）。"
+    }
+  ],
+  "channels": [
+    {
+      "channel": "CBNME / MEED / Construction Week Saudi",
+      "access": "直接访问完成",
+      "detail": "CBNME 9-23报道Oxagon公路升级招标+铁路EoI全文已读；MEED guest 9-17导语、ICE 9-17、Construction Week Saudi 9-17交叉；NEOM Highway 55一期14km设计-建造招标、9-21截止提案、22个月工期。"
+    },
+    {
+      "channel": "WAM via okazinvest",
+      "access": "直接访问完成",
+      "detail": "okazinvest 9-23 10:31转载WAM：TAQA/JERA/AlBawani与SPPC签Rumah 2与Nairyah 2两份25年PPA（各1.8GW，合计超3.6GW）。"
+    },
+    {
+      "channel": "TradeArabia via okazinvest",
+      "access": "直接访问完成",
+      "detail": "okazinvest 9-21 12:19转载TradeArabia：ACWA/Badeel/SAPCO完成Haden、Muwayh、Al Khushaybi三光伏项目财务关闭（合计5.5GW、投资32亿美元、高级债务25亿美元）。"
+    },
+    {
+      "channel": "Etimad",
+      "access": "访问未完成（详情页被拒）",
+      "detail": "tendersalerts聚合站显示9-22发布Jeddah伊斯兰港香水溶液（260939008679）与Al-Khafji民防车辆备件（260939008244）；官方详情页URL访问被拒（The requested URL was rejected），仅Al-Khafji一条在09-22抓取证据etimad-page2.md中有官方列表详情可核验，香水溶液无官方证据不收录。"
+    },
+    {
+      "channel": "排除记录",
+      "access": "旧闻与不可靠来源",
+      "detail": "EDF-SPIC 1.4GW光伏财务关闭经查为2025-11-05旧闻复用（EDF官方、Covington、Proximo均标2025年11月）；Qurayyah 3GW EPC为2025-03-24旧闻（Orascom/TR官方）；搜狐9-23聚合稿混合旧闻（Qurayyah、EDF）与未独立确认成分，仅作线索不采用；SaudiPress 15GW报道与Okaz 5.5GW口径不一致，以Okaz（TradeArabia来源）为准。"
+    }
+  ]
+}

@@ -42,6 +42,8 @@ def test_global_rules_gate_company_and_product_content_by_relevance() -> None:
     quality_gate = read(QUALITY_GATE)
     readme = read(README)
 
+    # 2026-09-23 用户确认：公司/产品是默认植入项，不依赖条件触发。
+    # 核心规则统一为“默认执行植入，但内容必须按相关性把关、用户明确要求不写时排除”。
     for content, label in (
         (project_rules, "project rules"),
         (router, "router"),
@@ -49,16 +51,15 @@ def test_global_rules_gate_company_and_product_content_by_relevance() -> None:
         (placement, "placement rules"),
         (readme, "README"),
     ):
-        assert "用户明确要求公司或产品" in content or "用户明确要求公司/产品" in content, (
-            f"Missing explicit company/product trigger in {label}"
+        assert "默认植入" in content or "默认执行" in content, (
+            f"Missing default-placement semantic in {label}"
         )
-        assert_contains(content, "产品本身是主题", f"product-topic trigger in {label}")
-        assert "新闻流程已选定" in content and "产品" in content, (
-            f"Missing news-selected-product trigger in {label}"
+        assert "用户明确要求不写" in content, (
+            f"Missing explicit opt-out in {label}"
         )
 
-    assert_contains(placement, "不是每篇稿的默认步骤", "conditional placement boundary")
-    assert_contains(readme, "普通中立内容不主动寻找品牌桥", "neutral-content boundary")
+    assert_contains(placement, "默认植入", "default placement")
+    assert_contains(readme, "默认植入", "default placement in README")
     assert_contains(project_rules, "用户明确要求不写时直接排除", "explicit opt-out")
     assert_contains(placement, "检查不等于必须植入", "conditional placement")
     assert_contains(placement, "帮助回答同一判断动作或变量", "substantive placement")

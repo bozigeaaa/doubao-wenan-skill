@@ -1,0 +1,83 @@
+{
+  "batch": "2026-09-24 14:00",
+  "collectedAt": "2026-09-24T07:08:00Z",
+  "window": "14:00批次：窗口自09:00批次完成时点（约09:14北京时间）起至本轮实际采集时点（约15:06北京时间）；并补漏09:00批次窗口（09-22 14:17起）内未及收录的条目（005 Progress Rail、006 East Pipes）。",
+  "retrievalTools": [
+    {
+      "tool": "web-search",
+      "status": "completed",
+      "entries": [
+        "Saudi construction contract awarded tender September 24 2026",
+        "沙特 授标 合同 招标 9月24日 2026 建筑",
+        "Saudi Aramco NEOM ROSHN project award September 24 2026 news",
+        "Maersk Middle East operational update September 24 2026",
+        "SPA Saudi press agency September 24 2026",
+        "Saudi tender Etimad September 24 2026 published new competition",
+        "Tadawul announcement contract award September 24 2026 Saudi company",
+        "Saudi energy ACWA SABIC Maaden announcement September 24 2026",
+        "Saudi workers camp modular accommodation tender September 24 2026 OR September 23 2026",
+        "ROSHN Shapoorji Pallonji Siemens SAR 1.9 billion contract Riyadh community development",
+        "Saudi Arabia construction news September 24 2026 contract signed project",
+        "fischer Jeddah Tower chemical steel anchoring solutions supply deal September 2026",
+        "Arabian Drilling Tadawul announcement SLB contract 8 land rigs September 2026 date",
+        "Humain 6GW data centre campus Saudi Arabia contractor ECI September 2026",
+        "Hapag-Lloyd CMA CGM surcharge Saudi Arabia September 24 2026 update",
+        "Saudi port Mawani shipping update September 23 24 2026",
+        "السعودية توقيع عقد مشاريع إنشاء مقاولات 24 سبتمبر 2026",
+        "Saudi construction regulation compliance building code update September 23 24 2026",
+        "Saudi Arabia contract award September 24 2026 MEED SaudiGulfProjects",
+        "NEOM Qiddiya Diriyah ROJHN tender award news September 24 2026",
+        "Progress Rail 33 EMD SD70ACS locomotives Saudi Arabia Railways Northern Railway official",
+        "Dawadmi wind project 1.5 GW SPPC award PPA Saudi September 2026 official"
+      ],
+      "evidence": "access-log.json"
+    },
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://www.cbnme.com/category/news/",
+        "https://www.okazinvest.com/okaz/newDetails.aspx?id=1272387&nb=2",
+        "https://www.meed.com/contractor-wins-6gw-data-centre-campus-infrastructure",
+        "https://www.mepmiddleeast.com/business/contracts/fischer-wins-deal-jeddah-tower",
+        "https://www.cma-cgm.fr/detail-news/5344/situation-au-moyen-orient",
+        "https://gulfconstructiononline.com/TagsTA/saudi",
+        "https://www.aleqt.com/الشركات/أنابيب-الشرق-توقع-عقدا-مع-أرامكو-ب-46-مليون-ريال-لتصنيع-وتوريد-أنابيب-الصلب-14586",
+        "https://tenders.etimad.sa/Announcement/AllVisitorAnnouncements"
+      ],
+      "evidence": "MEED 6GW（标题+首段）、fischer吉达塔（MEP ME 9-23全文）、Arabian Drilling（Okaz 9-23 Tadawul公告全文）、CMA CGM通讯#14（9-18发布）、Gulf Construction沙特标签页、East Pipes（Al-Eqtisadiah 9-24全文）、Etimad官方公告页（动态渲染无数据）已实读。"
+    }
+  ],
+  "channels": [
+    {
+      "channel": "Progress Rail/SAR（InnoTrans宣布）",
+      "access": "直接访问完成",
+      "detail": "SaudiGulf Projects 9-23全文（33台SD70ACS、北线、本地维保框架）+ Railway International 9-23交叉（InnoTrans柏林9-22宣布）+ Progress Rail官方SD70ACS产品页佐证。"
+    },
+    {
+      "channel": "East Pipes–阿美（Tadawul公告）",
+      "access": "直接访问完成",
+      "detail": "Al-Eqtisadiah 9-24 08:45全文：超46M里亚尔（含税）、9-22签署、5个月、Q4 2026/27财年体现、无关联方；Maaal 9-24英文交叉。"
+    },
+    {
+      "channel": "MEED",
+      "access": "部分成功（摘要层级）",
+      "detail": "9-24 6GW数据中心园区授标报道：仅标题+首段（Humain以ECI方式交付）可读，中标承包商/金额/地点未披露；检索无独立第二来源。"
+    },
+    {
+      "channel": "排除记录",
+      "access": "旧闻复用/窗口外",
+      "detail": "Dawadmi 1.5GW风电（SaudiPress 9-24）=2025年10月授标旧闻（EtihadWE官方2025-11-10新闻稿、Transformers 2025-10-29、Okaz 9-13转载同事件）；ROSHN–Shapoorji/Siemens $510m（CECR 9-23）=2020-12-31旧闻（Saudi Gazette/Argaam/Alarabiya 2020-12-31）；fischer吉达塔=2026年8月底/9月初已披露（bau.bi 9-2、Industrie-Wegweiser 8-25），9-22至9-24英文报道为旧闻传播；Arabian Drilling–SLB 8钻机SAR 2B=9-13签署、9-14已报道（SGP/Eye of Riyadh），窗口外；Al Akaria–MOBCO Porta Jeddah=9-15窗口外；SABIC AN第7项目EPC=9-10窗口外；BATIC 90台卡车头=9-21窗口外；Veolia三方MoU=9-02/9-21窗口外。"
+    },
+    {
+      "channel": "Etimad官方",
+      "access": "访问受限",
+      "detail": "官方公告列表页为JS动态渲染无静态数据（返回模板无条目）；聚合站9-23/9-24线索（Hail一般竞争、Al-Badai等）无官方详情，不收录。"
+    },
+    {
+      "channel": "SPA/当地媒体",
+      "access": "直接访问完成",
+      "detail": "9-24 SPA以沙特国庆活动及能源设施遇袭旧闻为主，无窗口内工程/物流新事件；Mawani 9-23 portsmagazine为分析文章非官方公告。"
+    }
+  ]
+}

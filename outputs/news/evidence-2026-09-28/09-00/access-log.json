@@ -1,0 +1,67 @@
+{
+  "runId": "2026-09-28-09-00",
+  "slot": "09:00",
+  "startedAt": "2026-09-28T00:55:00Z",
+  "completedAt": "2026-09-28T01:30:00Z",
+  "window": "周一补查：常规窗口起点09-23 15:08（上次成功批次2026-09-24T07:08:00Z前24h）与紧邻周六00:00（09-26 00:00）取较早者，检索至09-28 09:20北京时间",
+  "tools": {
+    "web-search": {
+      "status": "completed",
+      "entries": [
+        "Saudi Arabia construction project contract award news September 26 27 2026",
+        "Saudi tender Etimad new announcement September 25 26 2026 procurement",
+        "SLB Aramco four integrated well construction contracts 450 wells official press release September 2026",
+        "SARCO لوازم المتطورة للصناعة عقد مشروع باقة بنان تداول",
+        "Saudi workers accommodation camp modular building contract September 2026",
+        "Saudi Aramco NEOM project award September 25 26 2026 contractor MEED",
+        "Maersk OR Hapag-Lloyd OR CMA CGM Middle East Red Sea shipping update September 26 27 2026",
+        "Saudi Arabia building code fire safety regulation compliance new rule September 2026",
+        "September 25, 2026 OR September 26, 2026 Saudi contract awarded NEOM Qiddiya Diriyah Red Sea",
+        "السعودية منافسة سكن عمال مواد بناء سبتمبر 2026 ترسية عقد",
+        "saudigulfprojects.com September 26 2026 Saudi contract awarded",
+        "Mawani port Saudi Arabia September 25 26 27 2026 announcement shipping",
+        "ROSHN Talaat Moustafa Group Saudi 55000 unit Riyadh joint agreement official",
+        "Saudi construction news September 26 2026 awarded OR tender OR contract",
+        "Saudi steel rebar cement price September 2026 construction material market",
+        "Red Sea Development Company TRSDC concrete supply contract September 2026 award",
+        "Saudi Mega Projects Summit 2026 Riyadh September 28 Arab News",
+        "Hapag-Lloyd SE3 service Salalah port rotation September 26 2026 official"
+      ]
+    },
+    "scrapling": {
+      "status": "completed",
+      "mode": "web_fetch（本环境Scrapling可用路径，原文实读）",
+      "entries": [
+        {"url": "https://www.slb.com/newsroom/press-release/2026/pr-2026-0924-slb-aramco", "result": "正文全文实读：SLB获阿美四项综合建井合同、450+口井、3年+2年可选、整合建井模式", "time": "2026-09-28T01:05:00Z"},
+        {"url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anCat=1&anId=98276&cs=2030&locale=en", "result": "正文全文实读：SARCO子公司Lawazem与Thabat签Banan 1木门分包，SAR3,404,000含税、9-24签署、136天、无关联方", "time": "2026-09-28T01:08:00Z"},
+        {"url": "https://guest.meed.com/", "result": "正文全文实读：SAR准备授标磷酸盐铁路第二段（>150km、2月招标4月投标、四年工期）、第一段Alomaier约SR4bn+", "time": "2026-09-28T01:09:00Z"},
+        {"url": "https://www.saudigulfprojects.com/", "result": "首页片段：TRSDC混凝土供应条目仅标题可见，正文未读到，作为排除记录；Meraas迪拜项目弱关联排除", "time": "2026-09-28T01:10:00Z"},
+        {"url": "https://www.roshn.sa/news-and-events/press-releases/article-139", "result": "官方新闻稿：ROSHN与TMG Saudi签初步协议成立合资公司开发利雅得混合用途项目，官方9-20发布（窗口外）", "time": "2026-09-28T01:07:00Z"}
+      ]
+    }
+  },
+  "channelsAccess": [
+    {"channel": "SLB官方", "status": "直接访问完成", "detail": "https://www.slb.com/newsroom/press-release/2026/pr-2026-0924-slb-aramco 全文实读"},
+    {"channel": "Saudi Exchange (Tadawul)", "status": "直接访问完成", "detail": "SARCO公告anId=98276全文实读"},
+    {"channel": "MEED", "status": "直接访问完成（guest）", "detail": "guest.meed.com首页 9-25报道全文实读；MEED events活动页用于Summit核验"},
+    {"channel": "Google/Google News", "status": "外部检索线索", "detail": "经web-search多组关键词检索命中候选，未对Google页面本身直接进站"},
+    {"channel": "X", "status": "访问未完成", "detail": "未进行X站内检索（本环境无已授权登录会话，未绕过登录限制）"},
+    {"channel": "Etimad", "status": "访问未完成（技术限制）", "detail": "官方列表/详情页JS动态渲染无静态数据；聚合站线索（Linen Supply等）无官方详情，不收录；沿用09-22官方抓取etimad-page2.md/p0-etimad-list.md作背景"},
+    {"channel": "ROSHN官方", "status": "直接访问完成", "detail": "article-139确认TMG协议9-20发布（窗口外）；article-138确认Summit host partner"},
+    {"channel": "Maersk/Hapag-Lloyd", "status": "外部检索线索", "detail": "马士基最新更新仍为update 49（9-23，已收录09-24档004），无update 50/51；Hapag SE3加挂Salalah=9-10公告窗口外，marinews 9-27为执行确认不单列"},
+    {"channel": "SaudiPress/当地媒体", "status": "外部检索线索", "detail": "Dawadmi风电=SaudiPress 9-26转载2025-10旧闻排除；Samsung E&A $3.5B=NewsOnProjects 9-26转载9-10旧闻排除；Summit报道9-27/9-28交叉核验"}
+  ],
+  "exclusions": [
+    {"item": "Dawadmi 1.5GW风电", "reason": "2025-10授标旧闻（EtihadWE官方2025-11-10、Transformers 2025-10-29、MEED 2025-10记录），SaudiPress 9-24/9-26误转"},
+    {"item": "Samsung E&A $3.5B氨尿素EPC", "reason": "9-10已报道（SABIC AN第7项目），NewsOnProjects 9-26转载，窗口外"},
+    {"item": "ROSHN–TMG 5.5万套利雅得项目", "reason": "ROSHN官方9-20发布（article-139），窗口外；SGP 9-25/CBNME 9-22/Forbes Brasil 9-27为跟进"},
+    {"item": "Jafurah热电联产二期", "reason": "2026-06-01 Doosan官方已宣布、MEED 6-02报道，旧闻；MEED Projects 9-25 profile显示on hold与Aramco 8-04口径矛盾，无独立新进展"},
+    {"item": "Hapag-Lloyd SE3加挂Salalah", "reason": "9-10~9-14已宣布（Ship247/India Seatrade），marinews 9-27为9-26首航执行确认，10天前事件"},
+    {"item": "CMA CGM EFS更新", "reason": "9-18宣布（monitor.cma-cgm.com 9-21、SeaNews 9-24转载），窗口外"},
+    {"item": "Al Akaria–MOBCO Porta Jeddah", "reason": "9-15发布，窗口外"},
+    {"item": "TRSDC混凝土供应合同", "reason": "SGP首页条目正文未读到，insidesaudi同题为一期旧背景内容，无法确认新授标"},
+    {"item": "Meraas Nad Al Sheba（迪拜）", "reason": "海湾项目但非沙特、对沙特工程无直接关联，弱关联不收录"},
+    {"item": "Etimad聚合站线索", "reason": "无官方详情可核验（tenderimpulse 260939008896发布日当天截止可疑）"},
+    {"item": "Maersk/Mawani相关", "reason": "马士基update47/48/49=9-16/9-17/9-23已收录或窗口外；Mawani空箱豁免等=2026-03-29旧闻"}
+  ]
+}

@@ -4,7 +4,7 @@
   "collectedAt": "2026-09-22T01:16:35.415Z",
   "timeZone": "Asia/Shanghai",
   "window": "9月21日14:00批次：9月21日下午直接进站与六类英阿语检索，窗口从9月19日00:00（北京时间）至当时实际检索时点；中断后于9月22日上午续跑，补做针对19—21日的查询及候选原文核验。未将9月22日当日新闻发现列为本批已完成范围。本档按已核实原文发布日期归入2026-09-20，实际补录于9月22日。",
-  "scope": "覆盖工程项目、营地住宿、产品材料、采购招投标、合规政策、航运物流六类；本档累计13条，已核验9条，证据不足4条。本轮新增3、核验更新0、迁移0；数量不是当日全网新闻总量。",
+  "scope": "覆盖工程项目、营地住宿、产品材料、采购招投标、合规政策、航运物流六类；本档累计13条，已核验10条，证据不足3条。本轮新增3、核验更新0、迁移0；008于2026-09-23完成核验升级。数量不是当日全网新闻总量。",
   "channels": [
     [
       "Google／Google News",
@@ -451,40 +451,52 @@
         "产品材料"
       ],
       "region": "沙特；具体工程地点未披露",
-      "title": "待证线索：East Pipes据报与阿美签订超过7.71亿里亚尔钢管供应合同",
+      "title": "East Pipes与阿美签订超7.71亿里亚尔钢管制造供应合同",
       "original": "East Pipes signs SAR 771M contract with Saudi Aramco",
-      "source": "Argaam；SaudiGulfProjects",
-      "sourceType": "财经及工程媒体对交易所披露的同源转述",
+      "source": "Welspun Corp BSE/NSE备案；Argaam；SaudiGulfProjects；印度财经媒体",
+      "sourceType": "上市公司向BSE/NSE提交的一手备案及多家独立媒体报道",
       "url": "https://www.argaam.com/en/article/articledetail/id/1937711?amp",
-      "published": "2026-09-20（Argaam原文日期）",
-      "event": "媒体9月20日报道签约；仍缺可核对的原公告",
-      "eventLabel": "事件／阶段",
-      "summary": "Argaam与SaudiGulfProjects报道，East Pipes与阿美签订制造及供应钢管合同，金额超过7.71亿里亚尔（含增值税），期限6个月。本轮取得媒体正文，未取得其引用的交易所公告。",
-      "review": "读取两家媒体正文，并检查Saudi Exchange公告入口和针对原公告的检索；交易所页面未取得有效公告内容。两媒体均援引同一交易所公告，不能作为独立第二来源，故本轮未通过。",
-      "status": "unconfirmed",
-      "statusText": "证据不足",
-      "update": "2026-09-21周一实际补录，按原文发布日期归档至2026-09-20",
+      "published": "2026-09-20（Welspun备案日期；Argaam同日）",
+      "event": "EPIC 9月20日向沙特证交所公告与阿美签约；Welspun同日向BSE/NSE提交备案",
+      "eventLabel": "签约与公告",
+      "summary": "Welspun Corp 9月20日向印度BSE/NSE提交备案，其沙特关联公司East Pipes Integrated Company for Industry（EPIC）当日向沙特证交所公告，与沙特阿美签订钢管制造与供应合同，总值超过7.71亿沙特里亚尔（约合2000亿印度卢比，含增值税），合同期6个月，财务影响将从FY2026-27第四季度起反映。",
+      "review": "2026-09-23读取Welspun提交BSE/NSE的备案全文（WCL/SEC/2026，9月20日，公司秘书签署）及NSE披露PDF，确认EPIC向沙特证交所公告的合同主体、金额、期限与财务影响区间；并以TradingView、CNBC-TV18、LiveMint、MoneyControl等9月20—21日独立财经报道交叉核对。媒体转述与备案口径一致，故升级为已核验。",
+      "status": "verified",
+      "statusText": "已核验（一手备案）",
+      "update": "2026-09-23核验升级：取得Welspun向BSE/NSE提交的备案全文及NSE披露PDF，确认EPIC向沙特证交所公告的合同事实；原媒体同源转述缺口已补齐，按2026-09-20原文归档。",
       "products": [],
       "background": "作为工程及配套行业信息收录，现有公开范围未证实打包箱、移动卫浴、五金或薄壁轻钢的具体采购需求。",
-      "boundary": "不得把合同额理解为净收入，亦不能由钢管订单推定新工程已开工；同源转述不算独立交叉核验。",
+      "boundary": "合同为钢管制造与供应框架，金额含增值税，不等于净收入或工程开工；未确认具体工程地点、数量或交货排程。",
       "reviewUrls": [
+        [
+          "Welspun BSE/NSE备案（一手）",
+          "https://nsearchives.nseindia.com/corporate/WELCORP_20092026214050_SEDisclosureEPICOrdersigned.pdf"
+        ],
         [
           "SaudiGulfProjects对应报道",
           "https://www.saudigulfprojects.com/2026/09/east-pipes-signs-205-million-steel-pipe-supply-contract-with-aramco/"
+        ],
+        [
+          "CNBC-TV18",
+          "https://www.cnbctv18.com/market/welspun-corp-share-price-saudi-aramco-order-win-2000-crore-order-book-timeline-fy27-guidance-2026-returns-19994417.htm"
+        ],
+        [
+          "MoneyControl",
+          "https://www.moneycontrol.com/news/business/markets/welspun-corp-shares-gain-up-to-5-as-its-unit-wins-saudi-aramco-order-worth-rs-2-000-crore-stock-up-240-ytd-14034360.html"
         ]
       ],
       "evidenceFiles": [
-        "outputs/news/evidence-2026-09-21/09-00/ref-pipes-fc.md",
-        "outputs/news/evidence-2026-09-21/09-00/c-sgp2.md",
-        "outputs/news/evidence-2026-09-21/09-00/exchange-direct.md"
+        "outputs/news/evidence-2026-09-22/14-00/pipes-filing.md",
+        "outputs/news/evidence-2026-09-22/14-00/pipes-primary.json",
+        "outputs/news/evidence-2026-09-22/14-00/pipes-official.json"
       ],
       "verification": {
-        "result": "unconfirmed",
-        "checkedAt": "2026-09-21T01:21:52.608Z",
-        "method": "媒体全文互核与一手公告追索",
-        "confirmedScope": "已确认媒体文章及其发布日期；核心事件主张未获足够的一手或独立复核证据。",
-        "reason": "读取两家媒体正文，并检查Saudi Exchange公告入口和针对原公告的检索；交易所页面未取得有效公告内容。两媒体均援引同一交易所公告，不能作为独立第二来源，故本轮未通过。",
-        "missing": "缺少可直接核对本次签约日期、主体、金额及条件的Saudi Exchange或公司原公告；现有两媒体为同源转述。"
+        "result": "verified",
+        "checkedAt": "2026-09-23T01:28:56Z",
+        "method": "一手备案原文核验＋独立媒体报道交叉核对",
+        "confirmedScope": "EPIC 9月20日向沙特证交所公告与阿美签订钢管制造与供应合同，总值超过7.71亿沙特里亚尔（含增值税），合同期6个月，财务影响从FY2026-27第四季度起反映；该披露经Welspun Corp同日向BSE/NSE备案确认。",
+        "reason": "2026-09-23读取Welspun向BSE/NSE提交的备案全文与NSE披露PDF，确认合同主体、金额、期限与财务影响区间；以TradingView、CNBC-TV18、LiveMint、MoneyControl等9月20—21日独立报道交叉核对，媒体口径与备案一致，故升级为verified。",
+        "missing": ""
       }
     },
     {
@@ -698,5 +710,5 @@
     "basis": "承接9月21日下午周末补查，9月22日续跑归档；原文发布日期为本档日期，核验时间保持实际时间。"
   },
   "completedSlots": [],
-  "lastVerifiedAt": "2026-09-22T01:15:17.101Z"
+  "lastVerifiedAt": "2026-09-23T01:28:56Z"
 }

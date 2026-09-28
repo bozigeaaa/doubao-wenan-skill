@@ -1,0 +1,54 @@
+{
+  "runId": "2026-09-28-14-00",
+  "slot": "14:00",
+  "startedAt": "2026-09-28T06:05:00Z",
+  "completedAt": "2026-09-28T06:25:00Z",
+  "window": "14:00增量：自09:00批次完成（09-28 01:30Z）后继续补查至本轮采集时点（09-28 14:25北京时间）；周一补查继续覆盖周末遗漏与新发布。",
+  "tools": {
+    "web-search": {
+      "status": "completed",
+      "entries": [
+        "Saudi Arabia contract award September 28 2026 project signing",
+        "Saudi Mega Projects Summit Riyadh September 28 2026 award signing day one",
+        "ACWA Power consortium 8.3 billion renewable energy seven projects 15000 MW September 2026 PIF official",
+        "Saudi tender Etimad new announcement September 28 2026 OR September 27 2026 procurement contract",
+        "\"September 28, 2026\" Saudi OR Riyadh OR NEOM OR Qiddiya OR Diriyah OR Aramco award OR contract OR tender OR project",
+        "Saudi port shipping Maersk OR Hapag OR CMA CGM OR PIL OR Mawani update September 28 2026 Red Sea",
+        "Houthi attack Yanbu Saudi oil Aramco drone missile September 2026",
+        "Hapag-Lloyd Jeddah port congestion yard density operational update September 2026 official",
+        "Saudi Arabia news today September 28 2026 construction oil gas port Aramco PIF project",
+        "Tadawul announcement September 28 2026 contract award Saudi listed company"
+      ]
+    },
+    "scrapling": {
+      "status": "completed",
+      "mode": "web_fetch（原文实读）",
+      "entries": [
+        {"url": "https://www.acwapower.com/en/media-center/latest-news/acwa-power-badeel-and-aramco-subsidiary-sapco-achieve-us-82-billion-financial-close-to-develop-15-gw-of-renewables-in-saudi-arabia/", "result": "ACWA官方：$8.2bn financial close为2026-05-20旧闻；PIF官方7-14 2025签署$8.3bn/15GW为旧闻，SaudiPress 9-27转载不属新事件", "time": "2026-09-28T06:08:00Z"},
+        {"url": "https://www.futureforwarding.com/jeddah-port-congestion-latest-operational-update/", "result": "正文全文实读：HL 9-16报告Jeddah堆场73%密度（参考值76%）、Maersk报告Jeddah/King Abdullah货流升高、集卡与空箱周转变长", "time": "2026-09-28T06:10:00Z"},
+        {"url": "https://www.hapag-lloyd.com/de/services-information/operational-updates/updates/2026/09/ops-update-africa-week38.html", "result": "HL官方9-16运营更新：Jeddah堆场密度73%、局部航线调整、Jebel Ali挂靠暂停", "time": "2026-09-28T06:11:00Z"},
+        {"url": "https://chinaview.cn/20260925/fc21bfca41464cafbaf856100cf2c7eb/c.html", "result": "新华社9-25报道：胡塞9-24宣称导弹无人机袭击利雅得敏感目标与延布阿美设施；沙特称拦截6枚弹道导弹", "time": "2026-09-28T06:12:00Z"},
+        {"url": "https://efe.com/english/latest-news/2026-09-24/houthis-in-yemen-claim-responsibility-for-attacks-on-riyadh-and-aramco-facility/", "result": "EFE 9-24：胡塞宣称对利雅得与延布阿美设施发动导弹无人机袭击", "time": "2026-09-28T06:12:00Z"}
+      ]
+    }
+  },
+  "channelsAccess": [
+    {"channel": "新华社/EFE/AP（国际通讯社）", "status": "直接访问完成", "detail": "胡塞袭击事件多源：Xinhua 9-25、EFE 9-24、China Daily 9-25（AP）、Anadolu 9-24（阿美CEO东西管线表态）"},
+    {"channel": "Hapag-Lloyd官方", "status": "直接访问完成", "detail": "Week 38运营更新（9-16）：Jeddah堆场73%、Jebel Ali挂靠暂停"},
+    {"channel": "Future Forwarding", "status": "直接访问完成", "detail": "9-24 Jeddah拥堵综合报道全文实读"},
+    {"channel": "ACWA Power/PIF官方", "status": "直接访问完成", "detail": "核验$8.3bn/15GW为2025-07-14旧闻、$8.2bn financial close为2026-05-20旧闻，排除SaudiPress 9-27转载"},
+    {"channel": "Etimad", "status": "访问未完成（技术限制）", "detail": "列表页JS动态渲染无静态数据；聚合站线索无官方详情不收录"},
+    {"channel": "排除记录", "status": "旧闻/窗口外", "detail": "Alkhorayef合同=7-09/7-14窗口外；Asas Makeen=9-20窗口外且09-21档已收录；Retal/ROSHN SEDRA=2025-10旧闻；Saudi Energy Al-Muwaih BESS=9-20窗口外；Aramco Q2业绩=8-04；New Murabba CEO变更=8-28；ACWA $8.3bn=2025-07旧闻；East Pipes=已收录09-24档006"}
+  ],
+  "exclusions": [
+    {"item": "ACWA Power–Badeel–SAPCO $8.3bn/15GW", "reason": "PIF官方2025-07-14新闻稿旧闻；ACWA官方2026-05-20为$8.2bn financial close；SaudiPress 9-27为旧闻重发"},
+    {"item": "Alkhorayef水/污水运维合同", "reason": "7-09/7-14 Tadawul公告，窗口外"},
+    {"item": "Saudi Energy Al-Muwaih BESS SSA", "reason": "9-20发布，窗口外"},
+    {"item": "Asas Makeen 3.15亿利雅得项目", "reason": "9-20发布窗口外；09-21档002已收录"},
+    {"item": "Retal子公司ROSHN SEDRA 6栋住宅", "reason": "2025-10-15旧闻"},
+    {"item": "Aramco Q2/H1 2026业绩", "reason": "8-04发布，窗口外"},
+    {"item": "New Murabba CEO变更", "reason": "8-28发布，窗口外"},
+    {"item": "Etimad聚合站线索", "reason": "无官方详情可核验"},
+    {"item": "马克龙派兵延布表态", "reason": "政治军事表态，来源为第三方转载（央视经今日头条），非沙特工程行业事件主体，不单独收录；作为胡塞袭击事件背景提及"}
+  ]
+}

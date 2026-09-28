@@ -1,0 +1,74 @@
+{
+  "batch": "2026-09-24 09:00",
+  "collectedAt": "2026-09-24T09:06:53+08:00",
+  "window": "09:00批次：窗口自上次成功批次（09-23 14:00，完成于14:17北京时间）之前24小时起，即09-22 14:17至本轮实际采集时点（09-24 09:06北京时间）。",
+  "retrievalTools": [
+    {
+      "tool": "web-search",
+      "status": "completed",
+      "entries": [
+        "Saudi construction contract awarded tender September 24 2026",
+        "沙特 工程 授标 合同 招标 9月24日 2026",
+        "Saudi NEOM ROSHN Diriyah project award progress September 2026",
+        "Maersk Hapag-Lloyd surcharge Saudi Arabia September 24 2026 shipping update",
+        "Etimad tender Saudi published September 23 24 2026 direct purchase",
+        "SPA Saudi news September 23 2026 ministry construction housing project",
+        "SCA awards 13 construction projects August SAR 4.9 billion contractors authority",
+        "Saudi Arabia contract awarded EPC September 23 2026 construction news",
+        "Saudi workers accommodation camp modular prefab tender September 2026",
+        "Saudi steel cement material price index construction September 2026",
+        "Mawani Saudi ports shipping September 23 2026 announcement",
+        "Saudi government tenders procurement law amendment August 2026 direct purchase 1 million riyal",
+        "السعودية مشاريع ترسية عقود مقاولات سبتمبر 2026",
+        "TotalEnergies Aramco Amiral SATORP 11 billion EPC contracts award 2026",
+        "Aramco Fadhili gas plant expansion 7.7 billion Samsung Engineering GS Nesma contract 2026",
+        "Alstom Saudi Arabia Railways EUR 22 million fleet support contract September 2026",
+        "Greenbrier 600 million railcar order Saudi Arabia SAR 780 units September 2026"
+      ],
+      "evidence": "access-log.json"
+    },
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://m.eyeofriyadh.com/news/details/sca-awards-13-construction-projects-in-august-worth-sar-4-9b",
+        "https://www.alstom.com/press-releases-news/2026/9/alstom-and-saudi-arabia-railways-deepen-long-term-partnership-enhance-freight-rail-performance-across-kingdom",
+        "https://pressroom.gbrx.com/2026-09-22-Greenbrier-Announces-3,400-Railcar-Orders-Valued-at-600-Million-in-Fiscal-Fourth-Quarter",
+        "https://www.maersk.com/fr-fr/stay-ahead?ftag=YHF4eb9d17",
+        "https://saudipress.com/saudi-aramco-and-totalenergies-award-11-billion-contracts-for-amiral-project-at-satorp-refinery",
+        "https://saudipress.com/saudi-aramco-awards-7-7b-contract-for-fadhili-gas-plant-expansion-boosting-natural-gas-production-and-reducing",
+        "https://totalenergies.com/media/news/press-releases/aramco-and-totalenergies-award-contracts-11-billion-amiral-project",
+        "https://www.aramco.com/en/news-media/news/2024/aramco-awards-7-7-billion-contracts-to-add-1-5-bscfd-of-raw-gas-to-fadhili-gas-plant",
+        "https://www.tamimi.com/news/key-changes-to-saudi-arabias-newly-adopted-government-tenders-and-procurement-law/"
+      ],
+      "evidence": "SCA报告全文、Alstom官方新闻稿全文、Greenbrier官方新闻稿全文、Maersk更新49全文已读；Amiral（2023-06）与Fadhili（2024-04）官方旧闻页已读用于排除；Etimad详情页未重试（历史访问被拒）。"
+    }
+  ],
+  "channels": [
+    {
+      "channel": "SCA月度报告（经Eye of Riyadh）",
+      "access": "直接访问完成",
+      "detail": "9-23 12:26发布，全文实读：13项目SAR4.9bn、分行业/地区明细、2026年累计110项目SAR116.2bn、9月预计8项目及拟招标主体。"
+    },
+    {
+      "channel": "Alstom官方",
+      "access": "直接访问完成",
+      "detail": "9-22新闻稿全文：€22M五年合同，North Freight车队，南北走廊年货运1350万吨；Boursorama/Ajel/SGP交叉一致。"
+    },
+    {
+      "channel": "Greenbrier官方",
+      "access": "直接访问完成",
+      "detail": "9-22新闻稿全文：3,400辆约$600M含SAR 780辆（罐车+首个intermodal），墨西哥厂已开始发运。"
+    },
+    {
+      "channel": "Maersk官方",
+      "access": "直接访问完成",
+      "detail": "9-23更新49全文：干货/冷藏/DG/OOG订舱状态、DG紧急运费USD3800、陆侧暂停、TDS/PSS/ECS背景。"
+    },
+    {
+      "channel": "排除记录",
+      "access": "旧闻与窗口外",
+      "detail": "Amiral $11B EPC=2023-06-24 TotalEnergies官方旧闻复用；Fadhili $7.7B=2024-04-02 Aramco官方旧闻复用；SAN-7 Samsung E&A=9-11窗口外；沙特新采购法修订事件=8-04窗口外；Etimad军工POWER SUPPLY仅聚合线索不收录。"
+    }
+  ]
+}

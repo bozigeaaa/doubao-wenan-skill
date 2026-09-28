@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-09-24",
+  "collectedAt": "2026-09-24T07:08:00Z",
+  "timeZone": "Asia/Shanghai",
+  "window": "9月24日14:00批次：窗口自09:00批次完成时点（约09:14北京时间）起至本轮实际采集时点（约15:06北京时间）；并补漏09:00批次窗口（09-22 14:17起）内未及收录的条目（005 Progress Rail、006 East Pipes）。",
+  "scope": "覆盖工程项目、营地住宿、产品材料、采购招投标、合规政策、航运物流六类；本档累计7条（含09:00批次4条），已核验6条、证据不足1条。本轮新增3、核验更新0、迁移0。数量不是当日全网新闻总量。",
+  "channels": [
+    [
+      "Progress Rail/SAR（InnoTrans宣布）",
+      "行业媒体全文成功",
+      "9月22日InnoTrans宣布33台EMD SD70ACS机车采购+本地维保框架；SaudiGulf Projects 9-23与Railway International 9-23全文交叉。"
+    ],
+    [
+      "East Pipes–阿美（Tadawul公告）",
+      "当地财经媒体全文成功",
+      "9月24日Al-Eqtisadiah全文实读（46M+里亚尔、9-22签署、5个月、Q4 2026/27财年），Maaal英文交叉。"
+    ],
+    [
+      "MEED",
+      "摘要层级部分成功",
+      "9月24日6GW数据中心园区授标报道仅标题+首段可读，中标承包商/金额/地点未披露；检索无独立第二来源。"
+    ],
+    [
+      "排除记录",
+      "旧闻复用/窗口外",
+      "Dawadmi 1.5GW风电=2025年10月授标旧闻（EtihadWE官方2025-11-10新闻稿、Transformers 2025-10-29）；ROSHN–Shapoorji/Siemens $510m=2020-12-31旧闻（Saudi Gazette/Argaam/Alarabiya均为2020-12-31）；fischer吉达塔锚固=2026年8月底/9月初已披露（bau.bi 9-2、Industrie-Wegweiser 8-25），9月22-24英文跟进属旧闻传播；Arabian Drilling–SLB 8钻机=9月13日签署、9月14日已报道，窗口外。"
+    ],
+    [
+      "Etimad官方",
+      "访问受限/动态页无数据",
+      "官方公告列表页为JS动态渲染无静态数据；聚合站9-23/9-24线索（Hail一般竞争等）无官方详情，不收录。"
+    ]
+  ],
+  "retrievalTools": [
+    {
+      "tool": "web-search",
+      "status": "completed",
+      "entries": [
+        "Saudi construction contract awarded tender September 24 2026",
+        "沙特 授标 合同 招标 9月24日 2026 建筑",
+        "Saudi Aramco NEOM ROSHN project award September 24 2026 news",
+        "Maersk Middle East operational update September 24 2026",
+        "SPA Saudi press agency September 24 2026",
+        "Saudi tender Etimad September 24 2026 published new competition",
+        "Tadawul announcement contract award September 24 2026 Saudi company",
+        "Saudi energy ACWA SABIC Maaden announcement September 24 2026",
+        "Saudi workers camp modular accommodation tender September 24 2026 OR September 23 2026",
+        "ROSHN Shapoorji Pallonji Siemens SAR 1.9 billion contract Riyadh community development",
+        "Saudi Arabia construction news September 24 2026 contract signed project",
+        "fischer Jeddah Tower chemical steel anchoring solutions supply deal September 2026",
+        "Arabian Drilling Tadawul announcement SLB contract 8 land rigs September 2026 date",
+        "Humain 6GW data centre campus Saudi Arabia contractor ECI September 2026",
+        "Hapag-Lloyd CMA CGM surcharge Saudi Arabia September 24 2026 update",
+        "Saudi port Mawani shipping update September 23 24 2026",
+        "السعودية توقيع عقد مشاريع إنشاء مقاولات 24 سبتمبر 2026",
+        "Saudi construction regulation compliance building code update September 23 24 2026",
+        "Saudi Arabia contract award September 24 2026 MEED SaudiGulfProjects",
+        "NEOM Qiddiya Diriyah ROJHN tender award news September 24 2026",
+        "Progress Rail 33 EMD SD70ACS locomotives Saudi Arabia Railways Northern Railway official",
+        "Dawadmi wind project 1.5 GW SPPC award PPA Saudi September 2026 official"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-24/14-00/access-log.json"
+    },
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://www.cbnme.com/category/news/",
+        "https://www.okazinvest.com/okaz/newDetails.aspx?id=1272387&nb=2",
+        "https://www.meed.com/contractor-wins-6gw-data-centre-campus-infrastructure",
+        "https://www.mepmiddleeast.com/business/contracts/fischer-wins-deal-jeddah-tower",
+        "https://www.cma-cgm.fr/detail-news/5344/situation-au-moyen-orient",
+        "https://gulfconstructiononline.com/TagsTA/saudi",
+        "https://www.aleqt.com/الشركات/أنابيب-الشرق-توقع-عقدا-مع-أرامكو-ب-46-مليون-ريال-لتصنيع-وتوريد-أنابيب-الصلب-14586",
+        "https://tenders.etimad.sa/Announcement/AllVisitorAnnouncements"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-24/14-00/access-log.json；fischer/MEP ME、Okaz Arabian Drilling、CMA CGM #14、Gulf Construction列表、East Pipes Al-Eqtisadiah全文、MEED 6GW、Etimad官方页已实读。"
+    }
+  ],
+  "items": [
+    {
+      "id": "001",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "工程项目",
+        "行业统计"
+      ],
+      "region": "沙特（利雅得、东部省）",
+      "sourceType": "官方行业机构月度报告",
+      "event": "月度报告发布，覆盖8月授标",
+      "eventLabel": "数据发布",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "本轮新收录；9月23日发布，实读全文完成核验与入档。",
+      "products": [],
+      "background": "行业授标月度统计，反映建筑需求分布与节奏；未确认具体临建产品采购需求。",
+      "title": "SCA：8月沙特授标13个建筑项目约49亿里亚尔，2026年累计已超1162亿",
+      "source": "Eye of Riyadh（转述SCA官方月度报告）",
+      "url": "https://m.eyeofriyadh.com/news/details/sca-awards-13-construction-projects-in-august-worth-sar-4-9b",
+      "original": "SCA awards 13 construction projects in August worth SAR 4.9B",
+      "published": "2026-09-23（Eye of Riyadh报道日；SCA月度报告同日）",
+      "summary": "沙特承包商管理局（SCA）发布2026年8月承包行业月度报告：8月授标13个建筑项目、总价值约49亿里亚尔，预计分三年实施；其中商业项目19.88亿（40.92%）居首，公寓9.57亿（19.71%）、数据中心7.5亿（15.44%）随后。项目分布：利雅得7个（33.9亿）、东部省6个（约14.6亿）。2026年1-8月累计授标110个项目、总额超1162亿里亚尔。报告预计9月将有约8个项目授标，过半集中在建筑与建造业，约半数位于东部省和利雅得；拟招标主体包括沙特阿美、PIF、RCRC、Qiddiya、SAR、NEPCO。",
+      "review": "9月24日web_fetch实读Eye of Riyadh 9月23日全文，核对授标项目数、金额、分行业与分地区明细、累计数与9月预测；以SCA官方月度报告（SCAVO数据）为来源性质，Eye of Riyadh与WorldNews同源转述一致。",
+      "reviewUrls": [
+        [
+          "SCA官方",
+          "https://sca.sa/"
+        ],
+        [
+          "WorldNews",
+          "https://article.wn.com/view/2026/09/23/SCA_awards_13_construction_projects_in_August_worth_SAR_49B/"
+        ]
+      ],
+      "boundary": "报告为8月授标统计（含已授标但未逐条公开的汇总数据），9月预期为官方预测非已发生事件。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-24/09-00/access-log.json"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-24T01:06:53Z",
+        "method": "原文全文实读＋来源性质核验",
+        "confirmedScope": "SCA 8月月度报告：13个项目约SAR4.9bn，分行业/地区明细，2026年累计110项目SAR116.2bn，9月预计8个项目及拟招标主体。",
+        "reason": "Eye of Riyadh全文列出SCA月度数据，与SCA官方平台性质匹配，多源同口径。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "002",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "铁路",
+        "货运"
+      ],
+      "region": "沙特（南北走廊）",
+      "sourceType": "上市公司官方新闻稿",
+      "event": "9月22日签约",
+      "eventLabel": "合同签署",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "本轮新收录；9月22日发布，实读官方全文完成核验与入档。",
+      "products": [],
+      "background": "SAR南北走廊年货运约1350万吨，铁路货运能力维持与临建物流间接相关；未确认具体产品采购。",
+      "title": "Alstom与沙特铁路SAR签2200万欧元五年合同支持南北货运车队",
+      "source": "Alstom官方新闻稿",
+      "url": "https://www.alstom.com/press-releases-news/2026/9/alstom-and-saudi-arabia-railways-deepen-long-term-partnership-enhance-freight-rail-performance-across-kingdom",
+      "original": "Alstom and Saudi Arabia Railways deepen long-term partnership to enhance freight rail performance across the Kingdom",
+      "published": "2026-09-22（Alstom官方新闻稿）",
+      "summary": "Alstom于9月22日宣布与沙特铁路公司（SAR）签署价值2200万欧元、为期五年的合同，为其沿王国南北走廊运营的North Freight车队提供机载系统可靠性与日常性能支持。南北走廊是沙特关键铁路通道，北线年货运约1350万吨，连接矿区与加工和出口设施。合同内容含FlexCare Perform维护服务、实时监控与备件增强、系统升级、维护文档、数字工具及人员培训，并计入Alstom 2026/27财年二季度订单。",
+      "review": "9月24日实读Alstom官网9月22日新闻稿全文，核对金额、期限、服务范围与财季归属；Boursorama 9-23、Ajel 9-22、SaudiGulfProjects 9-23独立转述一致。",
+      "reviewUrls": [
+        [
+          "Boursorama",
+          "https://www.boursorama.com/bourse/actualites/alstom-remporte-un-contrat-de-maintenance-en-arabie-saoudite-22a08087465dae4f3edad43cadb628ed"
+        ],
+        [
+          "SaudiGulfProjects",
+          "https://www.saudigulfprojects.com/2026/09/alstom-secures-e22-million-rail-fleet-support-contract-from-saudi-arabia-railways/"
+        ]
+      ],
+      "boundary": "合同为维护服务合同，非施工或装备采购授标；未披露项目级投资或临建需求。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-24/09-00/access-log.json"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-24T01:06:53Z",
+        "method": "官方新闻稿全文核验＋独立媒体交叉",
+        "confirmedScope": "Alstom与SAR签€22M五年合同，支持North Freight车队（南北走廊），含FlexCare Perform维护、备件、升级与培训。",
+        "reason": "Alstom官方新闻稿列明金额、期限、范围；多家独立媒体同口径。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "003",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "铁路",
+        "货车制造"
+      ],
+      "region": "沙特（SAR订单）",
+      "sourceType": "上市公司官方新闻稿",
+      "event": "财季四季度（截至8月31日）接单；9月22日公告",
+      "eventLabel": "订单公告",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "本轮新收录；9月22日发布，实读官方全文完成核验与入档。",
+      "products": [],
+      "background": "SAR铁路货车订单支持沙特货运基础设施发展，与临建物流间接相关；未确认具体产品采购。",
+      "title": "Greenbrier获3400辆新车订单约6亿美元，含沙特SAR 780辆",
+      "source": "Greenbrier官方新闻稿",
+      "url": "https://pressroom.gbrx.com/2026-09-22-Greenbrier-Announces-3,400-Railcar-Orders-Valued-at-600-Million-in-Fiscal-Fourth-Quarter",
+      "original": "Greenbrier Announces 3,400 Railcar Orders Valued at $600 Million in Fiscal Fourth Quarter",
+      "published": "2026-09-22（Greenbrier官方新闻稿）",
+      "summary": "Greenbrier公司9月22日宣布，在截至2026年8月31日的财季第四季度收到3400辆新车订单、总值约6亿美元，其中包含沙特政府所有的SAR公司780辆订单。SAR订单包括运输磷酸与熔硫的罐车及双层集装箱（intermodal）车辆，为Greenbrier向SAR首次销售intermodal车；该关系始于2015年罐车订单。车辆在Greenbrier墨西哥制造厂以美国钢材完成并已开始发运SAR，支持沙特货运运力与基础设施发展。",
+      "review": "9月24日实读Greenbrier官网9月22日新闻稿全文，核对订单量、金额、SAR数量、车型与发运状态；FreightWaves 9-23、Progressive Railroading 9-22独立转述一致。",
+      "reviewUrls": [
+        [
+          "FreightWaves",
+          "https://www.freightwaves.com/news/greenbrier-racks-up-600-million-in-new-railcar-orders"
+        ],
+        [
+          "Progressive Railroading",
+          "https://www.progressiverailroading.com/supplier_spotlight/news/Supplier-news-from-Wabtec-Greenbrier-Plasser-Theurer-and-Accenture--77794"
+        ]
+      ],
+      "boundary": "订单为货车制造与供应，非土建施工授标；发运为部分完成状态，不构成全部交付。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-24/09-00/access-log.json"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-24T01:06:53Z",
+        "method": "官方新闻稿全文核验＋独立媒体交叉",
+        "confirmedScope": "Greenbrier财季四季度3,400辆约$600M订单，含SAR 780辆（罐车+首个intermodal订单），部分已发运。",
+        "reason": "Greenbrier官方新闻稿列明订单数量、金额与SAR组成；多家独立媒体同口径。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "004",
+      "category": "航运物流",
+      "tags": [
+        "航运物流",
+        "订舱限制",
+        "附加费"
+      ],
+      "region": "沙特及海湾（中东运营）",
+      "sourceType": "船公司官方运营更新",
+      "event": "9月23日发布运营更新49",
+      "eventLabel": "运营更新",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "本轮新收录；9月23日发布，实读官方全文完成核验与入档。",
+      "products": [],
+      "background": "海湾局势下船公司订舱与陆运调整直接影响沙特进口货物与项目物流安排，属行业背景信息。",
+      "title": "马士基中东运营更新49：多类货物暂停部分沙特港口订舱，吉达/阿卜杜拉国王港部分仍接受",
+      "source": "Maersk官方运营更新",
+      "url": "https://www.maersk.com/fr-fr/stay-ahead?ftag=YHF4eb9d17",
+      "original": "Maersk Operations updates on situation in the Middle East — Operational Update 49",
+      "published": "2026-09-23（Maersk更新页标注）",
+      "summary": "Maersk于9月23日发布中东运营更新49：干货订舱暂停至/自阿联酋（Khor Fakkan与Jebel Ali陆桥除外）、伊拉克及沙特达曼与朱拜勒，仍接受吉达与阿卜杜拉国王港订舱；冷藏箱暂停至/自沙特三港（达曼、朱拜勒、阿卜杜拉国王港）等海湾国家；危险品（DG）暂停多国但接受沙特吉达本地收货人订舱并适用3800美元紧急运费率；超限货（OOG）暂停含沙特全部港口在内的订舱；陆侧暂停吉达—阿联酋/阿曼/卡塔尔及Jeddah港至多国陆运。红海/亚丁湾绕行相关TDS/PSS/ECS附加费继续生效。",
+      "review": "9月24日实读Maersk中东运营更新49全文（含订舱表与陆侧说明），逐类核对沙特港口状态、暂停范围、紧急运费与例外；页面标注23 September 2026。",
+      "reviewUrls": [],
+      "boundary": "订舱政策可能随局势变化，为当前时点状态；具体舱位与费率以订舱时为准，附加费为持续生效背景。",
+      "shipping": [
+        [
+          "货物类型",
+          "干货：暂停达曼/朱拜勒订舱，接受吉达/阿卜杜拉国王港；冷藏箱：暂停达曼/朱拜勒/阿卜杜拉国王港；DG：接受吉达本地收货人+USD3800紧急运费；OOG：暂停全部沙特港口"
+        ],
+        [
+          "生效条件",
+          "9月23日更新；红海/亚丁湾TDS/PSS/ECS附加费继续生效"
+        ],
+        [
+          "相关港口",
+          "Jeddah、King Abdullah、Dammam、Al Jubail"
+        ],
+        [
+          "例外",
+          "关键食品、药品与易腐货物尽力保障；Khor Fakkan/Jebel Ali经陆桥例外"
+        ]
+      ],
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-24/09-00/access-log.json"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-24T01:06:53Z",
+        "method": "官方更新页全文核验",
+        "confirmedScope": "Maersk更新49于9月23日发布：干货/冷藏/DG/OOG对沙特各港口的订舱状态、DG紧急运费USD3800、陆侧暂停与附加费背景。",
+        "reason": "Maersk官方更新页逐类列出订舱状态与费率，可证明公告明确写出的事实。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "005",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "铁路",
+        "机车采购"
+      ],
+      "region": "沙特（南北铁路/北线）",
+      "sourceType": "企业官方公告（InnoTrans宣布）+行业媒体",
+      "event": "9月22日InnoTrans宣布采购协议",
+      "eventLabel": "采购协议签署",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "本轮新收录；9月23日发布，完成核验入档（09:00批次未及收录）。",
+      "products": [],
+      "background": "SAR北线重载货运机车采购与本地化维保框架，服务采矿与工业货运；与临建物流间接相关，无直接临建产品适配。",
+      "title": "Progress Rail获SAR北线33台EMD SD70ACS重型货运机车订单并签本地维保框架",
+      "source": "SaudiGulf Projects（转述InnoTrans宣布）",
+      "url": "https://www.saudigulfprojects.com/2026/09/progress-rail-to-supply-33-emd-locomotives-to-saudi-arabia-railways/",
+      "original": "Progress Rail to Supply 33 EMD Locomotives to Saudi Arabia Railways",
+      "published": "2026-09-23（SaudiGulf Projects报道日；事件于9月22日InnoTrans宣布）",
+      "summary": "沙特铁路公司（SAR）与Progress Rail于9月22日在柏林InnoTrans宣布采购协议：Progress Rail向SAR北线供应33台EMD SD70ACS重型货运柴油电力机车，强化货运能力并支持采矿与工业部门；协议同时包含在沙特发展本地生命周期维护基础设施的框架。SD70ACS为重型货运AC机型，专为沙漠高温与风沙环境设计，服务北线重载散货运输。",
+      "review": "9月24日实读SaudiGulf Projects 9月23日报道全文，核对机车型号、数量、线路与服务背景；Railway International 9月23日报道交叉一致（明确InnoTrans柏林9月22日宣布，含本地维保框架）。",
+      "reviewUrls": [
+        [
+          "Railway International",
+          "https://railway-international.com/news/115148-heavy-haul-locomotive-fleet-expansion-and-localization-in-saudi-arabia"
+        ],
+        [
+          "Progress Rail SD70ACS官方产品页",
+          "https://www.progressrail.com/en/segments/locomotive/locomotives/freight-locomotives/sd70-acs"
+        ]
+      ],
+      "boundary": "为机车采购与维保框架协议，非土建施工授标；交付时间表未在本次来源中披露。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-24/14-00/access-log.json"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-24T07:05:00Z",
+        "method": "行业媒体全文核验＋独立来源交叉＋官方产品页佐证",
+        "confirmedScope": "Progress Rail与SAR于9月22日InnoTrans宣布33台EMD SD70ACS重型货运机车采购及本地维保框架，服务SAR北线。",
+        "reason": "SaudiGulf Projects与Railway International两家独立行业媒体同口径，Progress Rail官方产品页确认SD70ACS沙漠重载定位与沙特布局。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "006",
+      "category": "招投标",
+      "tags": [
+        "招投标",
+        "产品材料",
+        "钢管供应"
+      ],
+      "region": "沙特（阿美采购）",
+      "sourceType": "Tadawul公告（经当地财经媒体）",
+      "event": "9月22日签署，9月24日公告",
+      "eventLabel": "合同签署",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "本轮新收录；9月24日发布，实读全文完成核验入档。",
+      "products": [],
+      "background": "沙特本地钢管制造商持续获得阿美订单，反映油气供应链活跃度；钢材类供应与公司产品无直接适配，行业背景信息。",
+      "title": "East Pipes与阿美签超4600万里亚尔钢管制造供应合同（5个月）",
+      "source": "Al-Eqtisadiah（Al-Eqtisadiah报道，引Tadawul公告）",
+      "url": "https://www.aleqt.com/الشركات/أنابيب-الشرق-توقع-عقدا-مع-أرامكو-ب-46-مليون-ريال-لتصنيع-وتوريد-أنابيب-الصلب-14586",
+      "original": "“أنابيب الشرق” توقع عقدا مع “أرامكو” بـ 46 مليون ريال لتصنيع وتوريد أنابيب الصلب",
+      "published": "2026-09-24 08:45（Al-Eqtisadiah报道日；合同9月22日签署）",
+      "summary": "沙特本地钢管制造商East Pipes（Anabib Al-Sharq）9月24日公告与沙特阿美（Aramco）签署合同，金额超4600万里亚尔（含增值税），内容为钢管制造与供应。合同于9月22日签署、期限5个月，预计财务影响体现在2026/27财年第四季度；公司声明合同无关联方。East Pipes成立于2010年，从事钢管、管材与空心型材制造，2020年与Welspun Coating合并。",
+      "review": "9月24日实读Al-Eqtisadiah 9月24日08:45报道全文，核对金额、签署日、期限与财务影响时点；Maaal 9月24日英文版交叉一致（SAR 46M、9月22日签署）。",
+      "reviewUrls": [
+        [
+          "Maaal（英文）",
+          "https://maaal.com/en/news/details/east-pipes-signs-sar-46-m/"
+        ],
+        [
+          "Akhbaar24（此前East Pipes–阿美771M合同参照）",
+          "https://www.akhbaar24.com/اقتصاد/أنابيب-الشرق-توقع-عقدا-مع-أرامكو-ب-80771-مليون-ريال-770281"
+        ]
+      ],
+      "boundary": "金额表述为“超4600万里亚尔（含增值税）”，未披露不含税净额与具体规格；合同为供应类，非施工授标。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-24/14-00/access-log.json"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-24T07:06:00Z",
+        "method": "当地财经媒体全文核验＋独立英文媒体交叉",
+        "confirmedScope": "East Pipes与阿美9月22日签钢管制造供应合同，超SAR46M（含税）、5个月、财务影响Q4 2026/27，无关联方。",
+        "reason": "Al-Eqtisadiah全文列明Tadawul公告字段，Maaal英文报道同口径，可证明公告写出的事实。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "007",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "数据中心",
+        "基础设施"
+      ],
+      "region": "沙特",
+      "sourceType": "行业专业媒体（MEED）",
+      "event": "9月24日发布授标报道",
+      "eventLabel": "授标报道",
+      "status": "unconfirmed",
+      "statusText": "信息待补",
+      "update": "本轮新收录；9月24日发布，摘要层级信息不足，未通过完整核验。",
+      "products": [],
+      "background": "Humain（PIF旗下AI公司）数据中心园区基础设施授标，与AI基建及临建工程关联待确认；条目保留待补。",
+      "title": "MEED：Humain 6GW数据中心园区基础设施授标，以早期承包商参与（ECI）方式交付",
+      "source": "MEED",
+      "url": "https://www.meed.com/contractor-wins-6gw-data-centre-campus-infrastructure",
+      "original": "Contractor wins 6GW data centre campus infrastructure",
+      "published": "2026-09-24（MEED报道日）",
+      "summary": "MEED于9月24日报道沙特Humain（PIF旗下人工智能公司）的6GW数据中心园区基础设施项目已授标，Humain将以早期承包商参与（ECI）方式交付项目。",
+      "review": "9月24日实读MEED 9月24日文章，仅标题与首段摘要可读（“Saudi Arabia's Humain will deliver the project on an early contractor involvement (ECI) basis”）；检索未发现独立第二来源披露中标承包商名称、合同金额与项目地点。",
+      "reviewUrls": [],
+      "boundary": "中标承包商身份、合同金额、项目地点均未披露；以MEED标题与摘要为线索，不能推出已发生授标细节。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-24/14-00/access-log.json"
+      ],
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-24T07:07:00Z",
+        "method": "MEED摘要实读＋外部检索补证",
+        "confirmedScope": "MEED于9月24日发布标题与摘要：Humain 6GW数据中心园区基础设施项目以ECI方式交付。",
+        "reason": "仅有MEED单源标题+摘要，无法确认中标承包商、金额、地点；独立来源检索无结果。",
+        "missing": "中标承包商名称、合同金额、项目地点与独立第二来源。"
+      }
+    }
+  ],
+  "run": {
+    "status": "completed",
+    "slot": "14:00",
+    "startedAt": "2026-09-24T06:55:00Z",
+    "completedAt": "2026-09-24T07:08:00Z",
+    "newCount": 3,
+    "updatedCount": 0,
+    "message": "9月24日14:00批次完成增量收集、逐条核验与入档：新收录3条（005 Progress Rail–SAR 33台机车、006 East Pipes–阿美46M钢管合同、007 MEED Humain 6GW数据中心授标[unconfirmed]），本档累计7条（6 verified/1 unconfirmed）。排除Dawadmi风电（2025-10旧闻）、ROSHN–SP/Siemens（2020-12-31旧闻）、fischer吉达塔（8月底已披露旧闻）、Arabian Drilling（9-13签署窗口外）及Etimad动态页受限线索。"
+  },
+  "completedSlots": [
+    "09:00",
+    "14:00"
+  ],
+  "lastVerifiedAt": "2026-09-24T07:07:00Z"
+}

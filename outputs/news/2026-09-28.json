@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 1,
+  "collectedDate": "2026-09-28",
+  "collectedAt": "2026-09-28T06:25:00Z",
+  "timeZone": "Asia/Shanghai",
+  "window": "周一补查（2026-09-28）：09:00批次窗口起点09-23 15:08（上次成功批次前24h）与紧邻周六00:00取较早者，检索至09-28 09:20北京时间；14:00批次自09:00完成后继续增量补查至09-28 14:25北京时间，覆盖周末遗漏与周一新发布。周一发布新增新闻归09-28，错过批次（09-25等）事件按实际收录日入档。",
+  "scope": "覆盖工程项目、营地住宿、产品材料、采购招投标、合规政策、航运物流六类；本档累计5条（verified 4 / unconfirmed 1），09:00批次新增3、14:00批次新增2、核验更新0。数量不是当日全网新闻总量。",
+  "channels": [
+    [
+      "SLB（一手公告）",
+      "直接访问完成",
+      "9-24官方新闻稿全文实读：阿美授SLB四项综合建井合同，三年期交付450+口井、可延长最多2年；MEED 9-25、TradeArabia/Eye of Riyadh/SaudiGulfProjects 9-27交叉。"
+    ],
+    [
+      "MEED",
+      "直接访问完成（guest）",
+      "9-25报道SAR准备正式授标磷酸盐铁路第二段（超150km，2月招标4月投标）；上段第一段已授Alomaier（约SR4bn+）。单源，无独立第二来源。"
+    ],
+    [
+      "Saudi Mega Projects Summit",
+      "外部检索线索＋官方确认",
+      "MEED events官方页确认9-28~30利雅得第四届时；ROSHN官方9-15确认host partner；Gulf Insider 9-28、SaudiPress 9-27报道。"
+    ],
+    [
+      "新华社/EFE/AP/Anadolu（国际通讯社）",
+      "直接访问完成",
+      "胡塞9-24宣称导弹无人机袭击利雅得敏感目标与延布阿美设施；沙特称拦截6枚弹道导弹；阿美CEO称东西向管线无法被完全瘫痪（Anadolu 9-24）。"
+    ],
+    [
+      "Hapag-Lloyd官方＋Future Forwarding",
+      "直接访问完成",
+      "HL 9-16运营更新：Jeddah堆场密度73%（参考76%）、Jebel Ali挂靠暂停；Future Forwarding 9-24综合：Maersk报告Jeddah/King Abdullah货流升高、集卡与空箱周转变长。"
+    ],
+    [
+      "排除记录",
+      "旧闻/窗口外",
+      "09:00批：ROSHN–TMG=9-20窗口外、Dawadmi风电=2025-10旧闻、Samsung E&A=9-10旧闻、Hapag SE3=9-10窗口外、CMA CGM EFS=9-18窗口外、马士基update49已收录09-24档004、Jafurah二期=Doosan 6-01旧闻。14:00批：ACWA $8.3bn/15GW=PIF官方2025-07-14旧闻、Alkhorayef=7月窗口外、Asas Makeen=9-20窗口外且09-21档已收录、Saudi Energy Al-Muwaih BESS=9-20窗口外、Retal/ROSHN SEDRA=2025-10旧闻、Aramco Q2业绩=8-04、New Murabba CEO变更=8-28、马克龙派兵表态=政治表态非行业事件主体。"
+    ],
+    [
+      "Etimad官方",
+      "访问受限",
+      "官方列表/详情页JS动态渲染无静态数据；聚合站9-24/9-25线索（Linen Supply等）无官方详情，不收录。"
+    ]
+  ],
+  "retrievalTools": [
+    {
+      "tool": "web-search",
+      "status": "completed",
+      "entries": [
+        "Saudi Arabia construction project contract award news September 26 27 2026",
+        "Saudi tender Etimad new announcement September 25 26 2026 procurement",
+        "SLB Aramco four integrated well construction contracts 450 wells official press release September 2026",
+        "SARCO لوازم المتطورة للصناعة عقد مشروع باقة بنان تداول",
+        "Saudi workers accommodation camp modular building contract September 2026",
+        "Saudi Aramco NEOM project award September 25 26 2026 contractor MEED",
+        "Maersk OR Hapag-Lloyd OR CMA CGM Middle East Red Sea shipping update September 26 27 2026",
+        "Saudi Arabia building code fire safety regulation compliance new rule September 2026",
+        "September 25, 2026 OR September 26, 2026 Saudi contract awarded NEOM Qiddiya Diriyah Red Sea",
+        "السعودية منافسة سكن عمال مواد بناء سبتمبر 2026 ترسية عقد",
+        "saudigulfprojects.com September 26 2026 Saudi contract awarded",
+        "Mawani port Saudi Arabia September 25 26 27 2026 announcement shipping",
+        "ROSHN Talaat Moustafa Group Saudi 55000 unit Riyadh joint agreement official",
+        "Saudi construction news September 26 2026 awarded OR tender OR contract",
+        "Saudi steel rebar cement price September 2026 construction material market",
+        "Red Sea Development Company TRSDC concrete supply contract September 2026 award",
+        "Saudi Mega Projects Summit 2026 Riyadh September 28 Arab News",
+        "Hapag-Lloyd SE3 service Salalah port rotation September 26 2026 official",
+        "Saudi Arabia contract award September 28 2026 project signing",
+        "Saudi Mega Projects Summit Riyadh September 28 2026 award signing day one",
+        "ACWA Power consortium 8.3 billion renewable energy seven projects 15000 MW September 2026 PIF official",
+        "Saudi tender Etimad new announcement September 28 2026 OR September 27 2026 procurement contract",
+        "\"September 28, 2026\" Saudi OR Riyadh OR NEOM OR Qiddiya OR Diriyah OR Aramco award OR contract OR tender OR project",
+        "Saudi port shipping Maersk OR Hapag OR CMA CGM OR PIL OR Mawani update September 28 2026 Red Sea",
+        "Houthi attack Yanbu Saudi oil Aramco drone missile September 2026",
+        "Hapag-Lloyd Jeddah port congestion yard density operational update September 2026 official",
+        "Saudi Arabia news today September 28 2026 construction oil gas port Aramco PIF project",
+        "Tadawul announcement September 28 2026 contract award Saudi listed company"
+      ],
+      "evidence": "outputs/news/evidence-2026-09-28/09-00/access-log.json；outputs/news/evidence-2026-09-28/14-00/access-log.json"
+    },
+    {
+      "tool": "scrapling",
+      "status": "completed",
+      "entries": [
+        "https://www.slb.com/newsroom/press-release/2026/pr-2026-0924-slb-aramco",
+        "https://guest.meed.com/",
+        "https://www.saudigulfprojects.com/",
+        "https://www.roshn.sa/news-and-events/press-releases/article-139",
+        "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anCat=1&anId=98276&cs=2030&locale=en",
+        "https://www.acwapower.com/en/media-center/latest-news/acwa-power-badeel-and-aramco-subsidiary-sapco-achieve-us-82-billion-financial-close-to-develop-15-gw-of-renewables-in-saudi-arabia/",
+        "https://www.futureforwarding.com/jeddah-port-congestion-latest-operational-update/",
+        "https://www.hapag-lloyd.com/de/services-information/operational-updates/updates/2026/09/ops-update-africa-week38.html",
+        "https://chinaview.cn/20260925/fc21bfca41464cafbaf856100cf2c7eb/c.html",
+        "https://efe.com/english/latest-news/2026-09-24/houthis-in-yemen-claim-responsibility-for-attacks-on-riyadh-and-aramco-facility/"
+      ],
+      "evidence": "SLB官方新闻稿全文、MEED首页（磷酸盐铁路二段全文）、SGP首页、ROSHN官方（TMG协议窗口外核验）、Tadawul SARCO公告、ACWA官方（$8.2bn financial close旧闻核验）、Future Forwarding 9-24全文、HL 9-16运营更新、新华社9-25、EFE 9-24已实读。"
+    }
+  ],
+  "items": [
+    {
+      "id": "001",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "能源",
+        "油井建设"
+      ],
+      "region": "沙特",
+      "sourceType": "企业官方公告",
+      "event": "2026-09-24官方发布，2026-09-27当地媒体跟进",
+      "eventLabel": "合同授标",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "周一补查新收录（官方9-24发布，09-25批次错过，按实际收录日入档09-28）。",
+      "products": [],
+      "background": "阿美油井建设合同规模（450+口井）反映油气上游活跃度，与临建产品无直接适配；作为工程总量背景信息收录。",
+      "title": "阿美授SLB四项综合建井合同，三年期交付450口以上油井",
+      "source": "SLB",
+      "url": "https://www.slb.com/newsroom/press-release/2026/pr-2026-0924-slb-aramco",
+      "original": "SLB Awarded Four Multi-Year Integrated Well Construction Contracts by Aramco",
+      "published": "2026-09-24（SLB官方新闻稿）",
+      "summary": "SLB于9月24日宣布获沙特阿美四项综合建井合同，支持沙特境内油气开发。SLB将以端到端综合建井模式交付450口以上油井，合同期三年、每项可延长最多两年；范围整合数字钻井工作流与自动化钻井、评估、流体、固井和完井服务。SLB称这是其综合建井业务在沙特的重要扩展。",
+      "review": "9月28日实读SLB官方新闻稿全文，核对四项合同、450+口井、三年+两年可选范围；MEED 9-25、TradeArabia 9-27、Eye of Riyadh 9-27、SaudiGulfProjects 9-27、Offshore Engineer 9-25多来源交叉一致。",
+      "reviewUrls": [
+        [
+          "MEED",
+          "https://www.meed.com/aramco-awards-four-well-construction-contracts-to-slb"
+        ],
+        [
+          "TradeArabia",
+          "https://www.tradearabia.com/News/486876/SLB-secures-four-multi-year-well-construction-contracts-from-Aramco/OGN"
+        ],
+        [
+          "Eye of Riyadh",
+          "https://m.eyeofriyadh.com/news/details/slb-awarded-4-contracts-by-aramco-to-develop-450-wells"
+        ]
+      ],
+      "boundary": "为综合建井服务合同，非EPC施工授标；合同金额未披露。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-28/09-00/access-log.json"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-28T01:12:00Z",
+        "method": "SLB官方新闻稿全文核验＋多家独立媒体交叉",
+        "confirmedScope": "SLB于9-24公告获阿美四项综合建井合同，三年期450+口井、可延两年。",
+        "reason": "一手公告全文实读，MEED/Offshore Engineer/TradeArabia/Eye of Riyadh多家独立来源同口径。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "002",
+      "category": "工程项目",
+      "tags": [
+        "工程项目",
+        "铁路",
+        "磷酸盐运输"
+      ],
+      "region": "沙特（Waad Al-Shamal至Ras Al-Khair）",
+      "sourceType": "行业专业媒体（MEED）",
+      "event": "2026-09-25发布",
+      "eventLabel": "授标准备",
+      "status": "unconfirmed",
+      "statusText": "信息待补",
+      "update": "周一补查新收录（MEED 9-25发布，09-25批次错过，按实际收录日入档09-28）。",
+      "products": [],
+      "background": "SAR磷酸盐铁路双线工程（第二段超150km）为大型铁路运力扩张，与临建物流间接相关，无直接产品适配。",
+      "title": "MEED：SAR准备正式授标磷酸盐铁路第二段双线合同（超150公里）",
+      "source": "MEED",
+      "url": "https://guest.meed.com/",
+      "original": "SAR prepares phosphate rail second section contract award",
+      "published": "2026-09-25（MEED）",
+      "summary": "MEED 9月25日报道：沙特铁路公司（SAR）准备正式授标磷酸盐运输铁路网双线工程第二段合同。该段连接Waad Al-Shamal矿区与东部省Ras Al-Khair，超150公里，含土建、线路调整、轨道与环线建设、桥涵、信号通信升级。招标2月发布、标书4月提交，工期预计四年。MEED上月曾独家报道第一段（约100km，连接AZ1/Nariyah编组站至Ras Al-Khair）已授本地Alomaier公司，估计超40亿里亚尔（11亿美元）。SAR同时考虑提升铁路材料本地化，包括建设水泥轨枕制造设施。",
+      "review": "9月28日实读MEED guest首页全文（9-25 Yasir Iqbal报道），核对第二段里程、招标时间线、范围与第一段授标背景；未检索到独立第二来源披露同一进展（SAR官方、当地媒体暂无同事件报道）。",
+      "reviewUrls": [],
+      "boundary": "“准备正式授标”为进行中阶段，非已授标；合同金额未披露；第一段授标为MEED上月独家报道口径。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-28/09-00/access-log.json"
+      ],
+      "verification": {
+        "result": "unconfirmed",
+        "checkedAt": "2026-09-28T01:13:00Z",
+        "method": "MEED全文实读＋外部检索补证",
+        "confirmedScope": "MEED于9-25报道SAR准备授标磷酸盐铁路二段（>150km，2月招标4月投标，约四年工期）及第一段Alomaier授标背景。",
+        "reason": "仅有MEED单一专业来源；SAR官方公告与独立第二来源均未检索到。",
+        "missing": "SAR官方公告或独立第二来源确认授标进展与金额。"
+      }
+    },
+    {
+      "id": "003",
+      "category": "工程项目",
+      "tags": [
+        "行业活动",
+        "工程项目",
+        "峰会"
+      ],
+      "region": "沙特（利雅得）",
+      "sourceType": "行业活动（MEED events＋官方确认）",
+      "event": "2026-09-28至09-30",
+      "eventLabel": "峰会举办",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "周一补查新收录（周一活动，报道9-27/9-28）。",
+      "products": [],
+      "background": "沙特巨型项目峰会为行业交付阶段风向标，反映大型项目从设计转向采购交付的节奏，对临建需求判断有背景参考价值；无直接产品适配。",
+      "title": "第四届沙特巨型项目峰会9月28-30日在利雅得举行，ROSHN任主办合作方",
+      "source": "MEED events（ROSHN官方确认）",
+      "url": "https://events.meed.com/event/saudimegaprojects/",
+      "original": "Saudi Mega Projects 2026",
+      "published": "2026-09-27/09-28（媒体报道），活动9-28~30",
+      "summary": "第四届沙特巨型项目峰会（Saudi Mega Projects Summit）于9月28日至30日在利雅得举行，主题“Turning Vision into Value: Meet the Ambitious Changemakers Delivering Vision 2030”。峰会正值沙特建设行业从规划设计转向大规模采购与交付阶段；主办方披露迄今已授标约1300亿美元巨型项目合同。ROSHN集团为峰会主办合作方（host partner）。",
+      "review": "9月28日核对MEED events官方活动页（9-28~30、主题、ROSHN host partner与130bn合同数据）、ROSHN官方9-15新闻稿、Gulf Insider 9-28与SaudiPress 9-27报道交叉。",
+      "reviewUrls": [
+        [
+          "ROSHN官方",
+          "https://www.roshn.sa/news-and-events/press-releases/article-138"
+        ],
+        [
+          "Gulf Insider",
+          "https://www.gulf-insider.com/saudi-mega-projects-summit-returns-to-riyadh-as-kingdom-enters-critical-vision-2030-delivery-phase/"
+        ]
+      ],
+      "boundary": "“约1300亿美元巨型项目合同已授标”为峰会主办方口径；峰会为行业活动，不构成具体项目授标。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-28/09-00/access-log.json"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-28T01:14:00Z",
+        "method": "官方活动页＋主办方新闻稿＋媒体报道交叉",
+        "confirmedScope": "第四届沙特巨型项目峰会9-28~30在利雅得举行，ROSHN为主办合作方，主题与130bn授标口径来自主办方披露。",
+        "reason": "MEED events官方页、ROSHN官方新闻稿与多家媒体交叉一致，活动事实可证明。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "004",
+      "category": "航运物流",
+      "tags": [
+        "安全",
+        "航运物流",
+        "能源设施"
+      ],
+      "region": "沙特（利雅得、延布）",
+      "sourceType": "国际通讯社",
+      "event": "2026-09-24（袭击宣称/拦截）",
+      "eventLabel": "安全事件",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "14:00批次新收录（事件9-24，09-25批次错过，按实际收录日入档09-28）。",
+      "products": [],
+      "background": "胡塞袭击宣称与沙特拦截影响延布港能源设施与红海航运安全环境，对项目交付时效与运输风险评估有直接背景价值；无直接产品适配。",
+      "title": "胡塞宣称导弹无人机袭击利雅得敏感目标与延布阿美设施，沙特称拦截6枚弹道导弹",
+      "source": "新华社",
+      "url": "http://chinaview.cn/20260925/fc21bfca41464cafbaf856100cf2c7eb/c.html",
+      "original": "Yemen's Houthis claim missile, drone attacks on Riyadh, Aramco facility in Yanbu",
+      "published": "2026-09-25（新华社）",
+      "summary": "胡塞武装9月24日晚宣称对利雅得一处“敏感目标”和红海沿岸城市延布的沙特阿美设施发动多枚弹道导弹、巡航导弹与无人机袭击。沙特方面此前称拦截了向塔伊夫和延布方向发射的6枚弹道导弹，未证实对利雅得目标的袭击结果。阿美CEO阿明·纳赛尔9月24日表示，东西向输油管线由多条线路构成、无法被完全瘫痪，公司有3条出口通道。",
+      "review": "9月28日实读新华社9-25报道（萨那9-24电）与EFE 9-24报道，交叉China Daily 9-25（AP）、Anadolu 9-24（阿美CEO表态）；袭击为胡塞单方宣称、拦截为沙方口径，均按各方表述记录。",
+      "reviewUrls": [
+        [
+          "EFE",
+          "https://efe.com/english/latest-news/2026-09-24/houthis-in-yemen-claim-responsibility-for-attacks-on-riyadh-and-aramco-facility/"
+        ],
+        [
+          "China Daily（AP）",
+          "https://www.chinadailyhk.com/hk/article/640127"
+        ],
+        [
+          "Anadolu Ajansı",
+          "https://aa.com.tr/ar/%D8%A7%D9%84%D8%AF%D9%88%D9%84-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/%D8%A3%D8%B1%D8%A7%D9%85%D9%83%D9%88-%D8%AE%D8%B7-%D8%B4%D8%B1%D9%82-%D8%BA%D8%B1%D8%A8-%D9%84%D8%A7-%D9%8A%D9%85%D9%83%D9%86-%D8%AA%D8%B9%D8%B7%D9%8A%D9%84%D9%87-%D8%A8%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84-%D9%88%D9%84%D8%AF%D9%8A%D9%86%D8%A7-3-%D9%85%D8%B3%D8%A7%D8%B1%D8%A7%D8%AA-%D9%84%D9%84%D8%AA%D8%B5%D8%AF%D9%8A%D8%B1/4068619"
+        ]
+      ],
+      "boundary": "“袭击”为胡塞单方宣称，袭击造成的具体破坏未获沙特官方证实；拦截数量为沙方口径；不据此推断设施停摆或项目中断。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-28/14-00/access-log.json"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-28T06:12:00Z",
+        "method": "新华社/EFE/AP/Anadolu多通讯社交叉核验",
+        "confirmedScope": "胡塞9-24宣称袭击利雅得敏感目标与延布阿美设施；沙特称拦截6枚弹道导弹；阿美CEO称东西向管线无法被完全瘫痪、有3条出口通道。",
+        "reason": "新华社、EFE、AP（经China Daily）与Anadolu多家独立通讯社同口径，各方表述清晰区分宣称与官方口径。",
+        "missing": ""
+      }
+    },
+    {
+      "id": "005",
+      "category": "航运物流",
+      "tags": [
+        "航运物流",
+        "港口",
+        "拥堵"
+      ],
+      "region": "沙特（吉达、King Abdullah港）",
+      "sourceType": "船公司运营公告＋专业物流媒体",
+      "event": "2026-09-16（HL/Maersk运营报告），2026-09-24（综合报道）",
+      "eventLabel": "港口运营压力",
+      "status": "verified",
+      "statusText": "已核验",
+      "update": "14:00批次新收录（综合报道9-24发布，09-24批次后新增，按实际收录日入档09-28）。",
+      "products": [],
+      "background": "吉达港堆场密度接近容量参考值、集卡与空箱周转拉长，直接影响进口临建物资到港提货时效，对采购与项目交付计划有实际参考价值；无直接产品适配。",
+      "title": "吉达港运营压力上升：堆场密度73%接近容量参考，集卡与空箱周转拉长",
+      "source": "Future Forwarding（引用Hapag-Lloyd、Maersk运营报告）",
+      "url": "https://www.futureforwarding.com/jeddah-port-congestion-latest-operational-update/",
+      "original": "Jeddah Port Congestion: Latest Operational Update",
+      "published": "2026-09-24（Future Forwarding）",
+      "summary": "吉达港近期运营压力上升：Hapag-Lloyd 9月16日运营更新报告吉达集装箱堆场密度约73%，接近其容量参考值76%，并调整涉及吉达的部分航线挂靠；Maersk报告吉达与King Abdullah港货流升高，导致集装箱提柜和卡车周转时间拉长，空箱归还与箱源可用性也受影响。",
+      "review": "9月28日实读Future Forwarding 9-24综合报道全文，并回读Hapag-Lloyd官方9-16运营更新（Week 38）核实堆场密度73%与容量参考值76%；Maersk口径来自报道引用，未直接读Maersk原公告。",
+      "reviewUrls": [
+        [
+          "Hapag-Lloyd官方运营更新",
+          "https://www.hapag-lloyd.com/de/services-information/operational-updates/updates/2026/09/ops-update-africa-week38.html"
+        ]
+      ],
+      "boundary": "Maersk运营描述来自Future Forwarding转引，未直接核验Maersk原公告；密度数据为9-16时点，非当日最新。",
+      "evidenceFiles": [
+        "outputs/news/evidence-2026-09-28/14-00/access-log.json"
+      ],
+      "verification": {
+        "result": "verified",
+        "checkedAt": "2026-09-28T06:14:00Z",
+        "method": "HL官方运营更新原文核验＋专业物流媒体综合交叉",
+        "confirmedScope": "HL 9-16报告吉达堆场密度73%（参考76%）并调整涉及吉达的部分航线；Maersk报告吉达与King Abdullah货流升高、提柜与卡车周转拉长。",
+        "reason": "HL一手运营更新原文实读确认密度数据；Future Forwarding 9-24综合报道补充Maersk口径，两源同向。",
+        "missing": "Maersk原始运营公告未直接读取（经专业媒体转引）。"
+      }
+    }
+  ],
+  "run": {
+    "status": "completed",
+    "slot": "14:00",
+    "startedAt": "2026-09-28T06:05:00Z",
+    "completedAt": "2026-09-28T06:25:00Z",
+    "newCount": 2,
+    "updatedCount": 0,
+    "message": "周一补查14:00批次完成：增量新收录2条（004胡塞9-24宣称袭击利雅得/延布阿美设施verified[多通讯社]、005吉达港运营压力verified[HL一手+专业媒体]）；排除ACWA $8.3bn=PIF 2025-07旧闻、Alkhorayef/Asas Makeen/Saudi Energy等窗口外旧闻。"
+  },
+  "completedSlots": [
+    "09:00",
+    "14:00"
+  ],
+  "lastVerifiedAt": "2026-09-28T06:14:00Z"
+}
